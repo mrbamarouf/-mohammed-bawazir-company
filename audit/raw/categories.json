@@ -1,0 +1,542 @@
+[
+  {
+    "id": 316,
+    "count": 1,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2014/",
+    "name": "2014",
+    "slug": "2014",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/316",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=316"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 312,
+    "count": 0,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2015/",
+    "name": "2015",
+    "slug": "2015",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/312",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=312"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 313,
+    "count": 0,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2016/",
+    "name": "2016",
+    "slug": "2016",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/313",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=313"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 314,
+    "count": 6,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2017/",
+    "name": "2017",
+    "slug": "2017",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/314",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=314"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 315,
+    "count": 4,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2018/",
+    "name": "2018",
+    "slug": "2018",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/315",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=315"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 416,
+    "count": 5,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2019/",
+    "name": "2019",
+    "slug": "2019",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/416",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=416"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 417,
+    "count": 3,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2020/",
+    "name": "2020",
+    "slug": "2020",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/417",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=417"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 418,
+    "count": 6,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2021/",
+    "name": "2021",
+    "slug": "2021",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/418",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=418"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 451,
+    "count": 7,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/2025/",
+    "name": "2025",
+    "slug": "2025",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/451",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=451"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "count": 31,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/mbt_events/",
+    "name": "MBT Events",
+    "slug": "mbt_events",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/96",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=96"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 97,
+    "count": 30,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/mbt_news/",
+    "name": "MBT News",
+    "slug": "mbt_news",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/97",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=97"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 0,
+    "description": "",
+    "link": "https://www.mbtksa.com/category/uncategorized/",
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories/1",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/taxonomies/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://www.mbtksa.com/wp-json/wp/v2/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
