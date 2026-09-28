@@ -4,6 +4,7 @@ import Link from "next/link";
 import type { Article, Locale } from "@/lib/types";
 import { dateLabel } from "@/lib/format";
 import { Photo, Arrow } from "./ui";
+import { BidiText } from "./bidi-text";
 export function NewsDirectory({
   articles,
   locale,
@@ -46,7 +47,8 @@ export function NewsDirectory({
           </select>
         </label>
         <span role="status">
-          {found.length} {ar ? "خبر وفعالية" : "news & events"}
+          <bdi dir="ltr">{found.length}</bdi>{" "}
+          {ar ? "خبر وفعالية" : "news & events"}
         </span>
       </div>
       <div className="news-grid">
@@ -59,10 +61,14 @@ export function NewsDirectory({
           >
             <Photo src={a.image} alt={a.title[locale]} sizes="30vw" />
             <div className="article-date">
-              {dateLabel(a.date, locale)}
+              <time dateTime={a.date} dir={ar ? "rtl" : "ltr"}>
+                {dateLabel(a.date, locale)}
+              </time>
               <Arrow />
             </div>
-            <h2>{a.title[locale]}</h2>
+            <h2>
+              <BidiText text={a.title[locale]} />
+            </h2>
           </Link>
         ))}
       </div>

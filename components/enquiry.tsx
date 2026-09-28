@@ -1,4 +1,5 @@
 "use client";
+import { BidiText } from "./bidi-text";
 import { useState } from "react";
 import { company } from "@/lib/company";
 import type { Locale } from "@/lib/types";
@@ -21,28 +22,42 @@ export function Enquiry({ locale }: { locale: Locale }) {
         window.location.href = url;
       }}
     >
-      <h2>{ar ? "لنبدأ الحوار." : "Start a conversation."}</h2>
+      <h2>
+        <BidiText text={ar ? "لنبدأ الحوار." : "Start a conversation."} />
+      </h2>
       <div className="form-grid">
         <label>
-          {ar ? "الاسم الكامل" : "Full name"}
-          <input name="name" autoComplete="name" required maxLength={100} />
+          <BidiText text={ar ? "الاسم الكامل" : "Full name"} />
+          <input
+            name="name"
+            dir="auto"
+            autoComplete="name"
+            required
+            maxLength={100}
+          />
         </label>
         <label>
-          {ar ? "اسم الشركة" : "Company"}
-          <input name="company" autoComplete="organization" maxLength={160} />
+          <BidiText text={ar ? "اسم الشركة" : "Company"} />
+          <input
+            name="company"
+            dir="auto"
+            autoComplete="organization"
+            maxLength={160}
+          />
         </label>
         <label>
-          {ar ? "البريد الإلكتروني" : "Email address"}
+          <BidiText text={ar ? "البريد الإلكتروني" : "Email address"} />
           <input
             name="email"
             type="email"
+            dir="ltr"
             autoComplete="email"
             required
             maxLength={150}
           />
         </label>
         <label>
-          {ar ? "موضوع الاستفسار" : "I’m interested in"}
+          <BidiText text={ar ? "موضوع الاستفسار" : "I’m interested in"} />
           <select name="topic">
             <option value="Partnership">
               {ar ? "الشراكات التجارية" : "Brand partnership"}
@@ -57,9 +72,10 @@ export function Enquiry({ locale }: { locale: Locale }) {
           </select>
         </label>
         <label className="full-field">
-          {ar ? "كيف يمكننا مساعدتك؟" : "How can we help?"}
+          <BidiText text={ar ? "كيف يمكننا مساعدتك؟" : "How can we help?"} />
           <textarea
             name="message"
+            dir="auto"
             rows={4}
             required
             minLength={10}
@@ -68,23 +84,35 @@ export function Enquiry({ locale }: { locale: Locale }) {
         </label>
       </div>
       <p className="form-note">
-        {ar
-          ? "يفتح هذا النموذج تطبيق البريد لديك مع رسالة جاهزة إلى MBT. لا تُرسل الرسالة تلقائيًا ولا تُخزّن بياناتك على هذا الموقع."
-          : "This form opens your email application with a message addressed to MBT. It does not send automatically or store your details on this website."}
+        <BidiText
+          text={
+            ar
+              ? "يفتح هذا النموذج تطبيق البريد لديك مع رسالة جاهزة إلى MBT. لا تُرسل الرسالة تلقائيًا ولا تُخزّن بياناتك على هذا الموقع."
+              : "This form opens your email application with a message addressed to MBT. It does not send automatically or store your details on this website."
+          }
+        />
       </p>
       <button className="button dark" type="submit">
-        {ar ? "إعداد رسالة البريد" : "Prepare email enquiry"}
+        <BidiText text={ar ? "إعداد رسالة البريد" : "Prepare email enquiry"} />
         <Arrow />
       </button>
       {ready && (
         <div className="form-status" role="status">
           <p>
-            {ar
-              ? "رسالتك جاهزة. أكمل إرسالها من تطبيق البريد الإلكتروني."
-              : "Your enquiry is ready. Complete sending it in your email application."}
+            <BidiText
+              text={
+                ar
+                  ? "رسالتك جاهزة. أكمل إرسالها من تطبيق البريد الإلكتروني."
+                  : "Your enquiry is ready. Complete sending it in your email application."
+              }
+            />
           </p>
           <a href={mail}>
-            {ar ? "افتح رسالة البريد مجددًا" : "Open the email draft again"}
+            <BidiText
+              text={
+                ar ? "افتح رسالة البريد مجددًا" : "Open the email draft again"
+              }
+            />
           </a>
         </div>
       )}

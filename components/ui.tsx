@@ -1,7 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Locale } from "@/lib/types";
-export function Arrow() {
+import { BrandLogo } from "./brand-logo";
+import { BidiText } from "./bidi-text";
+export function Arrow({
+  direction = "next",
+}: {
+  direction?: "next" | "back" | "down" | "up";
+}) {
   return (
     <svg
       width="20"
@@ -9,9 +15,19 @@ export function Arrow() {
       viewBox="0 0 24 24"
       fill="none"
       aria-hidden="true"
-      className="arrow"
+      className={`arrow arrow-${direction}`}
     >
-      <path d="M2 12h19m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.4" />
+      <path
+        d={
+          direction === "down"
+            ? "M12 3v18m-4-4 4 4 4-4"
+            : direction === "up"
+              ? "M12 21V3m-4 4 4-4 4 4"
+              : "M2 12h19m-4-4 4 4-4 4"
+        }
+        stroke="currentColor"
+        strokeWidth="1.4"
+      />
     </svg>
   );
 }
@@ -30,7 +46,9 @@ export function TextLink({
       className={`text-link ${light ? "light" : ""}`}
       href={href}
     >
-      <span>{children}</span>
+      <span>
+        {typeof children === "string" ? <BidiText text={children} /> : children}
+      </span>
       <Arrow />
     </Link>
   );
@@ -55,7 +73,7 @@ export function Photo({
         role="img"
         aria-label={alt}
       >
-        <span aria-hidden="true">MBT</span>
+        <BrandLogo tone="dark" />
       </div>
     );
   return (
@@ -81,15 +99,23 @@ export function PageIntro({
     <section className="page-intro wrap">
       <div className="breadcrumb">
         <Link prefetch={false} href={`/${locale}`}>
-          MBT
+          {locale === "ar" ? "الرئيسية" : "Home"}
         </Link>
         <span>/</span>
-        <span>{kicker}</span>
+        <span>
+          <BidiText text={kicker} />
+        </span>
       </div>
       <div className="intro-grid">
-        <h1>{title}</h1>
+        <h1>
+          <BidiText text={title} />
+        </h1>
         <div>
-          {description && <p className="lead">{description}</p>}
+          {description && (
+            <p className="lead">
+              <BidiText text={description} />
+            </p>
+          )}
           {children}
         </div>
       </div>
@@ -107,7 +133,7 @@ export function SourceLink({ url, locale }: { url: string; locale: Locale }) {
 export function EmptyImage({ label }: { label: string }) {
   return (
     <div className="empty-image">
-      <span>MBT</span>
+      <BrandLogo markOnly />
       <p>{label}</p>
     </div>
   );

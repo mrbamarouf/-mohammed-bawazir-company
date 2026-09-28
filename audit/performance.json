@@ -3,13 +3,13 @@
   "results": [
     {
       "route": "/en",
-      "lcp": 44,
-      "cls": 0.0005078152804904514,
-      "domContentLoaded": 63.599999994039536,
-      "load": 73.29999999701977,
-      "resourceTransferBytes": 1301756,
-      "scriptTransferBytes": 160897,
-      "requests": 78,
+      "lcp": 40,
+      "cls": 0.00024248167438271605,
+      "domContentLoaded": 28.599999994039536,
+      "load": 72.29999999701977,
+      "resourceTransferBytes": 1315695,
+      "scriptTransferBytes": 161710,
+      "requests": 80,
       "images": [
         {
           "loading": "auto",
@@ -19,42 +19,22 @@
         {
           "loading": "auto",
           "complete": true,
-          "width": 765
-        },
-        {
-          "loading": "auto",
-          "complete": true,
-          "width": 432
+          "width": 1080
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
+          "width": 160
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
+          "width": 350
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
+          "width": 350
         },
         {
           "loading": "lazy",
@@ -189,6 +169,11 @@
         {
           "loading": "lazy",
           "complete": true,
+          "width": 472
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
           "width": 228
         },
         {
@@ -555,6 +540,11 @@
           "loading": "lazy",
           "complete": false,
           "width": 236
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 180
         },
         {
           "loading": "lazy",
@@ -625,6 +615,21 @@
           "loading": "lazy",
           "complete": false,
           "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 160
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 350
         },
         {
           "loading": "lazy",
@@ -635,13 +640,13 @@
     },
     {
       "route": "/ar",
-      "lcp": 60,
-      "cls": 0.009825046296296295,
-      "domContentLoaded": 86.1000000089407,
-      "load": 92.6000000089407,
-      "resourceTransferBytes": 1424260,
-      "scriptTransferBytes": 160897,
-      "requests": 77,
+      "lcp": 48,
+      "cls": 0.004332002766927083,
+      "domContentLoaded": 35.5,
+      "load": 84.79999999701977,
+      "resourceTransferBytes": 1438087,
+      "scriptTransferBytes": 161710,
+      "requests": 79,
       "images": [
         {
           "loading": "auto",
@@ -651,42 +656,22 @@
         {
           "loading": "auto",
           "complete": true,
-          "width": 765
-        },
-        {
-          "loading": "auto",
-          "complete": true,
-          "width": 432
+          "width": 1080
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
+          "width": 160
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
+          "width": 350
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
-        },
-        {
-          "loading": "lazy",
-          "complete": true,
-          "width": 110
+          "width": 350
         },
         {
           "loading": "lazy",
@@ -821,6 +806,11 @@
         {
           "loading": "lazy",
           "complete": true,
+          "width": 472
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
           "width": 228
         },
         {
@@ -1187,6 +1177,11 @@
           "loading": "lazy",
           "complete": false,
           "width": 236
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 180
         },
         {
           "loading": "lazy",
@@ -1261,19 +1256,34 @@
         {
           "loading": "lazy",
           "complete": false,
+          "width": 160
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
           "width": 384
         }
       ]
     },
     {
       "route": "/en/products",
-      "lcp": 36,
+      "lcp": 40,
       "cls": 0.029589097041377316,
-      "domContentLoaded": 31.19999998807907,
-      "load": 59,
-      "resourceTransferBytes": 426704,
-      "scriptTransferBytes": 160897,
-      "requests": 39,
+      "domContentLoaded": 35.70000000298023,
+      "load": 64.20000000298023,
+      "resourceTransferBytes": 441719,
+      "scriptTransferBytes": 161710,
+      "requests": 42,
       "images": [
         {
           "loading": "auto",
@@ -1403,19 +1413,34 @@
         {
           "loading": "lazy",
           "complete": true,
+          "width": 160
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
           "width": 384
         }
       ]
     },
     {
       "route": "/ar/products",
-      "lcp": 36,
-      "cls": 0.04572921657986111,
-      "domContentLoaded": 32.20000000298023,
-      "load": 59.599999994039536,
-      "resourceTransferBytes": 675428,
-      "scriptTransferBytes": 160897,
-      "requests": 33,
+      "lcp": 40,
+      "cls": 0.045854093605324074,
+      "domContentLoaded": 32.400000005960464,
+      "load": 59.70000000298023,
+      "resourceTransferBytes": 690443,
+      "scriptTransferBytes": 161710,
+      "requests": 36,
       "images": [
         {
           "loading": "auto",
@@ -1541,6 +1566,21 @@
           "loading": "lazy",
           "complete": true,
           "width": 239
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 160
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 350
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 350
         },
         {
           "loading": "lazy",

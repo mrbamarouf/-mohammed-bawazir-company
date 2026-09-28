@@ -4,6 +4,7 @@ export function dateLabel(date: string, locale: "en" | "ar") {
     month: "long",
     year: "numeric",
     calendar: "gregory",
+    numberingSystem: "latn",
     timeZone: "UTC",
   }).format(new Date(date + "T12:00:00Z"));
 }

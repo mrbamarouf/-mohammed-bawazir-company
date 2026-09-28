@@ -3,74 +3,79 @@ import brands from "../content/brands.json";
 import products from "../content/products.json";
 import sourceProducts from "../audit/redesign/source-products.json";
 
-test("Brand tracks cover the viewport at every phase, preserve all marks, and pause", async ({
-  page,
-}) => {
-  await page.goto("/en");
-  await page.locator(".brand-world").scrollIntoViewIfNeeded();
-  await page.waitForFunction(() =>
-    [...document.querySelectorAll<HTMLImageElement>(".brand-world img")].every(
-      (image) => image.complete && image.naturalWidth > 0,
-    ),
-  );
-  const expected = brands
-    .filter((b) => b.image)
-    .map((b) => b.slug)
-    .sort();
-  const actual = await page
-    .locator(".marquee-group:not([aria-hidden]) a")
-    .evaluateAll((els) =>
-      els.map((el) => el.getAttribute("href")!.split("/").pop()).sort(),
+for (const locale of ["ar", "en"])
+  test(`Brand tracks ${locale} cover the viewport at every phase, preserve all marks, and pause`, async ({
+    page,
+  }) => {
+    await page.goto("/" + locale);
+    await page.locator(".brand-world").scrollIntoViewIfNeeded();
+    await page.waitForFunction(() =>
+      [
+        ...document.querySelectorAll<HTMLImageElement>(".brand-world img"),
+      ].every((image) => image.complete && image.naturalWidth > 0),
     );
-  expect(actual).toEqual(expected);
-  for (const row of await page.locator(".marquee-window").all()) {
-    const coverage = await row.evaluate(async (win) => {
-      const track = win.querySelector(".marquee-track")!;
-      const animation = track.getAnimations()[0];
-      const duration = Number(animation.effect!.getTiming().duration);
-      animation.pause();
-      const samples = [];
-      for (const fraction of [0, 0.25, 0.5, 0.999999]) {
-        animation.currentTime = duration * fraction;
-        await new Promise(requestAnimationFrame);
-        const bounds = win.getBoundingClientRect();
-        const groups = [...track.children].map((el) =>
-          el.getBoundingClientRect(),
-        );
-        samples.push({
-          equal: Math.abs(groups[0].width - groups[1].width) < 0.1,
-          joined: Math.abs(groups[0].right - groups[1].left) < 0.1,
-          covered:
-            groups[0].left <= bounds.left + 1 &&
-            groups[1].right >= bounds.right - 1,
-        });
-      }
-      animation.play();
-      return samples;
-    });
+    const expected = brands
+      .filter((b) => b.image)
+      .map((b) => b.slug)
+      .sort();
+    const actual = await page
+      .locator(".marquee-group:not([aria-hidden]) a")
+      .evaluateAll((els) =>
+        els.map((el) => el.getAttribute("href")!.split("/").pop()).sort(),
+      );
+    expect(actual).toEqual(expected);
+    for (const row of await page.locator(".marquee-window").all()) {
+      const coverage = await row.evaluate(async (win) => {
+        const track = win.querySelector(".marquee-track")!;
+        const animation = track.getAnimations()[0];
+        const duration = Number(animation.effect!.getTiming().duration);
+        animation.pause();
+        const samples = [];
+        for (const fraction of [0, 0.25, 0.5, 0.999999]) {
+          animation.currentTime = duration * fraction;
+          await new Promise(requestAnimationFrame);
+          const bounds = win.getBoundingClientRect();
+          const groups = [...track.children].map((el) =>
+            el.getBoundingClientRect(),
+          );
+          samples.push({
+            equal: Math.abs(groups[0].width - groups[1].width) < 0.1,
+            joined: Math.abs(groups[0].right - groups[1].left) < 0.1,
+            covered:
+              groups[0].left <= bounds.left + 1 &&
+              groups[1].right >= bounds.right - 1,
+          });
+        }
+        animation.play();
+        return samples;
+      });
+      expect(
+        coverage.every((s) => s.equal && s.joined && s.covered),
+      ).toBeTruthy();
+    }
+    await page
+      .getByRole("button", {
+        name: locale === "ar" ? "إيقاف الحركة" : "Pause motion",
+      })
+      .click();
+    await expect(page.locator(".brand-world")).toHaveClass(/is-paused/);
     expect(
-      coverage.every((s) => s.equal && s.joined && s.covered),
-    ).toBeTruthy();
-  }
-  await page.getByRole("button", { name: "Pause motion" }).click();
-  await expect(page.locator(".brand-world")).toHaveClass(/is-paused/);
-  expect(
-    await page
-      .locator(".marquee-track")
-      .first()
-      .evaluate((el) => getComputedStyle(el).animationPlayState),
-  ).toBe("paused");
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  expect(
-    await page
-      .locator(".marquee-track")
-      .first()
-      .evaluate((el) => getComputedStyle(el).animationName),
-  ).toBe("none");
-  await expect(
-    page.locator(".marquee-group[aria-hidden]").first(),
-  ).not.toBeVisible();
-});
+      await page
+        .locator(".marquee-track")
+        .first()
+        .evaluate((el) => getComputedStyle(el).animationPlayState),
+    ).toBe("paused");
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    expect(
+      await page
+        .locator(".marquee-track")
+        .first()
+        .evaluate((el) => getComputedStyle(el).animationName),
+    ).toBe("none");
+    await expect(
+      page.locator(".marquee-group[aria-hidden]").first(),
+    ).not.toBeVisible();
+  });
 
 test("Homepage product families update with six distinct working portfolio links", async ({
   page,

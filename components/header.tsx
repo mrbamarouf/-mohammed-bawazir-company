@@ -1,4 +1,5 @@
 "use client";
+import { BidiText } from "./bidi-text";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -15,7 +16,7 @@ export function Header({ locale }: { locale: Locale }) {
   return (
     <>
       <a href="#main" className="skip-link">
-        {ar ? "انتقل إلى المحتوى" : "Skip to content"}
+        <BidiText text={ar ? "انتقل إلى المحتوى" : "Skip to content"} />
       </a>
       <header className="site-header">
         <Link
@@ -52,14 +53,14 @@ export function Header({ locale }: { locale: Locale }) {
             lang={other}
             aria-label={ar ? "Switch to English" : "التحويل إلى العربية"}
           >
-            {ar ? "EN" : "العربية"}
+            <BidiText text={ar ? "EN" : "العربية"} />
           </Link>
           <Link
             prefetch={false}
             className="header-contact"
             href={`/${locale}/contact`}
           >
-            {ar ? "تواصل معنا" : "Contact"}
+            <BidiText text={ar ? "تواصل معنا" : "Contact"} />
             <Arrow />
           </Link>
           <button
@@ -80,7 +81,9 @@ export function Header({ locale }: { locale: Locale }) {
         }}
       >
         <div className="dialog-top">
-          <span>{ar ? "اكتشف MBT" : "Explore MBT"}</span>
+          <span>
+            <BidiText text={ar ? "اكتشف MBT" : "Explore MBT"} />
+          </span>
           <button
             onClick={close}
             aria-label={ar ? "إغلاق القائمة" : "Close menu"}
@@ -102,7 +105,7 @@ export function Header({ locale }: { locale: Locale }) {
             </Link>
           ))}
         </nav>
-        <a href={`mailto:${company.email}`} className="dialog-email">
+        <a href={`mailto:${company.email}`} className="dialog-email" dir="ltr">
           {company.email}
         </a>
       </dialog>

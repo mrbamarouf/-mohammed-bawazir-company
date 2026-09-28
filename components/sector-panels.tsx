@@ -3,6 +3,7 @@ import { brands, products } from "@/lib/data";
 import { divisions } from "@/lib/company";
 import type { Locale } from "@/lib/types";
 import { TextLink, Photo } from "./ui";
+import { BidiText } from "./bidi-text";
 const photos: Record<string, string> = {
   food: "/assets/company/6c3850e-MA-Food-6.jpg",
   beverages: "/assets/company/10cad03-MA-Food-2.jpg",
@@ -32,8 +33,13 @@ export function SectorPanels({
           return (
             <article className={`sector-panel sector-${d.slug}`} key={d.slug}>
               <div className="sector-copy">
+                <span className="sector-code" aria-hidden="true">
+                  <bdi dir="ltr">{d.number}</bdi>
+                </span>
                 <h3>{d.name[locale]}</h3>
-                <p>{d.description[locale]}</p>
+                <p>
+                  <BidiText text={d.description[locale]} />
+                </p>
                 <div className="sector-brands">
                   {bs.slice(0, 4).map((b) => (
                     <Image
@@ -85,15 +91,15 @@ export function SectorPanels({
                     </span>
                   </div>
                 ) : d.slug === "tobacco" ? (
-                  <div className="division-reference">
-                    <span>MBT</span>
-                    <p>
-                      {ar
-                        ? "سجلات القطاع والشركاء"
-                        : "Division & partner records"}
-                    </p>
-                    <span className="reference-rule" />
-                  </div>
+                  <Photo
+                    src="/assets/company/091bc59-Tobocco-_Market-21.jpg"
+                    alt={
+                      ar
+                        ? "عرض منتجات القطاع في الأرشيف الرسمي للشركة"
+                        : "Division display from the official company archive"
+                    }
+                    sizes="35vw"
+                  />
                 ) : (
                   <div className="sector-packs">
                     {ps.map((p) => (

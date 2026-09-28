@@ -121,7 +121,7 @@ test("Profile navigation, brand search and missing routes", async ({
   await page.goto("/en/profile");
   await expect(page.locator(".profile-image img")).toBeVisible();
   const before = await page.locator(".profile-image img").getAttribute("alt");
-  await page.getByRole("button", { name: "Next →", exact: true }).click();
+  await page.getByRole("button", { name: "Next", exact: true }).click();
   expect(await page.locator(".profile-image img").getAttribute("alt")).not.toBe(
     before,
   );

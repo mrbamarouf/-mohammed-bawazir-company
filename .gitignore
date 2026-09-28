@@ -37,3 +37,18 @@ audit/redesign/*-progress.log
 audit/redesign/progress.log
 audit/redesign/first-home-ar.png
 audit/redesign/bull-review.png
+
+# Refinement research intermediates; dated facts, source metadata and detail evidence are retained.
+audit/refinement/profile-2026/latest.pdf
+audit/refinement/profile-2026/page-*.jpg
+audit/refinement/profile-2026/contact-*.jpg
+audit/refinement/logo-review-*.png
+audit/refinement/*-progress.log
+# Review crops/contact sheets are reproducible from the retained full-page captures.
+audit/screenshots/refinement/review-*.jpg
+audit/refinement/hero-first.png
+audit/refinement/format.log
+
+# Superseded development-only section captures.
+audit/screenshots/refinement/section-chapter-*.jpg
+audit/screenshots/refinement/section-value-chain-expanded-*.jpg

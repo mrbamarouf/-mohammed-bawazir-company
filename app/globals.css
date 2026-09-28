@@ -2,6 +2,7 @@
 @import "./pages.css";
 @import "./network.css";
 @import "./footer.css";
+@import "./refinement.css";
 :root {
   --ink: #17221e;
   --charcoal: #10251d;
@@ -1455,11 +1456,11 @@ a:hover > .arrow {
   font-size: 12px;
   gap: 12px;
 }
-[dir="rtl"] .arrow {
+.arrow-next:dir(rtl) {
   transform: scaleX(-1);
 }
-[dir="rtl"] .text-link:hover .arrow,
-[dir="rtl"] a:hover > .arrow {
+.text-link:hover .arrow:dir(rtl),
+a:hover > .arrow:dir(rtl) {
   translate: -4px 0;
 }
 [dir="rtl"] .nav-dialog {
@@ -1729,7 +1730,7 @@ a:hover > .arrow {
   padding: 24px;
 }
 .history-since {
-  direction: ltr;
+  direction: inherit;
 }
 .single-sector .sector-tobacco .sector-copy {
   display: flex;

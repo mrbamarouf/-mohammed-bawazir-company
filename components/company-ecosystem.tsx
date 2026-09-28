@@ -1,3 +1,4 @@
+import { BidiText } from "./bidi-text";
 import Image from "next/image";
 import type { Locale } from "@/lib/types";
 import { TextLink } from "./ui";
@@ -8,16 +9,20 @@ export function CompanyEcosystem({ locale }: { locale: Locale }) {
       <div className="section-heading">
         <div>
           <span className="eyebrow">
-            {ar ? "منظومة الأعمال" : "THE BUSINESS ECOSYSTEM"}
+            <BidiText text={ar ? "منظومة الأعمال" : "THE BUSINESS ECOSYSTEM"} />
           </span>
           <h2>
-            {ar
-              ? "خبرات تمتد أبعد من التوزيع."
-              : "Expertise beyond distribution."}
+            <BidiText
+              text={
+                ar
+                  ? "خبرات تمتد أبعد من التوزيع."
+                  : "Expertise beyond distribution."
+              }
+            />
           </h2>
         </div>
         <TextLink href={`/${locale}/companies`}>
-          {ar ? "استكشف شركاتنا" : "Explore our companies"}
+          <BidiText text={ar ? "استكشف شركاتنا" : "Explore our companies"} />
         </TextLink>
       </div>
       <div className="ecosystem-grid">
@@ -70,10 +75,14 @@ export function CompanyEcosystem({ locale }: { locale: Locale }) {
                 height={90}
               />
             </div>
-            <h3>{title}</h3>
-            <p>{desc}</p>
+            <h3>
+              <BidiText text={title} />
+            </h3>
+            <p>
+              <BidiText text={desc} />
+            </p>
             <TextLink href={`/${locale}/${url}`}>
-              {ar ? "الملف التعريفي" : "Company profile"}
+              <BidiText text={ar ? "الملف التعريفي" : "Company profile"} />
             </TextLink>
           </article>
         ))}

@@ -1,5 +1,7 @@
 # Desktop redesign and QA — 28 September 2026
 
+This report records the previous redesign baseline. See [REFINEMENT_QA.md](REFINEMENT_QA.md) for the subsequent hero, company-scale and Arabic refinement pass.
+
 The rejected design is preserved in the original three commits through `8ce0afd`. This new desktop implementation substantially replaces the homepage composition and shared visual system. The audit, prepared assets, interface and QA are separate commits. Desktop design approval remains with the company.
 
 ## Delivered scope

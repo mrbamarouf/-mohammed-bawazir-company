@@ -1,4 +1,5 @@
 "use client";
+import { BidiText } from "./bidi-text";
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -56,21 +57,25 @@ export function ProductUniverse({
     .map((id) => items.find((p) => p.id === id))
     .filter((p): p is Product => !!p);
   return (
-    <section className="product-universe">
+    <section className="product-universe" data-family={active}>
       <div className="wrap">
         <div className="section-heading">
           <div>
             <span className="eyebrow">
-              {ar ? "من محفظة MBT" : "THE PRODUCT PORTFOLIO"}
+              <BidiText text={ar ? "من محفظة MBT" : "THE PRODUCT PORTFOLIO"} />
             </span>
             <h2>
-              {ar
-                ? "تنوع يملأ الحياة اليومية."
-                : "Everyday needs. Extraordinary variety."}
+              <BidiText
+                text={
+                  ar
+                    ? "تنوع يملأ الحياة اليومية."
+                    : "Everyday needs. Extraordinary variety."
+                }
+              />
             </h2>
           </div>
           <TextLink href={`/${locale}/products`}>
-            {ar ? "استكشف المنتجات" : "Explore products"}
+            <BidiText text={ar ? "استكشف المنتجات" : "Explore products"} />
           </TextLink>
         </div>
         <div
@@ -113,9 +118,13 @@ export function ProductUniverse({
           ))}
         </div>
         <p className="shelf-caption">
-          {ar
-            ? "محفظة تجارية للعلامات والفئات والمنتجات. للاستفسارات التجارية، تواصل مع فريقنا."
-            : "A commercial portfolio of brands, categories and products. Talk to our team about business enquiries."}
+          <BidiText
+            text={
+              ar
+                ? "محفظة تجارية للعلامات والفئات والمنتجات. للاستفسارات التجارية، تواصل مع فريقنا."
+                : "A commercial portfolio of brands, categories and products. Talk to our team about business enquiries."
+            }
+          />
         </p>
       </div>
     </section>

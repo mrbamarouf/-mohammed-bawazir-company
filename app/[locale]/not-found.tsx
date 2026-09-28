@@ -1,19 +1,25 @@
 import Link from "next/link";
+import { Arrow } from "@/components/ui";
 export default function NotFound() {
   return (
     <section className="wrap error-page">
-      <p>404</p>
+      <p>
+        <bdi dir="ltr">404</bdi>
+      </p>
       <h1>
-        Let’s find your way.
+        <bdi dir="ltr">Let’s find your way.</bdi>
         <br />
-        لنجد وجهتك.
+        <bdi dir="rtl">لنجد وجهتك.</bdi>
       </h1>
-      <p>The page could not be found. الصفحة المطلوبة غير موجودة.</p>
-      <Link href="/en" className="button dark">
-        MBT Home ↗
+      <p>
+        <bdi dir="ltr">The page could not be found.</bdi>{" "}
+        <bdi dir="rtl">الصفحة المطلوبة غير موجودة.</bdi>
+      </p>
+      <Link prefetch={false} href="/en" className="button dark" dir="ltr">
+        English home <Arrow />
       </Link>
-      <Link href="/ar" className="text-link">
-        الرئيسية ←
+      <Link prefetch={false} href="/ar" className="text-link" dir="rtl">
+        الرئيسية <Arrow />
       </Link>
     </section>
   );

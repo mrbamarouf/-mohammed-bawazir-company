@@ -7,6 +7,7 @@ import { pick } from "@/lib/types";
 import categories from "@/content/categories.json";
 import { divisions } from "@/lib/company";
 import { Arrow, EmptyImage } from "./ui";
+import { BidiText } from "./bidi-text";
 export function Catalogue({
   products,
   brands,
@@ -109,7 +110,7 @@ export function Catalogue({
           >
             <option value="">{ar ? "كل العلامات" : "All brands"}</option>
             {brands.map((b) => (
-              <option key={b.slug} value={b.slug}>
+              <option key={b.slug} value={b.slug} dir="auto">
                 {pick(b.name, locale)}
               </option>
             ))}
@@ -136,7 +137,7 @@ export function Catalogue({
                 ),
               )
               .map((c) => (
-                <option value={c.id} key={c.id}>
+                <option value={c.id} key={c.id} dir="auto">
                   {categoryLabel(c.id)}
                 </option>
               ))}
@@ -184,7 +185,8 @@ export function Catalogue({
       </div>
       <div className="results-meta">
         <span role="status">
-          {filtered.length} {ar ? "سجل منتج" : "product records"}
+          <bdi dir="ltr">{filtered.length}</bdi>{" "}
+          {ar ? "سجل منتج" : "product records"}
         </span>
         <button onClick={reset}>
           {ar ? "إعادة ضبط الفلاتر" : "Reset filters"} ↺
@@ -228,9 +230,11 @@ export function Catalogue({
               <div className="product-meta">
                 <span>
                   {brands.find((b) => b.slug === p.brand)?.name[locale] ||
-                    "MBT"}
+                    (ar ? "محفظة الشركة" : "Company portfolio")}
                 </span>
-                <h3 dir={p.language === "ar" ? "rtl" : "ltr"}>{p.name}</h3>
+                <h3 dir={p.language === "ar" ? "rtl" : "ltr"}>
+                  <BidiText text={p.name} />
+                </h3>
               </div>
             </Link>
           ))}
@@ -258,7 +262,9 @@ export function Catalogue({
             <span>+</span>
           </button>
           <p>
-            {Math.min(limit, filtered.length)} / {filtered.length}
+            <bdi dir="ltr">
+              {Math.min(limit, filtered.length)} / {filtered.length}
+            </bdi>
           </p>
         </div>
       )}

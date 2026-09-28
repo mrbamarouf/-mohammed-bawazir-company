@@ -47,7 +47,7 @@ npm run build
 npm run test:e2e
 ```
 
-Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. The redesign adds seamless-marquee geometry, motion preferences, product-family controls and original-record preservation checks. See `QA_REPORT.md` for final outcomes and visual review evidence.
+Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. The redesign adds seamless-marquee geometry, motion preferences, product-family controls and original-record preservation checks. See `REFINEMENT_QA.md` for this pass, `COMPANY_NUMBERS.md` for dated company facts, and `QA_REPORT.md` for the previous redesign baseline.
 
 ## Source audit tooling
 

@@ -1,4 +1,5 @@
 "use client";
+import { BidiText } from "./bidi-text";
 import { useState, useRef, useEffect } from "react";
 import geometry from "@/content/saudi-geometry.json";
 import { branches, company } from "@/lib/company";
@@ -54,7 +55,9 @@ export function Network({
       <div className="wrap network-layout">
         <div className="network-copy">
           <p className="section-note">
-            {ar ? "شبكة التوزيع" : "SAUDI DISTRIBUTION NETWORK"}
+            <BidiText
+              text={ar ? "شبكة التوزيع" : "SAUDI DISTRIBUTION NETWORK"}
+            />
           </p>
           <h2>
             {ar ? (
@@ -72,9 +75,13 @@ export function Network({
             )}
           </h2>
           <p>
-            {ar
-              ? "من مقرنا في جدة، تربط شبكة فروعنا العلامات التجارية بالأسواق المحلية. اختر مدينة لاستكشاف حضورنا."
-              : "From our home in Jeddah, our branch network brings brands closer to local markets. Select a city to explore our presence."}
+            <BidiText
+              text={
+                ar
+                  ? "من مقرنا في جدة، تربط شبكة فروعنا العلامات التجارية بالأسواق المحلية. اختر مدينة لاستكشاف حضورنا."
+                  : "From our home in Jeddah, our branch network brings brands closer to local markets. Select a city to explore our presence."
+              }
+            />
           </p>
           <div className="network-location" aria-live="polite">
             <span className="location-dot" />
@@ -88,12 +95,14 @@ export function Network({
             href={standalone ? `/${locale}/contact` : `/${locale}/distribution`}
             light
           >
-            {ar ? "تعرّف على شبكتنا" : "Explore our network"}
+            <BidiText text={ar ? "تعرّف على شبكتنا" : "Explore our network"} />
           </TextLink>
         </div>
         <div className="map-wrap">
           <span className="map-caption">
-            {ar ? "المملكة العربية السعودية" : "KINGDOM OF SAUDI ARABIA"}
+            <BidiText
+              text={ar ? "المملكة العربية السعودية" : "KINGDOM OF SAUDI ARABIA"}
+            />
           </span>
           <svg
             className="network-map"
@@ -192,10 +201,14 @@ export function Network({
           <div className="map-legend">
             <span>
               <i />
-              {ar ? "مدن الفروع" : "Branch cities"}
+              <BidiText text={ar ? "مدن الفروع" : "Branch cities"} />
             </span>
             <span>
-              {ar ? "المسارات توضيحية" : "Connections shown schematically"}
+              <BidiText
+                text={
+                  ar ? "المسارات توضيحية" : "Connections shown schematically"
+                }
+              />
             </span>
           </div>
         </div>
@@ -214,9 +227,13 @@ export function Network({
             </button>
           ))}
           <p>
-            {ar
-              ? "مواقع النقاط تمثل مراكز المدن وليست إحداثيات المكاتب. للتفاصيل الحالية:"
-              : "Map markers indicate city centres, not office entrances. For current branch details:"}{" "}
+            <BidiText
+              text={
+                ar
+                  ? "مواقع النقاط تمثل مراكز المدن وليست إحداثيات المكاتب. للتفاصيل الحالية:"
+                  : "Map markers indicate city centres, not office entrances. For current branch details:"
+              }
+            />{" "}
             <a href={`tel:${company.telephone}`} dir="ltr">
               {company.phone}
             </a>

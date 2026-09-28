@@ -1,4 +1,5 @@
 "use client";
+import { BidiText } from "./bidi-text";
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -35,24 +36,30 @@ export function BrandMarquee({
   return (
     <section
       ref={sectionRef}
-      className={`brand-world ${paused ? "is-paused" : ""}`}
+      className={`brand-world chapter-brands ${paused ? "is-paused" : ""}`}
       aria-label={ar ? "علامات MBT" : "MBT brand portfolio"}
     >
       <div className="wrap section-heading">
         <div>
           <span className="eyebrow">
-            {ar ? "محفظة العلامات" : "THE BRAND PORTFOLIO"}
+            <BidiText text={ar ? "محفظة العلامات" : "THE BRAND PORTFOLIO"} />
           </span>
-          <h2>{ar ? "أسماء لها حضور." : "Names with presence."}</h2>
+          <h2>
+            <BidiText text={ar ? "أسماء لها حضور." : "Names with presence."} />
+          </h2>
           <p>
-            {ar
-              ? "علامات ومنتجات عبر قطاعاتنا، وعلاقات نمت عبر السنين."
-              : "Across our business sectors. Through years of relationships."}
+            <BidiText
+              text={
+                ar
+                  ? "علامات ومنتجات عبر قطاعاتنا، وعلاقات نمت عبر السنين."
+                  : "Across our business sectors. Through years of relationships."
+              }
+            />
           </p>
         </div>
         <div className="marquee-actions">
           <TextLink href={`/${locale}/brands`}>
-            {ar ? "جميع العلامات" : "View all brands"}
+            <BidiText text={ar ? "جميع العلامات" : "View all brands"} />
           </TextLink>
           <button
             className="motion-toggle"

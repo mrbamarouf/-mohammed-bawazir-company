@@ -54,7 +54,8 @@ export function BrandDirectory({
         </select>
       </div>
       <p role="status" className="results-meta">
-        {filtered.length} {ar ? "علامة في الدليل" : "brands in the directory"}
+        <bdi dir="ltr">{filtered.length}</bdi>{" "}
+        {ar ? "علامة في الدليل" : "brands in the directory"}
       </p>
       <div className="brand-directory">
         {filtered.map((b) => (
