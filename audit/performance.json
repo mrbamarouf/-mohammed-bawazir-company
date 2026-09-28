@@ -3,23 +3,173 @@
   "results": [
     {
       "route": "/en",
-      "lcp": 60,
-      "cls": 0.002370588348765432,
-      "domContentLoaded": 31.200000002980232,
-      "load": 58.100000001490116,
-      "resourceTransferBytes": 454052,
-      "scriptTransferBytes": 158453,
-      "requests": 28,
+      "lcp": 44,
+      "cls": 0.0005078152804904514,
+      "domContentLoaded": 63.599999994039536,
+      "load": 73.29999999701977,
+      "resourceTransferBytes": 1301756,
+      "scriptTransferBytes": 160897,
+      "requests": 78,
       "images": [
         {
           "loading": "auto",
           "complete": true,
-          "width": 256
+          "width": 384
         },
         {
           "loading": "auto",
           "complete": true,
-          "width": 1440
+          "width": 765
+        },
+        {
+          "loading": "auto",
+          "complete": true,
+          "width": 432
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 576
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 172
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 106
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 180
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 171
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 432
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
         },
         {
           "loading": "lazy",
@@ -29,42 +179,382 @@
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 128
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 128
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 228
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 255
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 265
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 205
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 217
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 250
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 116
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 252
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 283
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 242
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 228
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 255
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 265
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 205
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 217
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 250
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 116
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 252
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 283
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 242
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 198
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 220
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 216
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 272
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 156
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 203
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 288
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 179
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 168
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 231
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 266
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 292
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 239
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 174
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 257
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 378
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 236
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 198
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 220
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 216
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 272
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 156
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 203
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 288
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 179
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 168
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 231
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 266
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 292
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 239
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 174
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 257
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 378
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 236
         },
         {
           "loading": "lazy",
@@ -104,29 +594,214 @@
         {
           "loading": "lazy",
           "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
           "width": 256
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 384
         }
       ]
     },
     {
       "route": "/ar",
-      "lcp": 56,
-      "cls": 0.021677708333333334,
-      "domContentLoaded": 29.5,
-      "load": 55.399999998509884,
-      "resourceTransferBytes": 582468,
-      "scriptTransferBytes": 158453,
-      "requests": 27,
+      "lcp": 60,
+      "cls": 0.009825046296296295,
+      "domContentLoaded": 86.1000000089407,
+      "load": 92.6000000089407,
+      "resourceTransferBytes": 1424260,
+      "scriptTransferBytes": 160897,
+      "requests": 77,
       "images": [
         {
           "loading": "auto",
           "complete": true,
-          "width": 256
+          "width": 384
         },
         {
           "loading": "auto",
           "complete": true,
-          "width": 1440
+          "width": 765
+        },
+        {
+          "loading": "auto",
+          "complete": true,
+          "width": 432
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 110
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 576
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 172
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 106
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 180
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 171
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 432
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 128
         },
         {
           "loading": "lazy",
@@ -136,42 +811,382 @@
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 128
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 128
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 228
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 255
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 265
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 205
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 217
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 202
+          "width": 250
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 116
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 252
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 283
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 242
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 228
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 255
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 265
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 205
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 217
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 250
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 116
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 252
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 186
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 283
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 242
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 198
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 220
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 216
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 272
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 156
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 203
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 288
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 179
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 168
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 231
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 266
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 292
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 239
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 174
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 257
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 378
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 236
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 198
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 220
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 216
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 272
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 156
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 203
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 288
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 179
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 195
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 168
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 231
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 266
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 292
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 239
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 174
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 257
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 378
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 236
         },
         {
           "loading": "lazy",
@@ -211,291 +1226,326 @@
         {
           "loading": "lazy",
           "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
           "width": 256
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 0
+        },
+        {
+          "loading": "lazy",
+          "complete": false,
+          "width": 384
         }
       ]
     },
     {
       "route": "/en/products",
       "lcp": 36,
-      "cls": 0.0010840668402777778,
-      "domContentLoaded": 31.69999999552965,
-      "load": 58.399999998509884,
-      "resourceTransferBytes": 351224,
-      "scriptTransferBytes": 158453,
-      "requests": 35,
+      "cls": 0.029589097041377316,
+      "domContentLoaded": 31.19999998807907,
+      "load": 59,
+      "resourceTransferBytes": 426704,
+      "scriptTransferBytes": 160897,
+      "requests": 39,
       "images": [
         {
           "loading": "auto",
           "complete": true,
-          "width": 256
+          "width": 384
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 173
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 159
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 159
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 149
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 194
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 194
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 179
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 144
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 104
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 105
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 207
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 207
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 207
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 207
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 207
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 186
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 188
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 149
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 141
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
-        },
-        {
-          "loading": "lazy",
-          "complete": false,
-          "width": 0
-        },
-        {
-          "loading": "lazy",
-          "complete": false,
-          "width": 0
-        },
-        {
-          "loading": "lazy",
-          "complete": false,
-          "width": 0
+          "width": 133
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 195
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 190
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 182
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 192
+        },
+        {
+          "loading": "lazy",
+          "complete": true,
+          "width": 384
         }
       ]
     },
     {
       "route": "/ar/products",
-      "lcp": 60,
-      "cls": 0.03145202806260851,
-      "domContentLoaded": 30.5,
-      "load": 58.100000001490116,
-      "resourceTransferBytes": 482294,
-      "scriptTransferBytes": 158453,
-      "requests": 31,
+      "lcp": 36,
+      "cls": 0.04572921657986111,
+      "domContentLoaded": 32.20000000298023,
+      "load": 59.599999994039536,
+      "resourceTransferBytes": 675428,
+      "scriptTransferBytes": 160897,
+      "requests": 33,
       "images": [
         {
           "loading": "auto",
           "complete": true,
-          "width": 256
+          "width": 384
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 176
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 176
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 176
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 234
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 234
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 234
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 176
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 234
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 359
+          "width": 239
         },
         {
           "loading": "lazy",
           "complete": true,
-          "width": 256
+          "width": 384
         }
       ]
     }
