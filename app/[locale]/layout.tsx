@@ -1,6 +1,7 @@
 import { siteUrl } from "@/lib/site-url";
 import "../globals.css";
 import "../mobile.css";
+import "../typography.css";
 import { MobileExperience } from "@/components/mobile-experience";
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
@@ -48,6 +49,10 @@ export default async function Layout({
   if (locale !== "en" && locale !== "ar") notFound();
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+      <head>
+        <link rel="preload" as="font" type="font/woff2" crossOrigin="anonymous" href={locale === "ar" ? "/assets/fonts/readex-arabic-400.woff2" : "/assets/fonts/manrope-0.woff2"} />
+        <link rel="preload" as="font" type="font/woff2" crossOrigin="anonymous" href={locale === "ar" ? "/assets/fonts/readex-arabic-600.woff2" : "/assets/fonts/archivo-2.woff2"} />
+      </head>
       <body id="top">
         <MobileExperience />
         <Header locale={locale as Locale} />

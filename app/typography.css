@@ -1,0 +1,46 @@
+/* Script rules live after all component styles. Arabic is shaped as a complete
+   script run: tracking must never compress its joins or detach its letters. */
+:root {
+  --arabic: "Readex Pro", Tahoma, sans-serif;
+}
+html {
+  font-synthesis: none;
+  font-kerning: normal;
+  font-variant-ligatures: normal;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+:lang(ar), :lang(ar)::before, :lang(ar)::after {
+  letter-spacing: normal !important;
+  word-spacing: normal !important;
+}
+bdi:lang(ar), .error-page :lang(ar) { font-family: var(--arabic); }
+.error-page h1 { line-height: 1.6; }
+:is(h1, h2, h3):lang(ar) { line-height: 1.6; }
+:is(h1, h2, h3) {
+  text-wrap: balance;
+  word-break: normal;
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+.authority-copy h1 { text-wrap: balance; }
+@media (max-width: 767px) {
+  /* Let the complete sentence balance across mobile lines. A desktop-only
+     forced break can otherwise strand a single word before its second clause. */
+  .authority-copy h1 br { display: none; }
+  .authority-copy h1:lang(ar) { font-size: clamp(1.6875rem, 7.4vw, 2.125rem); }
+}
+.product-detail h1:lang(ar) { font-family: var(--arabic); line-height: 1.65; }
+.product-detail h1:lang(en), .product-meta h3:lang(en) {
+  font-family: "Manrope", "Readex Pro", Arial, sans-serif;
+}
+/* Latin display kerning stays native, without aggressive negative tracking. */
+:is(h1, h2, h3):lang(en), .authority-copy h1:lang(en) {
+  letter-spacing: -0.015em;
+}
+.marketing-typographic { letter-spacing: normal; }
+/* Paragraphs, form controls and mixed-script labels inherit real face weights. */
+strong, b { font-weight: 700; }
+address, em { font-style: normal; }

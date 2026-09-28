@@ -17,8 +17,8 @@
   --dark-line: #ffffff30;
   --gutter: clamp(42px, 4.5vw, 86px);
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
-  --display: "Archivo", Arial, sans-serif;
-  --body: "Manrope", Arial, sans-serif;
+  --display: "Archivo", "Readex Pro", Arial, sans-serif;
+  --body: "Manrope", "Readex Pro", Arial, sans-serif;
   --header: 20;
   --modal: 40;
 }
@@ -1413,8 +1413,8 @@ a:hover > .arrow {
   display: none;
 }
 [dir="rtl"] {
-  --body: "Noto Sans Arabic", Tahoma, sans-serif;
-  --display: "Noto Sans Arabic", Tahoma, sans-serif;
+  --body: "Readex Pro", Tahoma, sans-serif;
+  --display: "Readex Pro", Tahoma, sans-serif;
 }
 [dir="rtl"] h1,
 [dir="rtl"] h2,

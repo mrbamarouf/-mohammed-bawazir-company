@@ -591,7 +591,7 @@ export function ProductsPage({
                 }
               />
             </p>
-            <h1 dir={product.language === "ar" ? "rtl" : "ltr"}>
+            <h1 lang={product.language} dir={product.language === "ar" ? "rtl" : "ltr"}>
               <BidiText text={product.name} />
             </h1>
             {product.description && (

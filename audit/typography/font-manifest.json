@@ -1,0 +1,38 @@
+{
+  "source": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/readexpro/ReadexPro%5BHEXP%2Cwght%5D.ttf",
+  "sourceSha256": "268bba7e1e8f3b14d798b3fb0e40ebaa3fc39308c9ac0020e2faf6df181cc30e",
+  "instances": [
+    {
+      "file": "readex-arabic-400.woff2",
+      "weight": 400,
+      "variable": false,
+      "sha256": "fd54a70783297a8e56ab4eae651ee226829edfc3bfb7a8078b5abab30f8c8bd8",
+      "bytes": 36856,
+      "codepoints": 761
+    },
+    {
+      "file": "readex-arabic-500.woff2",
+      "weight": 500,
+      "variable": false,
+      "sha256": "3f85ef4489047e5c774bdd8b7f8f122063bf607d2d7e850126a483e06da88351",
+      "bytes": 38892,
+      "codepoints": 761
+    },
+    {
+      "file": "readex-arabic-600.woff2",
+      "weight": 600,
+      "variable": false,
+      "sha256": "3e4fbf38c4d65fba56d6d41ad721b32680b22cf2a73c845ace926fdd32a46c75",
+      "bytes": 39188,
+      "codepoints": 761
+    },
+    {
+      "file": "readex-arabic-700.woff2",
+      "weight": 700,
+      "variable": false,
+      "sha256": "8622eec40a6e1deab4e1becdb9c252b87d0ca65acda8e302be12753eda00b29f",
+      "bytes": 38880,
+      "codepoints": 761
+    }
+  ]
+}

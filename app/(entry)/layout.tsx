@@ -1,4 +1,5 @@
 import "../globals.css";
+import "../typography.css";
 export default function EntryLayout({
   children,
 }: {

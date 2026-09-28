@@ -66,3 +66,15 @@ audit/mobile/exploration*/
 audit/mobile/interaction-dev.json
 audit/mobile/first-ar.png
 audit/mobile/deployed*/
+
+# Full typography screenshots and temporary comparison fonts stay local.
+audit/typography/**/screenshots/
+audit/typography/candidates/
+audit/typography/**/*.log
+audit/typography/deployed/
+audit/typography/*.log
+audit/typography/local/
+audit/typography/final/
+audit/typography/pilot/
+audit/typography/exploration/
+audit/typography/chromium-tests.json

@@ -4,7 +4,7 @@ Retains the accepted elements of the second direction and replaces its rejected 
 
 ## System
 
-White #fff, ink #17221e, dark #0b211a, official-family green #087447, warm paper #f3f2ed, restrained bronze #9b7845. Distinct chapter surfaces: architectural deep green, warm ivory, muted mint, logo white, operational dark green, product-family colour, forest green, editorial white, news dark green, closing brand green. Archivo Latin display, Manrope body, Noto Sans Arabic. Solid sans headings (no editorial italic serif); 48–72px Latin hero / 44–64px Arabic hero, 38–56px section headings, body 16–18px, minimum 13px supporting UI. Arabic line heights and columns composed independently. 12-column desktop grid with 64px gutters at 1440, proportional at 1366/1728/1920. No dedicated mobile work this cycle.
+White #fff, ink #17221e, dark #0b211a, official-family green #087447, warm paper #f3f2ed, restrained bronze #9b7845. Distinct chapter surfaces: architectural deep green, warm ivory, muted mint, logo white, operational dark green, product-family colour, forest green, editorial white, news dark green, closing brand green. Archivo Latin display, Manrope body, Readex Pro Arabic. Solid sans headings (no editorial italic serif); 48–72px Latin hero / 44–64px Arabic hero, 38–56px section headings, body 16–18px, minimum 13px supporting UI. Arabic line heights and columns composed independently. 12-column desktop grid with 64px gutters at 1440, proportional at 1366/1728/1920. No dedicated mobile work this cycle.
 
 ## Homepage composition
 
@@ -31,3 +31,7 @@ Mobile opens with a compact 68px logo/menu/language header, composed headline, f
 Navigation state lives in URL parameters, including catalogue search/category/brand/division/limit, news year/search, brand search/division, featured family, profile page and network city. Language switches keep the corresponding path and query, restore the dominant visible semantic section after layout settles, and skip the one-time mobile introduction. Dates displayed by the news client are formatted on the server to avoid WebKit/Node Arabic punctuation differences.
 
 The catalogue's initial server payload contains only 24 product records. Further filters/pages use `/api/catalogue` with cancellation, bounded requests, a small navigation cache and retry feedback. Stale results become inert while a request is pending. Existing product records, factual content and desktop presentation are retained.
+
+## Typography correction, September 2026
+
+Arabic uses complete self-hosted Readex Pro static faces at 400/500/600/700, with native OpenType shaping and no artificial letter/word spacing. Font synthesis is disabled. Script language and bidi isolation follow the content, including original Arabic records in English pages; English product titles use Manrope in both interfaces. Arabic headings have sufficient leading; Latin heading tracking is restrained to -0.015em. Desktop hero line breaks are removed on mobile so headings can balance as complete sentences. See `TYPOGRAPHY_QA.md` for the reproduced font-positioning issue, diagnosis and browser evidence. This is a shared typography correction, preserving page composition and verified content.

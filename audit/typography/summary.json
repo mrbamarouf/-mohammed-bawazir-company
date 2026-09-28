@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-29",
+  "locales": [
+    "ar",
+    "en"
+  ],
+  "widths": [
+    320,
+    360,
+    375,
+    390,
+    393,
+    414,
+    430,
+    1366,
+    1440,
+    1728,
+    1920
+  ],
+  "engines": {
+    "chromium": {
+      "version": "153.0.8010.12",
+      "publicRoutes": 1018,
+      "routeWidthChecks": 11198,
+      "routeErrors": 0,
+      "overflowStates": 0,
+      "typographyCandidates": 0,
+      "fontFailureStates": 0,
+      "uniqueTextCaptures": 5491,
+      "normalNetworkFullPageCaptures": 484,
+      "normalNetworkFailures": 0,
+      "functionalSuite": {
+        "expected": 49,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0
+      },
+      "finalTypographyRegression": {
+        "expected": 5,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0
+      }
+    },
+    "webkit": {
+      "version": "26.6",
+      "publicRoutes": 1018,
+      "routeWidthChecks": 11198,
+      "routeErrors": 0,
+      "overflowStates": 0,
+      "typographyCandidates": 0,
+      "fontFailureStates": 0,
+      "uniqueTextCaptures": 5491,
+      "normalNetworkFullPageCaptures": 484,
+      "normalNetworkFailures": 0,
+      "functionalSuite": {
+        "expected": 15,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0
+      },
+      "finalTypographyRegression": {
+        "expected": 5,
+        "unexpected": 0,
+        "flaky": 0,
+        "skipped": 0
+      }
+    }
+  },
+  "visualReview": {
+    "method": "Real browser screenshots: every distinct route heading, paragraph and metadata block, with shared chrome reviewed by template; mobile and desktop contact sheets, full page contexts, menu/filter states, weight/diacritic/bidi specimens.",
+    "remainingObservedTypographyDefects": 0,
+    "limitations": "Chromium and WebKit viewport emulation on macOS; no physical iOS/Android device review."
+  },
+  "specimens": {
+    "checks": 132,
+    "failures": 0,
+    "includes": [
+      "All four real weights",
+      "Arabic joins and diacritics",
+      "Latin kerning and ligatures",
+      "Mixed script, Western/Eastern Arabic digits and units",
+      "International phone prefix visual order",
+      "Real 404 route",
+      "Rendered production error component"
+    ]
+  },
+  "validation": {
+    "build": "pass",
+    "lint": "pass",
+    "typecheck": "pass"
+  }
+}

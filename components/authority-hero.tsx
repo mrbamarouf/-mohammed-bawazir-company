@@ -40,13 +40,13 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
           <h1 id="hero-heading">
             {ar ? (
               <>
-                نصل العلامات العالمية
+                نصل العلامات العالمية{" "}
                 <br />
                 <span>بأسواق المملكة.</span>
               </>
             ) : (
               <>
-                Connecting global brands
+                Connecting global brands{" "}
                 <br />
                 <span>to Saudi markets.</span>
               </>

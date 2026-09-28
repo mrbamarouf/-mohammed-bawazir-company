@@ -28,36 +28,36 @@
 }
 
 @font-face {
-  font-family: "Noto Sans Arabic";
+  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
   font-display: swap;
-  src: url(/assets/fonts/arabic-0.woff2) format("woff2");
+  src: url(/assets/fonts/readex-arabic-400.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Noto Sans Arabic";
+  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 500;
   font-stretch: normal;
   font-display: swap;
-  src: url(/assets/fonts/arabic-1.woff2) format("woff2");
+  src: url(/assets/fonts/readex-arabic-500.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Noto Sans Arabic";
+  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 600;
   font-stretch: normal;
   font-display: swap;
-  src: url(/assets/fonts/arabic-2.woff2) format("woff2");
+  src: url(/assets/fonts/readex-arabic-600.woff2) format("woff2");
 }
 @font-face {
-  font-family: "Noto Sans Arabic";
+  font-family: "Readex Pro";
   font-style: normal;
   font-weight: 700;
   font-stretch: normal;
   font-display: swap;
-  src: url(/assets/fonts/arabic-3.woff2) format("woff2");
+  src: url(/assets/fonts/readex-arabic-700.woff2) format("woff2");
 }
 
 @font-face {

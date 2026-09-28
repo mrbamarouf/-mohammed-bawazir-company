@@ -223,7 +223,7 @@ export function CatalogueClient({
                   {brands.find((b) => b.slug === p.brand)?.name[locale] ||
                     (ar ? "محفظة الشركة" : "Company portfolio")}
                 </span>
-                <h3 dir={p.language === "ar" ? "rtl" : "ltr"}>
+                <h3 lang={p.language} dir={p.language === "ar" ? "rtl" : "ltr"}>
                   <BidiText text={p.name} />
                 </h3>
               </div>

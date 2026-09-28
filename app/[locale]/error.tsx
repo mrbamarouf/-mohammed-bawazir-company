@@ -3,13 +3,13 @@ export default function ErrorPage({ reset }: { reset: () => void }) {
   return (
     <section className="wrap error-page">
       <h1>
-        A connection interrupted.
+        <bdi lang="en" dir="ltr">A connection interrupted.</bdi>
         <br />
-        تعذر تحميل الصفحة.
+        <bdi lang="ar" dir="rtl">تعذر تحميل الصفحة.</bdi>
       </h1>
-      <p>Please try again. يرجى المحاولة مجددًا.</p>
+      <p><bdi lang="en" dir="ltr">Please try again.</bdi>{" "}<bdi lang="ar" dir="rtl">يرجى المحاولة مجددًا.</bdi></p>
       <button className="button dark" onClick={reset}>
-        Try again / أعد المحاولة
+        <span dir="ltr"><bdi lang="en" dir="ltr">Try again</bdi> / <bdi lang="ar" dir="rtl">أعد المحاولة</bdi></span>
       </button>
     </section>
   );
