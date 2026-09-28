@@ -26,3 +26,12 @@ audit/*-profile*.txt
 audit/company-profile-2017.txt
 audit/019232c-200.txt
 audit/99ad21f-Al-Tijara-Magazine.txt
+
+# Re-audit raw responses and working contact sheets stay available locally.
+audit/redesign/html/
+audit/redesign/raw/
+audit/redesign/logos-*.jpg
+audit/redesign/photo-sheet-*.jpg
+audit/redesign/current-brands.jpg
+audit/redesign/*-progress.log
+audit/redesign/progress.log

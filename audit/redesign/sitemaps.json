@@ -1,0 +1,147 @@
+[
+  {
+    "url": "https://www.mbtksa.com/sitemap_index.xml",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:25:56 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-users-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:25:57 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-users-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-taxonomies-product_cat-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:25:57 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-taxonomies-product_cat-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-taxonomies-post_format-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:25:58 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-taxonomies-post_format-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-taxonomies-post_tag-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:25:59 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-taxonomies-post_tag-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-taxonomies-category-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:26:00 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-taxonomies-category-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-posts-product-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:26:01 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-posts-product-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-posts-thegem_pf_item-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:26:03 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-posts-thegem_pf_item-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-posts-page-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:26:04 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-posts-page-1.xml"
+  },
+  {
+    "url": "https://www.mbtksa.com/wp-sitemap-posts-post-1.xml",
+    "status": 200,
+    "headers": {
+      "Date": "Mon, 28 Sep 2026 15:26:04 GMT",
+      "Server": "Apache",
+      "Upgrade": "h2,h2c",
+      "Connection": "Upgrade, close",
+      "Vary": "Accept-Encoding",
+      "Transfer-Encoding": "chunked",
+      "Content-Type": "application/xml; charset=UTF-8"
+    },
+    "finalUrl": "https://www.mbtksa.com/wp-sitemap-posts-post-1.xml"
+  }
+]
