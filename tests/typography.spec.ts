@@ -47,3 +47,14 @@ for (const locale of ['ar', 'en']) test(`${locale}: bilingual 404 isolates langu
  expect(style.font).toContain('Readex Pro');expect(style.tracking).toBe('normal');expect(style.synthesis).toBe('none');
  for(const width of [320,390,1440,1920]){await page.setViewportSize({width,height:900});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBeTruthy();}
 });
+
+// Both root layouts must import the shared CSS in the same order. Otherwise
+// production chunk hoisting can let legacy mobile rules override typography.
+test('production CSS keeps the Arabic hero scale and English tracking', async ({page}) => {
+ await page.setViewportSize({width:320,height:900});
+ await page.goto('/ar');
+ await expect(page.locator('.authority-copy h1')).toHaveCSS('font-size','27px');
+ await page.goto('/en');
+ const tracking=await page.locator('.authority-copy h1').evaluate(el=>{const s=getComputedStyle(el);return parseFloat(s.letterSpacing)/parseFloat(s.fontSize);});
+ expect(tracking).toBeCloseTo(-.015,3);
+});

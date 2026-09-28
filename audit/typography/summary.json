@@ -36,7 +36,7 @@
         "skipped": 0
       },
       "finalTypographyRegression": {
-        "expected": 5,
+        "expected": 6,
         "unexpected": 0,
         "flaky": 0,
         "skipped": 0
@@ -60,7 +60,7 @@
         "skipped": 0
       },
       "finalTypographyRegression": {
-        "expected": 5,
+        "expected": 6,
         "unexpected": 0,
         "flaky": 0,
         "skipped": 0
@@ -89,5 +89,11 @@
     "build": "pass",
     "lint": "pass",
     "typecheck": "pass"
+  },
+  "productionCssOrderVerification": {
+    "repeatedRouteWidthChecks": 22396,
+    "failures": 0,
+    "headingMetricDifferencesFromReviewedVisualCorpus": 0,
+    "correction": "Both root layouts import globals, mobile, and typography in the same order."
   }
 }

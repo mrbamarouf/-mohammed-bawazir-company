@@ -63,7 +63,7 @@ await Promise.all(Array.from({length:Number(process.env.QA_WORKERS||3)},async()=
    for(const width of widths){
     await p.setViewportSize({width,height:width===320?568:1000});await p.evaluate(async()=>{await document.fonts.ready;await new Promise(r=>requestAnimationFrame(r));});
     const check=await p.evaluate(scan);row.checks.push({width,...check});
-    if(width===320||width===1440){
+    if(process.env.QA_CAPTURE!=="0"&&(width===320||width===1440)){
      // Capture each unique heading/content block at its actual page position.
      // Duplicate global header/footer text is reviewed once per locale/template.
      const blocks=p.locator('main h1, main h2, main h3, main p, main dt, main dd, main address');

@@ -1,4 +1,5 @@
 import { siteUrl } from "@/lib/site-url";
+// Keep shared stylesheet order identical in both root layouts.
 import "../globals.css";
 import "../mobile.css";
 import "../typography.css";
