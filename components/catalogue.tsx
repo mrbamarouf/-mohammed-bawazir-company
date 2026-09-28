@@ -55,6 +55,17 @@ export function Catalogue({
     setLanguage("all");
     setLimit(24);
   }
+  const categoryLabel = (id: number): string => {
+    const chain: string[] = [];
+    const seen = new Set<number>();
+    let current = categories.find((c) => c.id === id);
+    while (current && !seen.has(current.id)) {
+      seen.add(current.id);
+      chain.unshift(current.name.replace(/-ar$/, ""));
+      current = categories.find((c) => c.id === current?.parent);
+    }
+    return chain.join(" / ");
+  };
   return (
     <div className="catalogue">
       <div className="catalogue-toolbar">
@@ -126,7 +137,7 @@ export function Catalogue({
               )
               .map((c) => (
                 <option value={c.id} key={c.id}>
-                  {c.name.replace(/-ar$/, "")}
+                  {categoryLabel(c.id)}
                 </option>
               ))}
           </select>
@@ -193,8 +204,17 @@ export function Catalogue({
                   <Image
                     src={p.image}
                     alt={p.name}
-                    fill
-                    sizes="(max-width:700px) 50vw, 25vw"
+                    width={240}
+                    height={220}
+                    style={{
+                      maxWidth: p.imageWidth
+                        ? Math.min(p.imageWidth, 240)
+                        : 240,
+                      maxHeight: p.imageHeight
+                        ? Math.min(p.imageHeight, 220)
+                        : 220,
+                    }}
+                    sizes="240px"
                   />
                 ) : (
                   <EmptyImage
@@ -202,7 +222,7 @@ export function Catalogue({
                   />
                 )}
                 <span className="product-open">
-                  <Arrow diagonal />
+                  <Arrow />
                 </span>
               </div>
               <div className="product-meta">

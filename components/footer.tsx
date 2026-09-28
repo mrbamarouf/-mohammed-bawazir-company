@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { navigation, extraNavigation, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
-import { Arrow } from "./ui";
+import { TextLink } from "./ui";
 export function Footer({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
@@ -10,44 +10,39 @@ export function Footer({ locale }: { locale: Locale }) {
       <section className="closing">
         <div className="wrap closing-inner">
           <div>
-            <p className="closing-label">
+            <span className="eyebrow">
               {ar
-                ? "علاقات تبدأ بحوار"
-                : "Good partnerships begin with a conversation."}
-            </p>
+                ? "شريكك في السوق السعودي"
+                : "YOUR PARTNER IN THE SAUDI MARKET"}
+            </span>
             <h2>
-              {ar ? (
-                <>
-                  معًا، نبني
-                  <br />
-                  <em>روابط تدوم.</em>
-                </>
-              ) : (
-                <>
-                  Let’s build
-                  <br />
-                  <em>lasting connections.</em>
-                </>
-              )}
+              {ar
+                ? "لنفتح آفاقًا جديدة لأعمالك."
+                : "Your next chapter in Saudi Arabia."}
             </h2>
+            <p>
+              {ar
+                ? "علامتك التجارية. معرفتنا بالسوق. لنبنِ فرصًا جديدة معًا."
+                : "Your brand. Our market knowledge. Let’s build new opportunities together."}
+            </p>
           </div>
-          <Link
-            prefetch={false}
-            className="circle-link"
-            href={`/${locale}/contact`}
-          >
-            <Arrow diagonal />
-            <span>{ar ? "تواصل معنا" : "Connect with MBT"}</span>
-          </Link>
+          <div className="closing-actions">
+            <TextLink href={`/${locale}/contact`} light>
+              {ar ? "تواصل مع فريق MBT" : "Talk to the MBT team"}
+            </TextLink>
+            <TextLink href={`/${locale}/profile`} light>
+              {ar ? "استعرض ملف الشركة" : "View company profile"}
+            </TextLink>
+          </div>
         </div>
       </section>
       <footer className="footer wrap">
         <div className="footer-top">
           <div className="footer-brand">
             <Image
-              src="/assets/mbt/logo.png"
-              width={165}
-              height={61}
+              src="/assets/clean/company/mbt.png"
+              width={280}
+              height={37}
               alt="MBT"
             />
             <p>{pick(company.name, locale)}</p>

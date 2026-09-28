@@ -16,11 +16,13 @@ export function BrandDirectory({
   const ar = locale === "ar";
   const [query, setQuery] = useState("");
   const [division, setDivision] = useState("");
-  const filtered = brands.filter(
-    (b) =>
-      (!division || b.division === division) &&
-      `${b.name.en} ${b.name.ar}`.toLowerCase().includes(query.toLowerCase()),
-  );
+  const filtered = [...brands]
+    .sort((a, b) => a.name[locale].localeCompare(b.name[locale], locale))
+    .filter(
+      (b) =>
+        (!division || b.division === division) &&
+        `${b.name.en} ${b.name.ar}`.toLowerCase().includes(query.toLowerCase()),
+    );
   return (
     <>
       <div className="brand-toolbar">
@@ -78,7 +80,7 @@ export function BrandDirectory({
               <span>
                 {divisions.find((d) => d.slug === b.division)?.name[locale]}
               </span>
-              <Arrow diagonal />
+              <Arrow />
             </div>
           </Link>
         ))}

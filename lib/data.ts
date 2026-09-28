@@ -9,12 +9,4 @@ export const brands = brandsJson as Brand[];
 export const articles = articlesJson as Article[];
 export const archive = archiveJson;
 export const assets = assetsJson as Record<string, string>;
-export function dateLabel(date: string, locale: "en" | "ar") {
-  return new Intl.DateTimeFormat(locale === "ar" ? "ar-SA" : "en-GB", {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-    calendar: "gregory",
-    timeZone: "UTC",
-  }).format(new Date(date + "T12:00:00Z"));
-}
+export { dateLabel } from "./format";

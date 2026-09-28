@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Locale } from "@/lib/types";
-export function Arrow({ diagonal = false }: { diagonal?: boolean }) {
+export function Arrow() {
   return (
     <svg
       width="20"
@@ -9,9 +9,9 @@ export function Arrow({ diagonal = false }: { diagonal?: boolean }) {
       viewBox="0 0 24 24"
       fill="none"
       aria-hidden="true"
-      className={diagonal ? "arrow diagonal" : "arrow"}
+      className="arrow"
     >
-      <path d="M4 12h15m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="1.4" />
+      <path d="M2 12h19m-4-4 4 4-4 4" stroke="currentColor" strokeWidth="1.4" />
     </svg>
   );
 }
@@ -48,6 +48,16 @@ export function Photo({
   priority?: boolean;
   sizes?: string;
 }) {
+  if (!src)
+    return (
+      <div
+        className={`photo photo-empty ${className}`}
+        role="img"
+        aria-label={alt}
+      >
+        <span aria-hidden="true">MBT</span>
+      </div>
+    );
   return (
     <div className={`photo ${className}`}>
       <Image src={src} alt={alt} fill sizes={sizes} preload={priority} />
@@ -89,7 +99,8 @@ export function PageIntro({
 export function SourceLink({ url, locale }: { url: string; locale: Locale }) {
   return (
     <a className="source-link" href={url} target="_blank" rel="noreferrer">
-      {locale === "ar" ? "المصدر الرسمي" : "Company source"} ↗
+      {locale === "ar" ? "المصدر الرسمي" : "Company source"}
+      <Arrow />
     </a>
   );
 }

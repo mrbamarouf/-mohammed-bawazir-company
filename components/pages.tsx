@@ -29,6 +29,10 @@ import { Network } from "./network";
 import { Catalogue } from "./catalogue";
 import { Enquiry } from "./enquiry";
 import { ProfileViewer } from "./profile-viewer";
+import { SectorPanels } from "./sector-panels";
+import { HistoryBlock } from "./history-block";
+import { ValueChain } from "./value-chain";
+import { NewsDirectory } from "./news-directory";
 import { BrandDirectory } from "./brand-directory";
 export function AboutPage({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
@@ -44,12 +48,31 @@ export function AboutPage({ locale }: { locale: Locale }) {
             : "Since 1987, Mohammed Bawazir Trading Company has brought Saudi market knowledge and international brand relationships together."
         }
       />
-      <Photo
-        className="about-panorama"
-        src="/assets/company/headquarters.jpg"
-        alt={ar ? "مقر MBT في جدة" : "MBT headquarters in Jeddah"}
-        priority
-      />
+      <section className="about-overview wrap">
+        <Photo
+          src="/assets/company/headquarters.jpg"
+          alt={
+            ar
+              ? "مقر شركة محمد باوزير للتجارة في جدة"
+              : "MBT headquarters in Jeddah"
+          }
+          priority
+          sizes="55vw"
+        />
+        <div className="about-overview-copy">
+          <strong>1987</strong>
+          <h2>
+            {ar
+              ? "خبرة لها جذور. وحضور يتجدد."
+              : "Established expertise. An evolving presence."}
+          </h2>
+          <p>
+            {ar
+              ? "من جدة، نربط العلامات بالأسواق عبر التجارة والتوزيع وبناء العلاقات."
+              : "From Jeddah, connecting brands with markets through trading, distribution and lasting commercial relationships."}
+          </p>
+        </div>
+      </section>
       <section className="wrap editorial-split">
         <h2>
           {ar ? (
@@ -109,21 +132,22 @@ export function AboutPage({ locale }: { locale: Locale }) {
           </div>
         ))}
       </section>
+      <HistoryBlock locale={locale} />
       <section id="legacy" className="history-section">
         <div className="wrap">
           <div className="section-heading">
             <h2>
               {ar ? (
                 <>
-                  إرث يتواصل.
+                  علاقات دولية.
                   <br />
-                  <em>عبر الأجيال.</em>
+                  <em>وتقدير متجدد.</em>
                 </>
               ) : (
                 <>
-                  A legacy that
+                  International trade.
                   <br />
-                  <em>continues.</em>
+                  <em>Lasting recognition.</em>
                 </>
               )}
             </h2>
@@ -133,38 +157,42 @@ export function AboutPage({ locale }: { locale: Locale }) {
                 : "Selected milestones from the MBT company record."}
             </p>
           </div>
-          <div className="timeline">
-            {[
-              {
-                year: "1987",
-                title: ar ? "تأسيس الشركة" : "Our beginning",
-                body: ar
-                  ? "انطلاق شركة محمد باوزير للتجارة."
-                  : "Mohammed Bawazir Trading Company was established.",
-              },
-              {
-                year: "2019",
-                title: ar ? "جائزة بريمادوتا" : "Primaduta Award",
-                body: ar
-                  ? "تقدير للالتزام والأداء في الأعمال مع الشركات الإندونيسية."
-                  : "Recognition for commitment and performance in business with Indonesian companies.",
-              },
-              {
-                year: "2024",
-                title: ar
-                  ? "تقدير متجدد للشراكة"
-                  : "Partnership, recognised again",
-                body: ar
-                  ? "جائزة بريمادوتا الرئاسية لعام 2024، بحسب خبر الشركة المنشور في يناير 2025."
-                  : "The Presidential Primaduta Award 2024, documented in the company’s January 2025 announcement.",
-              },
-            ].map((x) => (
-              <div key={x.year}>
-                <strong>{x.year}</strong>
-                <h3>{x.title}</h3>
-                <p>{x.body}</p>
-              </div>
-            ))}
+          <div className="recognition-layout">
+            <Photo
+              src={articles.find((a) => a.id === 36455)!.image}
+              alt={
+                ar
+                  ? "زيارة الوفد التجاري الإندونيسي إلى MBT"
+                  : "Indonesian trade delegation visiting MBT"
+              }
+              sizes="45vw"
+            />
+            <div className="timeline">
+              {[
+                {
+                  year: "2019",
+                  title: ar ? "جائزة بريمادوتا" : "Primaduta Award",
+                  body: ar
+                    ? "تقدير للالتزام والأداء في الأعمال مع الشركات الإندونيسية."
+                    : "Recognition for commitment and performance in business with Indonesian companies.",
+                },
+                {
+                  year: "2024",
+                  title: ar
+                    ? "تقدير متجدد للشراكة"
+                    : "Partnership, recognised again",
+                  body: ar
+                    ? "جائزة بريمادوتا الرئاسية لعام 2024، بحسب خبر الشركة المنشور في يناير 2025."
+                    : "The Presidential Primaduta Award 2024, documented in the company’s January 2025 announcement.",
+                },
+              ].map((x) => (
+                <div key={x.year}>
+                  <strong>{x.year}</strong>
+                  <h3>{x.title}</h3>
+                  <p>{x.body}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -209,8 +237,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
           <h2>{ar ? "قيادة وعلاقات." : "Leadership & relationships."}</h2>
           <p>
             {ar
-              ? "الأسماء والمناصب كما وردت في صفحة فريق الشركة المنشورة."
-              : "Names and roles as published on the company’s team page."}
+              ? "الأسماء والمناصب كما وردت في صفحة الفريق المنشورة؛ تختلف بعض المسميات في إصدارات الملف التعريفي المؤرشف."
+              : "Names and roles from the published team page; some titles differ in archived profile editions."}
           </p>
         </div>
         <div className="leadership-list">
@@ -281,6 +309,7 @@ export function BusinessPage({
           description={pick(d.description, locale)}
         />
         <section className="wrap division-detail">
+          <SectorPanels locale={locale} only={d.slug} />
           <div className="division-brand-list">
             {brands
               .filter((b) => b.division === d.slug)
@@ -290,8 +319,11 @@ export function BusinessPage({
                   key={b.slug}
                   href={`/${locale}/brands/${b.slug}`}
                 >
+                  {b.image && (
+                    <Image src={b.image} width={85} height={48} alt="" />
+                  )}
                   {pick(b.name, locale)}
-                  <Arrow diagonal />
+                  <Arrow />
                 </Link>
               ))}
           </div>
@@ -336,19 +368,7 @@ export function BusinessPage({
         }
       />
       <section className="wrap business-directory">
-        {divisions.map((d) => (
-          <Link
-            prefetch={false}
-            className="division-row"
-            key={d.slug}
-            href={`/${locale}/business/${d.slug}`}
-          >
-            <span className="division-number">{d.number}</span>
-            <h2>{pick(d.name, locale)}</h2>
-            <p>{pick(d.description, locale)}</p>
-            <Arrow diagonal />
-          </Link>
-        ))}
+        <SectorPanels locale={locale} />
       </section>
       <section className="wrap editorial-split">
         <h2>{ar ? "حضور يتجاوز التوزيع." : "Beyond distribution."}</h2>
@@ -555,7 +575,10 @@ export function DistributionPage({ locale }: { locale: Locale }) {
             : "The company’s published branch directory connects the MBT business to cities across Saudi Arabia."
         }
       />
-      <Network locale={locale} standalone />
+      <div className="distribution-home">
+        <Network locale={locale} standalone />
+        <ValueChain locale={locale} />
+      </div>
       <section className="wrap editorial-split">
         <h2>{ar ? "من التوريد إلى الرف." : "From source to shelf."}</h2>
         <div>
@@ -585,7 +608,8 @@ export function DistributionPage({ locale }: { locale: Locale }) {
               target="_blank"
               rel="noreferrer"
             >
-              {ar ? "خريطة المدينة" : "City map"} ↗
+              {ar ? "خريطة المدينة" : "City map"}
+              <Arrow />
             </a>
           </div>
         ))}
@@ -617,7 +641,12 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
       />
       <section className="wrap company-features">
         <article>
-          <Image src="/assets/mbt/logo.png" width={220} height={81} alt="MBT" />
+          <Image
+            src="/assets/clean/company/mbt.png"
+            width={220}
+            height={81}
+            alt="MBT"
+          />
           <div>
             <h2>{pick(company.name, locale)}</h2>
             <p>
@@ -633,7 +662,7 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
         <article>
           {assets.promo && (
             <Image
-              src={assets.promo}
+              src="/assets/clean/company/promo.webp"
               width={220}
               height={140}
               alt="Promo Insight"
@@ -654,7 +683,7 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
         <article>
           {assets.whitegate && (
             <Image
-              src={assets.whitegate}
+              src="/assets/clean/company/whitegate.webp"
               width={220}
               height={140}
               alt="White Gate"
@@ -673,9 +702,12 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
           </div>
         </article>
         <article>
-          <span className="company-wordmark" aria-hidden="true">
-            MBTech
-          </span>
+          <Image
+            src="/assets/clean/company/mbtech.webp"
+            width={220}
+            height={110}
+            alt="MBTech"
+          />
           <div>
             <h2>{ar ? "محمد باوزير لتقنية المعلومات" : "MBTech"}</h2>
             <p>
@@ -803,34 +835,30 @@ export function NewsPage({
         }
       />
       <section className="wrap news-list">
-        <div className="news-grid">
-          {articles.map((a) => (
-            <Link
-              prefetch={false}
-              href={`/${locale}/news/${a.slug}`}
-              className="news-item"
-              key={a.id}
-            >
-              {a.image ? (
-                <Photo src={a.image} alt={pick(a.title, locale)} sizes="33vw" />
-              ) : (
-                <EmptyImage
-                  label={ar ? "من أرشيف الشركة" : "From the company archive"}
-                />
-              )}
-              <div className="article-date">
-                <time dateTime={a.date}>{dateLabel(a.date, locale)}</time>
-                <Arrow diagonal />
-              </div>
-              <h2>{pick(a.title, locale)}</h2>
-            </Link>
-          ))}
-        </div>
+        <NewsDirectory locale={locale} articles={articles} />
       </section>
     </>
   );
 }
 const marketingTypes = [
+  {
+    slug: "in-store-tobacco-display",
+    en: "Tobacco division archive",
+    ar: "أرشيف قطاع التبغ",
+    id: 26133,
+  },
+  {
+    slug: "coverage-by-outlets",
+    en: "Retail outlet coverage",
+    ar: "التغطية حسب منافذ البيع",
+    id: 26127,
+  },
+  {
+    slug: "sales-work-structure",
+    en: "Sales structure",
+    ar: "هيكل المبيعات",
+    id: 24930,
+  },
   {
     slug: "in-store-food-display",
     en: "Food, in store",
@@ -953,7 +981,7 @@ export function MarketingPage({
                   )}
                   <h2>
                     {ar ? t.ar : t.en}
-                    <Arrow diagonal />
+                    <Arrow />
                   </h2>
                 </Link>
               );
@@ -1007,7 +1035,7 @@ export function CareersPage({ locale }: { locale: Locale }) {
             rel="noreferrer"
           >
             {ar ? "افتح بوابة التوظيف" : "Open the careers portal"}
-            <Arrow diagonal />
+            <Arrow />
           </a>
           <p className="small-note">
             {ar
@@ -1060,7 +1088,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
               className="text-link"
             >
               {ar ? "افتح موقع المقر" : "Get directions"}
-              <Arrow diagonal />
+              <Arrow />
             </a>
           </div>
           <div>

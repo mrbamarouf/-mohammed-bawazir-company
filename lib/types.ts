@@ -6,6 +6,8 @@ export type Product = {
   name: string;
   description: string;
   image: string;
+  imageWidth?: number;
+  imageHeight?: number;
   categoryIds: number[];
   categories: string[];
   division: string;

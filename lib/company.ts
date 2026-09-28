@@ -178,14 +178,14 @@ export const branches: Branch[] = [
   },
 ];
 export const navigation = [
-  { slug: "about", name: { en: "Our story", ar: "حكايتنا" } },
-  { slug: "business", name: { en: "Our business", ar: "أعمالنا" } },
-  { slug: "brands", name: { en: "Our brands", ar: "علاماتنا" } },
-  { slug: "distribution", name: { en: "Our network", ar: "شبكتنا" } },
-  { slug: "news", name: { en: "News & insights", ar: "الأخبار والفعاليات" } },
+  { slug: "about", name: { en: "About MBT", ar: "عن الشركة" } },
+  { slug: "business", name: { en: "Business", ar: "أعمالنا" } },
+  { slug: "brands", name: { en: "Brands", ar: "علاماتنا" } },
+  { slug: "products", name: { en: "Products", ar: "المنتجات" } },
+  { slug: "distribution", name: { en: "Distribution", ar: "شبكتنا" } },
+  { slug: "news", name: { en: "News", ar: "الأخبار والفعاليات" } },
 ];
 export const extraNavigation = [
-  { slug: "products", name: { en: "Product catalogue", ar: "دليل المنتجات" } },
   { slug: "companies", name: { en: "Our companies", ar: "شركاتنا" } },
   {
     slug: "marketing",

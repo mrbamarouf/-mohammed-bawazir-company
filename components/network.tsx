@@ -3,7 +3,7 @@ import { useState, useRef, useEffect } from "react";
 import geometry from "@/content/saudi-geometry.json";
 import { branches, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
-import { TextLink } from "./ui";
+import { TextLink, Arrow } from "./ui";
 const project = (lon: number, lat: number) => [
   (lon - 34) * 32,
   (33 - lat) * 34,
@@ -54,22 +54,20 @@ export function Network({
       <div className="wrap network-layout">
         <div className="network-copy">
           <p className="section-note">
-            {ar
-              ? "قريبون من أسواقنا"
-              : "A local presence. A wider perspective."}
+            {ar ? "شبكة التوزيع" : "SAUDI DISTRIBUTION NETWORK"}
           </p>
           <h2>
             {ar ? (
               <>
-                روابط تمتد
+                حضور يمتد
                 <br />
                 <em>عبر المملكة.</em>
               </>
             ) : (
               <>
-                Connected
+                A presence
                 <br />
-                across <em>the Kingdom.</em>
+                across <em>Saudi Arabia.</em>
               </>
             )}
           </h2>
@@ -212,7 +210,7 @@ export function Network({
               aria-pressed={selected === b.id}
             >
               {pick(b.name, locale)}
-              <span>↗</span>
+              <Arrow />
             </button>
           ))}
           <p>

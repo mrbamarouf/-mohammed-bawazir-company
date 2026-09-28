@@ -11,14 +11,13 @@ export function Header({ locale }: { locale: Locale }) {
   const dialog = useRef<HTMLDialogElement>(null);
   const ar = locale === "ar";
   const other = ar ? "en" : "ar";
-  const home = path === `/${locale}`;
   const close = () => dialog.current?.close();
   return (
     <>
       <a href="#main" className="skip-link">
         {ar ? "انتقل إلى المحتوى" : "Skip to content"}
       </a>
-      <header className={`site-header ${home ? "over-hero" : ""}`}>
+      <header className="site-header">
         <Link
           prefetch={false}
           href={`/${locale}`}
@@ -26,15 +25,12 @@ export function Header({ locale }: { locale: Locale }) {
           className="identity"
         >
           <Image
-            src="/assets/mbt/logo.png"
-            width={146}
-            height={54}
+            src="/assets/clean/company/mbt.png"
+            width={276}
+            height={37}
             alt="MBT"
             preload
           />
-          <span>
-            {ar ? "شركة محمد باوزير للتجارة" : "MOHAMMED BAWAZIR TRADING"}
-          </span>
         </Link>
         <nav aria-label={ar ? "القائمة الرئيسية" : "Main navigation"}>
           {navigation.map((n) => (
@@ -63,8 +59,8 @@ export function Header({ locale }: { locale: Locale }) {
             className="header-contact"
             href={`/${locale}/contact`}
           >
-            {ar ? "لنتواصل" : "Let’s connect"}
-            <Arrow diagonal />
+            {ar ? "تواصل معنا" : "Contact"}
+            <Arrow />
           </Link>
           <button
             className="menu-toggle"

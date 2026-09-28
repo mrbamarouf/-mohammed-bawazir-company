@@ -14,7 +14,7 @@ Open `http://localhost:3000/en` or `/ar`. The root redirects to English. For the
 ## Content
 
 - `content/products.json`: all 394 original product records, independently preserved. English/Arabic disagreements are not silently merged. Records retain source links, categories and original-language labels.
-- `content/brands.json`: curated bilingual brand directory from official pages, product categories and profiles.
+- `content/brands.json`: 50 curated bilingual brand/principal records from official pages, product records and profiles; 37 verified logos and 13 text-only entries.
 - `content/articles.json`: all 33 news/event records. Publication dates are distinct from event dates. Where an Arabic source body is unavailable, the original English text is identified explicitly.
 - `content/archive.json`, `content/profiles.json`: activity galleries and preserved profile editions. Missing original assets are documented, not substituted.
 - `lib/company.ts`: verified headquarters details, branch city references, divisions, navigation and independent Arabic/English text.
@@ -23,6 +23,8 @@ Open `http://localhost:3000/en` or `/ar`. The root redirects to English. For the
 - `CONTENT_REVIEW.md`: conflicting, dated or unavailable source information requiring company review.
 - `audit/`: raw public API responses, crawl results and asset provenance. This directory is internal and is not served by Next.js.
 
+Prepared transparent derivatives are recorded in `audit/redesign/clean-assets.json`; originals remain immutable. The homepage presents six business sectors, a two-row seamless 37-logo marquee, a selectable Saudi network, four product families, company history and the group ecosystem.
+
 Images are stored locally under `public/assets/{mbt,brands,products,company,history,news}`. Source originals are preserved; Next Image provides WebP renditions for visitors. Font files are local WOFF2 conversions of Google Fonts originals, with OFL licenses. The Saudi boundary is derived from Natural Earth 1:50m public-domain geography. Branch markers indicate city centres; route lines are conceptual connections, not freight routes or building coordinates.
 
 ## Functionality
@@ -30,7 +32,7 @@ Images are stored locally under `public/assets/{mbt,brands,products,company,hist
 - Full English and Arabic routes with correct document language and direction.
 - Language switch preserves the current detail page.
 - Search, division, brand, category and original-language filters; incremental catalogue loading; individual product pages.
-- Searchable brand directory, news detail pages, activity galleries and keyboard-operable document viewer.
+- Searchable, sector-filtered brand directory, news search and year filters, news detail pages, activity galleries and keyboard-operable document viewer.
 - Keyboard-accessible Saudi network and native modal navigation.
 - Contact form validates and prepares a `mailto:` draft. It does **not** send mail from a server, store personal details or display a false delivery confirmation. A transactional email service can be connected as a separate integration.
 - Careers uses the official legacy HR application URL. No invented vacancies or recruitment email.
@@ -45,11 +47,11 @@ npm run build
 npm run test:e2e
 ```
 
-Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. See `QA_REPORT.md` for final outcomes and visual review evidence.
+Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. The redesign adds seamless-marquee geometry, motion preferences, product-family controls and original-record preservation checks. See `QA_REPORT.md` for final outcomes and visual review evidence.
 
 ## Source audit tooling
 
-The Python audit scripts require Python 3 plus BeautifulSoup and Pillow. They are migration/forensic utilities, not part of the deployed runtime. Preserve the curated JSON before rerunning import scripts; they intentionally reflect raw source content and are not a CMS. New editorial changes should be made in the curated content files. All source access was read-only.
+The Python audit scripts require Python 3 plus BeautifulSoup and Pillow; font conversion uses fontTools with Brotli. Asset preparation uses Sharp. They are migration/forensic utilities, not part of the deployed runtime. Preserve the curated JSON before rerunning import scripts; they intentionally reflect raw source content and are not a CMS. New editorial changes should be made in the curated content files. All source access was read-only.
 
 ## Deployment
 
