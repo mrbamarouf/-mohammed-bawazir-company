@@ -43,27 +43,25 @@ export function CompanyEcosystem({ locale }: { locale: Locale }) {
             ar
               ? "التسويق الميداني، والعرض داخل المتاجر، والفعاليات."
               : "Field marketing, in-store merchandising and events.",
-            "profile/promo-insight",
+            "companies#promo-insight",
           ],
           [
             "whitegate",
             "White Gate",
             ar ? "وايت جيت الطبية" : "Medical distribution",
             ar
-              ? "الأجهزة الطبية وتجهيزات المستشفيات. من ملفات المجموعة المنشورة."
-              : "Medical devices and hospital equipment. From the published group profiles.",
-            "profile/white-gate",
+              ? "خبرة في توزيع الأجهزة الطبية وتجهيزات المستشفيات."
+              : "Experience in medical devices and hospital equipment distribution.",
+            "companies#white-gate",
           ],
           [
             "mbtech",
             "MBTech",
+            ar ? "تقنية المعلومات" : "Information technology",
             ar
-              ? "تقنية المعلومات · أرشيف 2017"
-              : "Information technology · 2017 archive",
-            ar
-              ? "حلول الأنظمة وربط الفروع، كما وردت في سجل المجموعة التاريخي."
-              : "Systems and branch connectivity, as recorded in the historical group profile.",
-            "profile/mbtech",
+              ? "خبرات طوّرناها في حلول الأنظمة وربط الفروع."
+              : "Expertise developed in systems integration and branch connectivity.",
+            "companies#mbtech",
           ],
         ].map(([logo, name, title, desc, url]) => (
           <article key={logo}>
@@ -82,7 +80,7 @@ export function CompanyEcosystem({ locale }: { locale: Locale }) {
               <BidiText text={desc} />
             </p>
             <TextLink href={`/${locale}/${url}`}>
-              <BidiText text={ar ? "الملف التعريفي" : "Company profile"} />
+              <BidiText text={ar ? "اكتشف المزيد" : "Explore the business"} />
             </TextLink>
           </article>
         ))}

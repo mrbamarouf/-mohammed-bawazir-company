@@ -1,5 +1,5 @@
 import type { Locale } from "@/lib/types";
-import { operatingFacts, profile2026 } from "@/lib/company-facts";
+import { operatingFacts } from "@/lib/company-facts";
 import { BidiText } from "./bidi-text";
 import { Arrow } from "./ui";
 
@@ -14,13 +14,13 @@ export function CompanyScale({ locale }: { locale: Locale }) {
               ? "البنية وراء الحضور."
               : "The infrastructure behind our reach."}
           </h2>
-          <a href={profile2026.local} target="_blank" rel="noreferrer">
+          <a href={`/${locale}/profile`}>
             <span>
               <BidiText
                 text={
                   ar
-                    ? "كما ورد في ملف الشركة، إصدار 2026"
-                    : "Reported in the 2026 company profile"
+                    ? "شركتنا بالأرقام · 2026"
+                    : "Our company in numbers · 2026"
                 }
               />
             </span>

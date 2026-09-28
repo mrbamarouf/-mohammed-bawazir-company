@@ -1,5 +1,6 @@
+import { siteUrl } from "@/lib/site-url";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { Home } from "@/components/home";
 import {
   AboutPage,
@@ -120,7 +121,7 @@ export default async function Page({ params }: { params: Promise<Params> }) {
                 postalCode: "23435",
                 addressCountry: "SA",
               },
-              url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+              url: siteUrl,
             }),
           }}
         />
@@ -151,7 +152,11 @@ export default async function Page({ params }: { params: Promise<Params> }) {
       section === "profile" &&
       ["2018", "promo-insight", "white-gate", "mbtech"].includes(detail)
     )
-      return <ProfilePage locale={locale} edition={detail} />;
+      permanentRedirect(
+        detail === "2018"
+          ? `/${locale}/profile`
+          : `/${locale}/companies#${detail}`,
+      );
     notFound();
   }
   switch (section) {

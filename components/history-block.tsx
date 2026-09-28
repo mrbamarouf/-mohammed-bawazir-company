@@ -26,8 +26,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
               src="/assets/company/a63c325-office-group.jpg"
               alt={
                 ar
-                  ? "صورة فريق MBT من أرشيف الشركة"
-                  : "MBT team photograph from the company archive"
+                  ? "فريق شركة محمد باوزير للتجارة"
+                  : "Mohammed Bawazir Trading Company team"
               }
               sizes="50vw"
             />
@@ -35,8 +35,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "الأشخاص الذين صنعوا الحكاية — من أرشيف MBT"
-                    : "The people behind the business — from the MBT archive"
+                    ? "الأشخاص الذين صنعوا حكايتنا"
+                    : "The people behind our business"
                 }
               />
             </figcaption>
@@ -62,8 +62,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
                 [
                   "2005",
                   ar
-                    ? "تأسيس وايت جيت، وفق ملف المجموعة"
-                    : "White Gate established, as recorded in the group profile",
+                    ? "تأسيس وايت جيت للتوزيع الطبي"
+                    : "White Gate established for medical distribution",
                 ],
                 [
                   "2009",

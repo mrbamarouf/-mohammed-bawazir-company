@@ -1,8 +1,9 @@
+import { siteUrl } from "@/lib/site-url";
 import type { MetadataRoute } from "next";
 import { products, brands, articles } from "@/lib/data";
 import { divisions } from "@/lib/company";
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL;
+  const base = siteUrl;
   if (!base) return [];
   const routes = [
     "",
@@ -19,10 +20,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "profile",
     "privacy",
     ...divisions.map((d) => "business/" + d.slug),
-    ...["2018", "promo-insight", "white-gate", "mbtech"].map(
-      (s) => "profile/" + s,
-    ),
     ...[
+      "in-store-tobacco-display",
+      "coverage-by-outlets",
+      "sales-work-structure",
       "in-store-food-display",
       "in-store-beverage-display",
       "in-store-consumables-display",

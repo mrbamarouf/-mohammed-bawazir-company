@@ -5319,7 +5319,7 @@
     "slug": "9859-reem-whole-peeled-tomatoes-2",
     "name": "ريم – طماطم كاملة مقشرة",
     "description": "ريم – طماطم كاملة مقشرة",
-    "image": "",
+    "image": "/assets/clean/products/998906c44972.webp",
     "categoryIds": [
       113,
       126
@@ -5331,7 +5331,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-whole-peeled-tomatoes-2/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 127,
+    "imageHeight": 163
   },
   {
     "id": 9856,
@@ -5376,7 +5378,7 @@
     "slug": "9855-reem-broad-beans",
     "name": "ريم – فول مدمس حبه صيني",
     "description": "ريم – فول مدمس حبه صيني",
-    "image": "",
+    "image": "/assets/clean/products/1a7e5ae6aa5d.webp",
     "categoryIds": [
       113,
       126
@@ -5388,7 +5390,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-broad-beans/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 512,
+    "imageHeight": 512
   },
   {
     "id": 9854,
@@ -6250,7 +6254,7 @@
     "slug": "9765-reem-extra-virgin-olive-oil-240-ml-2",
     "name": "ريم – زيت زيتكون بكر ممتاز 250مل",
     "description": "ريم – زيت زيتكون بكر ممتاز 250مل",
-    "image": "",
+    "image": "/assets/clean/products/a729a665821e.webp",
     "categoryIds": [
       113,
       126
@@ -6262,14 +6266,16 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-240-ml-2/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 57,
+    "imageHeight": 131
   },
   {
     "id": 9766,
     "slug": "9766-reem-extra-virgin-olive-oil-500-ml-2",
     "name": "ريم – زيت زيتكون بكر ممتاز 500 مل",
     "description": "ريم – زيت زيتكون بكر ممتاز 500 مل",
-    "image": "",
+    "image": "/assets/clean/products/b08c6e249f60.webp",
     "categoryIds": [
       113,
       126
@@ -6281,7 +6287,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-500-ml-2/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 53,
+    "imageHeight": 154
   },
   {
     "id": 9767,
@@ -6310,7 +6318,7 @@
     "slug": "9768-reem-extra-virgin-olive-oil-750-ml-2",
     "name": "ريم – زيت زيتون بكر ممتاز",
     "description": "ريم – زيت زيتون بكر ممتاز",
-    "image": "",
+    "image": "/assets/clean/products/4374ea5b56f2.webp",
     "categoryIds": [
       113,
       126
@@ -6322,7 +6330,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-750-ml-2/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 62,
+    "imageHeight": 184
   },
   {
     "id": 9769,
@@ -6368,7 +6378,7 @@
     "slug": "9772-reem-kidney-beans",
     "name": "ريم – فصوليا حمراء",
     "description": "ريم – فصوليا حمراء",
-    "image": "",
+    "image": "/assets/clean/products/81507510c379.webp",
     "categoryIds": [
       161
     ],
@@ -6378,7 +6388,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-kidney-beans/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 1012,
+    "imageHeight": 1012
   },
   {
     "id": 9771,
@@ -6541,7 +6553,7 @@
     "slug": "9748-reem-pomace-olive-oil-175-ml",
     "name": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
     "description": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
-    "image": "",
+    "image": "/assets/clean/products/2c9923f10da0.webp",
     "categoryIds": [
       161
     ],
@@ -6551,7 +6563,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-pomace-olive-oil-175-ml/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 168,
+    "imageHeight": 239
   },
   {
     "id": 9750,
@@ -7578,7 +7592,7 @@
     "slug": "34393-reem-whole-peeled-tomatoes",
     "name": "ريم طماطم مقشرة كاملة",
     "description": "ريم طماطم مقشرة كاملة",
-    "image": "",
+    "image": "/assets/clean/products/998906c44972.webp",
     "categoryIds": [
       113,
       126,
@@ -7592,7 +7606,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-whole-peeled-tomatoes/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 127,
+    "imageHeight": 163
   },
   {
     "id": 6520,
@@ -7815,7 +7831,7 @@
     "slug": "34402-reem-extra-virgin-olive-oil-750-ml",
     "name": "ريم زيت زيتون بكر ممتاز 750 مل",
     "description": "ريم زيت زيتون بكر ممتاز 750 مل",
-    "image": "",
+    "image": "/assets/clean/products/4374ea5b56f2.webp",
     "categoryIds": [
       113,
       126,
@@ -7829,7 +7845,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-750-ml/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 62,
+    "imageHeight": 184
   },
   {
     "id": 6501,
@@ -7860,7 +7878,7 @@
     "slug": "34404-reem-extra-virgin-olive-oil-500-ml",
     "name": "ريم زيت زيتون بكر ممتاز 500 مل",
     "description": "ريم زيت زيتون بكر ممتاز 500 مل",
-    "image": "",
+    "image": "/assets/clean/products/b08c6e249f60.webp",
     "categoryIds": [
       113,
       126,
@@ -7874,7 +7892,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-500-ml/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 53,
+    "imageHeight": 154
   },
   {
     "id": 6500,
@@ -7905,7 +7925,7 @@
     "slug": "34405-reem-extra-virgin-olive-oil-240-ml",
     "name": "ريم زيت زيتون بكر ممتاز 240 مل",
     "description": "ريم زيت زيتون بكر ممتاز 240 مل",
-    "image": "",
+    "image": "/assets/clean/products/a729a665821e.webp",
     "categoryIds": [
       113,
       126,
@@ -7919,7 +7939,9 @@
     "division": "food",
     "brand": "reem",
     "source": "https://www.mbtksa.com/product/reem-extra-virgin-olive-oil-240-ml/",
-    "language": "ar"
+    "language": "ar",
+    "imageWidth": 57,
+    "imageHeight": 131
   },
   {
     "id": 6498,

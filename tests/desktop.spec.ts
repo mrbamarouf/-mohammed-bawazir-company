@@ -45,7 +45,7 @@ test("Catalogue supports search, empty states, filtering and product detail", as
   page,
 }) => {
   await page.goto("/en/products");
-  await expect(page.getByRole("status")).toContainText("product records");
+  await expect(page.getByRole("status")).toContainText("products");
   await page.getByRole("searchbox").fill("Croissant");
   expect(await page.locator(".product-item").count()).toBeGreaterThan(0);
   await expect(page.locator(".product-item").first()).toContainText(
@@ -58,8 +58,10 @@ test("Catalogue supports search, empty states, filtering and product detail", as
   await expect(
     page.getByRole("heading", { name: "No matching products" }),
   ).toBeVisible();
-  await page.getByRole("button", { name: "View all records" }).click();
-  await expect(page.getByRole("status")).toContainText("394");
+  await page.getByRole("button", { name: "View products" }).click();
+  expect(
+    Number((await page.getByRole("status").innerText()).match(/\d+/)?.[0]),
+  ).toBeGreaterThan(350);
   await page.getByRole("button", { name: "Show more products" }).click();
   await expect(page.locator(".product-item")).toHaveCount(48);
 });
@@ -125,11 +127,12 @@ test("Profile navigation, brand search and missing routes", async ({
   expect(await page.locator(".profile-image img").getAttribute("alt")).not.toBe(
     before,
   );
-  await page.getByRole("link", { name: "White Gate", exact: true }).click();
-  await expect(page.locator(".profile-image img")).toHaveAttribute(
-    "alt",
-    /page 1$/,
-  );
+  await expect(
+    page.getByRole("link", { name: "Download company profile" }),
+  ).toHaveAttribute("href", "/assets/documents/MBT-Company-Profile-2026.pdf");
+  await expect(page.locator(".profile-controls option")).toHaveCount(47);
+  await page.goto("/en/profile/white-gate");
+  await expect(page).toHaveURL(/\/en\/companies#white-gate$/);
   await page.goto("/en/brands");
   await page.getByRole("searchbox").fill("Reem");
   await expect(page.locator(".brand-directory>a")).toHaveCount(1);
@@ -197,6 +200,9 @@ test("Marketing galleries and historical company records are preserved", async (
   await expect(
     page.getByRole("heading", { name: "MBTech", exact: true }),
   ).toBeVisible();
-  await page.getByRole("link", { name: "Historical record · 2017" }).click();
-  await expect(page.locator(".profile-image img")).toBeVisible();
+  await page
+    .locator("#mbtech")
+    .getByRole("link", { name: "Talk to our team" })
+    .click();
+  await expect(page).toHaveURL(/\/en\/contact$/);
 });

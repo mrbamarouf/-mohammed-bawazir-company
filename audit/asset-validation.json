@@ -1,8 +1,8 @@
 {
   "method": "Literal runtime references in app/components/content/lib plus every prepared derivative; all retained public assets counted separately.",
-  "runtimeReferences": 1655,
+  "runtimeReferences": 1492,
   "missingFiles": [],
-  "assetFiles": 2004,
-  "totalBytes": 521520556,
-  "maxFileBytes": 56286460
+  "assetFiles": 1936,
+  "totalBytes": 402323141,
+  "maxFileBytes": 13655965
 }

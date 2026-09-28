@@ -15,8 +15,8 @@ Open `http://localhost:3000/en` or `/ar`. The root redirects to English. For the
 
 - `content/products.json`: all 394 original product records, independently preserved. English/Arabic disagreements are not silently merged. Records retain source links, categories and original-language labels.
 - `content/brands.json`: 50 curated bilingual brand/principal records from official pages, product records and profiles; 37 verified logos and 13 text-only entries.
-- `content/articles.json`: all 33 news/event records. Publication dates are distinct from event dates. Where an Arabic source body is unavailable, the original English text is identified explicitly.
-- `content/archive.json`, `content/profiles.json`: activity galleries and preserved profile editions. Missing original assets are documented, not substituted.
+- `content/articles.json`: all 33 news/event records. Publication dates are distinct from event dates. Original article text is preserved where a translation is unavailable.
+- `content/marketing.json`: public activity galleries. Superseded profile documents and research records live in `audit/internal/`, outside the public site.
 - `lib/company.ts`: verified headquarters details, branch city references, divisions, navigation and independent Arabic/English text.
 - `components/home.tsx` and `components/pages.tsx`: independently authored English and Arabic editorial copy, not runtime machine translation.
 - `CONTENT_INVENTORY.md`: original page inventory and preservation decisions.
@@ -25,17 +25,17 @@ Open `http://localhost:3000/en` or `/ar`. The root redirects to English. For the
 
 Prepared transparent derivatives are recorded in `audit/redesign/clean-assets.json`; originals remain immutable. The homepage presents six business sectors, a two-row seamless 37-logo marquee, a selectable Saudi network, four product families, company history and the group ecosystem.
 
-Images are stored locally under `public/assets/{mbt,brands,products,company,history,news}`. Source originals are preserved; Next Image provides WebP renditions for visitors. Font files are local WOFF2 conversions of Google Fonts originals, with OFL licenses. The Saudi boundary is derived from Natural Earth 1:50m public-domain geography. Branch markers indicate city centres; route lines are conceptual connections, not freight routes or building coordinates.
+Images are stored locally under `public/assets/{mbt,brands,products,company,documents,news}`. Source originals are preserved; Next Image provides WebP renditions for visitors. Font files are local WOFF2 conversions of Google Fonts originals, with OFL licenses. The Saudi boundary is derived from Natural Earth 1:50m public-domain geography. Branch markers indicate city centres; route lines are conceptual connections, not freight routes or building coordinates.
 
 ## Functionality
 
 - Full English and Arabic routes with correct document language and direction.
 - Language switch preserves the current detail page.
-- Search, division, brand, category and original-language filters; incremental catalogue loading; individual product pages.
+- Search, division, brand and category filters; incremental catalogue loading; individual product pages.
 - Searchable, sector-filtered brand directory, news search and year filters, news detail pages, activity galleries and keyboard-operable document viewer.
 - Keyboard-accessible Saudi network and native modal navigation.
 - Contact form validates and prepares a `mailto:` draft. It does **not** send mail from a server, store personal details or display a false delivery confirmation. A transactional email service can be connected as a separate integration.
-- Careers uses the official legacy HR application URL. No invented vacancies or recruitment email.
+- Careers opens an enquiry draft to the existing company email address. No invented vacancies or new recruitment address.
 - Reduced motion, static server-rendered content, local assets and no animation library. Automatic link prefetch is disabled to avoid speculative catalogue traffic.
 
 ## Validation
@@ -47,7 +47,7 @@ npm run build
 npm run test:e2e
 ```
 
-Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. The redesign adds seamless-marquee geometry, motion preferences, product-family controls and original-record preservation checks. See `REFINEMENT_QA.md` for this pass, `COMPANY_NUMBERS.md` for dated company facts, and `QA_REPORT.md` for the previous redesign baseline.
+Tests run against `http://localhost:3000`; override with `TEST_BASE_URL`. Tests cover all major pages at 1920, 1728, 1440 and 1366 pixels in both languages, catalogue interactions, language changes, keyboard navigation, profile browsing, contact validation, missing routes and automated accessibility. The redesign adds seamless-marquee geometry, motion preferences, product-family controls and original-record preservation checks. See `PRODUCTION_READINESS.md` for the final public-content cleanup, `REFINEMENT_QA.md` for the preceding refinement, `COMPANY_NUMBERS.md` for dated company facts, and `QA_REPORT.md` for the previous redesign baseline.
 
 ## Source audit tooling
 
@@ -55,6 +55,6 @@ The Python audit scripts require Python 3 plus BeautifulSoup and Pillow; font co
 
 ## Deployment
 
-Ready for a separate Next.js Vercel project. Set `NEXT_PUBLIC_SITE_URL` to that project's preview URL. Previews are noindex by default; set `ALLOW_INDEXING=true` only for an approved public launch. No Vercel project or production domain has been created or modified. The existing `https://www.mbtksa.com/` site remains untouched.
+The existing review project `mohammed-bawazir-company` uses `https://mohammed-bawazir-company.vercel.app`. `NEXT_PUBLIC_SITE_URL` identifies that review URL. Indexing stays disabled; set `ALLOW_INDEXING=true` only for an approved public launch. The existing `https://www.mbtksa.com/` site remains untouched.
 
 Dedicated mobile art direction is intentionally deferred until desktop approval. Smaller screens have basic layout and overflow protection.

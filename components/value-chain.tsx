@@ -1,5 +1,4 @@
 import type { Locale } from "@/lib/types";
-import { profile2026 } from "@/lib/company-facts";
 import { BrandLogo } from "./brand-logo";
 import { BidiText } from "./bidi-text";
 
@@ -73,8 +72,8 @@ export function ValueChain({ locale }: { locale: Locale }) {
           <BidiText
             text={
               ar
-                ? "الأرقام التشغيلية بحسب ملف الشركة، إصدار 2026."
-                : "Operational figures reported in the 2026 company profile."
+                ? "شبكة تربط أعمالنا بالحياة اليومية · 2026"
+                : "Our network, connecting business and everyday life · 2026"
             }
           />
         </p>
@@ -99,22 +98,6 @@ export function ValueChain({ locale }: { locale: Locale }) {
             <p>
               <BidiText text={stage.note} />
             </p>
-            {stage.page && (
-              <a
-                href={`${profile2026.local}#page=${stage.page}`}
-                target="_blank"
-                rel="noreferrer"
-                className="chain-source"
-              >
-                <BidiText
-                  text={
-                    ar
-                      ? `ملف 2026، ص ${stage.page}`
-                      : `2026 profile, p. ${stage.page}`
-                  }
-                />
-              </a>
-            )}
           </li>
         ))}
       </ol>

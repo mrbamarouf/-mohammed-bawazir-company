@@ -12,7 +12,6 @@ export type Product = {
   categories: string[];
   division: string;
   brand: string;
-  source: string;
   language: Locale;
 };
 export type Article = {
@@ -23,14 +22,12 @@ export type Article = {
   body: Localized;
   image: string;
   gallery: string[];
-  source: string;
 };
 export type Brand = {
   slug: string;
   name: Localized;
   division: string;
   image: string;
-  source: string;
   description: Localized;
   categoryIds: number[];
 };

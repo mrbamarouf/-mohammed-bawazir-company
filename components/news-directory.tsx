@@ -34,7 +34,7 @@ export function NewsDirectory({
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder={ar ? "ابحث في أخبار MBT…" : "Search the MBT archive…"}
+            placeholder={ar ? "ابحث في أخبار MBT…" : "Search our news…"}
           />
         </label>
         <label>

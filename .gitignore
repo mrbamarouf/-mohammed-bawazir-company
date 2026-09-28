@@ -52,3 +52,8 @@ audit/refinement/format.log
 # Superseded development-only section captures.
 audit/screenshots/refinement/section-chapter-*.jpg
 audit/screenshots/refinement/section-value-chain-expanded-*.jpg
+.vercel
+
+# Large rendered review evidence stays local; JSON check results are retained.
+audit/production/*/screenshots/
+audit/production/deployed/

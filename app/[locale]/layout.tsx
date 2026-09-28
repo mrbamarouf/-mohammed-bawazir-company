@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/site-url";
 import "../globals.css";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
@@ -5,9 +6,7 @@ import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import type { Locale } from "@/lib/types";
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
-  ),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "MBT | Mohammed Bawazir Trading Company",
     template: "%s | MBT",

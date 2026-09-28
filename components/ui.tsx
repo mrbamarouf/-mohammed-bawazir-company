@@ -35,10 +35,12 @@ export function TextLink({
   href,
   children,
   light = false,
+  direction = "next",
 }: {
   href: string;
   children: React.ReactNode;
   light?: boolean;
+  direction?: "next" | "back";
 }) {
   return (
     <Link
@@ -49,7 +51,7 @@ export function TextLink({
       <span>
         {typeof children === "string" ? <BidiText text={children} /> : children}
       </span>
-      <Arrow />
+      <Arrow direction={direction} />
     </Link>
   );
 }
@@ -122,18 +124,20 @@ export function PageIntro({
     </section>
   );
 }
-export function SourceLink({ url, locale }: { url: string; locale: Locale }) {
-  return (
-    <a className="source-link" href={url} target="_blank" rel="noreferrer">
-      {locale === "ar" ? "المصدر الرسمي" : "Company source"}
-      <Arrow />
-    </a>
-  );
-}
-export function EmptyImage({ label }: { label: string }) {
+export function EmptyImage({ label, logo }: { label: string; logo?: string }) {
   return (
     <div className="empty-image">
-      <BrandLogo markOnly />
+      {logo ? (
+        <Image
+          className="product-brand-placeholder"
+          src={logo}
+          width={160}
+          height={100}
+          alt={label}
+        />
+      ) : (
+        <BrandLogo markOnly />
+      )}
       <p>{label}</p>
     </div>
   );

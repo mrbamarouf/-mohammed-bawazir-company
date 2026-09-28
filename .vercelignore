@@ -1,0 +1,9 @@
+audit/
+scripts/
+tests/
+test-results/
+playwright-report/
+.venv/
+.agents/
+*.md
+*.tsbuildinfo

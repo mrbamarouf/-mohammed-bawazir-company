@@ -1,7 +1,13 @@
 export const profile2026 = {
   year: "2026",
+  sizeMB: "8.6",
   url: "https://www.mbtksa.com/wp-content/uploads/2026/06/MBT-Profile-2026-v2.pdf",
-  local: "/assets/history/3121b64-MBT-Profile-2026-v2.pdf",
+  local: "/assets/documents/MBT-Company-Profile-2026.pdf",
+  images: Array.from(
+    { length: 47 },
+    (_, i) =>
+      `/assets/documents/profile-2026/page-${String(i + 1).padStart(2, "0")}.webp`,
+  ),
 };
 // These are dated, company-reported figures, not live operational counters.
 export const operatingFacts = [
@@ -20,8 +26,8 @@ export const operatingFacts = [
     page: 10,
     label: { en: "Warehouse space", ar: "مساحة التخزين" },
     note: {
-      en: "As reported in the company profile",
-      ar: "وفق المساحة المعلنة في الملف",
+      en: "Supporting our distribution network",
+      ar: "مساحة تدعم شبكة التوزيع",
     },
   },
   {

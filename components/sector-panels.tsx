@@ -62,7 +62,7 @@ export function SectorPanels({
                     alt={
                       ar
                         ? "عرض العلامات الغذائية داخل أحد المتاجر"
-                        : "Food brands in an archived retail store display"
+                        : "Our food brands on display in store"
                     }
                     sizes="40vw"
                   />
@@ -95,8 +95,8 @@ export function SectorPanels({
                     src="/assets/company/091bc59-Tobocco-_Market-21.jpg"
                     alt={
                       ar
-                        ? "عرض منتجات القطاع في الأرشيف الرسمي للشركة"
-                        : "Division display from the official company archive"
+                        ? "عرض منتجاتنا في المتاجر"
+                        : "Our products on display in store"
                     }
                     sizes="35vw"
                   />

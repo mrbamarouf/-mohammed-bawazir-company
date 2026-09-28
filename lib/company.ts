@@ -61,8 +61,8 @@ export const divisions: {
     number: "04",
     name: { en: "Personal care", ar: "العناية الشخصية" },
     description: {
-      en: "Personal care brands featured in the company’s published portfolio.",
-      ar: "علامات العناية الشخصية الواردة في محفظة الشركة المنشورة.",
+      en: "Personal care brands for everyday wellbeing.",
+      ar: "علامات للعناية الشخصية واحتياجات الحياة اليومية.",
     },
   },
   {
@@ -70,8 +70,8 @@ export const divisions: {
     number: "05",
     name: { en: "Pharma", ar: "القطاع الدوائي" },
     description: {
-      en: "Healthcare partners and pharmaceutical business information from the company archive.",
-      ar: "شركاء الرعاية الصحية ومعلومات النشاط الدوائي من أرشيف الشركة.",
+      en: "Our relationships in healthcare and pharmaceutical distribution.",
+      ar: "شراكاتنا في الرعاية الصحية وتوزيع المنتجات الدوائية.",
     },
   },
   {
@@ -79,8 +79,8 @@ export const divisions: {
     number: "06",
     name: { en: "Tobacco", ar: "التبغ" },
     description: {
-      en: "Corporate information and historical portfolio records for the tobacco division.",
-      ar: "معلومات مؤسسية وسجلات المحفظة المنشورة لقسم التبغ.",
+      en: "Business relationships within our tobacco division.",
+      ar: "العلاقات التجارية ضمن قطاع التبغ.",
     },
   },
 ];
@@ -95,8 +95,8 @@ export const branches: Branch[] = [
     lat: 21.54,
     lon: 39.17,
     note: {
-      en: "Head office in Al Rawdah. A separate Jeddah branch is listed in Al Nakhil.",
-      ar: "المقر الرئيسي في الروضة، وفرع جدة مدرج في حي النخيل.",
+      en: "Head office in Al Rawdah. Jeddah branch in Al Nakhil.",
+      ar: "المقر الرئيسي في الروضة، وفرع جدة في حي النخيل.",
     },
   },
   {
@@ -106,8 +106,8 @@ export const branches: Branch[] = [
     lat: 24.71,
     lon: 46.68,
     note: {
-      en: "Sulai district branch, as listed in the company directory.",
-      ar: "فرع حي السلي، بحسب دليل الشركة.",
+      en: "Sulai district.",
+      ar: "حي السلي.",
     },
   },
   {
@@ -128,8 +128,8 @@ export const branches: Branch[] = [
     lat: 28.38,
     lon: 36.56,
     note: {
-      en: "Fahad Bin Sultan Street, as listed in the company directory.",
-      ar: "شارع فهد بن سلطان، بحسب دليل الشركة.",
+      en: "Fahad Bin Sultan Street.",
+      ar: "شارع فهد بن سلطان.",
     },
   },
   {
@@ -139,8 +139,8 @@ export const branches: Branch[] = [
     lat: 26.36,
     lon: 43.98,
     note: {
-      en: "Buraydah / Al Jazira district listing in the company directory.",
-      ar: "فرع بريدة / حي الجزيرة، بحسب دليل الشركة.",
+      en: "Al Jazira district, Buraydah.",
+      ar: "حي الجزيرة، بريدة.",
     },
   },
   {
@@ -150,8 +150,8 @@ export const branches: Branch[] = [
     lat: 24.47,
     lon: 39.61,
     note: {
-      en: "Madinah–Tabuk Road branch listing in the company directory.",
-      ar: "فرع طريق المدينة وتبوك، بحسب دليل الشركة.",
+      en: "Madinah–Tabuk Road.",
+      ar: "طريق المدينة وتبوك.",
     },
   },
   {
@@ -172,8 +172,8 @@ export const branches: Branch[] = [
     lat: 16.89,
     lon: 42.55,
     note: {
-      en: "Listed in the Arabic branch directory. Contact headquarters for current details.",
-      ar: "مدرج في دليل الفروع العربي. تواصل مع المقر الرئيسي للتفاصيل الحالية.",
+      en: "Contact our head office for enquiries in Jizan.",
+      ar: "للاستفسارات في جيزان، تواصل مع مقرنا الرئيسي.",
     },
   },
 ];

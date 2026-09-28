@@ -1,0 +1,429 @@
+{
+  "results": [
+    {
+      "locale": "ar",
+      "route": "business/food",
+      "status": 200,
+      "title": "الأغذية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "business/beverages",
+      "status": 200,
+      "title": "المشروبات",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "business/household",
+      "status": 200,
+      "title": "المستلزمات المنزلية والاستهلاكية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "business/personal-care",
+      "status": 200,
+      "title": "العناية الشخصية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "business/pharma",
+      "status": 200,
+      "title": "القطاع الدوائي",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "business/tobacco",
+      "status": 200,
+      "title": "التبغ",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "brands/reem",
+      "status": 200,
+      "title": "ريم",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "brands/medcity",
+      "status": 200,
+      "title": "صيدلية ميدسيتي",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "products/34407-tropicana-slim-stevia-sweetener-tablet-2",
+      "status": 200,
+      "title": "تروبيكنا سلم ستيفيا محلي خالي السعرات الحرارية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "products/36706-croissant-with-chocolate-52x385g",
+      "status": 200,
+      "title": "Croissant with chocolate 5+2x385g",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "news/36463-mbt-in-a-week-without-sugar",
+      "status": 200,
+      "title": "MBT تشارك في مبادرة «أسبوع بلا سكر»",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "profile/2018",
+      "status": 200,
+      "title": "الملف التعريفي للشركة",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "profile/mbtech",
+      "status": 200,
+      "title": "خبرات تكمّل بعضها.",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "privacy",
+      "status": 200,
+      "title": "خصوصيتك تهمنا.",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/coverage-by-outlets",
+      "status": 200,
+      "title": "التغطية حسب منافذ البيع",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/sales-work-structure",
+      "status": 200,
+      "title": "هيكل المبيعات",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/distribution-tools",
+      "status": 200,
+      "title": "موارد التوزيع",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/in-store-food-display",
+      "status": 200,
+      "title": "الأغذية في المتاجر",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/in-store-beverage-display",
+      "status": 200,
+      "title": "المشروبات في المتاجر",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/in-store-consumables-display",
+      "status": 200,
+      "title": "عرض المنتجات الاستهلاكية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/in-store-healthcare-display",
+      "status": 200,
+      "title": "العناية الشخصية والقطاع الدوائي",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/in-store-tobacco-display",
+      "status": 200,
+      "title": "قطاع التبغ",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "marketing/sales-man-with-handheld",
+      "status": 200,
+      "title": "فرق المبيعات",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "ar",
+      "route": "profile-controls",
+      "afterNext": "1",
+      "afterPrevious": "0",
+      "arrows": [
+        {
+          "class": "arrow arrow-back",
+          "direction": "rtl",
+          "transform": "none"
+        },
+        {
+          "class": "arrow arrow-next",
+          "direction": "rtl",
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "class": "arrow arrow-down",
+          "direction": "rtl",
+          "transform": "none"
+        },
+        {
+          "class": "arrow arrow-up",
+          "direction": "rtl",
+          "transform": "none"
+        }
+      ]
+    },
+    {
+      "locale": "en",
+      "route": "business/food",
+      "status": 200,
+      "title": "Food",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "business/beverages",
+      "status": 200,
+      "title": "Beverages",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "business/household",
+      "status": 200,
+      "title": "Household & consumables",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "business/personal-care",
+      "status": 200,
+      "title": "Personal care",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "business/pharma",
+      "status": 200,
+      "title": "Pharma",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "business/tobacco",
+      "status": 200,
+      "title": "Tobacco",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "brands/reem",
+      "status": 200,
+      "title": "Reem",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "brands/medcity",
+      "status": 200,
+      "title": "Medcity Pharmacy",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "products/34407-tropicana-slim-stevia-sweetener-tablet-2",
+      "status": 200,
+      "title": "تروبيكنا سلم ستيفيا محلي خالي السعرات الحرارية",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "products/36706-croissant-with-chocolate-52x385g",
+      "status": 200,
+      "title": "Croissant with chocolate 5+2x385g",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "news/36463-mbt-in-a-week-without-sugar",
+      "status": 200,
+      "title": "MBT in “A Week Without Sugar”",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "profile/2018",
+      "status": 200,
+      "title": "Company Profile",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "profile/mbtech",
+      "status": 200,
+      "title": "Connected expertise.",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "privacy",
+      "status": 200,
+      "title": "Privacy on this website.",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/coverage-by-outlets",
+      "status": 200,
+      "title": "Retail outlet coverage",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/sales-work-structure",
+      "status": 200,
+      "title": "Sales structure",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/distribution-tools",
+      "status": 200,
+      "title": "Distribution resources",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/in-store-food-display",
+      "status": 200,
+      "title": "Food, in store",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/in-store-beverage-display",
+      "status": 200,
+      "title": "Beverages, in store",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/in-store-consumables-display",
+      "status": 200,
+      "title": "Consumer products",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/in-store-healthcare-display",
+      "status": 200,
+      "title": "Personal care & pharma",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/in-store-tobacco-display",
+      "status": 200,
+      "title": "Tobacco division",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "marketing/sales-man-with-handheld",
+      "status": 200,
+      "title": "Sales teams",
+      "overflow": false,
+      "broken": []
+    },
+    {
+      "locale": "en",
+      "route": "profile-controls",
+      "afterNext": "1",
+      "afterPrevious": "0",
+      "arrows": [
+        {
+          "class": "arrow arrow-back",
+          "direction": "ltr",
+          "transform": "matrix(-1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "class": "arrow arrow-next",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "class": "arrow arrow-down",
+          "direction": "ltr",
+          "transform": "none"
+        },
+        {
+          "class": "arrow arrow-up",
+          "direction": "ltr",
+          "transform": "none"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -16,18 +16,11 @@ import {
   brands,
   products,
   articles,
-  archive,
+  marketing,
   dateLabel,
 } from "@/lib/data";
-import profiles from "@/content/profiles.json";
-import {
-  PageIntro,
-  Photo,
-  TextLink,
-  Arrow,
-  SourceLink,
-  EmptyImage,
-} from "./ui";
+import { profile2026 } from "@/lib/company-facts";
+import { PageIntro, Photo, TextLink, Arrow, EmptyImage } from "./ui";
 import { Network } from "./network";
 import { Catalogue } from "./catalogue";
 import { Enquiry } from "./enquiry";
@@ -115,8 +108,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "يقع مقرنا الرئيسي في جدة، وتتوزع المدن الواردة في دليل فروعنا عبر مناطق المملكة. ترتكز أعمالنا على معرفة الأسواق والعمل الجماعي والعلاقات طويلة الأجل مع الشركاء."
-                  : "From our headquarters in Jeddah, our published branch network extends to cities across the Kingdom. Local understanding, teamwork and enduring partner relationships are central to the business."
+                  ? "من مقرنا الرئيسي في جدة، تمتد شبكتنا إلى مدن المملكة. ترتكز أعمالنا على معرفة الأسواق والعمل الجماعي والعلاقات طويلة الأجل مع الشركاء."
+                  : "From our headquarters in Jeddah, our branch network extends to cities across the Kingdom. Local understanding, teamwork and enduring partner relationships are central to the business."
               }
             />
           </p>
@@ -177,8 +170,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "محطات موثقة من حكاية MBT."
-                    : "Selected milestones from the MBT company record."
+                    ? "محطات من مسيرتنا في التجارة والشراكات الدولية."
+                    : "Milestones in our international trade relationships."
                 }
               />
             </p>
@@ -208,8 +201,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
                     ? "تقدير متجدد للشراكة"
                     : "Partnership, recognised again",
                   body: ar
-                    ? "جائزة بريمادوتا الرئاسية لعام 2024، بحسب خبر الشركة المنشور في يناير 2025."
-                    : "The Presidential Primaduta Award 2024, documented in the company’s January 2025 announcement.",
+                    ? "حصلنا على جائزة بريمادوتا الرئاسية لعام 2024 تقديرًا لشراكاتنا التجارية."
+                    : "We received the Presidential Primaduta Award 2024 in recognition of our trading partnerships.",
                 },
               ].map((x) => (
                 <div key={x.year}>
@@ -244,15 +237,11 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "يحتفي سجل الشركة بإرث الراحلين فوزي باوزير ومحمد باوزير، وبأثرهما في تأسيس هوية MBT وعلاقاتها."
-                  : "The company honours the memory of Fawzi Bawazir and Mohammed Bawazir, whose legacy remains part of MBT’s identity and relationships."
+                  ? "نعتز بإرث الراحلين فوزي باوزير ومحمد باوزير، وبأثرهما في تأسيس هويتنا وعلاقاتنا."
+                  : "We honour the memory of Fawzi Bawazir and Mohammed Bawazir, whose legacy continues to shape our identity and relationships."
               }
             />
           </p>
-          <SourceLink
-            url="https://www.mbtksa.com/about-us-2/our-company/meet-our-teams/"
-            locale={locale}
-          />
         </div>
         <div className="founder-portraits">
           {[
@@ -283,8 +272,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "الأسماء والمناصب كما وردت في صفحة الفريق المنشورة؛ تختلف بعض المسميات في إصدارات الملف التعريفي المؤرشف."
-                  : "Names and roles from the published team page; some titles differ in archived profile editions."
+                  ? "تجمع قيادتنا خبرات التجارة والمبيعات والتسويق والعمليات، لبناء علاقات مستدامة مع شركائنا."
+                  : "Our leadership brings together trading, sales, marketing and operational expertise to build lasting partner relationships."
               }
             />
           </p>
@@ -330,10 +319,6 @@ export function AboutPage({ locale }: { locale: Locale }) {
             </div>
           ))}
         </div>
-        <SourceLink
-          url="https://www.mbtksa.com/about-us-2/our-company/meet-our-teams/"
-          locale={locale}
-        />
       </section>
     </>
   );
@@ -386,23 +371,35 @@ export function BusinessPage({
                 <BidiText
                   text={
                     ar
-                      ? "ورد قطاع التبغ ضمن قطاعات الشركة في المصدر الرسمي. هذه الصفحة تقدم مرجعًا مؤسسيًا للمعلومات المنشورة."
-                      : "The tobacco division is listed in the official company structure. This page provides a corporate reference to the published division information."
+                      ? "للاستفسارات المتعلقة بقطاع التبغ وعلاقاته التجارية، يرجى التواصل مع فريق الشركة."
+                      : "For corporate enquiries about our tobacco division and its business relationships, please contact our team."
                   }
                 />
               </p>
-              <SourceLink
-                url="https://www.mbtksa.com/tobacco-6/"
-                locale={locale}
-              />
             </div>
-          ) : (
+          ) : products.some((p) => p.division === d.slug) ? (
             <Catalogue
               products={products}
               brands={brands}
               locale={locale}
               initialDivision={d.slug}
             />
+          ) : (
+            <div className="brand-enquiries">
+              <h2>
+                {ar
+                  ? "شراكات تخدم الرعاية الصحية."
+                  : "Partnerships in healthcare."}
+              </h2>
+              <p>
+                {ar
+                  ? "تواصل مع فريقنا للاستفسار عن أعمال القطاع الدوائي وشراكات التوزيع."
+                  : "Contact our team about our pharmaceutical business and distribution partnerships."}
+              </p>
+              <TextLink href={`/${locale}/contact`}>
+                {ar ? "تواصل معنا" : "Contact us"}
+              </TextLink>
+            </div>
           )}
         </section>
       </>
@@ -419,7 +416,7 @@ export function BusinessPage({
         }
         description={
           ar
-            ? "تحفظ محفظة MBT تنوعًا في قطاعات الأغذية والمشروبات والمنتجات المنزلية والعناية الشخصية والرعاية الصحية."
+            ? "تضم محفظتنا تنوعًا في قطاعات الأغذية والمشروبات والمنتجات المنزلية والعناية الشخصية والرعاية الصحية."
             : "The MBT portfolio spans food, beverages, household products, personal care and healthcare, alongside its other business divisions."
         }
       />
@@ -437,8 +434,8 @@ export function BusinessPage({
             <BidiText
               text={
                 ar
-                  ? "مرئي للخدمات التسويقية، Promo Insight، مدرجة ضمن شركات مجموعة MBT لتقديم الخدمات التسويقية المتكاملة."
-                  : "Promo Insight is listed as part of the MBT group, providing integrated marketing services."
+                  ? "تقدّم مرئي للخدمات التسويقية، Promo Insight، خدمات تسويقية متكاملة ضمن مجموعة MBT."
+                  : "Our group’s Promo Insight business provides integrated marketing services."
               }
             />
           </p>
@@ -480,8 +477,8 @@ export function BrandsPage({
           )}
         </PageIntro>
         <section className="wrap detail-content">
-          <SourceLink url={brand.source} locale={locale} />
-          {brand.division !== "tobacco" ? (
+          {brand.division !== "tobacco" &&
+          products.some((p) => p.brand === brand.slug) ? (
             <Catalogue
               locale={locale}
               brands={brands}
@@ -489,17 +486,23 @@ export function BrandsPage({
               initialBrand={brand.slug}
             />
           ) : (
-            <p>
-              <BidiText
-                text={
-                  ar
-                    ? "سجل العلامة ضمن المعلومات المؤسسية المنشورة للشركة."
-                    : "Brand record in the company’s published corporate information."
-                }
-              />
-            </p>
+            <div className="brand-enquiries">
+              <h2>
+                {ar
+                  ? "لنتحدث عن احتياجات أعمالك."
+                  : "Let’s discuss your business needs."}
+              </h2>
+              <p>
+                {ar
+                  ? "فريقنا جاهز للإجابة عن استفساراتك حول هذه العلامة ومنتجاتها."
+                  : "Our team can help with enquiries about this brand and its products."}
+              </p>
+              <TextLink href={`/${locale}/contact`}>
+                {ar ? "تواصل مع فريقنا" : "Contact our team"}
+              </TextLink>
+            </div>
           )}
-          <TextLink href={`/${locale}/brands`}>
+          <TextLink href={`/${locale}/brands`} direction="back">
             <BidiText text={ar ? "جميع العلامات" : "Back to all brands"} />
           </TextLink>
         </section>
@@ -517,8 +520,8 @@ export function BrandsPage({
         }
         description={
           ar
-            ? "استكشف العلامات والشركاء الواردين في محفظة الشركة المنشورة، عبر مختلف القطاعات."
-            : "Discover brands and partners featured in the company’s published portfolio, across our business divisions."
+            ? "استكشف علاماتنا وشراكاتنا عبر قطاعات الأغذية والمشروبات والمنتجات الاستهلاكية والرعاية الصحية."
+            : "Explore our brands and partnerships across food, beverages, consumer products and healthcare."
         }
       />
       <section className="wrap detail-content">
@@ -568,7 +571,10 @@ export function ProductsPage({
               />
             ) : (
               <EmptyImage
-                label={ar ? "لا توجد صورة في المصدر" : "No image in source"}
+                logo={brand?.image}
+                label={
+                  brand ? pick(brand.name, locale) : pick(company.name, locale)
+                }
               />
             )}
           </div>
@@ -610,46 +616,33 @@ export function ProductsPage({
               </div>
               <div>
                 <dt>
-                  <BidiText
-                    text={ar ? "الفئات الأصلية" : "Source categories"}
-                  />
+                  <BidiText text={ar ? "فئة المنتج" : "Product category"} />
                 </dt>
                 <dd className="category-trail">
-                  {product.categories.map((category, index) => (
-                    <span key={index}>
-                      <bdi dir="auto">{category}</bdi>
-                      {index < product.categories.length - 1 && (
-                        <span aria-hidden="true"> / </span>
-                      )}
-                    </span>
-                  ))}
-                </dd>
-              </div>
-              <div>
-                <dt>
-                  <BidiText text={ar ? "لغة السجل" : "Record language"} />
-                </dt>
-                <dd>
                   <BidiText
-                    text={product.language === "ar" ? "العربية" : "English"}
+                    text={
+                      brand
+                        ? pick(brand.name, locale)
+                        : divisions.find((d) => d.slug === product.division)
+                            ?.name[locale] || (ar ? "منتجاتنا" : "Our products")
+                    }
                   />
                 </dd>
               </div>
             </dl>
-            <SourceLink url={product.source} locale={locale} />
             <p className="small-note">
               <BidiText
                 text={
                   ar
-                    ? "المواصفات كما وردت في سجل المنتج الأصلي؛ التوافر والتعبئة قد يتغيران."
-                    : "Details are reproduced from the original product record; availability and packaging may change."
+                    ? "للاستفسار عن التوافر وأحجام التعبئة، تواصل مع فريق المبيعات."
+                    : "Contact our sales team for availability and pack sizes."
                 }
               />
             </p>
             {product.division !== "tobacco" && (
               <TextLink href={`/${locale}/contact`}>
                 <BidiText
-                  text={ar ? "استفسار عن المحفظة" : "Ask about the portfolio"}
+                  text={ar ? "استفسر عن المنتج" : "Enquire about this product"}
                 />
               </TextLink>
             )}
@@ -666,8 +659,8 @@ export function ProductsPage({
         title={ar ? "استكشف عالم المنتجات." : "A portfolio for everyday life."}
         description={
           ar
-            ? "ابحث في السجلات المنشورة للشركة. يمكنك التصفية حسب القطاع والعلامة ولغة المحتوى الأصلي."
-            : "Explore the company’s published product records. Search by name, browse by division, or filter by brand and original language."
+            ? "اكتشف منتجاتنا وابحث حسب الاسم أو العلامة أو فئة المنتج."
+            : "Discover our products. Search by name, explore our business sectors or browse by brand and category."
         }
       />
       <section className="wrap detail-content">
@@ -686,8 +679,8 @@ export function DistributionPage({ locale }: { locale: Locale }) {
         title={ar ? "معرفة محلية. روابط أبعد." : "Closer to our markets."}
         description={
           ar
-            ? "شبكة الفروع الواردة في دليل الشركة تربط حضور MBT بمدن متعددة في المملكة."
-            : "The company’s published branch directory connects the MBT business to cities across Saudi Arabia."
+            ? "من جدة إلى مدن المملكة، تقرّب شبكتنا المنتجات والعلامات من أسواقها."
+            : "From Jeddah to cities across Saudi Arabia, our network connects brands with their markets."
         }
       />
       <div className="distribution-home">
@@ -697,7 +690,7 @@ export function DistributionPage({ locale }: { locale: Locale }) {
       <section className="wrap editorial-split">
         <h2>
           <BidiText
-            text={ar ? "من التوريد إلى الرف." : "From source to shelf."}
+            text={ar ? "من التوريد إلى الرف." : "From warehouse to shelf."}
           />
         </h2>
         <div>
@@ -714,8 +707,8 @@ export function DistributionPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "يوثق الملف التعريفي للشركة منشآت التخزين والأسطول وفرق العمل. تتوفر النسخ المؤرشفة للاطلاع على السياق التاريخي للعمليات."
-                  : "The company profile documents storage facilities, fleet operations and teams. Archived editions provide historical context for the operation."
+                  ? "تجمع شبكتنا بين المستودعات ومركبات التوزيع وفرق المبيعات، لتخدم قنوات البيع المتنوعة في المملكة."
+                  : "Our warehouses, delivery fleet and sales teams work together to serve retail channels across the Kingdom."
               }
             />
           </p>
@@ -744,14 +737,6 @@ export function DistributionPage({ locale }: { locale: Locale }) {
             </a>
           </div>
         ))}
-        <SourceLink
-          url="https://www.mbtksa.com/about-us-2/our-company/our-branches/"
-          locale={locale}
-        />
-        <SourceLink
-          url="https://www.mbtksa.com/about-us/our-company/our-branches/"
-          locale={locale}
-        />
       </section>
     </>
   );
@@ -766,12 +751,12 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
         title={ar ? "خبرات تكمّل بعضها." : "Connected expertise."}
         description={
           ar
-            ? "شركات وملفات تعريفية منشورة ضمن مجموعة MBT."
-            : "Companies and profiles published within the MBT group’s official website."
+            ? "تتكامل خبرات مجموعتنا في التجارة والتوزيع والخدمات التسويقية والطبية والتقنية."
+            : "Our group brings together experience in trading, distribution, marketing, medical supply and technology."
         }
       />
       <section className="wrap company-features">
-        <article>
+        <article id="mbt">
           <Image
             src="/assets/clean/company/mbt.png"
             width={220}
@@ -794,7 +779,7 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
             </TextLink>
           </div>
         </article>
-        <article>
+        <article id="promo-insight">
           {assets.promo && (
             <Image
               src="/assets/clean/company/promo.webp"
@@ -813,21 +798,17 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "شركة خدمات تسويقية متكاملة مدرجة ضمن مجموعة MBT في جدة، المملكة العربية السعودية."
-                    : "An integrated marketing services company, listed as part of the MBT group in Jeddah, Saudi Arabia."
+                    ? "شركة خدمات تسويقية متكاملة ضمن مجموعة MBT في جدة، المملكة العربية السعودية."
+                    : "Our integrated marketing services company in Jeddah, Saudi Arabia."
                 }
               />
             </p>
-            <TextLink href={`/${locale}/profile/promo-insight`}>
-              <BidiText
-                text={
-                  ar ? "استعرض الملف المؤرشف" : "Explore the archived profile"
-                }
-              />
+            <TextLink href={`/${locale}/contact`}>
+              <BidiText text={ar ? "تواصل مع فريقنا" : "Talk to our team"} />
             </TextLink>
           </div>
         </article>
-        <article>
+        <article id="white-gate">
           {assets.whitegate && (
             <Image
               src="/assets/clean/company/whitegate.webp"
@@ -844,19 +825,17 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "يذكر الملف التعريفي لعام 2017 تأسيس وايت جيت في 2005 لتوزيع الأجهزة الطبية وتجهيزات المستشفيات. يُعرض هذا السجل بوصفه جزءًا من تاريخ المجموعة."
-                    : "The 2017 profile records White Gate’s founding in 2005 for medical device and hospital equipment distribution. Preserved here as part of the group’s history."
+                    ? "تأسست وايت جيت في عام 2005 لتوزيع الأجهزة الطبية وتجهيزات المستشفيات، ضمن مسيرتنا في قطاع الرعاية الصحية."
+                    : "We established White Gate in 2005 for medical device and hospital equipment distribution, extending our experience in healthcare."
                 }
               />
             </p>
-            <TextLink href={`/${locale}/profile/white-gate`}>
-              <BidiText
-                text={ar ? "استعرض الملف المؤرشف" : "View the archived profile"}
-              />
+            <TextLink href={`/${locale}/contact`}>
+              <BidiText text={ar ? "تواصل مع فريقنا" : "Talk to our team"} />
             </TextLink>
           </div>
         </article>
-        <article>
+        <article id="mbtech">
           <Image
             src="/assets/clean/company/mbtech.webp"
             width={220}
@@ -871,15 +850,13 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "وردت ضمن شركات المجموعة في الملف التعريفي لعام 2017، في حلول تقنية المعلومات وتكامل الأنظمة وربط الفروع. هذا سجل تاريخي، وليس بيانًا عن وضعها الحالي."
-                    : "Listed in the 2017 group profile for IT solutions, systems integration and branch connectivity. This is a historical record; its present status is not established by the archive."
+                    ? "امتدت خبرات مجموعتنا إلى حلول تقنية المعلومات وتكامل الأنظمة وربط الفروع من خلال MBTech."
+                    : "Through MBTech, our group developed expertise in IT solutions, systems integration and branch connectivity."
                 }
               />
             </p>
-            <TextLink href={`/${locale}/profile/mbtech`}>
-              <BidiText
-                text={ar ? "السجل التاريخي · 2017" : "Historical record · 2017"}
-              />
+            <TextLink href={`/${locale}/contact`}>
+              <BidiText text={ar ? "تواصل مع فريقنا" : "Talk to our team"} />
             </TextLink>
           </div>
         </article>
@@ -928,7 +905,6 @@ export function NewsPage({
             <time dateTime={article.date} dir={ar ? "rtl" : "ltr"}>
               {dateLabel(article.date, locale)}
             </time>
-            <SourceLink url={article.source} locale={locale} />
           </div>
           <div>
             {article.body[locale] ? (
@@ -937,15 +913,6 @@ export function NewsPage({
               </p>
             ) : article.body.en ? (
               <>
-                <p className="small-note">
-                  <BidiText
-                    text={
-                      ar
-                        ? "النص الأصلي لهذا الخبر متاح باللغة الإنجليزية."
-                        : "Original company report."
-                    }
-                  />
-                </p>
                 <p lang="en" dir="ltr" className="lead">
                   {article.body.en}
                 </p>
@@ -955,8 +922,8 @@ export function NewsPage({
                 <BidiText
                   text={
                     ar
-                      ? "توثق الصور هذا الحدث من أرشيف الشركة."
-                      : "A photographic record of this event from the company archive."
+                      ? "لحظات من مشاركتنا في هذه الفعالية."
+                      : "Highlights from our participation in this event."
                   }
                 />
               </p>
@@ -998,7 +965,7 @@ export function NewsPage({
                 </div>
               </details>
             )}
-            <TextLink href={`/${locale}/news`}>
+            <TextLink href={`/${locale}/news`} direction="back">
               <BidiText
                 text={ar ? "العودة إلى الأخبار" : "Back to news & insights"}
               />
@@ -1015,8 +982,8 @@ export function NewsPage({
         title={ar ? "أخبار العلاقات التي نبنيها." : "Stories of connection."}
         description={
           ar
-            ? "شراكات وفعاليات ومبادرات مجتمعية من أرشيف شركة محمد باوزير للتجارة."
-            : "Partnerships, events and community initiatives from the Mohammed Bawazir Trading Company archive."
+            ? "آخر أخبارنا وشراكاتنا وفعالياتنا ومبادراتنا المجتمعية."
+            : "News from our business, partnerships, events and community initiatives."
         }
       />
       <section className="wrap news-list">
@@ -1028,8 +995,8 @@ export function NewsPage({
 const marketingTypes = [
   {
     slug: "in-store-tobacco-display",
-    en: "Tobacco division archive",
-    ar: "أرشيف قطاع التبغ",
+    en: "Tobacco division",
+    ar: "قطاع التبغ",
     id: 26133,
   },
   {
@@ -1090,7 +1057,7 @@ export function MarketingPage({
 }) {
   const ar = locale === "ar";
   const type = marketingTypes.find((t) => t.slug === slug);
-  const source = type ? archive.find((a) => a.id === type.id) : undefined;
+  const gallery = type ? marketing.find((a) => a.id === type.id) : undefined;
   return (
     <>
       <PageIntro
@@ -1107,25 +1074,59 @@ export function MarketingPage({
         }
         description={
           ar
-            ? "سجل بصري لأنشطة الشركة، من العرض في المتاجر إلى فرق العمل والفعاليات."
-            : "A visual record of the company’s market activity, from in-store displays to teams and events."
+            ? "حضورنا في الأسواق، من عرض المنتجات في المتاجر إلى فرق المبيعات والفعاليات."
+            : "Our work in the market, from in-store displays to sales teams and events."
         }
       />
       <section className="wrap detail-content">
-        {source ? (
+        {slug === "coverage-by-outlets" ? (
           <>
-            <SourceLink locale={locale} url={source.source} />
-            <p className="small-note">
-              <BidiText
-                text={
-                  ar
-                    ? "صور من أرشيف الشركة. تعكس العروض والتواريخ والأرقام الظاهرة فيها وقت نشرها، ولا تمثل بيانًا تشغيليًا حاليًا."
-                    : "From the company archive. Displays, dates and figures shown in these images reflect their original publication and are not current operational statements."
-                }
-              />
-            </p>
-            <div className="marketing-gallery">
-              {source.images
+            <CompanyScale locale={locale} />
+            <Network locale={locale} standalone />
+          </>
+        ) : slug === "sales-work-structure" || slug === "distribution-tools" ? (
+          <>
+            <div className="operations-intro">
+              <h2>
+                {slug === "distribution-tools"
+                  ? ar ? "موارد تدعم حضورنا." : "Resources behind our reach."
+                  : ar ? "فرق قريبة من السوق." : "Teams close to the market."}
+              </h2>
+              <p>
+                {slug === "distribution-tools"
+                  ? ar ? "تدعم مستودعاتنا وأسطول مركباتنا انتقال المنتجات إلى منافذ البيع، بالتنسيق مع فرق المبيعات والتوزيع."
+                    : "Our warehouses and vehicle fleet support product delivery to retail outlets, in coordination with our sales and distribution teams."
+                  : ar ? "تعمل فرقنا مع المتاجر والجملة والصيدليات، وتتابع الطلبات وعرض المنتجات لتقريب علاماتنا من عملائها."
+                    : "Our teams work with stores, wholesalers and pharmacies, supporting orders and product displays to bring our brands closer to customers."}
+              </p>
+              <TextLink href={`/${locale}/distribution`}>
+                {ar
+                  ? "استكشف شبكة التوزيع"
+                  : "Explore our distribution network"}
+              </TextLink>
+            </div>
+            {slug === "distribution-tools" ? (
+              <CompanyScale locale={locale} />
+            ) : (
+              <>
+                <div className="marketing-gallery sales-gallery">
+                  {(marketing.find((a) => a.id === 11450)?.images || []).slice(0, 2).map((src, i) => (
+                    <Photo key={src} src={src} alt={`${ar ? "فريق المبيعات" : "Our sales team"} ${i + 1}`} sizes="50vw" />
+                  ))}
+                </div>
+                <TextLink href={`/${locale}/marketing/sales-man-with-handheld`}>
+                  {ar ? "فرقنا في الميدان" : "Our teams in the field"}
+                </TextLink>
+              </>
+            )}
+            <TextLink href={`/${locale}/marketing`} direction="back">
+              {ar ? "كل الأنشطة" : "All marketing activities"}
+            </TextLink>
+          </>
+        ) : gallery ? (
+          <>
+            <div className={`marketing-gallery${slug === "sales-man-with-handheld" ? " sales-gallery" : ""}`}>
+              {gallery.images
                 .filter(
                   (x) =>
                     !x.includes("/brands/") &&
@@ -1141,14 +1142,14 @@ export function MarketingPage({
                   />
                 ))}
             </div>
-            <TextLink href={`/${locale}/marketing`}>
+            <TextLink href={`/${locale}/marketing`} direction="back">
               <BidiText text={ar ? "كل الأنشطة" : "All marketing activities"} />
             </TextLink>
           </>
         ) : (
           <div className="marketing-index">
             {marketingTypes.map((t) => {
-              const a = archive.find((x) => x.id === t.id);
+              const a = marketing.find((x) => x.id === t.id);
               const image =
                 t.slug === "distribution-tools"
                   ? "/assets/company/headquarters.jpg"
@@ -1218,8 +1219,8 @@ export function CareersPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "استعرض مسار التقديم الرسمي لدى الشركة."
-                  : "Explore the company’s official application channel."
+                  ? "نتطلع للتعرّف على أصحاب الخبرة والطموح."
+                  : "We welcome people with experience, ambition and a commitment to teamwork."
               }
             />
           </p>
@@ -1227,28 +1228,26 @@ export function CareersPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "يربط الموقع الرسمي التوظيف ببوابة الموارد البشرية. للتأكد من الفرص الحالية أو للمساعدة في الوصول إلى البوابة، تواصل مع المقر الرئيسي."
-                  : "The official company website directs applications to its HR portal. For current opportunities or help accessing the portal, contact the head office."
+                  ? "للاستفسار عن الفرص الوظيفية والتقديم، راسل فريقنا مع نبذة عن خبراتك والمجال الذي ترغب في العمل به."
+                  : "For career enquiries, email our team with an introduction to your experience and the area you would like to work in."
               }
             />
           </p>
           <a
             className="button dark"
-            href={company.careers}
+            href={`mailto:${company.email}?subject=Careers%20enquiry`}
             target="_blank"
             rel="noreferrer"
           >
             <BidiText
-              text={ar ? "افتح بوابة التوظيف" : "Open the careers portal"}
+              text={ar ? "راسلنا بشأن الوظائف" : "Email a careers enquiry"}
             />
             <Arrow />
           </a>
           <p className="small-note">
             <BidiText
               text={
-                ar
-                  ? "رابط خارجي إلى بوابة الموارد البشرية الحالية للشركة."
-                  : "External link to the company’s existing HR portal."
+                ar ? "نتطلع لسماعك." : "We look forward to hearing from you."
               }
             />
           </p>
@@ -1360,159 +1359,94 @@ export function ContactPage({ locale }: { locale: Locale }) {
     </>
   );
 }
-export function ProfilePage({
-  locale,
-  edition,
-}: {
-  locale: Locale;
-  edition?: string;
-}) {
+export function ProfilePage({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
-  const key =
-    edition === "promo-insight"
-      ? "promo"
-      : edition === "mbtech"
-        ? "mbtech"
-        : edition === "white-gate"
-          ? "whitegate"
-          : edition === "2018"
-            ? "historic"
-            : "recent";
-  const profile = profiles[key];
   return (
     <>
       <PageIntro
         locale={locale}
-        kicker={ar ? "الملف التعريفي" : "Company profile"}
-        title={
-          key === "promo"
-            ? "Promo Insight"
-            : key === "mbtech"
-              ? "MBTech"
-              : key === "whitegate"
-                ? "White Gate"
-                : ar
-                  ? "حكاية الشركة. في صفحات."
-                  : "The company, in its own words."
-        }
+        kicker={ar ? "عن الشركة" : "About MBT"}
+        title={ar ? "الملف التعريفي للشركة" : "Company Profile"}
         description={
           ar
-            ? "نسخ محفوظة من ملفات الشركة الرسمية. تعرض هذه الوثائق المعلومات كما نُشرت في وقتها؛ قد تختلف بيانات التشغيل بين الإصدارات."
-            : "Preserved editions of the official company profiles. These documents reflect their original publication; operational figures differ between editions."
+            ? "تعرّف على مسيرتنا وعلاماتنا وقطاعات أعمالنا، وعلى شبكة التوزيع التي تربطنا بأسواق المملكة."
+            : "Discover our story, brands and business sectors, and the distribution network connecting us to Saudi markets."
         }
       />
-      <section className="wrap detail-content">
-        <div className="profile-editions">
-          <Link prefetch={false} href={`/${locale}/profile`}>
-            <BidiText text={ar ? "رفع مايو 2026" : "Uploaded May 2026"} />
-          </Link>
-          <Link prefetch={false} href={`/${locale}/profile/2018`}>
-            <BidiText text={ar ? "أرشيف 2018" : "2018 archive"} />
-          </Link>
-          <Link prefetch={false} href={`/${locale}/profile/promo-insight`}>
-            Promo Insight
-          </Link>
-          <Link prefetch={false} href={`/${locale}/profile/white-gate`}>
-            White Gate
-          </Link>
-          <Link prefetch={false} href={`/${locale}/profile/mbtech`}>
-            MBTech · 2017
-          </Link>
-        </div>
-        <p className="small-note">
-          <BidiText text={pick(profile.label, locale)} />
-        </p>
-        <a
-          className="text-link profile-download"
-          href="/assets/history/c6a9377-company-profile-2017.pdf"
-          download
-        >
-          <BidiText
-            text={
-              ar
-                ? "تحميل الملف المؤرشف 2017 (PDF، 23.7 MB)"
-                : "Download the 2017 archive (PDF, 23.7 MB)"
-            }
-          />
-          <Arrow direction="down" />
-        </a>
-        <details className="document-downloads">
-          <summary>
-            <BidiText
-              text={
-                ar
-                  ? "جميع الوثائق المتاحة للتنزيل"
-                  : "All available document downloads"
-              }
-            />
-          </summary>
-          <ul>
-            {[
-              [
-                "3121b64-MBT-Profile-2026-v2.pdf",
-                "Company profile · 2026 · 47 pages",
-                "ملف الشركة · 2026 · 47 صفحة",
-              ],
-              [
-                "6a47f8e-MBT-Profile-2025-v1.pdf",
-                "Company profile · 2025 · 44 pages",
-                "ملف الشركة · 2025 · 44 صفحة",
-              ],
-              [
-                "7d574fb-MBT-Profile-v1-2025.pdf",
-                "Company profile · 2025 · 46 pages",
-                "ملف الشركة · 2025 · 46 صفحة",
-              ],
-              [
-                "2f1d5cf-compnay-profile-2022-FINAL.pdf",
-                "Company profile · 2022 · 47 pages",
-                "ملف الشركة · 2022 · 47 صفحة",
-              ],
-              [
-                "019232c-200.pdf",
-                "Product catalogue · 2018 · 8 pages",
-                "كتالوج المنتجات · 2018 · 8 صفحات",
-              ],
-              [
-                "99ad21f-Al-Tijara-Magazine.pdf",
-                "Al-Tijara magazine archive · 3 pages",
-                "أرشيف مجلة التجارة · 3 صفحات",
-              ],
-            ].map(([file, en, arabic]) => (
-              <li key={file}>
-                <a href={`/assets/history/${file}`} download>
-                  <BidiText text={ar ? arabic : en} />
-                  <span className="download-format">
-                    <bdi dir="ltr">PDF</bdi>
-                    <Arrow direction="down" />
-                  </span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </details>
-        {profile.images.length ? (
-          <ProfileViewer
-            key={key}
-            images={profile.images}
-            locale={locale}
-            label={pick(profile.label, locale)}
-          />
-        ) : (
-          <div className="empty-results">
-            <p>
+      <section className="corporate-document wrap">
+        <div className="document-overview">
+          <div>
+            <BrandLogo tone="dark" />
+            <p className="document-year">
               <BidiText
-                text={
-                  ar
-                    ? "الملف مدرج في الموقع الأصلي، لكن صفحاته غير متاحة للاستخراج."
-                    : "The profile is listed on the original website, but its pages are not available for extraction."
-                }
+                text={ar ? "ملف الشركة · 2026" : "Company profile · 2026"}
               />
             </p>
-            <SourceLink url={profile.source} locale={locale} />
+            <h2>
+              {ar
+                ? "أعمالنا. علاقاتنا. حضورنا."
+                : "Our business. Our partnerships. Our reach."}
+            </h2>
+            <p>
+              {ar
+                ? "نظرة شاملة على شركة محمد باوزير للتجارة، منذ انطلاقتنا في جدة وحتى حضورنا عبر قطاعات وأسواق متعددة."
+                : "An introduction to Mohammed Bawazir Trading Company, from our beginnings in Jeddah to our presence across sectors and markets."}
+            </p>
+            <a
+              className="button document-download"
+              href={profile2026.local}
+              download="MBT-Company-Profile-2026.pdf"
+            >
+              <span>
+                {ar ? "تحميل الملف التعريفي" : "Download company profile"}
+              </span>
+              <Arrow direction="down" />
+            </a>
+            <p className="document-format">
+              <bdi dir="ltr">PDF · {profile2026.sizeMB} MB</bdi>
+              <span>
+                <BidiText text={ar ? "47 صفحة" : "47 pages"} />
+              </span>
+            </p>
           </div>
-        )}
-        <SourceLink url={profile.source} locale={locale} />
+          <a
+            className="document-cover"
+            href="#profile-reader"
+            aria-label={
+              ar ? "تصفّح الملف التعريفي" : "Read the company profile"
+            }
+          >
+            <Image
+              src={profile2026.images[0]}
+              alt={
+                ar
+                  ? "غلاف الملف التعريفي لشركة محمد باوزير للتجارة 2026"
+                  : "Mohammed Bawazir Trading Company profile 2026 cover"
+              }
+              width={1700}
+              height={957}
+              sizes="50vw"
+              priority
+            />
+            <span>
+              {ar ? "تصفّح الملف" : "Read the profile"}
+              <Arrow />
+            </span>
+          </a>
+        </div>
+        <div id="profile-reader" className="document-reader">
+          <div className="section-heading">
+            <h2>{ar ? "اكتشف الشركة في صفحات." : "Explore the company."}</h2>
+            <TextLink href={`/${locale}/contact`}>
+              {ar ? "تواصل مع فريقنا" : "Speak to our team"}
+            </TextLink>
+          </div>
+          <ProfileViewer
+            images={profile2026.images}
+            locale={locale}
+            label={ar ? "الملف التعريفي للشركة 2026" : "Company Profile 2026"}
+          />
+        </div>
       </section>
     </>
   );
@@ -1524,7 +1458,7 @@ export function PrivacyPage({ locale }: { locale: Locale }) {
       <PageIntro
         locale={locale}
         kicker={ar ? "الخصوصية" : "Privacy"}
-        title={ar ? "خصوصيتك في هذه النسخة." : "Privacy on this website."}
+        title={ar ? "خصوصيتك تهمنا." : "Privacy on this website."}
       />
       <section className="wrap prose privacy-copy">
         <h2>
@@ -1546,8 +1480,8 @@ export function PrivacyPage({ locale }: { locale: Locale }) {
           <BidiText
             text={
               ar
-                ? "قد تنقلك روابط الخرائط وبوابة الموارد البشرية والمصادر إلى مواقع خارجية لها سياساتها الخاصة. هذه النسخة لا تستخدم أدوات تحليل أو ملفات تتبع إعلانية."
-                : "Map links, the HR portal and source references lead to external websites with their own privacy practices. This implementation does not include analytics or advertising trackers."
+                ? "تخضع خدمات الخرائط الخارجية لسياسات الخصوصية الخاصة بها. لا نستخدم ملفات تتبع إعلانية على هذا الموقع."
+                : "External map services have their own privacy policies. We do not use advertising trackers on this website."
             }
           />
         </p>

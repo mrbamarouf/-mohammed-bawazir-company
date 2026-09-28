@@ -1,3 +1,4 @@
+import { siteUrl } from "@/lib/site-url";
 import type { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -8,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         : { disallow: "/" }),
     },
     ...(process.env.NEXT_PUBLIC_SITE_URL
-      ? { sitemap: process.env.NEXT_PUBLIC_SITE_URL + "/sitemap.xml" }
+      ? { sitemap: siteUrl + "/sitemap.xml" }
       : {}),
   };
 }

@@ -26,7 +26,6 @@ export function Catalogue({
   const [division, setDivision] = useState(initialDivision);
   const [brand, setBrand] = useState(initialBrand);
   const [category, setCategory] = useState("");
-  const [language, setLanguage] = useState<Locale | "all">(locale);
   const [limit, setLimit] = useState(24);
   const normalize = (s: string) =>
     s
@@ -36,24 +35,35 @@ export function Catalogue({
       .toLowerCase();
   const filtered = useMemo(
     () =>
-      products.filter(
-        (p) =>
-          (!division || p.division === division) &&
-          (!brand || p.brand === brand) &&
-          (!category || p.categoryIds.includes(Number(category))) &&
-          (language === "all" || p.language === language) &&
-          normalize(
-            `${p.name} ${p.categories.join(" ")} ${p.brand} ${p.description}`,
-          ).includes(normalize(query)),
-      ),
-    [products, division, brand, category, language, query],
+      products
+        .filter(
+          (p, index, list) =>
+            !p.image ||
+            list.findIndex(
+              (other) =>
+                other.image === p.image &&
+                other.name === p.name &&
+                other.description === p.description &&
+                other.brand === p.brand &&
+                other.language === p.language,
+            ) === index,
+        )
+        .filter(
+          (p) =>
+            (!division || p.division === division) &&
+            (!brand || p.brand === brand) &&
+            (!category || p.categoryIds.includes(Number(category))) &&
+            normalize(
+              `${p.name} ${p.categories.join(" ")} ${p.brand} ${p.description}`,
+            ).includes(normalize(query)),
+        ),
+    [products, division, brand, category, query],
   );
   function reset() {
     setQuery("");
     setCategory("");
     setDivision(initialDivision);
     setBrand(initialBrand);
-    setLanguage("all");
     setLimit(24);
   }
   const categoryLabel = (id: number): string => {
@@ -62,7 +72,13 @@ export function Catalogue({
     let current = categories.find((c) => c.id === id);
     while (current && !seen.has(current.id)) {
       seen.add(current.id);
-      chain.unshift(current.name.replace(/-ar$/, ""));
+      chain.unshift(
+        current.name === "Uncategorized"
+          ? ar
+            ? "منتجات أخرى"
+            : "Other products"
+          : current.name.replace(/\s*-\s*ar$/i, ""),
+      );
       current = categories.find((c) => c.id === current?.parent);
     }
     return chain.join(" / ");
@@ -131,7 +147,6 @@ export function Catalogue({
                 products.some(
                   (p) =>
                     p.categoryIds.includes(c.id) &&
-                    (language === "all" || p.language === language) &&
                     (!division || p.division === division) &&
                     (!brand || p.brand === brand),
                 ),
@@ -141,23 +156,6 @@ export function Catalogue({
                   {categoryLabel(c.id)}
                 </option>
               ))}
-          </select>
-        </label>
-        <label>
-          <span>{ar ? "لغة السجل" : "Record language"}</span>
-          <select
-            value={language}
-            onChange={(e) => {
-              setLanguage(e.target.value as Locale | "all");
-              setCategory("");
-              setLimit(24);
-            }}
-          >
-            <option value="en">English</option>
-            <option value="ar">العربية</option>
-            <option value="all">
-              {ar ? "جميع السجلات" : "All source records"}
-            </option>
           </select>
         </label>
       </div>
@@ -185,8 +183,7 @@ export function Catalogue({
       </div>
       <div className="results-meta">
         <span role="status">
-          <bdi dir="ltr">{filtered.length}</bdi>{" "}
-          {ar ? "سجل منتج" : "product records"}
+          <bdi dir="ltr">{filtered.length}</bdi> {ar ? "منتج" : "products"}
         </span>
         <button onClick={reset}>
           {ar ? "إعادة ضبط الفلاتر" : "Reset filters"} ↺
@@ -220,7 +217,13 @@ export function Catalogue({
                   />
                 ) : (
                   <EmptyImage
-                    label={ar ? "صورة غير متاحة" : "Image unavailable"}
+                    logo={brands.find((b) => b.slug === p.brand)?.image}
+                    label={
+                      brands.find((b) => b.slug === p.brand)?.name[locale] ||
+                      (ar
+                        ? "شركة محمد باوزير للتجارة"
+                        : "Mohammed Bawazir Trading Company")
+                    }
                   />
                 )}
                 <span className="product-open">
@@ -248,7 +251,7 @@ export function Catalogue({
               : "Try another search or broaden your filters."}
           </p>
           <button className="button dark" onClick={reset}>
-            {ar ? "عرض جميع السجلات" : "View all records"}
+            {ar ? "عرض المنتجات" : "View products"}
           </button>
         </div>
       )}
