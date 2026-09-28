@@ -1,0 +1,34 @@
+
+> mbt-corporate@1.0.0 build
+> next build
+
+▲ Next.js 16.3.6 (Turbopack)
+✓ Running next.config.ts took 14ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 296ms
+  Running TypeScript ...
+  Finished TypeScript in 1069ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/993) ...
+  Generating static pages using 7 workers (248/993) 
+  Generating static pages using 7 workers (496/993) 
+  Generating static pages using 7 workers (744/993) 
+✓ Generating static pages using 7 workers (993/993) in 2.3s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├   /[locale]/[[...slug]]
+│ ├ ● /en
+│ ├ ● /en/about
+│ ├ ● /en/business
+│ └ ● [+985 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
