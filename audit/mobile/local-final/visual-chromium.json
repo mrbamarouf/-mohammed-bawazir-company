@@ -1,0 +1,187 @@
+{
+  "base": "http://localhost:3003",
+  "engine": "chromium",
+  "report": [
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 10637,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 11030,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 320,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 4658,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 5862,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 6332,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 390,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 3320,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 5767,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 6237,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "ar",
+      "width": 430,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 3272,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 10545,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 10948,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 320,
+      "height": 4523,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 5869,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 6271,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 390,
+      "height": 3351,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "products",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 5758,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "business/food",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 6160,
+      "broken": [],
+      "h1": 1
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "route": "business/beverages",
+      "status": 200,
+      "scrollWidth": 430,
+      "height": 3303,
+      "broken": [],
+      "h1": 1
+    }
+  ],
+  "errors": []
+}

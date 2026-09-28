@@ -36,6 +36,7 @@ export function BrandMarquee({
   return (
     <section
       ref={sectionRef}
+      data-context="brands"
       className={`brand-world chapter-brands ${paused ? "is-paused" : ""}`}
       aria-label={ar ? "علامات MBT" : "MBT brand portfolio"}
     >

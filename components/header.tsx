@@ -6,12 +6,13 @@ import { usePathname } from "next/navigation";
 import { useRef } from "react";
 import { navigation, extraNavigation, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
+import { LanguageSwitch } from "./language-switch";
+import { BrandLogo } from "./brand-logo";
 import { Arrow } from "./ui";
 export function Header({ locale }: { locale: Locale }) {
   const path = usePathname();
   const dialog = useRef<HTMLDialogElement>(null);
   const ar = locale === "ar";
-  const other = ar ? "en" : "ar";
   const close = () => dialog.current?.close();
   return (
     <>
@@ -46,15 +47,10 @@ export function Header({ locale }: { locale: Locale }) {
           ))}
         </nav>
         <div className="header-actions">
-          <Link
-            prefetch={false}
-            className="language"
-            href={path.replace(/^\/(en|ar)(?=\/|$)/, `/${other}`)}
-            lang={other}
-            aria-label={ar ? "Switch to English" : "التحويل إلى العربية"}
-          >
-            <BidiText text={ar ? "EN" : "العربية"} />
-          </Link>
+          <LanguageSwitch locale={locale} className="language">
+            <span className="desktop-language">{ar ? "EN" : "العربية"}</span>
+            <span className="mobile-language" dir="ltr">{ar ? "EN" : "AR"}</span>
+          </LanguageSwitch>
           <Link
             prefetch={false}
             className="header-contact"
@@ -76,14 +72,14 @@ export function Header({ locale }: { locale: Locale }) {
       <dialog
         ref={dialog}
         className="nav-dialog"
+        aria-label={ar ? "قائمة الموقع" : "Site menu"}
         onClick={(e) => {
           if (e.target === dialog.current) close();
         }}
       >
         <div className="dialog-top">
-          <span>
-            <BidiText text={ar ? "اكتشف MBT" : "Explore MBT"} />
-          </span>
+          <span className="desktop-menu-title"><BidiText text={ar ? "اكتشف MBT" : "Explore MBT"} /></span>
+          <BrandLogo tone="dark" className="mobile-menu-logo" />
           <button
             onClick={close}
             aria-label={ar ? "إغلاق القائمة" : "Close menu"}
@@ -93,6 +89,7 @@ export function Header({ locale }: { locale: Locale }) {
           </button>
         </div>
         <nav aria-label={ar ? "كل الأقسام" : "All sections"}>
+          <Link prefetch={false} href={`/${locale}`} onClick={close} className="mobile-menu-home">{ar ? "الرئيسية" : "Home"}<Arrow /></Link>
           {[...navigation, ...extraNavigation].map((n) => (
             <Link
               prefetch={false}
@@ -105,6 +102,7 @@ export function Header({ locale }: { locale: Locale }) {
             </Link>
           ))}
         </nav>
+        <div className="mobile-menu-bottom"><LanguageSwitch locale={locale} onSwitch={close}>{ar ? "English" : "العربية"}</LanguageSwitch><a href={`tel:${company.telephone}`} dir="ltr">{company.phone}</a></div>
         <a href={`mailto:${company.email}`} className="dialog-email" dir="ltr">
           {company.email}
         </a>

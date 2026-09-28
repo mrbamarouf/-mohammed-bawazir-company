@@ -1,3 +1,4 @@
+import { MobileNetwork } from "./mobile-network";
 import { BidiText } from "./bidi-text";
 import { AuthorityHero } from "./authority-hero";
 import { CompanyScale } from "./company-scale";
@@ -18,10 +19,10 @@ export function Home({ locale }: { locale: Locale }) {
   const featuredIds = new Set(Object.values(homeProductSelections).flat());
   const featured = products.filter((p) => featuredIds.has(p.id));
   return (
-    <>
+    <div className="home-composition">
       <AuthorityHero locale={locale} />
       <CompanyScale locale={locale} />
-      <section className="sectors-home chapter-sectors">
+      <section className="sectors-home chapter-sectors" data-context="sectors">
         <div className="wrap">
           <div className="section-heading">
             <div>
@@ -62,13 +63,14 @@ export function Home({ locale }: { locale: Locale }) {
       </section>
       <BrandMarquee locale={locale} brands={brands} />
       <section className="distribution-home">
+        <MobileNetwork locale={locale} />
         <Network locale={locale} />
         <ValueChain locale={locale} />
       </section>
       <ProductUniverse locale={locale} items={featured} />
       <HistoryBlock locale={locale} />
       <CompanyEcosystem locale={locale} />
-      <section className="news-home chapter-news">
+      <section className="news-home chapter-news" data-context="news">
         <div className="wrap">
           <div className="section-heading">
             <div>
@@ -95,7 +97,7 @@ export function Home({ locale }: { locale: Locale }) {
                 key={a.id}
                 className="news-item"
               >
-                <Photo src={a.image} alt={pick(a.title, locale)} sizes="30vw" />
+                <Photo src={a.image} alt={pick(a.title, locale)} sizes="(max-width: 767px) 100vw, 30vw" />
                 <div className="article-date">
                   <time dateTime={a.date} dir={ar ? "rtl" : "ltr"}>
                     {dateLabel(a.date, locale)}
@@ -126,6 +128,6 @@ export function Home({ locale }: { locale: Locale }) {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

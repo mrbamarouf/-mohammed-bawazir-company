@@ -1,6 +1,6 @@
 "use client";
 import { BidiText } from "./bidi-text";
-import { useState } from "react";
+import { useQueryFilters } from "./use-query-filters";
 import Link from "next/link";
 import Image from "next/image";
 import type { Locale, Product } from "@/lib/types";
@@ -52,12 +52,15 @@ export function ProductUniverse({
     { id: "beverages", en: "Beverages", ar: "المشروبات" },
     { id: "household", en: "Household & care", ar: "المنزل والعناية" },
   ];
-  const [active, setActive] = useState("food");
+  const filters = useQueryFilters({ family: "food" });
+  const requested = filters.get("family");
+  const active = homeProductSelections[requested] ? requested : "food";
+  const setActive = (family: string) => filters.update({ family });
   const display = homeProductSelections[active]
     .map((id) => items.find((p) => p.id === id))
     .filter((p): p is Product => !!p);
   return (
-    <section className="product-universe" data-family={active}>
+    <section className="product-universe" data-family={active} data-context="featured-products">
       <div className="wrap">
         <div className="section-heading">
           <div>

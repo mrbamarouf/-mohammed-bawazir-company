@@ -6,7 +6,7 @@ import { Arrow } from "./ui";
 export function CompanyScale({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
-    <section className="company-scale">
+    <section className="company-scale" id="company-scale" data-context="scale">
       <div className="wrap">
         <div className="scale-heading">
           <h2>

@@ -59,7 +59,7 @@ export function ValueChain({ locale }: { locale: Locale }) {
   ];
   return (
     <section
-      className="value-chain value-chain-expanded wrap"
+      className="value-chain value-chain-expanded wrap" data-context="value-chain"
       aria-labelledby="chain-heading"
     >
       <div className="chain-heading">

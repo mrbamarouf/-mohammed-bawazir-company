@@ -64,7 +64,7 @@ export function SectorPanels({
                         ? "عرض العلامات الغذائية داخل أحد المتاجر"
                         : "Our food brands on display in store"
                     }
-                    sizes="40vw"
+                    sizes="(max-width: 767px) 100vw, 40vw"
                   />
                 ) : d.slug === "personal-care" ? (
                   <Photo
@@ -74,7 +74,7 @@ export function SectorPanels({
                         ? "عرض منتجات العناية الشخصية في السوق"
                         : "Personal care products in a retail store"
                     }
-                    sizes="30vw"
+                    sizes="(max-width: 767px) 100vw, 30vw"
                   />
                 ) : d.slug === "pharma" ? (
                   <div className="pharma-evidence">
@@ -98,7 +98,7 @@ export function SectorPanels({
                         ? "عرض منتجاتنا في المتاجر"
                         : "Our products on display in store"
                     }
-                    sizes="35vw"
+                    sizes="(max-width: 767px) 100vw, 35vw"
                   />
                 ) : (
                   <div className="sector-packs">

@@ -1,3 +1,4 @@
+import { LanguageSwitch } from "./language-switch";
 import { BidiText } from "./bidi-text";
 import Link from "next/link";
 import Image from "next/image";
@@ -9,7 +10,7 @@ export function Footer({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
     <>
-      <section className="closing">
+      <section className="closing" data-context="contact-closing">
         <div className="wrap closing-inner">
           <div>
             <span className="eyebrow">
@@ -53,9 +54,14 @@ export function Footer({ locale }: { locale: Locale }) {
               />
             </TextLink>
           </div>
+          <div className="mobile-contact-actions">
+            <a href={`tel:${company.telephone}`}>{ar ? "اتصل بنا" : "Call us"}<bdi dir="ltr">{company.phone}</bdi></a>
+            <a href={`mailto:${company.email}`}>{ar ? "البريد الإلكتروني" : "Email our team"}<bdi dir="ltr">{company.email}</bdi></a>
+            <Link prefetch={false} href={`/${locale}/distribution`}>{ar ? "مواقعنا في المملكة" : "Our Saudi locations"}<Arrow /></Link>
+          </div>
         </div>
       </section>
-      <footer className="footer wrap">
+      <footer className="footer wrap" data-context="footer">
         <div className="footer-top">
           <div className="footer-brand">
             <Image
@@ -131,13 +137,7 @@ export function Footer({ locale }: { locale: Locale }) {
             <Link prefetch={false} href={`/${locale}/privacy`}>
               <BidiText text={ar ? "الخصوصية" : "Privacy"} />
             </Link>
-            <Link
-              prefetch={false}
-              href={`/${ar ? "en" : "ar"}`}
-              lang={ar ? "en" : "ar"}
-            >
-              <BidiText text={ar ? "English" : "العربية"} />
-            </Link>
+            <LanguageSwitch locale={locale} label={ar ? "English" : "العربية"}>{ar ? "English" : "العربية"}</LanguageSwitch>
             <a href="#top">
               <BidiText text={ar ? "إلى الأعلى" : "Back to top"} />
               <Arrow direction="up" />

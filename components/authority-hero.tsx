@@ -1,3 +1,4 @@
+import { MobileHeroLedger } from "./mobile-hero";
 import Image from "next/image";
 import type { Locale } from "@/lib/types";
 import { BrandLogo } from "./brand-logo";
@@ -10,6 +11,7 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
     <section
       className="flagship-hero authority-hero"
       aria-labelledby="hero-heading"
+      data-context="hero"
     >
       <div className="authority-photo">
         <Image
@@ -21,9 +23,10 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
           }
           fill
           preload
-          sizes="75vw"
+          sizes="(max-width: 767px) 100vw, 75vw"
         />
       </div>
+      <MobileHeroLedger locale={locale} />
       <div className="authority-shade" />
       <div className="wrap authority-content">
         <BrandLogo tone="dark" className="authority-identity" />

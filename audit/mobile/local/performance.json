@@ -1,0 +1,54 @@
+{
+  "base": "http://localhost:3003",
+  "conditions": "Chromium mobile 390x844 DPR2, 4x CPU slowdown, 1.6 Mbps down, 750 Kbps up, 150ms latency; synthetic lab sample, not field data",
+  "report": [
+    {
+      "locale": "ar",
+      "route": "home",
+      "status": 200,
+      "lcp": 1064,
+      "cls": 0.003985353115376553,
+      "requests": 59,
+      "transferBytes": 1388127,
+      "imageRequests": 38,
+      "renderedProducts": 0,
+      "preloadImages": 2
+    },
+    {
+      "locale": "ar",
+      "route": "products",
+      "status": 200,
+      "lcp": 704,
+      "cls": 0.0717298407444499,
+      "requests": 28,
+      "transferBytes": 546345,
+      "imageRequests": 10,
+      "renderedProducts": 24,
+      "preloadImages": 1
+    },
+    {
+      "locale": "en",
+      "route": "home",
+      "status": 200,
+      "lcp": 1056,
+      "cls": 0,
+      "requests": 57,
+      "transferBytes": 1106963,
+      "imageRequests": 37,
+      "renderedProducts": 0,
+      "preloadImages": 2
+    },
+    {
+      "locale": "en",
+      "route": "products",
+      "status": 200,
+      "lcp": 668,
+      "cls": 0.002703120167578653,
+      "requests": 28,
+      "transferBytes": 389693,
+      "imageRequests": 10,
+      "renderedProducts": 24,
+      "preloadImages": 1
+    }
+  ]
+}

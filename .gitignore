@@ -57,3 +57,12 @@ audit/screenshots/refinement/section-value-chain-expanded-*.jpg
 # Large rendered review evidence stays local; JSON check results are retained.
 audit/production/*/screenshots/
 audit/production/deployed/
+
+# Reproducible mobile/desktop visual evidence remains available locally.
+audit/mobile/**/screenshots/
+audit/mobile/*.log
+audit/mobile/**/*.log
+audit/mobile/exploration*/
+audit/mobile/interaction-dev.json
+audit/mobile/first-ar.png
+audit/mobile/deployed*/

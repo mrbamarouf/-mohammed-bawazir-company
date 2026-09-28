@@ -1,0 +1,480 @@
+{
+  "baselineCommit": "fa55c3645cf758f7a1927993cae10871f0ce5ca8",
+  "method": "Byte comparison of deterministic full-page and section JPEG captures with animations disabled",
+  "total": 118,
+  "identical": 118,
+  "report": [
+    {
+      "file": "about-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "about-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "brands-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "business-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "careers-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "companies-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "contact-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "distribution-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "home-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "marketing-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "news-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "products-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-ar-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-ar-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-ar-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-ar-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-en-1366.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-en-1440.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-en-1728.jpg",
+      "identical": true
+    },
+    {
+      "file": "profile-en-1920.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-authority-hero-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-authority-hero-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-brand-world-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-brand-world-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-closing-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-closing-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-company-scale-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-company-scale-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-distribution-home-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-distribution-home-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-ecosystem-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-ecosystem-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-history-feature-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-history-feature-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-news-home-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-news-home-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-product-universe-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-product-universe-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-sectors-home-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-sectors-home-en.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-value-chain-ar.jpg",
+      "identical": true
+    },
+    {
+      "file": "section-value-chain-en.jpg",
+      "identical": true
+    }
+  ]
+}

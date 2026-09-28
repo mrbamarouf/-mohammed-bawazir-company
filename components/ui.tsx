@@ -98,7 +98,7 @@ export function PageIntro({
   children?: React.ReactNode;
 }) {
   return (
-    <section className="page-intro wrap">
+    <section className="page-intro wrap" data-context="page-intro">
       <div className="breadcrumb">
         <Link prefetch={false} href={`/${locale}`}>
           {locale === "ar" ? "الرئيسية" : "Home"}

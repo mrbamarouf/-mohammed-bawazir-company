@@ -1,20 +1,25 @@
 "use client";
-import { useState } from "react";
+import { useQueryFilters } from "./use-query-filters";
 import Link from "next/link";
 import type { Article, Locale } from "@/lib/types";
-import { dateLabel } from "@/lib/format";
 import { Photo, Arrow } from "./ui";
 import { BidiText } from "./bidi-text";
 export function NewsDirectory({
   articles,
   locale,
+  dates,
 }: {
   articles: Article[];
   locale: Locale;
+  dates: Record<string, string>;
 }) {
   const ar = locale === "ar";
-  const [year, setYear] = useState("");
-  const [query, setQuery] = useState("");
+
+  const filters = useQueryFilters();
+  const query = filters.get("q");
+  const setQuery = (q: string) => filters.update({ q });
+  const year = filters.get("year");
+  const setYear = (year: string) => filters.update({ year });
   const years = [...new Set(articles.map((a) => a.date.slice(0, 4)))]
     .sort()
     .reverse();
@@ -51,7 +56,7 @@ export function NewsDirectory({
           {ar ? "خبر وفعالية" : "news & events"}
         </span>
       </div>
-      <div className="news-grid">
+      <div className="news-grid" data-context="news">
         {found.map((a) => (
           <Link
             prefetch={false}
@@ -59,10 +64,10 @@ export function NewsDirectory({
             href={`/${locale}/news/${a.slug}`}
             className="news-item"
           >
-            <Photo src={a.image} alt={a.title[locale]} sizes="30vw" />
+            <Photo src={a.image} alt={a.title[locale]} sizes="(max-width: 767px) 100vw, 30vw" />
             <div className="article-date">
               <time dateTime={a.date} dir={ar ? "rtl" : "ltr"}>
-                {dateLabel(a.date, locale)}
+                {dates[a.id]}
               </time>
               <Arrow />
             </div>

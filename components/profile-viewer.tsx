@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useQueryFilters } from "./use-query-filters";
 import type { Locale } from "@/lib/types";
 import { Arrow } from "./ui";
 export function ProfileViewer({
@@ -12,11 +12,13 @@ export function ProfileViewer({
   locale: Locale;
   label: string;
 }) {
-  const [page, setPage] = useState(0);
+  const filters = useQueryFilters({ page: "1" });
+  const page = Math.max(0, Math.min(images.length - 1, (Number(filters.get("page")) || 1) - 1));
+  const setPage = (page: number) => filters.update({ page: String(page + 1) });
   const ar = locale === "ar";
   if (!images.length) return null;
   return (
-    <div className="profile-viewer">
+    <div className="profile-viewer" data-context="profile-reader">
       <div className="profile-image">
         <Image
           src={images[page]}
@@ -27,7 +29,7 @@ export function ProfileViewer({
       </div>
       <div className="profile-controls">
         <button
-          onClick={() => setPage((n) => Math.max(0, n - 1))}
+          onClick={() => setPage(Math.max(0, page - 1))}
           disabled={page === 0}
         >
           <Arrow direction="back" />
@@ -48,7 +50,7 @@ export function ProfileViewer({
           </select>
         </label>
         <button
-          onClick={() => setPage((n) => Math.min(images.length - 1, n + 1))}
+          onClick={() => setPage(Math.min(images.length - 1, page + 1))}
           disabled={page === images.length - 1}
         >
           {ar ? "التالي" : "Next"}

@@ -21,6 +21,7 @@ import {
 } from "@/lib/data";
 import { profile2026 } from "@/lib/company-facts";
 import { PageIntro, Photo, TextLink, Arrow, EmptyImage } from "./ui";
+import { MobileNetwork } from "./mobile-network";
 import { Network } from "./network";
 import { Catalogue } from "./catalogue";
 import { Enquiry } from "./enquiry";
@@ -53,7 +54,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
               : "MBT headquarters in Jeddah"
           }
           priority
-          sizes="55vw"
+          sizes="(max-width: 767px) 100vw, 55vw"
         />
         <div className="about-overview-copy">
           <strong>1987</strong>
@@ -184,7 +185,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
                   ? "زيارة الوفد التجاري الإندونيسي إلى MBT"
                   : "Indonesian trade delegation visiting MBT"
               }
-              sizes="45vw"
+              sizes="(max-width: 767px) 100vw, 45vw"
             />
             <div className="timeline">
               {[
@@ -255,7 +256,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
             },
           ].map((p) => (
             <figure key={p.name}>
-              <Photo src={p.image} alt={p.name} sizes="25vw" />
+              <Photo src={p.image} alt={p.name} sizes="(max-width: 767px) 100vw, 25vw" />
               <figcaption>{p.name}</figcaption>
             </figure>
           ))}
@@ -541,7 +542,7 @@ export function ProductsPage({
   if (product) {
     const brand = brands.find((b) => b.slug === product.brand);
     return (
-      <section className="wrap product-detail">
+      <section className="wrap product-detail" data-context="product-detail">
         <div className="breadcrumb">
           <Link prefetch={false} href={`/${locale}/products`}>
             <BidiText text={ar ? "دليل المنتجات" : "Product catalogue"} />
@@ -566,7 +567,7 @@ export function ProductsPage({
                 src={product.image}
                 alt={product.name}
                 fill
-                sizes="50vw"
+                sizes="(max-width: 767px) 100vw, 50vw"
                 preload
               />
             ) : (
@@ -684,7 +685,8 @@ export function DistributionPage({ locale }: { locale: Locale }) {
         }
       />
       <div className="distribution-home">
-        <Network locale={locale} standalone />
+        <MobileNetwork locale={locale} />
+            <Network locale={locale} standalone />
         <ValueChain locale={locale} />
       </div>
       <section className="wrap editorial-split">
@@ -937,7 +939,7 @@ export function NewsPage({
                     key={src}
                     src={src}
                     alt={`${pick(article.title, locale)} ${i + 1}`}
-                    sizes="50vw"
+                    sizes="(max-width: 767px) 100vw, 50vw"
                   />
                 ))}
             </div>
@@ -959,7 +961,7 @@ export function NewsPage({
                         key={src}
                         src={src}
                         alt={`${pick(article.title, locale)} ${i + 13}`}
-                        sizes="50vw"
+                        sizes="(max-width: 767px) 100vw, 50vw"
                       />
                     ))}
                 </div>
@@ -987,7 +989,7 @@ export function NewsPage({
         }
       />
       <section className="wrap news-list">
-        <NewsDirectory locale={locale} articles={articles} />
+        <NewsDirectory locale={locale} articles={articles} dates={Object.fromEntries(articles.map(article => [article.id, dateLabel(article.date, locale)]))} />
       </section>
     </>
   );
@@ -1082,6 +1084,7 @@ export function MarketingPage({
         {slug === "coverage-by-outlets" ? (
           <>
             <CompanyScale locale={locale} />
+            <MobileNetwork locale={locale} />
             <Network locale={locale} standalone />
           </>
         ) : slug === "sales-work-structure" || slug === "distribution-tools" ? (
@@ -1111,7 +1114,7 @@ export function MarketingPage({
               <>
                 <div className="marketing-gallery sales-gallery">
                   {(marketing.find((a) => a.id === 11450)?.images || []).slice(0, 2).map((src, i) => (
-                    <Photo key={src} src={src} alt={`${ar ? "فريق المبيعات" : "Our sales team"} ${i + 1}`} sizes="50vw" />
+                    <Photo key={src} src={src} alt={`${ar ? "فريق المبيعات" : "Our sales team"} ${i + 1}`} sizes="(max-width: 767px) 100vw, 50vw" />
                   ))}
                 </div>
                 <TextLink href={`/${locale}/marketing/sales-man-with-handheld`}>
@@ -1138,7 +1141,7 @@ export function MarketingPage({
                     key={src}
                     src={src}
                     alt={`${ar ? type!.ar : type!.en} ${i + 1}`}
-                    sizes="50vw"
+                    sizes="(max-width: 767px) 100vw, 50vw"
                   />
                 ))}
             </div>
@@ -1163,7 +1166,7 @@ export function MarketingPage({
                   key={t.slug}
                 >
                   {image ? (
-                    <Photo src={image} alt={ar ? t.ar : t.en} sizes="50vw" />
+                    <Photo src={image} alt={ar ? t.ar : t.en} sizes="(max-width: 767px) 100vw, 50vw" />
                   ) : (
                     <div className="marketing-typographic">
                       <BrandLogo tone="dark" />
@@ -1209,7 +1212,7 @@ export function CareersPage({ locale }: { locale: Locale }) {
               ? "فريق MBT يستقبل وفدًا تجاريًا"
               : "MBT welcomes a trade delegation"
           }
-          sizes="50vw"
+          sizes="(max-width: 767px) 100vw, 50vw"
         />
         <div>
           <h2>
@@ -1344,7 +1347,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
         <Photo
           src="/assets/company/headquarters.jpg"
           alt={ar ? "المقر الرئيسي في جدة" : "Jeddah headquarters"}
-          sizes="90vw"
+          sizes="(max-width: 767px) 100vw, 90vw"
         />
         <span>
           <BidiText
@@ -1425,7 +1428,7 @@ export function ProfilePage({ locale }: { locale: Locale }) {
               }
               width={1700}
               height={957}
-              sizes="50vw"
+              sizes="(max-width: 767px) 100vw, 50vw"
               priority
             />
             <span>

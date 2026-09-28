@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useQueryFilters } from "./use-query-filters";
 import type { Locale, Brand } from "@/lib/types";
 import { pick } from "@/lib/types";
 import { divisions } from "@/lib/company";
@@ -14,8 +14,11 @@ export function BrandDirectory({
   brands: Brand[];
 }) {
   const ar = locale === "ar";
-  const [query, setQuery] = useState("");
-  const [division, setDivision] = useState("");
+  const filters = useQueryFilters();
+  const query = filters.get("q");
+  const setQuery = (q: string) => filters.update({ q });
+  const division = filters.get("division");
+  const setDivision = (division: string) => filters.update({ division });
   const filtered = [...brands]
     .sort((a, b) => a.name[locale].localeCompare(b.name[locale], locale))
     .filter(
@@ -57,7 +60,7 @@ export function BrandDirectory({
         <bdi dir="ltr">{filtered.length}</bdi>{" "}
         {ar ? "علامة في الدليل" : "brands in the directory"}
       </p>
-      <div className="brand-directory">
+      <div className="brand-directory" data-context="brands">
         {filtered.map((b) => (
           <Link
             prefetch={false}

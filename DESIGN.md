@@ -21,3 +21,13 @@ Use RE_AUDIT.md and COMPANY_NUMBERS.md. Only selected dated profile facts are pu
 ## Acceptance
 
 Browser review the entire homepage in Arabic then English at 1920,1728,1440,1366, plus eleven major destinations in both languages. Visit all 509 Arabic routes for structural/RTL checks and review shared detail templates visually. Check actual decoding, correct logo-name mapping, visible product contours, type contrast, real RTL, overflow, filters, links, archive access, marquee group geometry and pause/reduced motion. No preload of hundreds of products. No animation dependency. Preserve previous commits; commit this refinement separately.
+
+## Dedicated mobile composition, September 2026
+
+The approved desktop remains the visual baseline. `app/mobile.css` scopes the dedicated composition to 767px and below. It reuses the original semantic headings, official imagery and shared data; extra mobile controls are hidden above the breakpoint. Desktop content order is retained through a `display: contents` wrapper.
+
+Mobile opens with a compact 68px logo/menu/language header, composed headline, full-width headquarters photograph, overlapping 1987 ledger and direct business action. A two-by-two scale ledger leads into both seamless brand tracks, then six full-width sector chapters. The product shelf offers a focused object and a visible next item with native horizontal snapping. Distribution becomes a vertical chain and an eight-city touch selector instead of a miniature map. A vertical history, swipeable group companies, large editorial news and actionable green closing finish the story. Insets use safe-area values; the menu fills the dynamic viewport. Reduced motion disables introductory and marquee motion.
+
+Navigation state lives in URL parameters, including catalogue search/category/brand/division/limit, news year/search, brand search/division, featured family, profile page and network city. Language switches keep the corresponding path and query, restore the dominant visible semantic section after layout settles, and skip the one-time mobile introduction. Dates displayed by the news client are formatted on the server to avoid WebKit/Node Arabic punctuation differences.
+
+The catalogue's initial server payload contains only 24 product records. Further filters/pages use `/api/catalogue` with cancellation, bounded requests, a small navigation cache and retry feedback. Stale results become inert while a request is pending. Existing product records, factual content and desktop presentation are retained.

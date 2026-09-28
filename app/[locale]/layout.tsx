@@ -1,10 +1,13 @@
 import { siteUrl } from "@/lib/site-url";
 import "../globals.css";
-import type { Metadata } from "next";
+import "../mobile.css";
+import { MobileExperience } from "@/components/mobile-experience";
+import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import type { Locale } from "@/lib/types";
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#10251d" };
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -46,6 +49,7 @@ export default async function Layout({
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body id="top">
+        <MobileExperience />
         <Header locale={locale as Locale} />
         <main id="main">{children}</main>
         <Footer locale={locale as Locale} />

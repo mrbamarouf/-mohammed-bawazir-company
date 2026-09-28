@@ -4,7 +4,7 @@ import { Photo, TextLink } from "./ui";
 export function HistoryBlock({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
-    <section className="history-feature chapter-legacy" id="legacy-preview">
+    <section className="history-feature chapter-legacy" id="legacy-preview" data-context="legacy">
       <div className="wrap">
         <div className="history-top">
           <span className="history-since">
@@ -29,7 +29,7 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
                   ? "فريق شركة محمد باوزير للتجارة"
                   : "Mohammed Bawazir Trading Company team"
               }
-              sizes="50vw"
+              sizes="(max-width: 767px) 100vw, 50vw"
             />
             <figcaption>
               <BidiText
