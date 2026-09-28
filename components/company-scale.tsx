@@ -1,3 +1,4 @@
+import { MobileIcon } from "./mobile-icons";
 import type { Locale } from "@/lib/types";
 import { operatingFacts } from "@/lib/company-facts";
 import { BidiText } from "./bidi-text";
@@ -28,8 +29,9 @@ export function CompanyScale({ locale }: { locale: Locale }) {
           </a>
         </div>
         <dl className="scale-facts">
-          {operatingFacts.map((fact) => (
+          {operatingFacts.map((fact, index) => (
             <div key={fact.value}>
+              <MobileIcon name={["warehouse", "space", "fleet", "outlets"][index]} />
               <dt>{fact.label[locale]}</dt>
               <dd className="scale-value">
                 {fact.approximate && <small>{ar ? "نحو" : "Approx."}</small>}

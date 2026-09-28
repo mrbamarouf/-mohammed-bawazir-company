@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useId } from "react";
+import { useState, useEffect, useId, useRef } from "react";
 import { useQueryFilters } from "./use-query-filters";
 import type { CatalogueResult } from "@/lib/catalogue";
 import Link from "next/link";
@@ -7,6 +7,7 @@ import Image from "next/image";
 import type { Brand, Locale } from "@/lib/types";
 import { pick } from "@/lib/types";
 import categories from "@/content/categories.json";
+import { MobileIcon } from "./mobile-icons";
 import { divisions } from "@/lib/company";
 import { Arrow, EmptyImage } from "./ui";
 import { BidiText } from "./bidi-text";
@@ -37,6 +38,8 @@ export function CatalogueClient({
   const [retry, setRetry] = useState(0);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const controlsId = useId();
+  const sheet = useRef<HTMLDialogElement>(null);
+  const filterTrigger = useRef<HTMLButtonElement>(null);
   const updating = key !== result.key;
   useEffect(() => {
     if (key === initialKey && !retry) return;
@@ -74,41 +77,7 @@ export function CatalogueClient({
     }
     return chain.join(" / ");
   };
-  return (
-    <div className={`catalogue ${filtersOpen ? "filters-open" : ""}`} data-context="catalogue" aria-busy={updating && key !== initialKey}>
-      <div className="catalogue-toolbar" id={controlsId}>
-        <label className="search-field">
-          <svg
-            width="21"
-            height="21"
-            viewBox="0 0 24 24"
-            fill="none"
-            aria-hidden="true"
-          >
-            <circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" />
-            <path d="m16 16 5 5" stroke="currentColor" />
-          </svg>
-          <span className="sr-only">
-            {ar ? "ابحث في المنتجات" : "Search products"}
-          </span>
-          <input
-            type="search"
-            placeholder={
-              ar
-                ? "ابحث باسم المنتج أو العلامة…"
-                : "Search products, brands, ingredients…"
-            }
-            value={query}
-            onChange={(e) => {
-              setQuery(e.target.value);
-
-            }}
-          />
-        </label>
-        <button className="mobile-filter-toggle" aria-expanded={filtersOpen} aria-controls={controlsId} onClick={() => setFiltersOpen(!filtersOpen)}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18M8 3v6M16 9v6M10 15v6" stroke="currentColor" strokeWidth="1.5" /></svg>
-          {ar ? "الفلاتر" : "Filters"}{(brand || category) && <span className="filter-dot" />}
-        </button>
+  const filterControls = <>
         <label>
           <span>{ar ? "العلامة" : "Brand"}</span>
           <select
@@ -145,6 +114,48 @@ export function CatalogueClient({
               ))}
           </select>
         </label>
+  </>;
+  return (
+    <div className={`catalogue ${filtersOpen ? "filters-open" : ""}`} data-context="catalogue" aria-busy={updating && key !== initialKey}>
+      <div className="catalogue-toolbar">
+        <label className="search-field">
+          <svg
+            width="21"
+            height="21"
+            viewBox="0 0 24 24"
+            fill="none"
+            aria-hidden="true"
+          >
+            <circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" />
+            <path d="m16 16 5 5" stroke="currentColor" />
+          </svg>
+          <span className="sr-only">
+            {ar ? "ابحث في المنتجات" : "Search products"}
+          </span>
+          <input
+            type="search"
+            placeholder={
+              ar
+                ? "ابحث باسم المنتج أو العلامة…"
+                : "Search products, brands, ingredients…"
+            }
+            value={query}
+            onChange={(e) => {
+              setQuery(e.target.value);
+
+            }}
+          />
+        </label>
+        <button ref={filterTrigger} className="mobile-filter-toggle" aria-expanded={filtersOpen} aria-controls={controlsId} onClick={() => { sheet.current?.showModal(); setFiltersOpen(true); }}>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18M8 3v6M16 9v6M10 15v6" stroke="currentColor" strokeWidth="1.5" /></svg>
+          {ar ? "الفلاتر" : "Filters"}{(brand || category) && <span className="filter-dot" />}
+        </button>
+        {filterControls}
+        <dialog ref={sheet} id={controlsId} className="filter-sheet" aria-label={ar ? "تصفية المنتجات" : "Filter products"} onClose={() => { setFiltersOpen(false); filterTrigger.current?.focus({preventScroll:true}); }} onClick={event => { if(event.target === sheet.current) sheet.current?.close(); }}>
+          <header><h2>{ar ? "تصفية المنتجات" : "Filter products"}</h2><button onClick={() => sheet.current?.close()} aria-label={ar ? "إغلاق الفلاتر" : "Close filters"}>×</button></header>
+          {filterControls}
+          <div className="filter-sheet-actions"><button className="button" onClick={() => sheet.current?.close()}>{ar ? "عرض النتائج" : "Show results"} <bdi dir="ltr">({displayed.total})</bdi></button><button onClick={reset}>{ar ? "إعادة ضبط الفلاتر" : "Reset filters"}</button></div>
+        </dialog>
       </div>
       <div
         className="category-tabs"
@@ -163,6 +174,7 @@ export function CatalogueClient({
             className={division === d.slug ? "active" : ""}
             aria-pressed={division === d.slug}
           >
+            <MobileIcon name={d.slug || "products"} />
             {pick(d.name, locale)}
           </button>
         ))}

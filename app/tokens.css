@@ -1,0 +1,15 @@
+/* The authoritative MBT palette. Partner artwork keeps its official colours. */
+:root {
+  --mbt-green: #07523b;
+  --mbt-green-deep: #06382c;
+  --mbt-green-dark: #031f19;
+  --mbt-ivory: #f7f6f1;
+  --mbt-white: #ffffff;
+  --mbt-ink: #152820;
+  --mbt-mist: #e9f0eb;
+  --mbt-line: #d3e0d7;
+  --mbt-sage: #b8cec0;
+  --mbt-muted: #52675b;
+  --mbt-on-dark: #d6e5dc;
+  --mbt-accent: #9ccdaf;
+}

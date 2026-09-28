@@ -1,4 +1,3 @@
-import { MobileHeroLedger } from "./mobile-hero";
 import Image from "next/image";
 import type { Locale } from "@/lib/types";
 import { BrandLogo } from "./brand-logo";
@@ -23,10 +22,10 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
           }
           fill
           preload
-          sizes="(max-width: 767px) 100vw, 75vw"
+          sizes="(max-width: 767px) 1200px, 75vw"
         />
       </div>
-      <MobileHeroLedger locale={locale} />
+
       <div className="authority-shade" />
       <div className="wrap authority-content">
         <BrandLogo tone="dark" className="authority-identity" />
@@ -37,7 +36,7 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
             </span>
             <bdi dir="ltr">1987</bdi>
           </p>
-          <h1 id="hero-heading">
+          <h1 id="hero-heading"><span className="mobile-hero-heading">{ar ? <>من التوريد<br />إلى <em>الرف.</em></> : <>From the world.<br /><em>To your everyday.</em></>}</span><span className="desktop-hero-heading">
             {ar ? (
               <>
                 نصل العلامات العالمية{" "}
@@ -51,7 +50,8 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
                 <span>to Saudi markets.</span>
               </>
             )}
-          </h1>
+          </span></h1>
+          <p className="mobile-hero-description">{ar ? "شريك العلامات العالمية في التجارة والتوزيع بالمملكة العربية السعودية، منذ 1987." : "Connecting global brands with Saudi markets through trade and distribution, since 1987."}</p>
           <p className="authority-description">
             {ar
               ? "شركة محمد باوزير للتجارة. خبرة متراكمة في بناء العلامات والتجارة والتوزيع، عبر ستة مجالات أعمال وشبكة تمتد من جدة إلى أسواق المملكة."

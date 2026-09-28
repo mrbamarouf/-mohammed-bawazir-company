@@ -1,3 +1,4 @@
+import { MobileStory } from "./mobile-story";
 import { BidiText } from "./bidi-text";
 import type { Locale } from "@/lib/types";
 import { Photo, TextLink } from "./ui";
@@ -5,7 +6,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   return (
     <section className="history-feature chapter-legacy" id="legacy-preview" data-context="legacy">
-      <div className="wrap">
+      <MobileStory locale={locale} />
+      <div className="wrap desktop-story">
         <div className="history-top">
           <span className="history-since">
             <BidiText text={ar ? "منذ" : "SINCE"} /> <b dir="ltr">1987</b>

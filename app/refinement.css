@@ -36,7 +36,7 @@
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  background: #082b22;
+  background: var(--mbt-green-dark);
   color: white;
   min-height: 720px;
 }
@@ -58,13 +58,13 @@
   background:
     linear-gradient(
       90deg,
-      #082b22 0%,
-      #082b22 32%,
-      #082b22de 43%,
-      #082b2265 59%,
-      #082b2200 85%
+      var(--mbt-green-dark) 0%,
+      var(--mbt-green-dark) 32%,
+      color-mix(in srgb, var(--mbt-green-dark) 87.06%, transparent) 43%,
+      color-mix(in srgb, var(--mbt-green-dark) 39.61%, transparent) 59%,
+      color-mix(in srgb, var(--mbt-green-dark) 0.0%, transparent) 85%
     ),
-    linear-gradient(0deg, #071e18d9, transparent 40%);
+    linear-gradient(0deg, color-mix(in srgb, var(--mbt-green-dark) 85.1%, transparent), transparent 40%);
 }
 .authority-content {
   padding-top: 55px;
@@ -99,14 +99,14 @@
   text-wrap: initial;
 }
 .authority-copy h1 span {
-  color: #d1e8d9;
+  color: var(--mbt-line);
 }
 .authority-description {
   max-width: 550px;
   margin-top: 25px;
   font-size: 16px;
   line-height: 1.85;
-  color: #edf2ed;
+  color: var(--mbt-mist);
 }
 .authority-actions {
   display: flex;
@@ -116,7 +116,7 @@
 }
 .authority-actions .text-link {
   color: white;
-  border-color: #c1d3c5;
+  border-color: var(--mbt-line);
   font-size: 14px;
 }
 .authority-groundline {
@@ -125,13 +125,13 @@
   gap: 22px;
   width: 100%;
   margin-top: auto;
-  color: #e8eee7;
+  color: var(--mbt-mist);
   font-size: 12px;
 }
 .authority-line {
   height: 1px;
   flex: 1;
-  background: #c5d7c966;
+  background: color-mix(in srgb, var(--mbt-line) 40.0%, transparent);
   position: relative;
 }
 .authority-line:after {
@@ -148,13 +148,13 @@
   background:
     linear-gradient(
       270deg,
-      #082b22 0%,
-      #082b22 32%,
-      #082b22de 43%,
-      #082b2265 59%,
-      #082b2200 85%
+      var(--mbt-green-dark) 0%,
+      var(--mbt-green-dark) 32%,
+      color-mix(in srgb, var(--mbt-green-dark) 87.06%, transparent) 43%,
+      color-mix(in srgb, var(--mbt-green-dark) 39.61%, transparent) 59%,
+      color-mix(in srgb, var(--mbt-green-dark) 0.0%, transparent) 85%
     ),
-    linear-gradient(0deg, #071e18d9, transparent 40%);
+    linear-gradient(0deg, color-mix(in srgb, var(--mbt-green-dark) 85.1%, transparent), transparent 40%);
 }
 [dir="rtl"] .authority-photo > img {
   object-position: 42% center;
@@ -191,7 +191,7 @@
   align-items: center;
   gap: 12px;
   font-size: 12px;
-  color: #47554b;
+  color: var(--mbt-green);
 }
 .scale-heading > a:hover {
   text-decoration: underline;
@@ -220,7 +220,7 @@
   display: flex;
   align-items: baseline;
   gap: 10px;
-  color: #0d593c;
+  color: var(--mbt-green-deep);
   font: 600 clamp(40px, 3.4vw, 59px)/1.12 var(--display);
 }
 .scale-value small {
@@ -231,13 +231,13 @@
 }
 .scale-facts .scale-note {
   order: 2;
-  color: #536055;
+  color: var(--mbt-muted);
   font-size: 12px;
   margin-top: 6px;
 }
 .sectors-home.chapter-sectors {
   padding: 65px 0 72px;
-  background: #dce7df;
+  background: var(--mbt-line);
 }
 .chapter-sectors .section-heading {
   margin-bottom: 34px;
@@ -246,7 +246,7 @@
   position: relative;
 }
 .sector-panels .sector-code {
-  color: #355442;
+  color: var(--mbt-green);
   font: 500 13px var(--body);
   margin-bottom: 16px;
 }
@@ -272,16 +272,16 @@
   background: #f3e5df;
 }
 .sector-panels .sector-pharma {
-  background: #e7edeb;
+  background: var(--mbt-mist);
 }
 .sector-panels .sector-pharma .sector-visual {
-  background: #c5d8d4;
+  background: var(--mbt-line);
 }
 .sector-panels .pharma-evidence span {
-  color: #43554a;
+  color: var(--mbt-green);
 }
 .sector-panels .sector-tobacco {
-  background: #283b33;
+  background: var(--mbt-green-deep);
   color: white;
   grid-template-columns: 1.45fr 1fr;
 }
@@ -291,11 +291,11 @@
   padding: 30px 38px;
 }
 .sector-panels .sector-tobacco .sector-copy p {
-  color: #d1ddd5;
+  color: var(--mbt-line);
   max-width: 530px;
 }
 .sector-panels .sector-tobacco .sector-code {
-  color: #b8cdbc;
+  color: var(--mbt-sage);
 }
 .sector-panels .sector-tobacco .sector-brands {
   grid-column: auto;
@@ -307,7 +307,7 @@
 }
 .sector-panels .sector-tobacco .text-link {
   color: #fff;
-  border-color: #b7c7be;
+  border-color: var(--mbt-sage);
 }
 .sector-panels .sector-tobacco .sector-visual {
   min-height: 280px;
@@ -318,7 +318,7 @@
   padding-block: 62px 52px;
 }
 .chapter-brands .marquee-window {
-  border-color: #dae1d9;
+  border-color: var(--mbt-line);
 }
 .chapter-brands .marquee-brand {
   background: #f6f6f1;
@@ -345,7 +345,7 @@
 .chain-heading p {
   max-width: 330px;
   font-size: 12px;
-  color: #bed1c5;
+  color: var(--mbt-line);
 }
 .value-chain-expanded ol {
   gap: 24px;
@@ -362,7 +362,7 @@
   top: 31px;
   inset-inline-end: -14px;
   width: calc(100% - 76px);
-  background: #668675;
+  background: var(--mbt-muted);
 }
 .chain-node {
   height: 70px;
@@ -374,11 +374,11 @@
 .chain-step {
   width: 58px;
   height: 58px;
-  border: 1px solid #5e8170;
+  border: 1px solid var(--mbt-muted);
   display: grid;
   place-items: center;
   font: 500 16px var(--display);
-  color: #c5dacb;
+  color: var(--mbt-line);
 }
 .chain-node .brand-mark {
   width: 78px;
@@ -405,19 +405,19 @@
 .value-chain-expanded .chain-unit {
   font-size: 12px;
   line-height: 1.6;
-  color: #f0f5f0;
+  color: var(--mbt-mist);
   margin-top: 8px;
   min-height: 40px;
 }
 .value-chain-expanded li > p {
   font-size: 12px;
-  color: #c0d2c6;
+  color: var(--mbt-line);
   line-height: 1.85;
   margin-block: 12px 16px;
 }
 .value-chain-expanded .chain-source {
   font-size: 11px;
-  color: #bdcebf;
+  color: var(--mbt-sage);
   margin-top: auto;
   text-decoration: underline;
   text-underline-offset: 4px;
@@ -434,18 +434,18 @@
   background: #eddbcd;
 }
 .product-universe[data-family="household"] {
-  background: #dce6db;
+  background: var(--mbt-line);
 }
 .product-universe[data-family] .shelf-object {
   background: linear-gradient(0deg, #ffffff70, transparent 65%);
-  border-color: #869a88;
+  border-color: var(--mbt-sage);
   height: 248px;
 }
 .product-universe[data-family] .shelf-caption {
   margin-top: 28px;
 }
 .history-feature.chapter-legacy {
-  background: #194735;
+  background: var(--mbt-green-deep);
   color: white;
   padding-block: 64px;
 }
@@ -456,34 +456,34 @@
 .chapter-legacy .history-since,
 .chapter-legacy .history-grid figcaption,
 .chapter-legacy .history-story > p {
-  color: #d5e0d7;
+  color: var(--mbt-line);
 }
 .chapter-legacy .history-milestones > div {
-  border-color: #547662;
+  border-color: var(--mbt-muted);
 }
 .chapter-legacy .text-link {
   color: white;
-  border-color: #9db6a5;
+  border-color: var(--mbt-sage);
 }
 .ecosystem {
   background: #fff;
 }
 .news-home.chapter-news {
-  background: #142a22;
+  background: var(--mbt-green-deep);
   color: white;
   padding: 60px 0;
 }
 .chapter-news .eyebrow,
 .chapter-news .article-date,
 .chapter-news .activity-link > p {
-  color: #c7d9cc;
+  color: var(--mbt-line);
 }
 .chapter-news .text-link {
   color: #fff;
-  border-color: #b7c8bd;
+  border-color: var(--mbt-sage);
 }
 .chapter-news .activity-link {
-  border-color: #547061;
+  border-color: var(--mbt-muted);
 }
 .closing .closing-identity {
   width: 330px;
@@ -678,7 +678,7 @@ bdi {
   gap: clamp(48px, 6vw, 100px);
   align-items: center;
   padding: 64px;
-  background: #0b3025;
+  background: var(--mbt-green-deep);
   color: #fff;
 }
 .document-overview .brand-lockup-dark {
@@ -691,7 +691,7 @@ bdi {
   max-width: 17ch;
 }
 .document-overview p {
-  color: #d9e4df;
+  color: var(--mbt-line);
   max-width: 46ch;
 }
 .document-overview .document-year {
@@ -701,8 +701,8 @@ bdi {
 }
 .document-overview .document-download {
   margin-top: 24px;
-  background: #e8efdf;
-  color: #103e2f;
+  background: var(--mbt-mist);
+  color: var(--mbt-green-deep);
   gap: 30px;
 }
 .document-overview .document-format {
@@ -737,11 +737,11 @@ bdi {
 }
 .document-reader .profile-image {
   aspect-ratio: 1700 / 957;
-  background: #eef1ec;
+  background: var(--mbt-mist);
 }
 .document-reader .profile-controls {
-  background: #eef1ec;
-  border-top: 1px solid #d3dcd5;
+  background: var(--mbt-mist);
+  border-top: 1px solid var(--mbt-line);
   padding: 24px;
 }
 .catalogue .catalogue-toolbar {
@@ -771,7 +771,7 @@ bdi {
 }
 .brand-enquiries {
   padding: 42px;
-  background: #edf2ee;
+  background: var(--mbt-mist);
   margin: 30px 0 48px;
 }
 .brand-enquiries h2 {

@@ -11,7 +11,7 @@ for (const locale of ["ar", "en"])
     await page.locator(".brand-world").scrollIntoViewIfNeeded();
     await page.waitForFunction(() =>
       [
-        ...document.querySelectorAll<HTMLImageElement>(".brand-world img"),
+        ...document.querySelectorAll<HTMLImageElement>(".marquee-brand img"),
       ].every((image) => image.complete && image.naturalWidth > 0),
     );
     const expected = brands

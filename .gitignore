@@ -78,3 +78,10 @@ audit/typography/final/
 audit/typography/pilot/
 audit/typography/exploration/
 audit/typography/chromium-tests.json
+
+# Reproducible production-pass typography reports and intermediate failing runs.
+audit/typography/app-production/
+audit/typography/app-release/
+audit/mobile/app-tests-*.json
+audit/mobile/app-desktop-tests.json
+audit/mobile/app-review-crops/

@@ -31,7 +31,7 @@ for (const width of [1920, 1728, 1440, 1366])
         expect(await page.locator("html").getAttribute("dir")).toBe(
           locale === "ar" ? "rtl" : "ltr",
         );
-        await expect(page.locator("header")).toBeVisible();
+        await expect(page.locator(".site-header")).toBeVisible();
         expect(
           await page.evaluate(
             () => document.documentElement.scrollWidth <= innerWidth + 1,
@@ -95,9 +95,9 @@ test("Network supports keyboard selection and menu traps focus", async ({
   await expect(point).toHaveAttribute("aria-pressed", "true");
   await expect(page.locator(".network-location h3")).toHaveText("Riyadh");
   await page.getByRole("button", { name: "Open all sections" }).click();
-  await expect(page.locator("dialog")).toBeVisible();
+  await expect(page.locator(".nav-dialog")).toBeVisible();
   await page.keyboard.press("Escape");
-  await expect(page.locator("dialog")).not.toBeVisible();
+  await expect(page.locator(".nav-dialog")).not.toBeVisible();
 });
 test("Enquiry validates input and prepares a real mailto handoff", async ({
   page,

@@ -35,3 +35,11 @@ The catalogue's initial server payload contains only 24 product records. Further
 ## Typography correction, September 2026
 
 Arabic uses complete self-hosted Readex Pro static faces at 400/500/600/700, with native OpenType shaping and no artificial letter/word spacing. Font synthesis is disabled. Script language and bidi isolation follow the content, including original Arabic records in English pages; English product titles use Manrope in both interfaces. Arabic headings have sufficient leading; Latin heading tracking is restrained to -0.015em. Desktop hero line breaks are removed on mobile so headings can balance as complete sentences. See `TYPOGRAPHY_QA.md` for the reproduced font-positioning issue, diagnosis and browser evidence. This is a shared typography correction, preserving page composition and verified content.
+
+## Approved-reference mobile production pass, September 2026
+
+The attached eight-screen mobile reference supersedes the earlier mobile composition above. Mobile now uses an immersive portrait headquarters hero, compact centered official mark, immediate ivory 2×2 scale, six substantial sector rows, dark brands with two continuous tracks and featured products, an ivory catalogue with category access and native filter sheet, a real Saudi portrait map, photographic vertical history, dark editorial news and four safe-area-aware bottom destinations. Desktop keeps its established composition. `app/experience.css` scopes the new compositions below 768px; typography remains the final shared stylesheet in both root layouts.
+
+The identity film is global, with separate wide and portrait paths. Its route journey resolves into the authentic MBT logo and “Global partnerships. Local value.” / “شراكات عالمية. قيمة محلية.” Session persistence covers language changes, internal navigation, refresh and browser history; reduced motion uses a brief static reveal.
+
+Authoritative MBT colors live in `app/tokens.css`: primary #07523b, deep #06382c, dark #031f19, ivory #f7f6f1, ink #152820 and a small controlled supporting ramp. No partner artwork is recolored. The closing CTA belongs to this same family. Public facts and taxonomy remain unchanged.

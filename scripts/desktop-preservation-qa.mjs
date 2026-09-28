@@ -1,6 +1,7 @@
-import { chromium } from "@playwright/test";
+import { chromium, webkit } from "@playwright/test";
 import fs from "node:fs/promises";
-const browser = await chromium.launch();
+const engine = process.env.QA_ENGINE || "chromium";
+const browser = await (engine === "webkit" ? webkit : chromium).launch();
 const run = process.env.QA_RUN || "local";
 const base = process.env.TEST_BASE_URL || "http://localhost:3001";
 const dir = `audit/mobile/${run}/screenshots`;
@@ -12,7 +13,10 @@ for (const locale of ["ar", "en"])
   for (const width of [1920, 1728, 1440, 1366]) {
     for (const route of (process.env.QA_ROUTES || ",about,business,brands,products,distribution,companies,news,contact,marketing,careers,profile").split(",")) {
       const page = await browser.newPage({ viewport: { width, height: 1000 } });
+      await page.addInitScript(()=>sessionStorage.setItem("mbt-intro-v2","seen"));
       page.on("pageerror", (e) => errors.push(e.message));
+      page.on("response", response => { if(response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
+      page.on("requestfailed", request => { if(request.resourceType() === "stylesheet") errors.push(`Stylesheet failed: ${request.url()}`); });
       const response = await page.goto(
         `${base}/${locale}/${route}`,
         { waitUntil: "domcontentloaded" },

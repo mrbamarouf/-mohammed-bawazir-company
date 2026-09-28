@@ -1,3 +1,4 @@
+import { MobileBrandFeature } from "./mobile-brand-feature";
 import { MobileNetwork } from "./mobile-network";
 import { BidiText } from "./bidi-text";
 import { AuthorityHero } from "./authority-hero";
@@ -61,7 +62,13 @@ export function Home({ locale }: { locale: Locale }) {
           <SectorPanels locale={locale} />
         </div>
       </section>
-      <BrandMarquee locale={locale} brands={brands} />
+      <BrandMarquee locale={locale} brands={brands}>
+        <MobileBrandFeature locale={locale} items={[
+          {slug:"nutrisari",name:"NutriSari",image:products.find(p=>p.id===36496)!.image,caption:{ar:"نكهات للحياة اليومية.",en:"Flavour for the everyday."}},
+          {slug:"reem",name:"Reem",image:products.find(p=>p.id===36209)!.image,caption:{ar:"مكونات تجمعنا.",en:"Ingredients that bring us together."}},
+          {slug:"tropicana-slim",name:"Tropicana Slim",image:products.find(p=>p.id===36281)!.image,caption:{ar:"خيارات لكل يوم.",en:"Everyday choices."}},
+        ]} />
+      </BrandMarquee>
       <section className="distribution-home">
         <MobileNetwork locale={locale} />
         <Network locale={locale} />

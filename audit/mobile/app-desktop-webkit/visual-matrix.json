@@ -1,0 +1,869 @@
+{
+  "report": [
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8825
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5047
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3232
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5404
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3853
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3824
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2405
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6348
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2807
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3639
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1869
+    },
+    {
+      "locale": "ar",
+      "width": 1920,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3170
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8819
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5082
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3232
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5404
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3875
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3819
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2405
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6457
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2807
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3639
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1869
+    },
+    {
+      "locale": "ar",
+      "width": 1728,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3022
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8564
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 4948
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3217
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5371
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3902
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3796
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2389
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6072
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2770
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3622
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1852
+    },
+    {
+      "locale": "ar",
+      "width": 1440,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2794
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8577
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 4957
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3221
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5361
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3897
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3776
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2384
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6140
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2756
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3617
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1847
+    },
+    {
+      "locale": "ar",
+      "width": 1366,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2745
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8772
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5039
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3173
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5237
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3926
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3728
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2352
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6487
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2735
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3635
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1927
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3166
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8765
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5067
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3173
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5237
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3950
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3721
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2352
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6549
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2735
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3635
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1927
+    },
+    {
+      "locale": "en",
+      "width": 1728,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3068
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8482
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 4938
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3100
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5196
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3957
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3653
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2323
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6094
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2689
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3594
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1886
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2855
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "home",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 8406
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "about",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 4912
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "business",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3106
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "brands",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 5190
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "products",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3950
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "distribution",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3629
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "companies",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2320
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "news",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 6121
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "contact",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2679
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "marketing",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 3587
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "careers",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 1880
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "route": "profile",
+      "status": 200,
+      "overflow": false,
+      "broken": [],
+      "height": 2804
+    }
+  ],
+  "errors": []
+}

@@ -2,14 +2,17 @@ import { siteUrl } from "@/lib/site-url";
 // Keep shared stylesheet order identical in both root layouts.
 import "../globals.css";
 import "../mobile.css";
+import "../experience.css";
 import "../typography.css";
+import { CorporateIntro } from "@/components/corporate-intro";
+import { introBootstrap } from "@/lib/intro";
 import { MobileExperience } from "@/components/mobile-experience";
 import type { Metadata, Viewport } from "next";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import type { Locale } from "@/lib/types";
-export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#10251d" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#031f19" };
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
@@ -49,12 +52,14 @@ export default async function Layout({
   const { locale } = await params;
   if (locale !== "en" && locale !== "ar") notFound();
   return (
-    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+    <html suppressHydrationWarning lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <head>
+        <script dangerouslySetInnerHTML={{ __html: introBootstrap }} />
         <link rel="preload" as="font" type="font/woff2" crossOrigin="anonymous" href={locale === "ar" ? "/assets/fonts/readex-arabic-400.woff2" : "/assets/fonts/manrope-0.woff2"} />
         <link rel="preload" as="font" type="font/woff2" crossOrigin="anonymous" href={locale === "ar" ? "/assets/fonts/readex-arabic-600.woff2" : "/assets/fonts/archivo-2.woff2"} />
       </head>
       <body id="top">
+        <CorporateIntro locale={locale as Locale} />
         <MobileExperience />
         <Header locale={locale as Locale} />
         <main id="main">{children}</main>

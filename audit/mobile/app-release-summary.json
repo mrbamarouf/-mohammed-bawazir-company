@@ -1,0 +1,99 @@
+{
+  "checkpoint": "b04198ad716b41e76c816cffb145cab2a41cde0d",
+  "versions": {
+    "chromium": "153.0.8010.12",
+    "webkit": "26.6"
+  },
+  "mobile": {
+    "chromium": {
+      "states": 308,
+      "errors": 0,
+      "failures": 0
+    },
+    "webkit": {
+      "states": 308,
+      "errors": 0,
+      "failures": 0
+    }
+  },
+  "desktop": {
+    "chromium": {
+      "states": 96,
+      "errors": 0,
+      "failures": 0
+    },
+    "webkit": {
+      "states": 96,
+      "errors": 0,
+      "failures": 0
+    }
+  },
+  "typography": {
+    "chromium": {
+      "routes": 1018,
+      "widths": [
+        320,
+        360,
+        375,
+        390,
+        393,
+        414,
+        430,
+        1366,
+        1440,
+        1728,
+        1920
+      ],
+      "states": 11198,
+      "focusedRecheckStates": 88,
+      "errors": [],
+      "failures": []
+    },
+    "webkit": {
+      "routes": 1018,
+      "widths": [
+        320,
+        360,
+        375,
+        390,
+        393,
+        414,
+        430,
+        1366,
+        1440,
+        1728,
+        1920
+      ],
+      "states": 11198,
+      "focusedRecheckStates": 88,
+      "errors": [],
+      "failures": []
+    }
+  },
+  "tests": {
+    "app-final-tests-chromium": {
+      "startTime": "2026-09-28T22:08:46.925Z",
+      "duration": 203849.552,
+      "expected": 62,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "app-final-tests-webkit": {
+      "startTime": "2026-09-28T22:15:11.760Z",
+      "duration": 76618.258,
+      "expected": 28,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "app-release-chromium": {
+      "startTime": "2026-09-28T22:15:12.867Z",
+      "duration": 32370.388,
+      "expected": 10,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  }
+}

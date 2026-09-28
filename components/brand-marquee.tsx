@@ -8,9 +8,11 @@ import { TextLink } from "./ui";
 export function BrandMarquee({
   brands,
   locale,
+  children,
 }: {
   brands: Brand[];
   locale: Locale;
+  children?: React.ReactNode;
 }) {
   const [paused, setPaused] = useState(false);
   const [loadMarks, setLoadMarks] = useState(false);
@@ -112,6 +114,7 @@ export function BrandMarquee({
           </div>
         </div>
       ))}
+      {children}
     </section>
   );
 }

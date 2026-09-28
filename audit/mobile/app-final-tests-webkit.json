@@ -1,0 +1,1093 @@
+{
+  "config": {
+    "argv": [
+      "/Users/mr.bamarouf/.nvm/versions/node/v24.15.0/bin/node",
+      "/Users/mr.bamarouf/Desktop/Tech اعمالي/شركة محمد باوزير /node_modules/.bin/playwright",
+      "test",
+      "tests/mobile.spec.ts",
+      "tests/experience.spec.ts",
+      "tests/typography.spec.ts",
+      "--output=/tmp/mbt-app-release-webkit"
+    ],
+    "configFile": "/Users/mr.bamarouf/Desktop/Tech اعمالي/شركة محمد باوزير /playwright.config.ts",
+    "rootDir": "/Users/mr.bamarouf/Desktop/Tech اعمالي/شركة محمد باوزير /tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/mbt-app-release-webkit",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/Users/mr.bamarouf/Desktop/Tech اعمالي/شركة محمد باوزير /tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "audit/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "experience.spec.ts",
+      "file": "experience.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ar 390 introduction, skip, session and language persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3954,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:11.981Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-e434224515fec703fcef",
+          "file": "experience.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "ar 1440 introduction, skip, session and language persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2048,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:16.227Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-ef956fe5e35f034df504",
+          "file": "experience.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "en 390 introduction, skip, session and language persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1811,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:18.284Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-e1f14f03ab6c19a067f7",
+          "file": "experience.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "en 1440 introduction, skip, session and language persistence",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1922,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:20.106Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-cab33b53014f747078f7",
+          "file": "experience.spec.ts",
+          "line": 7,
+          "column": 7
+        },
+        {
+          "title": "complete film, reduced motion, inner entry and keyboard exit",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15943,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:22.039Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-4b9274e2f8869fb6dd01",
+          "file": "experience.spec.ts",
+          "line": 30,
+          "column": 5
+        },
+        {
+          "title": "ar navigation, map, filters, touch and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5528,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:37.990Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-d2a5268f5f0aae5a9928",
+          "file": "experience.spec.ts",
+          "line": 44,
+          "column": 38
+        },
+        {
+          "title": "en navigation, map, filters, touch and accessibility",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5290,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:43.525Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-822383439360554d8da1",
+          "file": "experience.spec.ts",
+          "line": 44,
+          "column": 38
+        },
+        {
+          "title": "ar full corresponding-route language matrix",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2383,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:48.822Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-3ea4f01d08b0aae05276",
+          "file": "experience.spec.ts",
+          "line": 64,
+          "column": 38
+        },
+        {
+          "title": "en full corresponding-route language matrix",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:51.211Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-1fcb6e1c6fea51101ec6",
+          "file": "experience.spec.ts",
+          "line": 64,
+          "column": 38
+        },
+        {
+          "title": "short screens, landscape rotation and desktop containment",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2488,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:53.593Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "116f6b4a9defd92cdbb9-7204c4e8fe9d8ee45303",
+          "file": "experience.spec.ts",
+          "line": 72,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "mobile.spec.ts",
+      "file": "mobile.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ar layout 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2115,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:56.091Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJhciIsIndpZHRoIjozMjAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-f1a78cb756bbe5b4fd78",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "ar layout 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2086,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:15:58.210Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJhciIsIndpZHRoIjozOTAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-dc941c5ea1baa9a6ec6b",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "ar layout 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2116,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:00.301Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJhciIsIndpZHRoIjo0MzAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-5e19eb0779eb3e9709b3",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "en layout 320",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2021,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:02.422Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJlbiIsIndpZHRoIjozMjAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-07283f4231351105d3c2",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "en layout 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2070,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:04.448Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJlbiIsIndpZHRoIjozOTAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-28f06c5d8445a0222e90",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "en layout 430",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2001,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:06.523Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "routes",
+                      "contentType": "application/json",
+                      "body": "eyJsb2NhbGUiOiJlbiIsIndpZHRoIjo0MzAsImVuZ2luZSI6IndlYmtpdCIsInJvdXRlcyI6WyIiLCJhYm91dCIsImJ1c2luZXNzIiwiYnVzaW5lc3MvZm9vZCIsImJ1c2luZXNzL2JldmVyYWdlcyIsImJ1c2luZXNzL2hvdXNlaG9sZCIsImJ1c2luZXNzL3BlcnNvbmFsLWNhcmUiLCJidXNpbmVzcy9waGFybWEiLCJidXNpbmVzcy90b2JhY2NvIiwiYnJhbmRzIiwiYnJhbmRzL3JlZW0iLCJwcm9kdWN0cyIsInByb2R1Y3RzLzM2NzA2LWNyb2lzc2FudC13aXRoLWNob2NvbGF0ZS01MngzODVnIiwiZGlzdHJpYnV0aW9uIiwibmV3cyIsInByb2ZpbGUiLCJjYXJlZXJzIiwiY29udGFjdCIsImNvbXBhbmllcyIsIm1hcmtldGluZyJdLCJlcnJvcnMiOltdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-29ef184fd388eca6bf4d",
+          "file": "mobile.spec.ts",
+          "line": 17,
+          "column": 11
+        },
+        {
+          "title": "ar context, touch, filters and menu",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4582,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:08.529Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-0f2ea46944692b3f3e48",
+          "file": "mobile.spec.ts",
+          "line": 42,
+          "column": 44
+        },
+        {
+          "title": "en context, touch, filters and menu",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4475,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:13.116Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-52b56684f3055a645c5e",
+          "file": "mobile.spec.ts",
+          "line": 42,
+          "column": 44
+        },
+        {
+          "title": "mobile accessibility and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:17.598Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-028bfd56c32170ebf12e",
+          "file": "mobile.spec.ts",
+          "line": 110,
+          "column": 9
+        },
+        {
+          "title": "bounded catalogue payload and safe filter requests",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1171,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:22.766Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-d432a02b33dad08d7a3d",
+          "file": "mobile.spec.ts",
+          "line": 127,
+          "column": 5
+        },
+        {
+          "title": "ar document, story, branch context and touch dimensions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1000,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:23.944Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-dc5cef54f5bcfe802052",
+          "file": "mobile.spec.ts",
+          "line": 149,
+          "column": 40
+        },
+        {
+          "title": "en document, story, branch context and touch dimensions",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 914,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:24.951Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e79c838550b25e92508e-aa6de5f4a1b61410849f",
+          "file": "mobile.spec.ts",
+          "line": 149,
+          "column": 40
+        }
+      ]
+    },
+    {
+      "title": "typography.spec.ts",
+      "file": "typography.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "ar: real font weights, Arabic shaping runs and mixed script",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 496,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:25.872Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-ff7907cb005bd02f2eba",
+          "file": "typography.spec.ts",
+          "line": 5,
+          "column": 38
+        },
+        {
+          "title": "en: real font weights, Arabic shaping runs and mixed script",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 432,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:26.373Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-a381cedbd5f1bea85b49",
+          "file": "typography.spec.ts",
+          "line": 5,
+          "column": 38
+        },
+        {
+          "title": "Arabic never inherits Latin tracking, including inline Arabic on English pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 281,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:26.810Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-ba9d7ddd9e216ed2a91c",
+          "file": "typography.spec.ts",
+          "line": 33,
+          "column": 5
+        },
+        {
+          "title": "ar: bilingual 404 isolates languages without Arabic tracking",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 330,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:27.096Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-9bcdec468490dfaccea9",
+          "file": "typography.spec.ts",
+          "line": 41,
+          "column": 40
+        },
+        {
+          "title": "en: bilingual 404 isolates languages without Arabic tracking",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 301,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:27.430Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-78e2766437fdae87c879",
+          "file": "typography.spec.ts",
+          "line": 41,
+          "column": 40
+        },
+        {
+          "title": "production CSS keeps the Arabic hero scale and English tracking",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 554,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-28T22:16:27.737Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "34f7375f007ea02a2901-617be7e64fdadab1fa61",
+          "file": "typography.spec.ts",
+          "line": 53,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-28T22:15:11.760Z",
+    "duration": 76618.258,
+    "expected": 28,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

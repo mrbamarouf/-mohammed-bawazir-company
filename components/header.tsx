@@ -3,7 +3,8 @@ import { BidiText } from "./bidi-text";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { useRef } from "react";
+import { useRef, useState } from "react";
+import { MobileIcon } from "./mobile-icons";
 import { navigation, extraNavigation, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
 import { LanguageSwitch } from "./language-switch";
@@ -12,14 +13,18 @@ import { Arrow } from "./ui";
 export function Header({ locale }: { locale: Locale }) {
   const path = usePathname();
   const dialog = useRef<HTMLDialogElement>(null);
+  const menuTrigger = useRef<HTMLButtonElement>(null);
   const ar = locale === "ar";
+  const [menuOpen, setMenuOpen] = useState(false);
+  const page = path.split("/")[2] || "home";
+  const open = (event: React.MouseEvent<HTMLButtonElement>) => { menuTrigger.current = event.currentTarget; dialog.current?.showModal(); setMenuOpen(true); };
   const close = () => dialog.current?.close();
   return (
     <>
       <a href="#main" className="skip-link">
         <BidiText text={ar ? "انتقل إلى المحتوى" : "Skip to content"} />
       </a>
-      <header className="site-header">
+      <header className="site-header" data-page={page}>
         <Link
           prefetch={false}
           href={`/${locale}`}
@@ -27,12 +32,14 @@ export function Header({ locale }: { locale: Locale }) {
           className="identity"
         >
           <Image
+            className="desktop-header-logo"
             src="/assets/clean/company/mbt.png"
             width={276}
             height={37}
             alt="MBT"
             preload
           />
+          <BrandLogo markOnly className="mobile-header-logo" />
         </Link>
         <nav aria-label={ar ? "القائمة الرئيسية" : "Main navigation"}>
           {navigation.map((n) => (
@@ -62,7 +69,9 @@ export function Header({ locale }: { locale: Locale }) {
           <button
             className="menu-toggle"
             aria-label={ar ? "افتح جميع الأقسام" : "Open all sections"}
-            onClick={() => dialog.current?.showModal()}
+            aria-expanded={menuOpen}
+            aria-controls="site-menu"
+            onClick={open}
           >
             <span />
             <span />
@@ -71,6 +80,8 @@ export function Header({ locale }: { locale: Locale }) {
       </header>
       <dialog
         ref={dialog}
+        id="site-menu"
+        onClose={() => { setMenuOpen(false); menuTrigger.current?.focus({preventScroll:true}); }}
         className="nav-dialog"
         aria-label={ar ? "قائمة الموقع" : "Site menu"}
         onClick={(e) => {
@@ -79,7 +90,7 @@ export function Header({ locale }: { locale: Locale }) {
       >
         <div className="dialog-top">
           <span className="desktop-menu-title"><BidiText text={ar ? "اكتشف MBT" : "Explore MBT"} /></span>
-          <BrandLogo tone="dark" className="mobile-menu-logo" />
+          <BrandLogo markOnly className="mobile-menu-logo" />
           <button
             onClick={close}
             aria-label={ar ? "إغلاق القائمة" : "Close menu"}
@@ -89,7 +100,7 @@ export function Header({ locale }: { locale: Locale }) {
           </button>
         </div>
         <nav aria-label={ar ? "كل الأقسام" : "All sections"}>
-          <Link prefetch={false} href={`/${locale}`} onClick={close} className="mobile-menu-home">{ar ? "الرئيسية" : "Home"}<Arrow /></Link>
+          <Link prefetch={false} href={`/${locale}`} onClick={close} className="mobile-menu-home"><MobileIcon name="home" />{ar ? "الرئيسية" : "Home"}<Arrow /></Link>
           {[...navigation, ...extraNavigation].map((n) => (
             <Link
               prefetch={false}
@@ -97,6 +108,7 @@ export function Header({ locale }: { locale: Locale }) {
               key={n.slug}
               onClick={close}
             >
+              <MobileIcon name={n.slug} />
               {pick(n.name, locale)}
               <Arrow />
             </Link>
@@ -106,7 +118,12 @@ export function Header({ locale }: { locale: Locale }) {
         <a href={`mailto:${company.email}`} className="dialog-email" dir="ltr">
           {company.email}
         </a>
+        <p className="mobile-menu-company">{pick(company.name, locale)}<br />{ar ? "جدة، المملكة العربية السعودية" : "Jeddah, Saudi Arabia"}</p>
       </dialog>
+      <nav className="bottom-navigation" aria-label={ar ? "التنقل السريع" : "Quick navigation"}>
+        {[{slug:"", icon:"home", en:"Home", ar:"الرئيسية"}, {slug:"products",icon:"products",en:"Products",ar:"المنتجات"}, {slug:"brands",icon:"brands",en:"Brands",ar:"العلامات"}].map(item => <Link prefetch={false} key={item.icon} href={`/${locale}${item.slug ? "/" + item.slug : ""}`} aria-current={page === (item.slug || "home") ? "page" : undefined}><MobileIcon name={item.icon} /><span>{item[locale]}</span></Link>)}
+        <button onClick={open} aria-expanded={menuOpen} aria-controls="site-menu" data-active={!["home", "products", "brands"].includes(page)}><MobileIcon name="more" /><span>{ar ? "المزيد" : "More"}</span></button>
+      </nav>
     </>
   );
 }

@@ -12,6 +12,7 @@ if(!process.env.QA_ROUTES)routes.push('products/'+products.find(p=>p.language===
 const report=[],errors=[];
 for(const locale of ['ar','en']) for(const width of widths) {
  const page=await browser.newPage({viewport:{width,height:width===320?568:844},deviceScaleFactor:1,isMobile:true,hasTouch:true});
+ await page.addInitScript(()=>sessionStorage.setItem('mbt-intro-v2','seen'));
  page.on('pageerror',e=>errors.push({locale,width,message:e.message}));
  for(const route of routes) {
   const response=await page.goto(`${base}/${locale}/${route}`);await page.evaluate(()=>document.fonts.ready);

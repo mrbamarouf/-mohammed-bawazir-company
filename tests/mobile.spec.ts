@@ -11,6 +11,7 @@ async function switchLanguage(page: Page) {
 const widths = [320, 360, 375, 390, 393, 414, 430];
 const routes = ["", "about", "business", ...["food", "beverages", "household", "personal-care", "pharma", "tobacco"].map(s => `business/${s}`), "brands", "brands/reem", "products", `products/${products[0].slug}`, "distribution", "news", "profile", "careers", "contact", "companies", "marketing"];
 const engine = process.env.MOBILE_BROWSER === "webkit" ? "webkit" : "chromium";
+test.beforeEach(async ({page}) => { await page.addInitScript(() => sessionStorage.setItem("mbt-intro-v2", "seen")); });
 test.use({ browserName: engine, isMobile: true, hasTouch: true, deviceScaleFactor: 1 });
     for (const locale of ["ar", "en"]) for (const width of engine === "chromium" ? widths : [320, 390, 430]) {
       test(`${locale} layout ${width}`, async ({ page }, testInfo) => {
@@ -71,9 +72,10 @@ test.use({ browserName: engine, isMobile: true, hasTouch: true, deviceScaleFacto
       await expect(page.getByRole("searchbox")).toHaveValue("Croissant");
       await expect(page.locator(".catalogue")).toHaveAttribute("aria-busy", "false");
       await page.locator(".mobile-filter-toggle").tap();
-      await expect(page.locator(".catalogue-toolbar select").first()).toBeVisible();
-      await page.locator(".catalogue-toolbar select").first().selectOption("reem");
+      await expect(page.locator(".filter-sheet select").first()).toBeVisible();
+      await page.locator(".filter-sheet select").first().selectOption("reem");
       await expect(page.locator(".catalogue")).toHaveAttribute("aria-busy", "false");
+      await page.locator(".filter-sheet header button").tap();
       await page.getByRole("searchbox").fill("NO_MATCH_ZZ");
       await expect(page.locator(".empty-results")).toBeVisible();
       await page.locator(".results-meta button").tap();

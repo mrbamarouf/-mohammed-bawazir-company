@@ -1,3 +1,4 @@
+import { MobileSectors } from "./mobile-sectors";
 import Image from "next/image";
 import { brands, products } from "@/lib/data";
 import { divisions } from "@/lib/company";
@@ -18,6 +19,8 @@ export function SectorPanels({
 }) {
   const ar = locale === "ar";
   return (
+    <>
+    {!only && <MobileSectors locale={locale} />}
     <div className={`sector-panels ${only ? "single-sector" : ""}`}>
       {divisions
         .filter((d) => !only || d.slug === only)
@@ -119,5 +122,6 @@ export function SectorPanels({
           );
         })}
     </div>
+    </>
   );
 }

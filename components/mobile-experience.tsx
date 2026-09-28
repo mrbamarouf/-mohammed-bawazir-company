@@ -9,11 +9,9 @@ export function MobileExperience() {
   useEffect(() => {
     let cancelled = false;
     let frame = 0;
-    let switched = false;
     try {
       const saved = JSON.parse(sessionStorage.getItem(languageContextKey) || "null");
       if (saved?.path === pathname && Date.now() - saved.time < 15000) {
-        switched = true;
         document.fonts.ready.then(() => {
           const started = performance.now();
           const restore = () => {
@@ -30,13 +28,6 @@ export function MobileExperience() {
           };
           frame = requestAnimationFrame(() => { frame = requestAnimationFrame(restore); });
         });
-      }
-      const hero = document.querySelector<HTMLElement>(".authority-hero");
-      if (hero && window.matchMedia("(max-width: 767px)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches && !switched && !sessionStorage.getItem("mbt-mobile-intro")) {
-        sessionStorage.setItem("mbt-mobile-intro", "seen");
-        hero.dataset.introPlayed = "true";
-        hero.querySelector(".authority-photo")?.animate([{ clipPath: "inset(0 0 8% 0)" }, { clipPath: "inset(0 0 0 0)" }], { duration: 850, easing: "cubic-bezier(.22,1,.36,1)" });
-        hero.querySelector("h1")?.animate([{ transform: "translateY(8px)" }, { transform: "translateY(0)" }], { duration: 650, easing: "ease-out" });
       }
     } catch { /* Private browsing must not block navigation or the page. */ }
     return () => { cancelled = true; cancelAnimationFrame(frame); };

@@ -51,6 +51,7 @@ const scan=()=>{
 };
 await Promise.all(Array.from({length:Number(process.env.QA_WORKERS||3)},async()=>{
  const p=await browser.newPage({viewport:{width:320,height:844},deviceScaleFactor:1,reducedMotion:'reduce'});let errors=[];
+ await p.addInitScript(()=>sessionStorage.setItem('mbt-intro-v2','seen'));
  p.on('pageerror',e=>errors.push(e.message));
  // Do not load photos during a text-only geometry sweep; font requests are real.
  // Full visual captures use the separate normal-network template sweep.
