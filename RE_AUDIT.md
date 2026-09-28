@@ -20,7 +20,7 @@ Fetched all public REST pagination again (English and Arabic records), public po
 
 ## Important defects discovered in the local asset mapping
 
-Visual comparison exposed incorrect logo assignments: NutriSari → Falcon, Bull Dose → Indo Coal, Mayora → Bright, Indo Coal → Tropicana charcoal, Falcon → Golden Coal. Corrected from the official page attachment IDs / inspected brand artwork. Recovered MDSF and Reckitt logos, plus MyMi, Axis and Bright. Distinct charcoal brands remain distinct. Text-only names remain where no reliable standalone mark is available. Elmore, Viva, Exotica, Tiger Pro and Al Kareem artwork exists in the historical official media; these are explicitly presented as portfolio/archive entries, not newly asserted active exclusive partnerships.
+Visual comparison exposed incorrect logo assignments: NutriSari → Falcon, Bull Dose → Indo Coal, Mayora → Bright, Indo Coal → Tropicana charcoal, Falcon → Golden Coal. Corrected from the official page attachment IDs / inspected brand artwork. Recovered MDSF and Reckitt logos, plus MyMi, Axis and Bright. Distinct charcoal brands remain distinct. Text-only names remain where no reliable standalone mark is available. Elmore, Viva, Exotica, Tiger Pro and Carina artwork exists in the historical official media; these are explicitly presented as portfolio/archive entries, not newly asserted active exclusive partnerships.
 
 ## Content destinations and completeness
 
@@ -40,3 +40,13 @@ Original files are immutable. Source-pixel cropping excludes inherited website f
 ## Reproduction
 
 `scripts/re-audit.py`, `scripts/asset-re-audit.py`, `scripts/prepare-assets.mjs`. These are audit/build utilities, not visitor flows. Audit limitations are stated above; completeness means all publicly reachable legitimate content, not access to private administration or inaccessible server files.
+
+## Catalogue and artwork corrections during visual review
+
+The second visual pass identified 69 records with missing local brand associations. Many source records were filed only under WordPress “Uncategorized”; the first importer had incorrectly defaulted these to household products. Discovery metadata now follows explicit brand names in the original product title, with a per-record explanation in `classification-corrections.json`. Original titles, IDs, links and source category IDs are unchanged. The directory now contains 50 documented names, including seven additional names confirmed directly by published product records. 37 have usable standalone artwork. The file named `alkareem.jpg` actually depicts **Carina / كارينا**; the directory correctly identifies the artwork, not its misleading filename. Current availability is not inferred from archive presence.
+
+One near-white Reem container could not be separated from its white background without losing packaging pixels. That derivative retains the original photograph rather than damaging the product. It is not used in the homepage display. Other cleaned packshots were inspected in five contact sheets. No original images were deleted. Run `refine-catalogue.py` after `prepare-assets.mjs` to reproduce the reviewed discovery metadata.
+
+## Final route and artwork verification
+
+All 1,018 bilingual routes returned HTTP 200. Product 9782 had an imported Arabic slug truncated mid-encoding; its new stable slug is `9782-pastadoro-pasta`, with source URL and product title preserved. See `audit/redesign/route-corrections.json`. Mayora and Bull Dose crops were expanded after visual inspection to retain the complete official lettering and symbols. All 303 derivatives were reviewed through brand/product contact sheets and page screenshots.

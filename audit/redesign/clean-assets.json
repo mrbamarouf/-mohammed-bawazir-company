@@ -1,0 +1,2867 @@
+[
+  {
+    "source": "public/assets/brands/d284ed5-reem.jpg",
+    "path": "/assets/clean/brands/reem.webp",
+    "width": 228,
+    "height": 123,
+    "crop": null,
+    "removedEdgePixels": 31970,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/ddb9679-catchme-eng.jpg",
+    "path": "/assets/clean/brands/catch-me.webp",
+    "width": 255,
+    "height": 133,
+    "crop": null,
+    "removedEdgePixels": 41892,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/d1771fc-tspic.jpeg",
+    "path": "/assets/clean/brands/tropicana-slim.webp",
+    "width": 265,
+    "height": 164,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 34770,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/cd35186-2-1.jpg",
+    "path": "/assets/clean/brands/wings.webp",
+    "width": 205,
+    "height": 136,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 52457,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/3bb7aa5-client1.png",
+    "path": "/assets/clean/brands/lool.webp",
+    "width": 217,
+    "height": 129,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 47441,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/082dec5-clientFantastic.png",
+    "path": "/assets/clean/brands/fantastic.webp",
+    "width": 250,
+    "height": 163,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 37094,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/723afae-NS.jpg",
+    "path": "/assets/clean/brands/nutrisari.webp",
+    "width": 195,
+    "height": 87,
+    "crop": {
+      "left": 36,
+      "top": 86,
+      "width": 192,
+      "height": 88
+    },
+    "removedEdgePixels": 3823,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/c3331dd-BD.jpg",
+    "path": "/assets/clean/brands/bull-dose.webp",
+    "width": 186,
+    "height": 178,
+    "crop": {
+      "left": 46,
+      "top": 46,
+      "width": 176,
+      "height": 166
+    },
+    "removedEdgePixels": 14938,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/b51f6e2-client11.png",
+    "path": "/assets/clean/brands/pons.webp",
+    "width": 116,
+    "height": 141,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 51214,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/340e74f-client3.png",
+    "path": "/assets/clean/brands/adonis.webp",
+    "width": 252,
+    "height": 118,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 38496,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/293347b-mayora.png",
+    "path": "/assets/clean/brands/mayora.webp",
+    "width": 186,
+    "height": 140,
+    "crop": {
+      "left": 44,
+      "top": 46,
+      "width": 174,
+      "height": 133
+    },
+    "removedEdgePixels": 15737,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/a7035bd-cleint5.png",
+    "path": "/assets/clean/brands/anchor.webp",
+    "width": 283,
+    "height": 117,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 48634,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/a687e86-client6.png",
+    "path": "/assets/clean/brands/ali-cafe.webp",
+    "width": 242,
+    "height": 121,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 38866,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/9d532a9-Deliciious_logo.png",
+    "path": "/assets/clean/brands/delicio.webp",
+    "width": 337,
+    "height": 263,
+    "crop": null,
+    "removedEdgePixels": 38900,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/a95e2d2-ghurair.jpg",
+    "path": "/assets/clean/brands/al-ghurair.webp",
+    "width": 260,
+    "height": 88,
+    "crop": null,
+    "removedEdgePixels": 45997,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/d652dc8-3.png",
+    "path": "/assets/clean/brands/mdsf.webp",
+    "width": 170,
+    "height": 158,
+    "crop": {
+      "left": 165,
+      "top": 165,
+      "width": 180,
+      "height": 165
+    },
+    "removedEdgePixels": 21846,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/91237ec-2.png",
+    "path": "/assets/clean/brands/reckitt.webp",
+    "width": 245,
+    "height": 132,
+    "crop": {
+      "left": 131,
+      "top": 171,
+      "width": 252,
+      "height": 145
+    },
+    "removedEdgePixels": 28749,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/3fcf7cf-clientbig3.png",
+    "path": "/assets/clean/brands/purity.webp",
+    "width": 297,
+    "height": 175,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 48721,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/820a124-clientbig5.png",
+    "path": "/assets/clean/brands/foramed.webp",
+    "width": 290,
+    "height": 154,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 43515,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/f33830e-neopharma-box.png",
+    "path": "/assets/clean/brands/neopharma.webp",
+    "width": 198,
+    "height": 184,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 52395,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/98c5ac2-4.jpg",
+    "path": "/assets/clean/brands/indo-coal.webp",
+    "width": 220,
+    "height": 102,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 56700,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/6252b22-3.jpg",
+    "path": "/assets/clean/brands/falcon.webp",
+    "width": 216,
+    "height": 126,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 54561,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/bbf714d-2-2.jpg",
+    "path": "/assets/clean/brands/alfakher.webp",
+    "width": 272,
+    "height": 184,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 52780,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/52f2942-5-2.jpg",
+    "path": "/assets/clean/brands/dinner-lady.webp",
+    "width": 156,
+    "height": 140,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 51194,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/36f97cc-mymi.png",
+    "path": "/assets/clean/brands/mymi.webp",
+    "width": 203,
+    "height": 127,
+    "crop": {
+      "left": 35,
+      "top": 70,
+      "width": 198,
+      "height": 120
+    },
+    "removedEdgePixels": 3827,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/ae138bc-beverills-hill-box.png",
+    "path": "/assets/clean/brands/beverly-hills.webp",
+    "width": 288,
+    "height": 89,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 52672,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/a5a5f30-axis.png",
+    "path": "/assets/clean/brands/axis.webp",
+    "width": 179,
+    "height": 123,
+    "crop": {
+      "left": 47,
+      "top": 64,
+      "width": 180,
+      "height": 125
+    },
+    "removedEdgePixels": 17716,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/2c2538b-alachemical-box.png",
+    "path": "/assets/clean/brands/ala-chemical.webp",
+    "width": 195,
+    "height": 185,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 48742,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/a3c2375-bright.jpg",
+    "path": "/assets/clean/brands/bright.webp",
+    "width": 168,
+    "height": 153,
+    "crop": null,
+    "removedEdgePixels": 44185,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/company/974749a-captain-majid-box.png",
+    "path": "/assets/clean/brands/captain-majid.webp",
+    "width": 231,
+    "height": 152,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 47073,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/71cd3a6-clientbig6.png",
+    "path": "/assets/clean/brands/golden-coal.webp",
+    "width": 266,
+    "height": 175,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 47939,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/0149dea-client14.png",
+    "path": "/assets/clean/brands/tropicana-coal.webp",
+    "width": 292,
+    "height": 122,
+    "crop": {
+      "left": 20,
+      "top": 20,
+      "width": 296,
+      "height": 216
+    },
+    "removedEdgePixels": 53793,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/584c8e3-elmore.jpg",
+    "path": "/assets/clean/brands/elmore.webp",
+    "width": 239,
+    "height": 92,
+    "crop": null,
+    "removedEdgePixels": 44910,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/49e5947-viva.png",
+    "path": "/assets/clean/brands/viva.webp",
+    "width": 174,
+    "height": 84,
+    "crop": {
+      "left": 39,
+      "top": 74,
+      "width": 190,
+      "height": 114
+    },
+    "removedEdgePixels": 15808,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/f77a240-logo.png",
+    "path": "/assets/clean/brands/exotica.webp",
+    "width": 257,
+    "height": 154,
+    "crop": null,
+    "removedEdgePixels": 8659,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/ed02896-Tiger_Pro.png",
+    "path": "/assets/clean/brands/tiger-pro.webp",
+    "width": 378,
+    "height": 141,
+    "crop": null,
+    "removedEdgePixels": 133554,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/d5adceb-alkareem.jpg",
+    "path": "/assets/clean/brands/alkareem.webp",
+    "width": 236,
+    "height": 125,
+    "crop": null,
+    "removedEdgePixels": 29390,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/c838ae3-promo.jpg",
+    "path": "/assets/clean/company/promo.webp",
+    "width": 379,
+    "height": 177,
+    "crop": null,
+    "removedEdgePixels": 60161,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/0352b9a-white-gate.jpg",
+    "path": "/assets/clean/company/whitegate.webp",
+    "width": 384,
+    "height": 326,
+    "crop": null,
+    "removedEdgePixels": 93294,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/82284ba-mbtech.jpg",
+    "path": "/assets/clean/company/mbtech.webp",
+    "width": 382,
+    "height": 167,
+    "crop": null,
+    "removedEdgePixels": 131376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/aa50fda-admin-ajax-2-14.png",
+    "path": "/assets/clean/products/5c487bbf6e25.webp",
+    "width": 185,
+    "height": 117,
+    "crop": null,
+    "removedEdgePixels": 143772,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0bc3a6d-admin-ajax-2-13.png",
+    "path": "/assets/clean/products/c22ec18f9fbf.webp",
+    "width": 170,
+    "height": 110,
+    "crop": null,
+    "removedEdgePixels": 146171,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cb7232c-admin-ajax-2-12.png",
+    "path": "/assets/clean/products/13b6f27335f1.webp",
+    "width": 170,
+    "height": 107,
+    "crop": null,
+    "removedEdgePixels": 146697,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/47d8502-admin-ajax-2-11.png",
+    "path": "/assets/clean/products/f622f547d6fd.webp",
+    "width": 160,
+    "height": 101,
+    "crop": null,
+    "removedEdgePixels": 148307,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7746f88-admin-ajax-2-10.png",
+    "path": "/assets/clean/products/e7e89277a30f.webp",
+    "width": 208,
+    "height": 96,
+    "crop": null,
+    "removedEdgePixels": 145635,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9107387-admin-ajax-2-9.png",
+    "path": "/assets/clean/products/9e92f8566f5c.webp",
+    "width": 208,
+    "height": 96,
+    "crop": null,
+    "removedEdgePixels": 145183,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9a0e9ca-admin-ajax-2-8.png",
+    "path": "/assets/clean/products/d34ee48d27f7.webp",
+    "width": 192,
+    "height": 96,
+    "crop": null,
+    "removedEdgePixels": 148868,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/d32e972-admin-ajax-2-7.png",
+    "path": "/assets/clean/products/d3d8c68f18b8.webp",
+    "width": 154,
+    "height": 90,
+    "crop": null,
+    "removedEdgePixels": 149025,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/d229ac1-admin-ajax-2-6.png",
+    "path": "/assets/clean/products/da830678bad3.webp",
+    "width": 112,
+    "height": 130,
+    "crop": null,
+    "removedEdgePixels": 148202,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/117980e-admin-ajax-2-5.png",
+    "path": "/assets/clean/products/d19b55d90d26.webp",
+    "width": 113,
+    "height": 130,
+    "crop": null,
+    "removedEdgePixels": 148232,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1c94dfa-admin-ajax-2-3.png",
+    "path": "/assets/clean/products/e19c1aaf1cde.webp",
+    "width": 221,
+    "height": 101,
+    "crop": null,
+    "removedEdgePixels": 143772,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/3eabbc2-admin-ajax-2-4.png",
+    "path": "/assets/clean/products/34bbca7f661f.webp",
+    "width": 221,
+    "height": 102,
+    "crop": null,
+    "removedEdgePixels": 142021,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a5f2a8a-admin-ajax-2-2.png",
+    "path": "/assets/clean/products/2ca73216ab87.webp",
+    "width": 221,
+    "height": 102,
+    "crop": null,
+    "removedEdgePixels": 142021,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/59bd27f-admin-ajax-2-1.png",
+    "path": "/assets/clean/products/eac9a9acf5fb.webp",
+    "width": 199,
+    "height": 75,
+    "crop": null,
+    "removedEdgePixels": 149569,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5091769-admin-ajax-2.png",
+    "path": "/assets/clean/products/68a30ac1eb34.webp",
+    "width": 201,
+    "height": 76,
+    "crop": null,
+    "removedEdgePixels": 149214,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b4524ac-Wafers-3.png",
+    "path": "/assets/clean/products/6d7a2a199468.webp",
+    "width": 159,
+    "height": 140,
+    "crop": null,
+    "removedEdgePixels": 146282,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cf8462f-Wafers-2.png",
+    "path": "/assets/clean/products/59fb5c7737f2.webp",
+    "width": 151,
+    "height": 139,
+    "crop": null,
+    "removedEdgePixels": 147502,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/12e5580-Wafers-1.png",
+    "path": "/assets/clean/products/799e075a5ddb.webp",
+    "width": 142,
+    "height": 130,
+    "crop": null,
+    "removedEdgePixels": 148992,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6a5be64-admin-ajax-17.png",
+    "path": "/assets/clean/products/58189ed8ccb7.webp",
+    "width": 209,
+    "height": 93,
+    "crop": null,
+    "removedEdgePixels": 145757,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6baebf0-admin-ajax-16.png",
+    "path": "/assets/clean/products/c51613a5f2f2.webp",
+    "width": 203,
+    "height": 91,
+    "crop": null,
+    "removedEdgePixels": 146579,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9ed4c22-admin-ajax-15.png",
+    "path": "/assets/clean/products/9b54343e7dbd.webp",
+    "width": 195,
+    "height": 88,
+    "crop": null,
+    "removedEdgePixels": 147513,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9cb5cbc-admin-ajax-14.png",
+    "path": "/assets/clean/products/baf7ced45117.webp",
+    "width": 205,
+    "height": 92,
+    "crop": null,
+    "removedEdgePixels": 146243,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5948fc1-admin-ajax-13.png",
+    "path": "/assets/clean/products/1a093061c651.webp",
+    "width": 204,
+    "height": 91,
+    "crop": null,
+    "removedEdgePixels": 146402,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8594bec-admin-ajax-12.png",
+    "path": "/assets/clean/products/3864ab4b73e9.webp",
+    "width": 200,
+    "height": 90,
+    "crop": null,
+    "removedEdgePixels": 147014,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c418a90-admin-ajax-11.png",
+    "path": "/assets/clean/products/c68722a77f51.webp",
+    "width": 180,
+    "height": 127,
+    "crop": null,
+    "removedEdgePixels": 142520,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5046ef7-admin-ajaxp.png",
+    "path": "/assets/clean/products/9cebd2ab3a06.webp",
+    "width": 179,
+    "height": 127,
+    "crop": null,
+    "removedEdgePixels": 142511,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/54e94aa-admin-ajax-10.png",
+    "path": "/assets/clean/products/6ccdc96e5ad5.webp",
+    "width": 183,
+    "height": 126,
+    "crop": null,
+    "removedEdgePixels": 142687,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/406800a-admin-ajax-F.png",
+    "path": "/assets/clean/products/a9ed788bd857.webp",
+    "width": 222,
+    "height": 133,
+    "crop": null,
+    "removedEdgePixels": 139940,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5127755-admin-ajax-D.png",
+    "path": "/assets/clean/products/4a5b3252c359.webp",
+    "width": 214,
+    "height": 130,
+    "crop": null,
+    "removedEdgePixels": 141363,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/eeffe03-admin-ajax-M.png",
+    "path": "/assets/clean/products/a61786a8aabd.webp",
+    "width": 216,
+    "height": 131,
+    "crop": null,
+    "removedEdgePixels": 140947,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c7689bf-admin-ajax-C.png",
+    "path": "/assets/clean/products/f52e2a68c2b9.webp",
+    "width": 211,
+    "height": 129,
+    "crop": null,
+    "removedEdgePixels": 141685,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b1e72d6-admin-ajax-9.png",
+    "path": "/assets/clean/products/771b670ed351.webp",
+    "width": 208,
+    "height": 126,
+    "crop": null,
+    "removedEdgePixels": 142453,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f892d40-admin-ajax-8.png",
+    "path": "/assets/clean/products/195ad58a7eed.webp",
+    "width": 214,
+    "height": 105,
+    "crop": null,
+    "removedEdgePixels": 144289,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/fd66438-admin-ajax-7.png",
+    "path": "/assets/clean/products/9c101cc34cce.webp",
+    "width": 218,
+    "height": 102,
+    "crop": null,
+    "removedEdgePixels": 143162,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e6b0c95-admin-ajax-6.png",
+    "path": "/assets/clean/products/a1be2659d3e5.webp",
+    "width": 218,
+    "height": 102,
+    "crop": null,
+    "removedEdgePixels": 143224,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0748ed7-admin-ajax-5.png",
+    "path": "/assets/clean/products/dd4c53c56b1c.webp",
+    "width": 225,
+    "height": 100,
+    "crop": null,
+    "removedEdgePixels": 143178,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/94a77b5-admin-ajax-4.png",
+    "path": "/assets/clean/products/dd47420126c3.webp",
+    "width": 218,
+    "height": 98,
+    "crop": null,
+    "removedEdgePixels": 144256,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/845e984-admin-ajax-3.png",
+    "path": "/assets/clean/products/4acd267a69f1.webp",
+    "width": 221,
+    "height": 110,
+    "crop": null,
+    "removedEdgePixels": 141716,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cb10dac-admin-ajax-2.png",
+    "path": "/assets/clean/products/639b8475d7d0.webp",
+    "width": 238,
+    "height": 101,
+    "crop": null,
+    "removedEdgePixels": 142036,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7add162-admin-ajax-1.png",
+    "path": "/assets/clean/products/b4c0791a2212.webp",
+    "width": 242,
+    "height": 105,
+    "crop": null,
+    "removedEdgePixels": 139568,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e823234-admin-ajax.png",
+    "path": "/assets/clean/products/95f661b18b29.webp",
+    "width": 242,
+    "height": 105,
+    "crop": null,
+    "removedEdgePixels": 140056,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/fdbf3fe-lime.jpg",
+    "path": "/assets/clean/products/f9d54503992f.webp",
+    "width": 245,
+    "height": 283,
+    "crop": null,
+    "removedEdgePixels": 96857,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7de37f5-melon.jpg",
+    "path": "/assets/clean/products/ee8b91acfbd6.webp",
+    "width": 244,
+    "height": 283,
+    "crop": null,
+    "removedEdgePixels": 97128,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5877216-mango.jpg",
+    "path": "/assets/clean/products/1721ba0df75a.webp",
+    "width": 244,
+    "height": 283,
+    "crop": null,
+    "removedEdgePixels": 97128,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/10245dd-orange.jpg",
+    "path": "/assets/clean/products/8f8d679cd013.webp",
+    "width": 244,
+    "height": 283,
+    "crop": null,
+    "removedEdgePixels": 97128,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cae046d-Fantastic-CORNY-Balls-Hot-Cheese.png",
+    "path": "/assets/clean/products/d7662d03f919.webp",
+    "width": 194,
+    "height": 198,
+    "crop": null,
+    "removedEdgePixels": 67669,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/03c1ca9-Fantastic-CORNY-Balls-Cheese.png",
+    "path": "/assets/clean/products/98963b9c0eb0.webp",
+    "width": 177,
+    "height": 208,
+    "crop": null,
+    "removedEdgePixels": 65096,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7422c88-Fantastic-CORNY-Balls-Duitto-KetchupCheese.png",
+    "path": "/assets/clean/products/53ce1253d8d8.webp",
+    "width": 167,
+    "height": 208,
+    "crop": null,
+    "removedEdgePixels": 65089,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/fbd8981-Fantastic-CHPSY-ZigZag-Ketchup.png",
+    "path": "/assets/clean/products/8dbc94e4076f.webp",
+    "width": 157,
+    "height": 208,
+    "crop": null,
+    "removedEdgePixels": 66565,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c9ffd0c-Fantastic-CHPSY-ZigZag-Hot-Chili.png",
+    "path": "/assets/clean/products/d4f535dc1178.webp",
+    "width": 166,
+    "height": 208,
+    "crop": null,
+    "removedEdgePixels": 65087,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7019626-Fantastic-CHPSY-ZigZag-French.png",
+    "path": "/assets/clean/products/c19707d56b25.webp",
+    "width": 167,
+    "height": 208,
+    "crop": null,
+    "removedEdgePixels": 65026,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7bb4d40-FC.jpg",
+    "path": "/assets/clean/products/2feaea8c3602.webp",
+    "width": 179,
+    "height": 226,
+    "crop": null,
+    "removedEdgePixels": 57756,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/bcb1252-1-300x300-13C.jpg",
+    "path": "/assets/clean/products/cd15292ccca5.webp",
+    "width": 111,
+    "height": 169,
+    "crop": null,
+    "removedEdgePixels": 75514,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6432436-1-300x300-13-T.jpg",
+    "path": "/assets/clean/products/44fcba69a4b9.webp",
+    "width": 112,
+    "height": 169,
+    "crop": null,
+    "removedEdgePixels": 77366,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/704eec4-1-300x300-13.jpg",
+    "path": "/assets/clean/products/8754a1676cc4.webp",
+    "width": 66,
+    "height": 218,
+    "crop": null,
+    "removedEdgePixels": 81678,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a30273e-1-300x300-6.jpg",
+    "path": "/assets/clean/products/75b77da6adfe.webp",
+    "width": 179,
+    "height": 176,
+    "crop": null,
+    "removedEdgePixels": 70063,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f848d70-1-300x300-6-1.png",
+    "path": "/assets/clean/products/f0f61adc3e92.webp",
+    "width": 156,
+    "height": 170,
+    "crop": null,
+    "removedEdgePixels": 74171,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/3a47d41-1-300x300-6.png",
+    "path": "/assets/clean/products/93ca7e4f6049.webp",
+    "width": 158,
+    "height": 161,
+    "crop": null,
+    "removedEdgePixels": 73820,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cfeafe4-1-2.jpg",
+    "path": "/assets/clean/products/5f0170719be1.webp",
+    "width": 302,
+    "height": 302,
+    "crop": null,
+    "removedEdgePixels": 191000,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1998270-10.jpg",
+    "path": "/assets/clean/products/77132aa30689.webp",
+    "width": 274,
+    "height": 206,
+    "crop": null,
+    "removedEdgePixels": 50043,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8dab7eb-4.jpg",
+    "path": "/assets/clean/products/273beebac330.webp",
+    "width": 226,
+    "height": 175,
+    "crop": null,
+    "removedEdgePixels": 62362,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/910e43a-Co-300x300-1.jpg",
+    "path": "/assets/clean/products/4861489f45b2.webp",
+    "width": 152,
+    "height": 200,
+    "crop": null,
+    "removedEdgePixels": 65249,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a491d3e-L-300x300-1.jpg",
+    "path": "/assets/clean/products/8613b75d578b.webp",
+    "width": 149,
+    "height": 205,
+    "crop": null,
+    "removedEdgePixels": 64911,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a3852d0-C-300x300-1.jpg",
+    "path": "/assets/clean/products/3bdb630501c9.webp",
+    "width": 146,
+    "height": 201,
+    "crop": null,
+    "removedEdgePixels": 65940,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/00f34b1-S-300x300-1.jpg",
+    "path": "/assets/clean/products/dd67c8fe43b2.webp",
+    "width": 99,
+    "height": 201,
+    "crop": null,
+    "removedEdgePixels": 77427,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cc0f017-M50-300x300-1.jpg",
+    "path": "/assets/clean/products/1728fd472c5b.webp",
+    "width": 127,
+    "height": 161,
+    "crop": null,
+    "removedEdgePixels": 73746,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a7cdda2-M1-300x300-1.jpg",
+    "path": "/assets/clean/products/86fed25c216f.webp",
+    "width": 139,
+    "height": 204,
+    "crop": null,
+    "removedEdgePixels": 66666,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c9d8fcb-18-300x300-1.jpg",
+    "path": "/assets/clean/products/93dda5620173.webp",
+    "width": 136,
+    "height": 189,
+    "crop": null,
+    "removedEdgePixels": 70708,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c13aafa-6-300x300-1.jpg",
+    "path": "/assets/clean/products/b4554d2322c2.webp",
+    "width": 137,
+    "height": 194,
+    "crop": null,
+    "removedEdgePixels": 69813,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2b1b7a3-15-300x300-1.jpg",
+    "path": "/assets/clean/products/b3681292e0f8.webp",
+    "width": 141,
+    "height": 194,
+    "crop": null,
+    "removedEdgePixels": 69447,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cb02056-5-300x300-1.jpg",
+    "path": "/assets/clean/products/b86db04d26d9.webp",
+    "width": 135,
+    "height": 190,
+    "crop": null,
+    "removedEdgePixels": 70620,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/75020d3-Jar-300x300-1.jpg",
+    "path": "/assets/clean/products/0874c7528c3f.webp",
+    "width": 140,
+    "height": 210,
+    "crop": null,
+    "removedEdgePixels": 74446,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0f4b77c-Stevia-H.jpg",
+    "path": "/assets/clean/products/8f6eeaa61708.webp",
+    "width": 165,
+    "height": 200,
+    "crop": null,
+    "removedEdgePixels": 64262,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/bebcc36-stevia-100.jpg",
+    "path": "/assets/clean/products/537eb5981c70.webp",
+    "width": 160,
+    "height": 216,
+    "crop": null,
+    "removedEdgePixels": 61405,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/99cec66-stevia-50.jpg",
+    "path": "/assets/clean/products/8ae15082b6c0.webp",
+    "width": 139,
+    "height": 188,
+    "crop": null,
+    "removedEdgePixels": 68764,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4373d63-s100-300x300-1.jpg",
+    "path": "/assets/clean/products/c14372deb279.webp",
+    "width": 260,
+    "height": 177,
+    "crop": null,
+    "removedEdgePixels": 51855,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/044f683-St50-300x300-1.jpg",
+    "path": "/assets/clean/products/7d735c67974a.webp",
+    "width": 250,
+    "height": 173,
+    "crop": null,
+    "removedEdgePixels": 54199,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/af40c4b-ss-300x300-1.jpg",
+    "path": "/assets/clean/products/789e7e1d1d1d.webp",
+    "width": 161,
+    "height": 227,
+    "crop": null,
+    "removedEdgePixels": 60089,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ebf2202-z100-300x300-1.jpg",
+    "path": "/assets/clean/products/b667a0f2cd81.webp",
+    "width": 269,
+    "height": 195,
+    "crop": null,
+    "removedEdgePixels": 46108,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/3a20cfd-z50-300x300-1.jpg",
+    "path": "/assets/clean/products/b77678e5ddfd.webp",
+    "width": 230,
+    "height": 173,
+    "crop": null,
+    "removedEdgePixels": 56618,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a60b523-Z25-300x300-1.jpg",
+    "path": "/assets/clean/products/9e87b5f6b81f.webp",
+    "width": 207,
+    "height": 149,
+    "crop": null,
+    "removedEdgePixels": 64966,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e22f1bd-H-300x300-1.jpg",
+    "path": "/assets/clean/products/dd1515ee4bac.webp",
+    "width": 154,
+    "height": 181,
+    "crop": null,
+    "removedEdgePixels": 68494,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/89a1f0b-100-300x300-1.jpg",
+    "path": "/assets/clean/products/8a7e6ba09b11.webp",
+    "width": 180,
+    "height": 247,
+    "crop": null,
+    "removedEdgePixels": 52505,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9865f3b-50-300x300-1.jpg",
+    "path": "/assets/clean/products/00350d7b4ffd.webp",
+    "width": 150,
+    "height": 206,
+    "crop": null,
+    "removedEdgePixels": 64460,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4af3b97-EN-300x300-1.jpg",
+    "path": "/assets/clean/products/2888fc4737a2.webp",
+    "width": 132,
+    "height": 137,
+    "crop": null,
+    "removedEdgePixels": 76977,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/930ca41-Cream-300x300-1.jpg",
+    "path": "/assets/clean/products/5887b51e1228.webp",
+    "width": 169,
+    "height": 118,
+    "crop": null,
+    "removedEdgePixels": 74973,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e641a7b-Milk-300x300-1.jpg",
+    "path": "/assets/clean/products/c114ff40c658.webp",
+    "width": 136,
+    "height": 195,
+    "crop": null,
+    "removedEdgePixels": 71217,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/16be652-Oil-10-300x300-1.jpg",
+    "path": "/assets/clean/products/366baca15f5d.webp",
+    "width": 152,
+    "height": 190,
+    "crop": null,
+    "removedEdgePixels": 65973,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0f4181f-Oil4-300x300-1.jpg",
+    "path": "/assets/clean/products/9d2099a03706.webp",
+    "width": 168,
+    "height": 224,
+    "crop": null,
+    "removedEdgePixels": 64903,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/bc61ace-Oil-2-300x300-1.jpg",
+    "path": "/assets/clean/products/e586bb6269c4.webp",
+    "width": 148,
+    "height": 158,
+    "crop": null,
+    "removedEdgePixels": 74854,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4b6c588-Ketchup-300x300-1.jpg",
+    "path": "/assets/clean/products/b988f4a2a545.webp",
+    "width": 152,
+    "height": 191,
+    "crop": null,
+    "removedEdgePixels": 66715,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/d116b51-400-300x300-1.jpg",
+    "path": "/assets/clean/products/affb526fe066.webp",
+    "width": 111,
+    "height": 173,
+    "crop": null,
+    "removedEdgePixels": 75651,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4f9f461-corn-300x300-1.jpg",
+    "path": "/assets/clean/products/d1fd39286fe1.webp",
+    "width": 119,
+    "height": 132,
+    "crop": null,
+    "removedEdgePixels": 78440,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/515b74b-500-300x300-1.jpg",
+    "path": "/assets/clean/products/32fe35e65ee0.webp",
+    "width": 47,
+    "height": 172,
+    "crop": null,
+    "removedEdgePixels": 85140,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f52765c-300-300x300-1.jpg",
+    "path": "/assets/clean/products/af67c1251769.webp",
+    "width": 300,
+    "height": 300,
+    "method": "Original retained: near-white packaging cannot be separated safely"
+  },
+  {
+    "source": "public/assets/products/52fc79c-2kg-300x300-1.jpg",
+    "path": "/assets/clean/products/31a9dc809fe5.webp",
+    "width": 209,
+    "height": 182,
+    "crop": null,
+    "removedEdgePixels": 62719,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cff35d6-800c-300x300-1.jpg",
+    "path": "/assets/clean/products/82bc2f03cd2a.webp",
+    "width": 102,
+    "height": 201,
+    "crop": null,
+    "removedEdgePixels": 77701,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c51bc3f-340c-300x300-1.jpg",
+    "path": "/assets/clean/products/43c757001339.webp",
+    "width": 159,
+    "height": 163,
+    "crop": null,
+    "removedEdgePixels": 70247,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e435509-340-300x300-1.jpg",
+    "path": "/assets/clean/products/39dc77ea5d42.webp",
+    "width": 159,
+    "height": 166,
+    "crop": null,
+    "removedEdgePixels": 70320,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b63fb93-14-300x300-2.jpg",
+    "path": "/assets/clean/products/8054311c2ded.webp",
+    "width": 125,
+    "height": 170,
+    "crop": null,
+    "removedEdgePixels": 76792,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/393bd14-14-300x300-1.jpg",
+    "path": "/assets/clean/products/73ba2310cf29.webp",
+    "width": 145,
+    "height": 163,
+    "crop": null,
+    "removedEdgePixels": 72267,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8450808-2500-300x300-1.jpg",
+    "path": "/assets/clean/products/9c365f609985.webp",
+    "width": 183,
+    "height": 179,
+    "crop": null,
+    "removedEdgePixels": 67974,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/d988991-1-300x300-12.jpg",
+    "path": "/assets/clean/products/a532e730b759.webp",
+    "width": 181,
+    "height": 147,
+    "crop": null,
+    "removedEdgePixels": 70017,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ce6a9f4-1-300x300-2.jpg",
+    "path": "/assets/clean/products/b7e631d0a2f8.webp",
+    "width": 170,
+    "height": 136,
+    "crop": null,
+    "removedEdgePixels": 72952,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/3c8df37-1-300x300-6.jpg",
+    "path": "/assets/clean/products/4fac67befeb7.webp",
+    "width": 151,
+    "height": 166,
+    "crop": null,
+    "removedEdgePixels": 72559,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6804122-1-300x300-5.jpg",
+    "path": "/assets/clean/products/35c32e0eae25.webp",
+    "width": 164,
+    "height": 164,
+    "crop": null,
+    "removedEdgePixels": 75406,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c7a8e31-1-300x300-4.jpg",
+    "path": "/assets/clean/products/86cea947560c.webp",
+    "width": 188,
+    "height": 141,
+    "crop": null,
+    "removedEdgePixels": 71052,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/78eb937-1-300x300-3.jpg",
+    "path": "/assets/clean/products/b7d437dfe565.webp",
+    "width": 188,
+    "height": 155,
+    "crop": null,
+    "removedEdgePixels": 69815,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/637fcfe-1-300x300-2.jpg",
+    "path": "/assets/clean/products/52020b183fd5.webp",
+    "width": 197,
+    "height": 147,
+    "crop": null,
+    "removedEdgePixels": 68651,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6b5df90-1-300x300-1.jpg",
+    "path": "/assets/clean/products/7bd55096e6a0.webp",
+    "width": 196,
+    "height": 148,
+    "crop": null,
+    "removedEdgePixels": 69093,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7050806-49.jpg",
+    "path": "/assets/clean/products/c5c0267a2d17.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841619,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9b3b099-48.jpg",
+    "path": "/assets/clean/products/86db5306bccf.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 842256,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f44d399-47.jpg",
+    "path": "/assets/clean/products/701ed2865359.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841707,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/220ad11-46.jpg",
+    "path": "/assets/clean/products/e669205cbaf4.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 842074,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/bdd7c4f-45.jpg",
+    "path": "/assets/clean/products/aec857666a58.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841542,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/15bc560-44.jpg",
+    "path": "/assets/clean/products/2b96b9d54b49.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841929,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/251f65d-43.jpg",
+    "path": "/assets/clean/products/91a816da41a1.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841623,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0bbc45a-42.jpg",
+    "path": "/assets/clean/products/f85d3c505064.webp",
+    "width": 472,
+    "height": 435,
+    "crop": null,
+    "removedEdgePixels": 841912,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f104769-37-1.jpg",
+    "path": "/assets/clean/products/e70c21a7d4a5.webp",
+    "width": 325,
+    "height": 365,
+    "crop": null,
+    "removedEdgePixels": 146039,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/760c079-36-1.jpg",
+    "path": "/assets/clean/products/b89982a436dc.webp",
+    "width": 336,
+    "height": 370,
+    "crop": null,
+    "removedEdgePixels": 144332,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ec242e9-38-1.jpg",
+    "path": "/assets/clean/products/a3f2d134e170.webp",
+    "width": 327,
+    "height": 362,
+    "crop": null,
+    "removedEdgePixels": 145209,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2a1f732-39-1.jpg",
+    "path": "/assets/clean/products/35c1f85eaa5c.webp",
+    "width": 344,
+    "height": 371,
+    "crop": null,
+    "removedEdgePixels": 145171,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b06c35e-40-1.jpg",
+    "path": "/assets/clean/products/9435051c8cec.webp",
+    "width": 325,
+    "height": 364,
+    "crop": null,
+    "removedEdgePixels": 146321,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0a05b6c-41-1.jpg",
+    "path": "/assets/clean/products/6778bb433fdb.webp",
+    "width": 325,
+    "height": 364,
+    "crop": null,
+    "removedEdgePixels": 146188,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/67e366b-14-1.jpg",
+    "path": "/assets/clean/products/da07c22768a6.webp",
+    "width": 99,
+    "height": 346,
+    "crop": null,
+    "removedEdgePixels": 224214,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ef98a3f-17-1.jpg",
+    "path": "/assets/clean/products/44bb747f1fa3.webp",
+    "width": 95,
+    "height": 324,
+    "crop": null,
+    "removedEdgePixels": 228653,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/90a694a-51.jpg",
+    "path": "/assets/clean/products/f08f1ec12cb5.webp",
+    "width": 403,
+    "height": 724,
+    "crop": null,
+    "removedEdgePixels": 788694,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/36064aa-54.jpg",
+    "path": "/assets/clean/products/5bb3d2df2a64.webp",
+    "width": 413,
+    "height": 558,
+    "crop": null,
+    "removedEdgePixels": 818982,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7194108-57.jpg",
+    "path": "/assets/clean/products/ddd2a2af662d.webp",
+    "width": 255,
+    "height": 661,
+    "crop": null,
+    "removedEdgePixels": 892897,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1868498-65.jpg",
+    "path": "/assets/clean/products/2638e6641df6.webp",
+    "width": 329,
+    "height": 627,
+    "crop": null,
+    "removedEdgePixels": 842761,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e22a277-BLUEBERRY_KSA_SOFT_250G.jpg",
+    "path": "/assets/clean/products/389ce8b7bb72.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a331d2d-BLUEBERRY_KSA_SOFT_500G-copy.jpg",
+    "path": "/assets/clean/products/4fdb52d200f2.webp",
+    "width": 558,
+    "height": 945,
+    "crop": null,
+    "removedEdgePixels": 975079,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/99f623e-GRAPES_KSA_SOFT_250G-copy-2.jpg",
+    "path": "/assets/clean/products/090e4a3aa7f9.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/30f3cd3-GRAPES_KSA_SOFT_500G-copy.jpg",
+    "path": "/assets/clean/products/8995f82edc1a.webp",
+    "width": 558,
+    "height": 945,
+    "crop": null,
+    "removedEdgePixels": 975079,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c7032c6-GUM_KSA_SOFT_500G-copy.jpg",
+    "path": "/assets/clean/products/78fe5c0e4a24.webp",
+    "width": 558,
+    "height": 945,
+    "crop": null,
+    "removedEdgePixels": 975079,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7c95810-GRAPES_KSA_SOFT_250G-copy.jpg",
+    "path": "/assets/clean/products/98d0790eb653.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b223e94-STRAWBERRY_KSA_SOFT_250G-copy-1.jpg",
+    "path": "/assets/clean/products/7813ea455b36.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2438fd1-Screenshot-2024-06-04-at-4.52.10-AM.png",
+    "path": "/assets/clean/products/c72aa147977e.webp",
+    "width": 1286,
+    "height": 1684,
+    "crop": null,
+    "removedEdgePixels": 2113457,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a3299bf-TWO-APPLES_KSA_SOFT_250G-copy.jpg",
+    "path": "/assets/clean/products/2aaa927c3f24.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/253a205-WATERMELON_KSA_SOFT_250G-copy.jpg",
+    "path": "/assets/clean/products/c68b14049eaa.webp",
+    "width": 517,
+    "height": 875,
+    "crop": null,
+    "removedEdgePixels": 1042376,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b4533dd-15.jpg",
+    "path": "/assets/clean/products/b57390b21a2b.webp",
+    "width": 526,
+    "height": 651,
+    "crop": null,
+    "removedEdgePixels": 679810,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/86563e6-9.jpg",
+    "path": "/assets/clean/products/f2f6141b09e3.webp",
+    "width": 526,
+    "height": 651,
+    "crop": null,
+    "removedEdgePixels": 680352,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c70cb87-12.jpg",
+    "path": "/assets/clean/products/bdd825ed94b4.webp",
+    "width": 522,
+    "height": 647,
+    "crop": null,
+    "removedEdgePixels": 684064,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/04320fc-11.jpg",
+    "path": "/assets/clean/products/cb29a8b08876.webp",
+    "width": 525,
+    "height": 649,
+    "crop": null,
+    "removedEdgePixels": 681372,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8eff141-25-300x300-1.jpg",
+    "path": "/assets/clean/products/44b5c54873ec.webp",
+    "width": 126,
+    "height": 171,
+    "crop": null,
+    "removedEdgePixels": 72807,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1225091-1.jpg",
+    "path": "/assets/clean/products/7f9bc48b3192.webp",
+    "width": 295,
+    "height": 232,
+    "crop": null,
+    "removedEdgePixels": 195902,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/66425ed-2.jpg",
+    "path": "/assets/clean/products/fdb7630ada63.webp",
+    "width": 292,
+    "height": 228,
+    "crop": null,
+    "removedEdgePixels": 206678,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/30fb13b-1-300x300-1.jpg",
+    "path": "/assets/clean/products/fee0ca1f914b.webp",
+    "width": 165,
+    "height": 220,
+    "crop": null,
+    "removedEdgePixels": 60412,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4456a0b-Untitled-design-2.png",
+    "path": "/assets/clean/products/633135a98ffd.webp",
+    "width": 212,
+    "height": 338,
+    "crop": null,
+    "removedEdgePixels": 192003,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9587acb-3.png",
+    "path": "/assets/clean/products/0ef7770616fc.webp",
+    "width": 348,
+    "height": 207,
+    "crop": null,
+    "removedEdgePixels": 197724,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0c5ecd6-2.png",
+    "path": "/assets/clean/products/6df6f43cda99.webp",
+    "width": 212,
+    "height": 337,
+    "crop": null,
+    "removedEdgePixels": 193019,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c91f2e2-6.png",
+    "path": "/assets/clean/products/785527badf33.webp",
+    "width": 296,
+    "height": 343,
+    "crop": null,
+    "removedEdgePixels": 166479,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/42a176c-13.png",
+    "path": "/assets/clean/products/67fbf6fc4570.webp",
+    "width": 335,
+    "height": 95,
+    "crop": null,
+    "removedEdgePixels": 225451,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/db6c19e-1.png",
+    "path": "/assets/clean/products/684e26c4cb69.webp",
+    "width": 334,
+    "height": 254,
+    "crop": null,
+    "removedEdgePixels": 177203,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c804f2f-1-300x300-1.jpg",
+    "path": "/assets/clean/products/6d1ddb7fb73d.webp",
+    "width": 146,
+    "height": 164,
+    "crop": null,
+    "removedEdgePixels": 76878,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/980a2ee-Untitled-1_e140be69-5293-4f21-b8b8-89573b493f97_2000x.jpg",
+    "path": "/assets/clean/products/a65f82479377.webp",
+    "width": 188,
+    "height": 265,
+    "crop": null,
+    "removedEdgePixels": 212492,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c49d129-TBS-Stick-50_2000x.jpg",
+    "path": "/assets/clean/products/881e5cdacd46.webp",
+    "width": 401,
+    "height": 299,
+    "crop": null,
+    "removedEdgePixels": 148179,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8089a37-SS50_2000x.jpg",
+    "path": "/assets/clean/products/b9686a32affe.webp",
+    "width": 412,
+    "height": 283,
+    "crop": null,
+    "removedEdgePixels": 151272,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/38eea3b-100LO_2000x.jpg",
+    "path": "/assets/clean/products/778090716c74.webp",
+    "width": 188,
+    "height": 272,
+    "crop": null,
+    "removedEdgePixels": 210843,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e652c01-lo50_2000x.jpg",
+    "path": "/assets/clean/products/03e79739ef9a.webp",
+    "width": 250,
+    "height": 331,
+    "crop": null,
+    "removedEdgePixels": 183209,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a89a8b1-cocco_2000x.jpg",
+    "path": "/assets/clean/products/01f8f473ab27.webp",
+    "width": 268,
+    "height": 357,
+    "crop": null,
+    "removedEdgePixels": 171321,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/06aa31b-LATTEH_2000x.jpg",
+    "path": "/assets/clean/products/62098135c3f3.webp",
+    "width": 268,
+    "height": 358,
+    "crop": null,
+    "removedEdgePixels": 170683,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/abf0d25-Screenshot2021-06-28at15.52.51_2000x.png",
+    "path": "/assets/clean/products/5b628a8a8d2d.webp",
+    "width": 868,
+    "height": 1225,
+    "crop": null,
+    "removedEdgePixels": 350035,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c9a77d6-S100_2000x.jpg",
+    "path": "/assets/clean/products/5d30493cd1dd.webp",
+    "width": 250,
+    "height": 335,
+    "crop": null,
+    "removedEdgePixels": 180617,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8f282ce-Untitled-1_2000x.jpg",
+    "path": "/assets/clean/products/9c519073896b.webp",
+    "width": 370,
+    "height": 775,
+    "crop": null,
+    "removedEdgePixels": 961415,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/001f4a6-CUPPO_2000x.jpg",
+    "path": "/assets/clean/products/77dd53a2d918.webp",
+    "width": 268,
+    "height": 355,
+    "crop": null,
+    "removedEdgePixels": 171020,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/49715be-zaghloul.jpg",
+    "path": "/assets/clean/products/d26d5c4ee5d7.webp",
+    "width": 281,
+    "height": 474,
+    "crop": null,
+    "removedEdgePixels": 132656,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/b3b7aa6-two-apple-.jpg",
+    "path": "/assets/clean/products/8d5d95c0aca1.webp",
+    "width": 281,
+    "height": 474,
+    "crop": null,
+    "removedEdgePixels": 133068,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/59efa00-apple.jpg",
+    "path": "/assets/clean/products/efaf51e3550e.webp",
+    "width": 281,
+    "height": 477,
+    "crop": null,
+    "removedEdgePixels": 132188,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1203fe7-Blueberry.jpg",
+    "path": "/assets/clean/products/bdd1717992bb.webp",
+    "width": 281,
+    "height": 477,
+    "crop": null,
+    "removedEdgePixels": 132719,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a5c6dc4-peach.jpg",
+    "path": "/assets/clean/products/1105492ab69f.webp",
+    "width": 281,
+    "height": 474,
+    "crop": null,
+    "removedEdgePixels": 133479,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2098450-mint.jpg",
+    "path": "/assets/clean/products/de5e0a16fca0.webp",
+    "width": 281,
+    "height": 474,
+    "crop": null,
+    "removedEdgePixels": 133068,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/61c0771-grape.jpg",
+    "path": "/assets/clean/products/892e898acf65.webp",
+    "width": 281,
+    "height": 477,
+    "crop": null,
+    "removedEdgePixels": 132719,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7dd37f8-Al-Basha-Nakkhla-Grape-250-Gram.jpg",
+    "path": "/assets/clean/products/75bb016f273e.webp",
+    "width": 275,
+    "height": 463,
+    "crop": null,
+    "removedEdgePixels": 136984,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ecce2d1-Al-Bahsa-Nakhla-Zaghlool-250-gram.jpg",
+    "path": "/assets/clean/products/f74b3d275f1a.webp",
+    "width": 275,
+    "height": 464,
+    "crop": null,
+    "removedEdgePixels": 137111,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4a052ca-3-1.jpg",
+    "path": "/assets/clean/products/c95e765905ae.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 38,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1580b92-Al-Basha-Nakhla-Two-Apple-Flavour-250-Gram-.jpg",
+    "path": "/assets/clean/products/4b0ee91bf60b.webp",
+    "width": 275,
+    "height": 462,
+    "crop": null,
+    "removedEdgePixels": 137624,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/610746a-peach-1.jpg",
+    "path": "/assets/clean/products/820a74f3cc3d.webp",
+    "width": 228,
+    "height": 384,
+    "crop": null,
+    "removedEdgePixels": 172947,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ce4b13a-mint-1.jpg",
+    "path": "/assets/clean/products/478094a133df.webp",
+    "width": 228,
+    "height": 384,
+    "crop": null,
+    "removedEdgePixels": 172929,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6d09111-blueberry-1.jpg",
+    "path": "/assets/clean/products/77dcfb486226.webp",
+    "width": 228,
+    "height": 384,
+    "crop": null,
+    "removedEdgePixels": 172933,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e260537-KOBIKO-120G_2000x.jpeg",
+    "path": "/assets/clean/products/c3e3f468b453.webp",
+    "width": 316,
+    "height": 436,
+    "crop": null,
+    "removedEdgePixels": 132123,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/906fc9b-4315f046-9f24-4ec3-9be0-66b92125f040.jpeg",
+    "path": "/assets/clean/products/86754015fb93.webp",
+    "width": 371,
+    "height": 316,
+    "crop": null,
+    "removedEdgePixels": 186253,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8d49c2b-sdd.jpg",
+    "path": "/assets/clean/products/6e3ec7144a7d.webp",
+    "width": 226,
+    "height": 305,
+    "crop": null,
+    "removedEdgePixels": 98736,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c511c3d-Untitlebbd-10.jpg",
+    "path": "/assets/clean/products/392e3fd232f6.webp",
+    "width": 228,
+    "height": 307,
+    "crop": null,
+    "removedEdgePixels": 97891,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4276a39-TORABIKACAPPUCCINO_2000x.png",
+    "path": "/assets/clean/products/7417ac7f4c3b.webp",
+    "width": 262,
+    "height": 376,
+    "crop": null,
+    "removedEdgePixels": 170942,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e18056e-Danisa-9.jpg",
+    "path": "/assets/clean/products/a55cf3ab850c.webp",
+    "width": 289,
+    "height": 293,
+    "crop": null,
+    "removedEdgePixels": 99030,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6354922-fhfh-8.jpg",
+    "path": "/assets/clean/products/88e1f418fd81.webp",
+    "width": 398,
+    "height": 134,
+    "crop": null,
+    "removedEdgePixels": 124443,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9b0f349-chocki-1.jpg",
+    "path": "/assets/clean/products/e80455bc48f4.webp",
+    "width": 322,
+    "height": 207,
+    "crop": null,
+    "removedEdgePixels": 122734,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/876ab2c-khdgr.jpg",
+    "path": "/assets/clean/products/8b0b2eb2d1e5.webp",
+    "width": 292,
+    "height": 188,
+    "crop": null,
+    "removedEdgePixels": 129567,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/82b142b-choki.jpg",
+    "path": "/assets/clean/products/f4739627fd00.webp",
+    "width": 398,
+    "height": 254,
+    "crop": null,
+    "removedEdgePixels": 102329,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/547cb87-Untitled-96.jpg",
+    "path": "/assets/clean/products/4cfacdc56f4d.webp",
+    "width": 212,
+    "height": 268,
+    "crop": null,
+    "removedEdgePixels": 113255,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/46b3715-WhatsApp-Image-2021-09-28-at-12.21.26-PM-2.jpeg",
+    "path": "/assets/clean/products/d817e7928590.webp",
+    "width": 351,
+    "height": 316,
+    "crop": null,
+    "removedEdgePixels": 157856,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9ed2d30-WhatsApp-Image-2021-09-28-at-12.21.26-PM-1-1.jpeg",
+    "path": "/assets/clean/products/9ab2a7d045a3.webp",
+    "width": 342,
+    "height": 285,
+    "crop": null,
+    "removedEdgePixels": 169035,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7bbb0ce-Untitled-98.jpg",
+    "path": "/assets/clean/products/0dece07a8063.webp",
+    "width": 188,
+    "height": 240,
+    "crop": null,
+    "removedEdgePixels": 123186,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/97e5538-Untitled-4.jpg",
+    "path": "/assets/clean/products/47d387010de1.webp",
+    "width": 243,
+    "height": 371,
+    "crop": null,
+    "removedEdgePixels": 83940,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8e6c7fa-catchme_ketchup.jpg",
+    "path": "/assets/clean/products/bf8cb2296fe6.webp",
+    "width": 412,
+    "height": 380,
+    "crop": null,
+    "removedEdgePixels": 26247,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/59ac225-6223000053058.jpg",
+    "path": "/assets/clean/products/12446f93819c.webp",
+    "width": 249,
+    "height": 370,
+    "crop": null,
+    "removedEdgePixels": 83287,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/049e44a-cirtus.jpg",
+    "path": "/assets/clean/products/133ed31794b7.webp",
+    "width": 278,
+    "height": 408,
+    "crop": null,
+    "removedEdgePixels": 90722,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5b2b980-6223000051696.jpg",
+    "path": "/assets/clean/products/7ccd71233007.webp",
+    "width": 460,
+    "height": 209,
+    "crop": null,
+    "removedEdgePixels": 15574,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2b8e9c7-6223000051702.jpg",
+    "path": "/assets/clean/products/2c3c87639ded.webp",
+    "width": 460,
+    "height": 211,
+    "crop": null,
+    "removedEdgePixels": 17202,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0e75759-bright-white.jpg",
+    "path": "/assets/clean/products/b711f29c9c37.webp",
+    "width": 108,
+    "height": 402,
+    "crop": null,
+    "removedEdgePixels": 125046,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f983f6d-Untitled-3.jpg",
+    "path": "/assets/clean/products/21c03465365e.webp",
+    "width": 340,
+    "height": 231,
+    "crop": null,
+    "removedEdgePixels": 102571,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5166548-CoRn.jpg",
+    "path": "/assets/clean/products/41ddf0513160.webp",
+    "width": 283,
+    "height": 326,
+    "crop": null,
+    "removedEdgePixels": 81387,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a524b2f-Untitled-6.jpg",
+    "path": "/assets/clean/products/98dc7931ae3c.webp",
+    "width": 381,
+    "height": 329,
+    "crop": null,
+    "removedEdgePixels": 74805,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/14cd697-WhatsApp-Image-2021-09-28-at-12.21.26-PM-2-1.jpeg",
+    "path": "/assets/clean/products/93463eb77675.webp",
+    "width": 351,
+    "height": 316,
+    "crop": null,
+    "removedEdgePixels": 157856,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7f11515-Elmore_classic.jpg",
+    "path": "/assets/clean/products/93618c85d69b.webp",
+    "width": 342,
+    "height": 350,
+    "crop": null,
+    "removedEdgePixels": 73951,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ae0cb3e-dentonic-powder.jpg",
+    "path": "/assets/clean/products/9e83c8afa894.webp",
+    "width": 284,
+    "height": 508,
+    "crop": null,
+    "removedEdgePixels": 140036,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/010068b-bright-black-polish.jpg",
+    "path": "/assets/clean/products/47638958b896.webp",
+    "width": 107,
+    "height": 404,
+    "crop": null,
+    "removedEdgePixels": 124433,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ab55fae-elfy-super-glue.jpg",
+    "path": "/assets/clean/products/bebb4e575b76.webp",
+    "width": 244,
+    "height": 399,
+    "crop": null,
+    "removedEdgePixels": 82483,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c2325fa-nakhla-small-two-apple.jpg",
+    "path": "/assets/clean/products/296fbf6bba7a.webp",
+    "width": 398,
+    "height": 293,
+    "crop": null,
+    "removedEdgePixels": 68259,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c8a68e8-Untitled-21.jpg",
+    "path": "/assets/clean/products/a7b23084913d.webp",
+    "width": 243,
+    "height": 358,
+    "crop": null,
+    "removedEdgePixels": 82321,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/0bcf940-Untitled-24.jpg",
+    "path": "/assets/clean/products/37dc9d93eeaa.webp",
+    "width": 365,
+    "height": 380,
+    "crop": null,
+    "removedEdgePixels": 40909,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/d00bd48-Untitled-8.jpg",
+    "path": "/assets/clean/products/1515f40cb8f9.webp",
+    "width": 257,
+    "height": 389,
+    "crop": null,
+    "removedEdgePixels": 75816,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/67f0a2b-Untitled-13.jpg",
+    "path": "/assets/clean/products/b99dbd404dfb.webp",
+    "width": 209,
+    "height": 399,
+    "crop": null,
+    "removedEdgePixels": 108743,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/450060f-Untitled-18.jpg",
+    "path": "/assets/clean/products/435dc5279907.webp",
+    "width": 212,
+    "height": 392,
+    "crop": null,
+    "removedEdgePixels": 85781,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c819f2d-Untitled-12.jpg",
+    "path": "/assets/clean/products/78c8ef18c3d2.webp",
+    "width": 370,
+    "height": 267,
+    "crop": null,
+    "removedEdgePixels": 76738,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6fcc47f-Untitled-11.jpg",
+    "path": "/assets/clean/products/99af795fcd9c.webp",
+    "width": 371,
+    "height": 362,
+    "crop": null,
+    "removedEdgePixels": 39509,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6ef061f-white-polsih.jpg",
+    "path": "/assets/clean/products/38c49e7ad690.webp",
+    "width": 131,
+    "height": 366,
+    "crop": null,
+    "removedEdgePixels": 117874,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/706b79d-white1.jpg",
+    "path": "/assets/clean/products/967b93cf6404.webp",
+    "width": 335,
+    "height": 239,
+    "crop": null,
+    "removedEdgePixels": 110481,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/eb42e56-aquastop.jpg",
+    "path": "/assets/clean/products/689d288000ab.webp",
+    "width": 162,
+    "height": 360,
+    "crop": null,
+    "removedEdgePixels": 123773,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ff0689d-albasha.jpg",
+    "path": "/assets/clean/products/ce9971bc0e5a.webp",
+    "width": 228,
+    "height": 384,
+    "crop": null,
+    "removedEdgePixels": 173121,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e058765-cirtus-1.jpg",
+    "path": "/assets/clean/products/de93bcb77a35.webp",
+    "width": 355,
+    "height": 296,
+    "crop": null,
+    "removedEdgePixels": 102687,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/fae825c-1-300x300-5.jpg",
+    "path": "/assets/clean/products/cce981d5e250.webp",
+    "width": 201,
+    "height": 132,
+    "crop": null,
+    "removedEdgePixels": 69714,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/c29cd9e-mushroom.jpg",
+    "path": "/assets/clean/products/892e83beed22.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 42,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/fe1bd53-1-300x300-1.jpg",
+    "path": "/assets/clean/products/cb1f65c0b6c7.webp",
+    "width": 122,
+    "height": 179,
+    "crop": null,
+    "removedEdgePixels": 72636,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4d6e1b0-foul.png",
+    "path": "/assets/clean/products/1a7e5ae6aa5d.webp",
+    "width": 512,
+    "height": 512,
+    "crop": null,
+    "removedEdgePixels": 13,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/e61bb81-5-1.jpg",
+    "path": "/assets/clean/products/c9e04331cb48.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 69,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/4352e01-T-300x300-1.jpg",
+    "path": "/assets/clean/products/998906c44972.webp",
+    "width": 127,
+    "height": 163,
+    "crop": null,
+    "removedEdgePixels": 77853,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/902b956-3-300x300-1.jpg",
+    "path": "/assets/clean/products/17f707d1da30.webp",
+    "width": 142,
+    "height": 181,
+    "crop": null,
+    "removedEdgePixels": 71061,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6438cb9-1-300x300-4.jpg",
+    "path": "/assets/clean/products/4e1620ac1c64.webp",
+    "width": 101,
+    "height": 150,
+    "crop": null,
+    "removedEdgePixels": 78526,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9b57102-2-300x300-1.jpg",
+    "path": "/assets/clean/products/981359b00733.webp",
+    "width": 175,
+    "height": 138,
+    "crop": null,
+    "removedEdgePixels": 74762,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/dc11d3a-Untitled-7.jpg",
+    "path": "/assets/clean/products/227c8437f64b.webp",
+    "width": 396,
+    "height": 312,
+    "crop": null,
+    "removedEdgePixels": 71563,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a351bc0-1-300x300-3.jpg",
+    "path": "/assets/clean/products/cf0dc1717973.webp",
+    "width": 176,
+    "height": 140,
+    "crop": null,
+    "removedEdgePixels": 74828,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/901757e-4-1.jpg",
+    "path": "/assets/clean/products/81507510c379.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 73,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/981bfa3-8-1.jpg",
+    "path": "/assets/clean/products/f62bec4eb88b.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 39,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f812707-750-300x300-1.jpg",
+    "path": "/assets/clean/products/4374ea5b56f2.webp",
+    "width": 62,
+    "height": 184,
+    "crop": null,
+    "removedEdgePixels": 83201,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/67e7906-500-300x300-1.jpg",
+    "path": "/assets/clean/products/b08c6e249f60.webp",
+    "width": 53,
+    "height": 154,
+    "crop": null,
+    "removedEdgePixels": 85350,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5675fd3-250-300x300-1.jpg",
+    "path": "/assets/clean/products/a729a665821e.webp",
+    "width": 57,
+    "height": 131,
+    "crop": null,
+    "removedEdgePixels": 86769,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/9523cb9-Untitled-23.jpg",
+    "path": "/assets/clean/products/2c9923f10da0.webp",
+    "width": 168,
+    "height": 239,
+    "crop": null,
+    "removedEdgePixels": 125323,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/cbc90e0-Untitled-22.jpg",
+    "path": "/assets/clean/products/75778627a426.webp",
+    "width": 216,
+    "height": 307,
+    "crop": null,
+    "removedEdgePixels": 101390,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/2a0006f-4-300x300-1.jpg",
+    "path": "/assets/clean/products/4f5614d9029f.webp",
+    "width": 133,
+    "height": 179,
+    "crop": null,
+    "removedEdgePixels": 74859,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/3c28b7c-16-1.jpg",
+    "path": "/assets/clean/products/c33c221a1e2c.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 11,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5178c59-22-300x300-1.jpg",
+    "path": "/assets/clean/products/3b144bcb2ae1.webp",
+    "width": 124,
+    "height": 126,
+    "crop": null,
+    "removedEdgePixels": 79407,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/5a9f517-6-1.jpg",
+    "path": "/assets/clean/products/59c15045960e.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 19,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/8485118-1000-300x300-1.jpg",
+    "path": "/assets/clean/products/1bbbe7046bcc.webp",
+    "width": 123,
+    "height": 176,
+    "crop": null,
+    "removedEdgePixels": 73496,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/bb4a1d4-19-1.jpg",
+    "path": "/assets/clean/products/63916c1b1872.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 81,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6c4bdf0-22-1.jpg",
+    "path": "/assets/clean/products/1ac0094f62b6.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 20,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/6d66a46-200-300x300-1.jpg",
+    "path": "/assets/clean/products/c45f71956b60.webp",
+    "width": 136,
+    "height": 141,
+    "crop": null,
+    "removedEdgePixels": 75981,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/317a248-20-1.jpg",
+    "path": "/assets/clean/products/3a3404e2be79.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 72,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/97f687e-200c-300x300-1.jpg",
+    "path": "/assets/clean/products/1c15d71c6c16.webp",
+    "width": 136,
+    "height": 133,
+    "crop": null,
+    "removedEdgePixels": 76920,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/f9a19b1-23-1.jpg",
+    "path": "/assets/clean/products/5ec0dfc37022.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 28,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/1775aaa-850-300x300-1.jpg",
+    "path": "/assets/clean/products/f5edef019c1c.webp",
+    "width": 84,
+    "height": 192,
+    "crop": null,
+    "removedEdgePixels": 78398,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/7ce6451-10-1.jpg",
+    "path": "/assets/clean/products/6e4de6d3dee2.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 87,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/a59b162-11-1.jpg",
+    "path": "/assets/clean/products/3c143b2a10d7.webp",
+    "width": 1012,
+    "height": 1012,
+    "crop": null,
+    "removedEdgePixels": 47,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/products/ae21605-reem-tuna-.jpg",
+    "path": "/assets/clean/products/c883aa33cf0e.webp",
+    "width": 273,
+    "height": 187,
+    "crop": null,
+    "removedEdgePixels": 119642,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/869d341-Reem_Products-25.png",
+    "path": "/assets/clean/products/reem-145.webp",
+    "width": 323,
+    "height": 222,
+    "crop": null,
+    "removedEdgePixels": 2775,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/0a85a1d-Reem_Products-23.png",
+    "path": "/assets/clean/products/reem-147.webp",
+    "width": 235,
+    "height": 321,
+    "crop": null,
+    "removedEdgePixels": 11555,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/b95157f-Reem_Products-22.png",
+    "path": "/assets/clean/products/reem-148.webp",
+    "width": 243,
+    "height": 321,
+    "crop": null,
+    "removedEdgePixels": 10832,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/2f9db37-Reem_Products-21.png",
+    "path": "/assets/clean/products/reem-149.webp",
+    "width": 230,
+    "height": 328,
+    "crop": null,
+    "removedEdgePixels": 9560,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/286e684-Reem_Products-17.png",
+    "path": "/assets/clean/products/reem-151.webp",
+    "width": 78,
+    "height": 321,
+    "crop": null,
+    "removedEdgePixels": 2976,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/27f240f-Reem_Products-16.png",
+    "path": "/assets/clean/products/reem-152.webp",
+    "width": 213,
+    "height": 314,
+    "crop": null,
+    "removedEdgePixels": 1482,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/ee7b262-Reem_Products-13.png",
+    "path": "/assets/clean/products/reem-153.webp",
+    "width": 322,
+    "height": 327,
+    "crop": null,
+    "removedEdgePixels": 12431,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  },
+  {
+    "source": "public/assets/brands/df0c63d-Reem_Products-3.png",
+    "path": "/assets/clean/products/reem-163.webp",
+    "width": 253,
+    "height": 320,
+    "crop": null,
+    "removedEdgePixels": 7373,
+    "method": "edge-connected near-white alpha; original RGB pixels preserved; no upscaling"
+  }
+]

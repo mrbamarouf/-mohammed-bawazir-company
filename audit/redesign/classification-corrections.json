@@ -1,0 +1,554 @@
+[
+  {
+    "id": 36012,
+    "name": "Watermelon Ice Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 36010,
+    "name": "Pink Lemonade Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 36008,
+    "name": "Spearmint Menthol Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 36005,
+    "name": "Ivory Tobacco Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 36003,
+    "name": "Lemon Slice Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 36001,
+    "name": "Kiwi Passion Guava Fuyl 8000  Disposable",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 35999,
+    "name": "Pineapple Peach Fuyl",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 35997,
+    "name": "APPLE PEACH FUYL 8000 DISPOSAL",
+    "previousDivision": "tobacco",
+    "division": "tobacco",
+    "brand": "fuyl",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9782,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9832,
+    "name": "ديليسيو – صلصة الباستا – أرابيتا",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "delicio",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9810,
+    "name": "الرشيدي الميزان – مربي الفراولة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9736,
+    "name": "جدايل – زيت مطول للشعر",
+    "previousDivision": "household",
+    "division": "personal-care",
+    "brand": "jadayel",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9788,
+    "name": "أدونيس – كمون ناعم",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9789,
+    "name": "أدونيس – قرفة ناعمة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9790,
+    "name": "أدونيس – بهارات البيتزا",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9792,
+    "name": "أدونيس – بهارات مشكلة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9794,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9797,
+    "name": "أدونيس – بهارات الكبة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9800,
+    "name": "بونس – زيت زيتون بكر ممتاز مع شطة تباسكو",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pons",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9801,
+    "name": "أدونيس – بهارات الأرز",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "adonis",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9805,
+    "name": "الرشيدي الميزان – حلاو طحينية بار أصابع",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9806,
+    "name": "الرشيدي الميزان – عسل أسود",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9807,
+    "name": "الرشيدي الميزان – عسل نحل",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9808,
+    "name": "الرشيدي الميزان – مربى الفواكة الأربعة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9809,
+    "name": "الرشيدي الميزان – حلاة  بارأصابع",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "el-rashidi",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9779,
+    "name": "كارينا – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9741,
+    "name": "برايت – ملمع أحذية أبيض",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "bright",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9774,
+    "name": "باستادور – معكرونة سباجيتي",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9775,
+    "name": "كارينا – معكرونة",
+    "previousDivision": "food",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9773,
+    "name": "كارينا- معكرونة سباجيتي",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9776,
+    "name": "كارينا – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9778,
+    "name": "كارينا – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9780,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9781,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9783,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9784,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9785,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9786,
+    "name": "باستادورو – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9787,
+    "name": "باستادورو- معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "pastadoro",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9777,
+    "name": "كارينا – معكرونة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9770,
+    "name": "ريم – سردين في زيت نباتي وفلفل",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9772,
+    "name": "ريم – فصوليا حمراء",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9737,
+    "name": "إيلمور – كريم مرطب للبشرة",
+    "previousDivision": "household",
+    "division": "personal-care",
+    "brand": "elmore",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9739,
+    "name": "دينتونيك – بودرة أسنان",
+    "previousDivision": "household",
+    "division": "personal-care",
+    "brand": "ala-chemical",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9740,
+    "name": "برايت – ملمع أحذية أسود",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "bright",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9744,
+    "name": "إيلفي – غراء قوي",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "elfy",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9745,
+    "name": "النخلة – معسل تفاحيتن",
+    "previousDivision": "household",
+    "division": "tobacco",
+    "brand": "nakhla",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9746,
+    "name": "بوكا – فيتايين سي",
+    "previousDivision": "household",
+    "division": "beverages",
+    "brand": "pokka",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9747,
+    "name": "ترانكويني",
+    "previousDivision": "household",
+    "division": "beverages",
+    "brand": "tranquini",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9748,
+    "name": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9750,
+    "name": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9749,
+    "name": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9751,
+    "name": "ريم – لحم تونة في زيت دوار الشمس- قطعة واحدة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9754,
+    "name": "ريم – لحم تونة في زيت دوار الشمس- مقتته",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9755,
+    "name": "ريم – لحم تونة في زيت دوار الشمس- مقتته",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9756,
+    "name": "ريم – لحم تونة في زيت دوار الشمس- قطعة واحدة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9758,
+    "name": "ريم – ورق عنب محشي",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9759,
+    "name": "ريم – ورق عنب",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9760,
+    "name": "ريم – لحم لانشون دجاج",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9761,
+    "name": "ريم – مزيج متبقي زيت الزيتون مع زيت زيتون بكر ممتاز",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9762,
+    "name": "ريم – لحم لانشون دجاج",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "reem",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9735,
+    "name": "جدايل – مانع للتساقط",
+    "previousDivision": "household",
+    "division": "personal-care",
+    "brand": "jadayel",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9733,
+    "name": "كارينا – معكرونة سباجيتي",
+    "previousDivision": "food",
+    "division": "food",
+    "brand": "carina",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9727,
+    "name": "برايت – مامع أحذية شفاف",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "bright",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9726,
+    "name": "برايت – مامع أحذية ابيض",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "bright",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9722,
+    "name": "برايت – بخاخ",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "bright",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9708,
+    "name": "ليبتوميل  – بلس 2",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "liptomil",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 9680,
+    "name": "أنكور – حليب مجفف بودرة",
+    "previousDivision": "household",
+    "division": "food",
+    "brand": "anchor",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  },
+  {
+    "id": 7968,
+    "name": "الفحم الذهبي",
+    "previousDivision": "household",
+    "division": "household",
+    "brand": "golden-coal",
+    "basis": "explicit brand in official product title; original category IDs unchanged"
+  }
+]

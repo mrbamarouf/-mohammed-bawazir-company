@@ -6,7 +6,7 @@
       "ar": "ريم"
     },
     "division": "food",
-    "image": "/assets/brands/125ad79-client1.png",
+    "image": "/assets/clean/brands/reem.webp",
     "source": "https://www.mbtksa.com/food-4-2/reem-arabia/",
     "categoryIds": [
       24,
@@ -24,7 +24,7 @@
       "ar": "كاتش مي"
     },
     "division": "food",
-    "image": "/assets/brands/65548d4-client12.png",
+    "image": "/assets/clean/brands/catch-me.webp",
     "source": "https://www.mbtksa.com/food-4-2/catch-me/",
     "categoryIds": [
       76,
@@ -42,7 +42,7 @@
       "ar": "تروبيكانا سليم"
     },
     "division": "food",
-    "image": "/assets/company/d1771fc-tspic.jpeg",
+    "image": "/assets/clean/brands/tropicana-slim.webp",
     "source": "https://www.mbtksa.com/food-4-2/tropicanaslim/",
     "categoryIds": [
       389,
@@ -60,7 +60,7 @@
       "ar": "مي سيداب"
     },
     "division": "food",
-    "image": "/assets/company/cd35186-2-1.jpg",
+    "image": "/assets/clean/brands/wings.webp",
     "source": "https://www.mbtksa.com/food-4-2/wings-mie-sedaap/",
     "categoryIds": [
       423
@@ -77,7 +77,7 @@
       "ar": "لول"
     },
     "division": "food",
-    "image": "/assets/brands/3bb7aa5-client1.png",
+    "image": "/assets/clean/brands/lool.webp",
     "source": "https://www.mbtksa.com/food-4-2/lool-2/",
     "categoryIds": [
       457
@@ -94,7 +94,7 @@
       "ar": "فانتاستيك"
     },
     "division": "food",
-    "image": "/assets/brands/082dec5-clientFantastic.png",
+    "image": "/assets/clean/brands/fantastic.webp",
     "source": "https://www.mbtksa.com/food-4-2/fantastic/",
     "categoryIds": [
       453
@@ -111,7 +111,7 @@
       "ar": "نوتري ساري"
     },
     "division": "beverages",
-    "image": "/assets/company/6252b22-3.jpg",
+    "image": "/assets/clean/brands/nutrisari.webp",
     "source": "https://www.mbtksa.com/food-4-2/nutrisari/",
     "categoryIds": [
       455
@@ -128,7 +128,7 @@
       "ar": "بول دوز"
     },
     "division": "beverages",
-    "image": "/assets/company/98c5ac2-4.jpg",
+    "image": "/assets/clean/brands/bull-dose.webp",
     "source": "https://www.mbtksa.com/food-4-2/bull-dose/",
     "categoryIds": [],
     "description": {
@@ -143,7 +143,7 @@
       "ar": "بونس"
     },
     "division": "food",
-    "image": "/assets/brands/b51f6e2-client11.png",
+    "image": "/assets/clean/brands/pons.webp",
     "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
     "categoryIds": [
       73,
@@ -161,7 +161,7 @@
       "ar": "أدونيس"
     },
     "division": "food",
-    "image": "/assets/brands/340e74f-client3.png",
+    "image": "/assets/clean/brands/adonis.webp",
     "source": "https://www.mbtksa.com/food-4-2/adonis/",
     "categoryIds": [
       75,
@@ -179,7 +179,7 @@
       "ar": "مايورا"
     },
     "division": "food",
-    "image": "/assets/brands/fd0d2e2-clientbig1-1.png",
+    "image": "/assets/clean/brands/mayora.webp",
     "source": "https://www.mbtksa.com/food-4-2/mayora/",
     "categoryIds": [
       149,
@@ -197,7 +197,7 @@
       "ar": "أنكور"
     },
     "division": "food",
-    "image": "/assets/brands/a7035bd-cleint5.png",
+    "image": "/assets/clean/brands/anchor.webp",
     "source": "https://www.mbtksa.com/food-4-2/anchor/",
     "categoryIds": [],
     "description": {
@@ -212,7 +212,7 @@
       "ar": "علي كافيه"
     },
     "division": "beverages",
-    "image": "/assets/brands/a687e86-client6.png",
+    "image": "/assets/clean/brands/ali-cafe.webp",
     "source": "https://www.mbtksa.com/food-4-2/ali-cafe/",
     "categoryIds": [],
     "description": {
@@ -227,7 +227,7 @@
       "ar": "ديليسيو"
     },
     "division": "food",
-    "image": "/assets/brands/d3a6e62-client4.png",
+    "image": "/assets/clean/brands/delicio.webp",
     "source": "https://www.mbtksa.com/food-4-2/delicio/",
     "categoryIds": [],
     "description": {
@@ -242,7 +242,7 @@
       "ar": "الغرير"
     },
     "division": "food",
-    "image": "/assets/brands/8ea53bd-client10.png",
+    "image": "/assets/clean/brands/al-ghurair.webp",
     "source": "https://www.mbtksa.com/food-4-2/al-ghurair/",
     "categoryIds": [],
     "description": {
@@ -257,7 +257,7 @@
       "ar": "إم دي إس إف"
     },
     "division": "food",
-    "image": "",
+    "image": "/assets/clean/brands/mdsf.webp",
     "source": "https://www.mbtksa.com/food-4-2/mdsf/",
     "categoryIds": [
       426
@@ -274,7 +274,7 @@
       "ar": "ريكيت"
     },
     "division": "household",
-    "image": "",
+    "image": "/assets/clean/brands/reckitt.webp",
     "source": "https://www.mbtksa.com/house-hold/reckitt/",
     "categoryIds": [
       429,
@@ -292,7 +292,7 @@
       "ar": "بيوريتي لابوراتوريز"
     },
     "division": "personal-care",
-    "image": "/assets/brands/3fcf7cf-clientbig3.png",
+    "image": "/assets/clean/brands/purity.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/purity-laboratories/",
     "categoryIds": [],
     "description": {
@@ -307,7 +307,7 @@
       "ar": "فوراميد"
     },
     "division": "personal-care",
-    "image": "/assets/brands/820a124-clientbig5.png",
+    "image": "/assets/clean/brands/foramed.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/foramed-fze/",
     "categoryIds": [],
     "description": {
@@ -322,7 +322,7 @@
       "ar": "صيدلية ميدسيتي"
     },
     "division": "pharma",
-    "image": "/assets/company/d20cc8a-medcity-box.png",
+    "image": "",
     "source": "https://www.mbtksa.com/mbt-pharma/medcity/",
     "categoryIds": [],
     "description": {
@@ -337,7 +337,7 @@
       "ar": "نيوفارما"
     },
     "division": "pharma",
-    "image": "/assets/company/f33830e-neopharma-box.png",
+    "image": "/assets/clean/brands/neopharma.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/neopharma-llc-uae/",
     "categoryIds": [],
     "description": {
@@ -352,7 +352,7 @@
       "ar": "إندو كول"
     },
     "division": "household",
-    "image": "/assets/brands/0149dea-client14.png",
+    "image": "/assets/clean/brands/indo-coal.webp",
     "source": "https://www.mbtksa.com/tobacco-6/indo-coal/",
     "categoryIds": [
       422
@@ -369,7 +369,7 @@
       "ar": "فالكون"
     },
     "division": "household",
-    "image": "/assets/brands/71cd3a6-clientbig6.png",
+    "image": "/assets/clean/brands/falcon.webp",
     "source": "https://www.mbtksa.com/tobacco-6/falcon/",
     "categoryIds": [
       424,
@@ -387,7 +387,7 @@
       "ar": "الفاخر"
     },
     "division": "tobacco",
-    "image": "/assets/company/bbf714d-2-2.jpg",
+    "image": "/assets/clean/brands/alfakher.webp",
     "source": "https://www.mbtksa.com/tobacco-6/alfakher/",
     "categoryIds": [
       427
@@ -404,7 +404,7 @@
       "ar": "دينر ليدي"
     },
     "division": "tobacco",
-    "image": "/assets/company/52f2942-5-2.jpg",
+    "image": "/assets/clean/brands/dinner-lady.webp",
     "source": "https://www.mbtksa.com/tobacco-6/dinner-lady-2/",
     "categoryIds": [],
     "description": {
@@ -437,7 +437,7 @@
       "ar": "مايمي"
     },
     "division": "food",
-    "image": "",
+    "image": "/assets/clean/brands/mymi.webp",
     "source": "https://www.mbtksa.com/food-4-2/mymi/",
     "categoryIds": [],
     "description": {
@@ -452,7 +452,7 @@
       "ar": "بيفرلي هيلز فورميولا"
     },
     "division": "personal-care",
-    "image": "/assets/company/ae138bc-beverills-hill-box.png",
+    "image": "/assets/clean/brands/beverly-hills.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/beverly-hills-polo-club-fzco/",
     "categoryIds": [],
     "description": {
@@ -467,7 +467,7 @@
       "ar": "أكسيس جروب"
     },
     "division": "personal-care",
-    "image": "",
+    "image": "/assets/clean/brands/axis.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/axis-group/",
     "categoryIds": [],
     "description": {
@@ -497,7 +497,7 @@
       "ar": "ألا كيميكال"
     },
     "division": "personal-care",
-    "image": "/assets/company/2c2538b-alachemical-box.png",
+    "image": "/assets/clean/brands/ala-chemical.webp",
     "source": "https://www.mbtksa.com/mbt-pharma/ala-chemical/",
     "categoryIds": [],
     "description": {
@@ -512,7 +512,7 @@
       "ar": "برايت"
     },
     "division": "household",
-    "image": "",
+    "image": "/assets/clean/brands/bright.webp",
     "source": "https://www.mbtksa.com/household/bright/",
     "categoryIds": [],
     "description": {
@@ -542,7 +542,7 @@
       "ar": "كابتن ماجد"
     },
     "division": "beverages",
-    "image": "/assets/company/974749a-captain-majid-box.png",
+    "image": "/assets/clean/brands/captain-majid.webp",
     "source": "https://www.mbtksa.com/beverage-4/captain-majid/",
     "categoryIds": [],
     "description": {
@@ -557,7 +557,7 @@
       "ar": "جولدن كول"
     },
     "division": "household",
-    "image": "",
+    "image": "/assets/clean/brands/golden-coal.webp",
     "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
     "categoryIds": [
       327,
@@ -575,7 +575,7 @@
       "ar": "تروبيكانا"
     },
     "division": "household",
-    "image": "",
+    "image": "/assets/clean/brands/tropicana-coal.webp",
     "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
     "categoryIds": [
       326,
@@ -620,6 +620,186 @@
     "description": {
       "en": "Nabati appears in the company’s published portfolio and source archive.",
       "ar": "ناباتي من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "elmore",
+    "name": {
+      "en": "Elmore",
+      "ar": "إلمور"
+    },
+    "division": "personal-care",
+    "image": "/assets/clean/brands/elmore.webp",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
+    "categoryIds": [],
+    "description": {
+      "en": "Brand artwork preserved in MBT’s published portfolio and historical media. Contact MBT for current availability.",
+      "ar": "علامة محفوظة ضمن محفظة MBT وموادها التاريخية المنشورة. للتوافر الحالي، يرجى التواصل مع الشركة."
+    }
+  },
+  {
+    "slug": "viva",
+    "name": {
+      "en": "Viva",
+      "ar": "فيفا"
+    },
+    "division": "beverages",
+    "image": "/assets/clean/brands/viva.webp",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
+    "categoryIds": [],
+    "description": {
+      "en": "Brand artwork preserved in MBT’s published portfolio and historical media. Contact MBT for current availability.",
+      "ar": "علامة محفوظة ضمن محفظة MBT وموادها التاريخية المنشورة. للتوافر الحالي، يرجى التواصل مع الشركة."
+    }
+  },
+  {
+    "slug": "exotica",
+    "name": {
+      "en": "Exotica",
+      "ar": "إكزوتيكا"
+    },
+    "division": "beverages",
+    "image": "/assets/clean/brands/exotica.webp",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
+    "categoryIds": [],
+    "description": {
+      "en": "Brand artwork preserved in MBT’s published portfolio and historical media. Contact MBT for current availability.",
+      "ar": "علامة محفوظة ضمن محفظة MBT وموادها التاريخية المنشورة. للتوافر الحالي، يرجى التواصل مع الشركة."
+    }
+  },
+  {
+    "slug": "tiger-pro",
+    "name": {
+      "en": "Tiger Pro",
+      "ar": "تايجر برو"
+    },
+    "division": "beverages",
+    "image": "/assets/clean/brands/tiger-pro.webp",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
+    "categoryIds": [],
+    "description": {
+      "en": "Brand artwork preserved in MBT’s published portfolio and historical media. Contact MBT for current availability.",
+      "ar": "علامة محفوظة ضمن محفظة MBT وموادها التاريخية المنشورة. للتوافر الحالي، يرجى التواصل مع الشركة."
+    }
+  },
+  {
+    "slug": "carina",
+    "name": {
+      "en": "Carina",
+      "ar": "كارينا"
+    },
+    "division": "food",
+    "image": "/assets/clean/brands/alkareem.webp",
+    "source": "https://www.mbtksa.com/food-4-2/al-ghurair/",
+    "categoryIds": [],
+    "description": {
+      "en": "Brand artwork preserved in MBT’s published portfolio and historical media. Contact MBT for current availability.",
+      "ar": "علامة محفوظة ضمن محفظة MBT وموادها التاريخية المنشورة. للتوافر الحالي، يرجى التواصل مع الشركة."
+    }
+  },
+  {
+    "slug": "fuyl",
+    "name": {
+      "en": "Fuyl",
+      "ar": "فويل"
+    },
+    "division": "tobacco",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/watermelon-ice-fuyl/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "pastadoro",
+    "name": {
+      "en": "Pastadoro",
+      "ar": "باستادورو"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/%d8%a8%d8%a7%d8%b3%d8%aa%d8%a7%d8%af%d9%88%d8%b1%d9%88-%d9%85%d8%b9%d9%83%d8%b1%d9%88%d9%86%d8%a9/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "el-rashidi",
+    "name": {
+      "en": "El Rashidi El Mizan",
+      "ar": "الرشيدي الميزان"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/strawberry-jam-340-gram/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "jadayel",
+    "name": {
+      "en": "Jadayel",
+      "ar": "جدايل"
+    },
+    "division": "personal-care",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/jadayel-hair-lengthen/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "pokka",
+    "name": {
+      "en": "Pokka",
+      "ar": "بوكا"
+    },
+    "division": "beverages",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/vitaene-healthy-drink-2/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "tranquini",
+    "name": {
+      "en": "Tranquini",
+      "ar": "ترانكويني"
+    },
+    "division": "beverages",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/tran-quini/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
+    }
+  },
+  {
+    "slug": "liptomil",
+    "name": {
+      "en": "Liptomil",
+      "ar": "ليبتوميل"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/product/liptomil-plus-2-2/",
+    "categoryIds": [],
+    "description": {
+      "en": "Preserved in MBT’s published product records. Browse the associated catalogue entries or contact the company for current information.",
+      "ar": "علامة محفوظة في سجلات منتجات MBT المنشورة. استعرض المنتجات المرتبطة بها أو تواصل مع الشركة للمعلومات الحالية."
     }
   }
 ]

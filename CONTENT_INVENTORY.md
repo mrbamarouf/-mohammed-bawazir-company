@@ -134,8 +134,11 @@ The public WordPress API, public HTML pages, product taxonomy, media library and
 | 2433 | en | Branches | https://www.mbtksa.com/branches/ |
 ## Additional archival coverage
 
-- 735 HTML URLs crawled; 37 source URLs returned 404.
-- 38 source-backed brand/principal directory records.
+- 874 HTML URLs re-crawled; 836 HTTP 200 responses (768 non-demo, 68 template demonstrations) and 38 source URLs returning 404. See `RE_AUDIT.md` for the comparison with the first 735-URL crawl.
+- 50 source-backed brand/principal directory records: 37 verified standalone logos and 13 text-only entries. Historical portfolio presence does not establish current exclusivity.
+- 69 previously unassociated product records now have discovery metadata based on explicit brand names in their original titles. All 394 original names, IDs, source URLs and source category IDs are unchanged.
+- Nine marketing destinations preserve displays, distribution tools, outlet coverage, handheld sales and sales structure.
+- 1,018 bilingual content routes, including all product and article details. One malformed imported product slug was corrected without changing the source record.
 - 48 company-profile image pages uploaded in May 2026 and 47 preserved pages from the embedded 2018 profile.
 - Six recoverable Promo Insight profile images; the 2017 PDF preserves additional related-company context.
 - Downloadable PDFs: 2017 profile (56 pages), 2022 profile (47 pages), two 2025 profile editions (44 and 46 pages), 2026 profile (47 pages), 2018 product catalogue (8 pages), Al-Tijara press archive (3 pages). All downloaded pages were rendered for inspection.
