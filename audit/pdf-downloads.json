@@ -1,0 +1,38 @@
+{
+  "https://www.mbtksa.com/wp-content/uploads/2026/06/MBT-Profile-2026-v2.pdf": {
+    "path": "public/assets/history/3121b64-MBT-Profile-2026-v2.pdf",
+    "group": "history",
+    "bytes": 8638603
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2025/03/MBT-Profile-v1-2025.pdf": {
+    "path": "public/assets/history/7d574fb-MBT-Profile-v1-2025.pdf",
+    "group": "history",
+    "bytes": 12740727
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2025/03/MBT-Profile-2025-v1.pdf": {
+    "path": "public/assets/history/6a47f8e-MBT-Profile-2025-v1.pdf",
+    "group": "history",
+    "bytes": 12583498
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2022/03/compnay-profile-2022-FINAL.pdf": {
+    "path": "public/assets/history/2f1d5cf-compnay-profile-2022-FINAL.pdf",
+    "group": "history",
+    "bytes": 56286460
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2018/02/200.pdf": {
+    "path": "public/assets/history/019232c-200.pdf",
+    "group": "history",
+    "bytes": 600533
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2017/05/company-profile-2017.pdf": {
+    "group": "history",
+    "mediaId": 31705,
+    "path": "public/assets/history/c6a9377-company-profile-2017.pdf",
+    "bytes": 23723088
+  },
+  "https://www.mbtksa.com/wp-content/uploads/2015/08/Al-Tijara-Magazine.pdf": {
+    "path": "public/assets/history/99ad21f-Al-Tijara-Magazine.pdf",
+    "group": "history",
+    "bytes": 906409
+  }
+}

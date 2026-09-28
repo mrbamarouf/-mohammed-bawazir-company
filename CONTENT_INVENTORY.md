@@ -10,7 +10,7 @@ The public WordPress API, public HTML pages, product taxonomy, media library and
 - 33 news/event posts.
 - 394 product records with original categories, image references and descriptions.
 - 83 product categories; no entries in the separate product_brand taxonomy.
-- 6,717 media records returned across all 74 public API pages (API reports 7,339 total, likely language filtering; the mismatch is retained for review).
+- 6,717 media records returned across all 74 public API pages (API reports 7,339 total; the unresolved mismatch is retained for review).
 
 ## Preservation decisions
 
@@ -19,7 +19,7 @@ The public WordPress API, public HTML pages, product taxonomy, media library and
 - Business retains food, beverages, household, personal care, pharma and tobacco information.
 - Brands preserves principal/brand pages, including legacy relationships without claiming present exclusivity.
 - Distribution preserves named branch cities and links operations, coverage and source documents.
-- Companies preserves MBT, Promo Insight and White Gate source profiles.
+- Companies preserves MBT, Promo Insight, White Gate and the historical MBTech record.
 - News retains all 33 records and publication dates.
 - Marketing retains display, sales tools and event material.
 - Careers preserves the official HR application destination.
@@ -132,3 +132,11 @@ The public WordPress API, public HTML pages, product taxonomy, media library and
 | 11450 | en | Sales Man With Handheld | https://www.mbtksa.com/marketing-activity/sales-man-with-handheld/ |
 | 16128 | en | 404 Pages – MBT Groups | https://www.mbtksa.com/404-pages/ |
 | 2433 | en | Branches | https://www.mbtksa.com/branches/ |
+## Additional archival coverage
+
+- 735 HTML URLs crawled; 37 source URLs returned 404.
+- 38 source-backed brand/principal directory records.
+- 48 company-profile image pages uploaded in May 2026 and 47 preserved pages from the embedded 2018 profile.
+- Six recoverable Promo Insight profile images; the 2017 PDF preserves additional related-company context.
+- Downloadable PDFs: 2017 profile (56 pages), 2022 profile (47 pages), two 2025 profile editions (44 and 46 pages), 2026 profile (47 pages), 2018 product catalogue (8 pages), Al-Tijara press archive (3 pages). All downloaded pages were rendered for inspection.
+- Marketing galleries decode the legacy WordPress attachment shortcodes and preserve available local images. Unavailable source media remains in the review ledger.

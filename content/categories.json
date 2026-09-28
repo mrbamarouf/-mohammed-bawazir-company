@@ -1,0 +1,417 @@
+[
+  {
+    "id": 75,
+    "name": "Adonis Spices",
+    "parent": 23
+  },
+  {
+    "id": 119,
+    "name": "Adonis Spices-ar",
+    "parent": 113
+  },
+  {
+    "id": 427,
+    "name": "Al Fakher",
+    "parent": 86
+  },
+  {
+    "id": 133,
+    "name": "Ala Chemicals-ar",
+    "parent": 132
+  },
+  {
+    "id": 134,
+    "name": "Axis Group-ar",
+    "parent": 132
+  },
+  {
+    "id": 447,
+    "name": "Bags",
+    "parent": 423
+  },
+  {
+    "id": 450,
+    "name": "Biscuits",
+    "parent": 433
+  },
+  {
+    "id": 460,
+    "name": "Biscuits & Cookies",
+    "parent": 457
+  },
+  {
+    "id": 459,
+    "name": "Cake",
+    "parent": 457
+  },
+  {
+    "id": 452,
+    "name": "Canned Food",
+    "parent": 76
+  },
+  {
+    "id": 76,
+    "name": "Catch Me",
+    "parent": 23
+  },
+  {
+    "id": 127,
+    "name": "Catch Me-ar",
+    "parent": 113
+  },
+  {
+    "id": 461,
+    "name": "Croissants",
+    "parent": 457
+  },
+  {
+    "id": 448,
+    "name": "Cups",
+    "parent": 423
+  },
+  {
+    "id": 438,
+    "name": "Dairy Products",
+    "parent": 76
+  },
+  {
+    "id": 428,
+    "name": "Detol",
+    "parent": 0
+  },
+  {
+    "id": 430,
+    "name": "Dettol",
+    "parent": 429
+  },
+  {
+    "id": 135,
+    "name": "English Blazer-ar",
+    "parent": 132
+  },
+  {
+    "id": 136,
+    "name": "Evan & Mayer-ar",
+    "parent": 132
+  },
+  {
+    "id": 424,
+    "name": "Falcon",
+    "parent": 86
+  },
+  {
+    "id": 425,
+    "name": "Falcon",
+    "parent": 161
+  },
+  {
+    "id": 453,
+    "name": "Fantastic",
+    "parent": 23
+  },
+  {
+    "id": 23,
+    "name": "Food",
+    "parent": 0
+  },
+  {
+    "id": 113,
+    "name": "Food - ar",
+    "parent": 0
+  },
+  {
+    "id": 434,
+    "name": "Fuel",
+    "parent": 86
+  },
+  {
+    "id": 435,
+    "name": "Fuyl",
+    "parent": 86
+  },
+  {
+    "id": 412,
+    "name": "Golden Coal",
+    "parent": 0
+  },
+  {
+    "id": 327,
+    "name": "Golden Coal",
+    "parent": 0
+  },
+  {
+    "id": 73,
+    "name": "Grup Pons",
+    "parent": 23
+  },
+  {
+    "id": 125,
+    "name": "Grup Pons-ar",
+    "parent": 113
+  },
+  {
+    "id": 429,
+    "name": "Household",
+    "parent": 0
+  },
+  {
+    "id": 129,
+    "name": "Household-ar",
+    "parent": 0
+  },
+  {
+    "id": 422,
+    "name": "Indo Coal",
+    "parent": 0
+  },
+  {
+    "id": 457,
+    "name": "LOOL",
+    "parent": 23
+  },
+  {
+    "id": 441,
+    "name": "Low Calories",
+    "parent": 389
+  },
+  {
+    "id": 149,
+    "name": "Mayora",
+    "parent": 23
+  },
+  {
+    "id": 410,
+    "name": "Mayora",
+    "parent": 0
+  },
+  {
+    "id": 426,
+    "name": "MDSF",
+    "parent": 23
+  },
+  {
+    "id": 294,
+    "name": "MEAT AND BEEF",
+    "parent": 24
+  },
+  {
+    "id": 415,
+    "name": "MEAT AND BEEF",
+    "parent": 0
+  },
+  {
+    "id": 295,
+    "name": "MILK POWDER",
+    "parent": 24
+  },
+  {
+    "id": 445,
+    "name": "Monk",
+    "parent": 389
+  },
+  {
+    "id": 91,
+    "name": "Musharraf Trading Co.",
+    "parent": 0
+  },
+  {
+    "id": 142,
+    "name": "Musharraf Trading Co.-ar",
+    "parent": 0
+  },
+  {
+    "id": 432,
+    "name": "Nabati",
+    "parent": 0
+  },
+  {
+    "id": 433,
+    "name": "Nabati",
+    "parent": 23
+  },
+  {
+    "id": 90,
+    "name": "Nakhla Co.",
+    "parent": 86
+  },
+  {
+    "id": 143,
+    "name": "Nakhla Co.-ar",
+    "parent": 141
+  },
+  {
+    "id": 92,
+    "name": "Nashwa Co.",
+    "parent": 0
+  },
+  {
+    "id": 144,
+    "name": "Nashwa Co.-ar",
+    "parent": 0
+  },
+  {
+    "id": 455,
+    "name": "NutriSari",
+    "parent": 23
+  },
+  {
+    "id": 439,
+    "name": "Oils",
+    "parent": 76
+  },
+  {
+    "id": 436,
+    "name": "OILS",
+    "parent": 24
+  },
+  {
+    "id": 132,
+    "name": "Personal Care-ar",
+    "parent": 0
+  },
+  {
+    "id": 140,
+    "name": "Purity-ar",
+    "parent": 132
+  },
+  {
+    "id": 24,
+    "name": "Reem",
+    "parent": 23
+  },
+  {
+    "id": 126,
+    "name": "Reem Products-ar",
+    "parent": 113
+  },
+  {
+    "id": 291,
+    "name": "Reem Tuna",
+    "parent": 24
+  },
+  {
+    "id": 440,
+    "name": "Sauces",
+    "parent": 76
+  },
+  {
+    "id": 293,
+    "name": "SEA FOOD",
+    "parent": 24
+  },
+  {
+    "id": 414,
+    "name": "SEA FOOD",
+    "parent": 0
+  },
+  {
+    "id": 437,
+    "name": "Sea Food",
+    "parent": 76
+  },
+  {
+    "id": 449,
+    "name": "Snacks",
+    "parent": 433
+  },
+  {
+    "id": 443,
+    "name": "Stevia",
+    "parent": 389
+  },
+  {
+    "id": 446,
+    "name": "Syrup & Instant Drinks",
+    "parent": 389
+  },
+  {
+    "id": 444,
+    "name": "Tablets",
+    "parent": 389
+  },
+  {
+    "id": 145,
+    "name": "TCI S L-ar",
+    "parent": 141
+  },
+  {
+    "id": 93,
+    "name": "TCISL",
+    "parent": 86
+  },
+  {
+    "id": 117,
+    "name": "Tiger Pro-ar",
+    "parent": 0
+  },
+  {
+    "id": 86,
+    "name": "Tobacco",
+    "parent": 0
+  },
+  {
+    "id": 141,
+    "name": "Tobacco-ar",
+    "parent": 0
+  },
+  {
+    "id": 326,
+    "name": "Tropicana",
+    "parent": 0
+  },
+  {
+    "id": 411,
+    "name": "Tropicana",
+    "parent": 0
+  },
+  {
+    "id": 407,
+    "name": "Tropicana Slim",
+    "parent": 0
+  },
+  {
+    "id": 389,
+    "name": "Tropicana Slim",
+    "parent": 23
+  },
+  {
+    "id": 161,
+    "name": "Uncategorized",
+    "parent": 0
+  },
+  {
+    "id": 128,
+    "name": "Uniglocal-ar",
+    "parent": 0
+  },
+  {
+    "id": 292,
+    "name": "Vegetables and Fruits",
+    "parent": 24
+  },
+  {
+    "id": 413,
+    "name": "Vegetables and Fruits",
+    "parent": 0
+  },
+  {
+    "id": 458,
+    "name": "Wafers",
+    "parent": 457
+  },
+  {
+    "id": 423,
+    "name": "Wing-Mie Sedaap",
+    "parent": 23
+  },
+  {
+    "id": 442,
+    "name": "Zero Calories",
+    "parent": 389
+  },
+  {
+    "id": 311,
+    "name": "غير مصنف",
+    "parent": 0
+  }
+]

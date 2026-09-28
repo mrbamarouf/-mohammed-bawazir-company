@@ -1,0 +1,625 @@
+[
+  {
+    "slug": "reem",
+    "name": {
+      "en": "Reem",
+      "ar": "ريم"
+    },
+    "division": "food",
+    "image": "/assets/brands/125ad79-client1.png",
+    "source": "https://www.mbtksa.com/food-4-2/reem-arabia/",
+    "categoryIds": [
+      24,
+      126
+    ],
+    "description": {
+      "en": "MBT’s Reem range brings together oils, canned food, vegetables, fruit, meat and seafood.",
+      "ar": "تجمع علامة ريم ضمن محفظة MBT الزيوت والمعلبات والخضروات والفواكه واللحوم والمأكولات البحرية."
+    }
+  },
+  {
+    "slug": "catch-me",
+    "name": {
+      "en": "Catch Me",
+      "ar": "كاتش مي"
+    },
+    "division": "food",
+    "image": "/assets/brands/65548d4-client12.png",
+    "source": "https://www.mbtksa.com/food-4-2/catch-me/",
+    "categoryIds": [
+      76,
+      127
+    ],
+    "description": {
+      "en": "Catch Me is an MBT own-label food brand with a range of dairy products, cooking oils, sauces and canned food.",
+      "ar": "كاتش مي علامة غذائية خاصة لدى MBT، تضم منتجات الألبان وزيوت الطهي والصلصات والمعلبات."
+    }
+  },
+  {
+    "slug": "tropicana-slim",
+    "name": {
+      "en": "Tropicana Slim",
+      "ar": "تروبيكانا سليم"
+    },
+    "division": "food",
+    "image": "/assets/company/d1771fc-tspic.jpeg",
+    "source": "https://www.mbtksa.com/food-4-2/tropicanaslim/",
+    "categoryIds": [
+      389,
+      407
+    ],
+    "description": {
+      "en": "Tropicana Slim products include sweeteners, syrups and instant drinks, as listed in the official catalogue.",
+      "ar": "تشمل منتجات تروبيكانا سليم المحليات والشراب والمشروبات سريعة التحضير، وفقًا للدليل الرسمي."
+    }
+  },
+  {
+    "slug": "wings",
+    "name": {
+      "en": "Mie Sedaap",
+      "ar": "مي سيداب"
+    },
+    "division": "food",
+    "image": "/assets/company/cd35186-2-1.jpg",
+    "source": "https://www.mbtksa.com/food-4-2/wings-mie-sedaap/",
+    "categoryIds": [
+      423
+    ],
+    "description": {
+      "en": "Mie Sedaap instant noodles from Wings Group are featured in the MBT food portfolio.",
+      "ar": "ترد نودلز مي سيداب سريعة التحضير من مجموعة وينغز ضمن محفظة الأغذية لدى MBT."
+    }
+  },
+  {
+    "slug": "lool",
+    "name": {
+      "en": "LOOL",
+      "ar": "لول"
+    },
+    "division": "food",
+    "image": "/assets/brands/3bb7aa5-client1.png",
+    "source": "https://www.mbtksa.com/food-4-2/lool-2/",
+    "categoryIds": [
+      457
+    ],
+    "description": {
+      "en": "The LOOL catalogue includes cakes, croissants, biscuits, cookies and wafers.",
+      "ar": "يشمل دليل لول الكيك والكرواسون والبسكويت والكوكيز والويفر."
+    }
+  },
+  {
+    "slug": "fantastic",
+    "name": {
+      "en": "Fantastic",
+      "ar": "فانتاستيك"
+    },
+    "division": "food",
+    "image": "/assets/brands/082dec5-clientFantastic.png",
+    "source": "https://www.mbtksa.com/food-4-2/fantastic/",
+    "categoryIds": [
+      453
+    ],
+    "description": {
+      "en": "Fantastic is represented in the company’s published food catalogue.",
+      "ar": "ترد علامة فانتاستيك ضمن دليل الأغذية المنشور للشركة."
+    }
+  },
+  {
+    "slug": "nutrisari",
+    "name": {
+      "en": "NutriSari",
+      "ar": "نوتري ساري"
+    },
+    "division": "beverages",
+    "image": "/assets/company/6252b22-3.jpg",
+    "source": "https://www.mbtksa.com/food-4-2/nutrisari/",
+    "categoryIds": [
+      455
+    ],
+    "description": {
+      "en": "NutriSari instant drink products feature in the company’s food and beverage portfolio.",
+      "ar": "ترد مشروبات نوتري ساري سريعة التحضير ضمن محفظة الأغذية والمشروبات لدى الشركة."
+    }
+  },
+  {
+    "slug": "bull-dose",
+    "name": {
+      "en": "Bull Dose",
+      "ar": "بول دوز"
+    },
+    "division": "beverages",
+    "image": "/assets/company/98c5ac2-4.jpg",
+    "source": "https://www.mbtksa.com/food-4-2/bull-dose/",
+    "categoryIds": [],
+    "description": {
+      "en": "Bull Dose is listed among MBT’s beverage brands and in its company profile.",
+      "ar": "بول دوز من علامات المشروبات المدرجة في موقع MBT وملفها التعريفي."
+    }
+  },
+  {
+    "slug": "pons",
+    "name": {
+      "en": "Pons",
+      "ar": "بونس"
+    },
+    "division": "food",
+    "image": "/assets/brands/b51f6e2-client11.png",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
+    "categoryIds": [
+      73,
+      125
+    ],
+    "description": {
+      "en": "Pons olive oils are featured in the company’s food portfolio and profile.",
+      "ar": "ترد زيوت زيتون بونس في محفظة الأغذية والملف التعريفي للشركة."
+    }
+  },
+  {
+    "slug": "adonis",
+    "name": {
+      "en": "Adonis",
+      "ar": "أدونيس"
+    },
+    "division": "food",
+    "image": "/assets/brands/340e74f-client3.png",
+    "source": "https://www.mbtksa.com/food-4-2/adonis/",
+    "categoryIds": [
+      75,
+      119
+    ],
+    "description": {
+      "en": "Adonis spices and seasonings are included in the MBT food catalogue.",
+      "ar": "تضم محفظة الأغذية لدى MBT توابل وبهارات أدونيس."
+    }
+  },
+  {
+    "slug": "mayora",
+    "name": {
+      "en": "Mayora",
+      "ar": "مايورا"
+    },
+    "division": "food",
+    "image": "/assets/brands/fd0d2e2-clientbig1-1.png",
+    "source": "https://www.mbtksa.com/food-4-2/mayora/",
+    "categoryIds": [
+      149,
+      410
+    ],
+    "description": {
+      "en": "Mayora confectionery and food products appear in the MBT catalogue and company profile.",
+      "ar": "ترد منتجات مايورا الغذائية والحلويات في دليل MBT وملف الشركة."
+    }
+  },
+  {
+    "slug": "anchor",
+    "name": {
+      "en": "Anchor",
+      "ar": "أنكور"
+    },
+    "division": "food",
+    "image": "/assets/brands/a7035bd-cleint5.png",
+    "source": "https://www.mbtksa.com/food-4-2/anchor/",
+    "categoryIds": [],
+    "description": {
+      "en": "Anchor dairy products are featured on the company’s published food brand pages.",
+      "ar": "ترد منتجات ألبان أنكور في صفحات العلامات الغذائية المنشورة للشركة."
+    }
+  },
+  {
+    "slug": "ali-cafe",
+    "name": {
+      "en": "Alicafé",
+      "ar": "علي كافيه"
+    },
+    "division": "beverages",
+    "image": "/assets/brands/a687e86-client6.png",
+    "source": "https://www.mbtksa.com/food-4-2/ali-cafe/",
+    "categoryIds": [],
+    "description": {
+      "en": "Alicafé appears in the company’s beverage portfolio and launch event archive.",
+      "ar": "ترد علي كافيه في محفظة المشروبات وأرشيف فعاليات الإطلاق لدى الشركة."
+    }
+  },
+  {
+    "slug": "delicio",
+    "name": {
+      "en": "Delicio",
+      "ar": "ديليسيو"
+    },
+    "division": "food",
+    "image": "/assets/brands/d3a6e62-client4.png",
+    "source": "https://www.mbtksa.com/food-4-2/delicio/",
+    "categoryIds": [],
+    "description": {
+      "en": "Delicio’s published brand page lists mayonnaise, ketchup, salad dressings and pasta sauces.",
+      "ar": "تضم صفحة ديليسيو المنشورة المايونيز والكاتشب وصلصات السلطات والمعكرونة."
+    }
+  },
+  {
+    "slug": "al-ghurair",
+    "name": {
+      "en": "Al Ghurair",
+      "ar": "الغرير"
+    },
+    "division": "food",
+    "image": "/assets/brands/8ea53bd-client10.png",
+    "source": "https://www.mbtksa.com/food-4-2/al-ghurair/",
+    "categoryIds": [],
+    "description": {
+      "en": "Al Ghurair is listed on the company’s food brand pages.",
+      "ar": "الغرير من الأسماء المدرجة في صفحات العلامات الغذائية للشركة."
+    }
+  },
+  {
+    "slug": "mdsf",
+    "name": {
+      "en": "MDSF",
+      "ar": "إم دي إس إف"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/food-4-2/mdsf/",
+    "categoryIds": [
+      426
+    ],
+    "description": {
+      "en": "MDSF products are listed in MBT’s food catalogue.",
+      "ar": "منتجات MDSF مدرجة في دليل الأغذية لدى MBT."
+    }
+  },
+  {
+    "slug": "reckitt",
+    "name": {
+      "en": "Reckitt",
+      "ar": "ريكيت"
+    },
+    "division": "household",
+    "image": "",
+    "source": "https://www.mbtksa.com/house-hold/reckitt/",
+    "categoryIds": [
+      429,
+      430
+    ],
+    "description": {
+      "en": "The Reckitt portfolio page includes household care brands such as Dettol, Finish and Vanish.",
+      "ar": "تتضمن صفحة ريكيت علامات للعناية المنزلية مثل ديتول وفينيش وفانيش."
+    }
+  },
+  {
+    "slug": "purity",
+    "name": {
+      "en": "Purity Laboratories",
+      "ar": "بيوريتي لابوراتوريز"
+    },
+    "division": "personal-care",
+    "image": "/assets/brands/3fcf7cf-clientbig3.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/purity-laboratories/",
+    "categoryIds": [],
+    "description": {
+      "en": "Purity Laboratories is listed in the company’s personal care and healthcare brand archive.",
+      "ar": "بيوريتي لابوراتوريز مدرجة في أرشيف علامات العناية الشخصية والرعاية الصحية للشركة."
+    }
+  },
+  {
+    "slug": "foramed",
+    "name": {
+      "en": "Foramed",
+      "ar": "فوراميد"
+    },
+    "division": "personal-care",
+    "image": "/assets/brands/820a124-clientbig5.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/foramed-fze/",
+    "categoryIds": [],
+    "description": {
+      "en": "Foramed / ForaCare is listed in the company’s healthcare brand archive.",
+      "ar": "فوراميد / فورا كير مدرجة في أرشيف علامات الرعاية الصحية لدى الشركة."
+    }
+  },
+  {
+    "slug": "medcity",
+    "name": {
+      "en": "Medcity Pharmacy",
+      "ar": "صيدلية ميدسيتي"
+    },
+    "division": "pharma",
+    "image": "/assets/company/d20cc8a-medcity-box.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/medcity/",
+    "categoryIds": [],
+    "description": {
+      "en": "Medcity Pharmacy appears in the company’s published pharmaceutical partner archive.",
+      "ar": "صيدلية ميدسيتي مذكورة في أرشيف الشركاء الدوائيين المنشور للشركة."
+    }
+  },
+  {
+    "slug": "neopharma",
+    "name": {
+      "en": "Neopharma",
+      "ar": "نيوفارما"
+    },
+    "division": "pharma",
+    "image": "/assets/company/f33830e-neopharma-box.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/neopharma-llc-uae/",
+    "categoryIds": [],
+    "description": {
+      "en": "Neopharma LLC UAE appears in the company’s pharmaceutical brand archive.",
+      "ar": "نيوفارما الإمارات مدرجة في أرشيف العلامات الدوائية للشركة."
+    }
+  },
+  {
+    "slug": "indo-coal",
+    "name": {
+      "en": "Indo Coal",
+      "ar": "إندو كول"
+    },
+    "division": "household",
+    "image": "/assets/brands/0149dea-client14.png",
+    "source": "https://www.mbtksa.com/tobacco-6/indo-coal/",
+    "categoryIds": [
+      422
+    ],
+    "description": {
+      "en": "Indo Coal is listed as an MBT own-label brand in the consumables portfolio.",
+      "ar": "إندو كول مدرجة كعلامة خاصة لدى MBT ضمن محفظة المنتجات الاستهلاكية."
+    }
+  },
+  {
+    "slug": "falcon",
+    "name": {
+      "en": "Falcon",
+      "ar": "فالكون"
+    },
+    "division": "household",
+    "image": "/assets/brands/71cd3a6-clientbig6.png",
+    "source": "https://www.mbtksa.com/tobacco-6/falcon/",
+    "categoryIds": [
+      424,
+      425
+    ],
+    "description": {
+      "en": "Falcon is listed as an MBT own-label brand in the consumables portfolio.",
+      "ar": "فالكون مدرجة كعلامة خاصة لدى MBT ضمن محفظة المنتجات الاستهلاكية."
+    }
+  },
+  {
+    "slug": "alfakher",
+    "name": {
+      "en": "Al Fakher",
+      "ar": "الفاخر"
+    },
+    "division": "tobacco",
+    "image": "/assets/company/bbf714d-2-2.jpg",
+    "source": "https://www.mbtksa.com/tobacco-6/alfakher/",
+    "categoryIds": [
+      427
+    ],
+    "description": {
+      "en": "Al Fakher is listed in the company’s published tobacco division records.",
+      "ar": "الفاخر مدرجة في سجلات قسم التبغ المنشورة للشركة."
+    }
+  },
+  {
+    "slug": "dinner-lady",
+    "name": {
+      "en": "Dinner Lady",
+      "ar": "دينر ليدي"
+    },
+    "division": "tobacco",
+    "image": "/assets/company/52f2942-5-2.jpg",
+    "source": "https://www.mbtksa.com/tobacco-6/dinner-lady-2/",
+    "categoryIds": [],
+    "description": {
+      "en": "Dinner Lady is listed in the company’s published tobacco division records.",
+      "ar": "دينر ليدي مدرجة في سجلات قسم التبغ المنشورة للشركة."
+    }
+  },
+  {
+    "slug": "tcisl",
+    "name": {
+      "en": "TCISL",
+      "ar": "تي سي آي إس إل"
+    },
+    "division": "tobacco",
+    "image": "",
+    "source": "https://www.mbtksa.com/tobacco-6/t-c-i-s-l/",
+    "categoryIds": [
+      93,
+      145
+    ],
+    "description": {
+      "en": "TCISL is listed in the company’s published tobacco division records.",
+      "ar": "تي سي آي إس إل مدرجة في سجلات قسم التبغ المنشورة للشركة."
+    }
+  },
+  {
+    "slug": "mymi",
+    "name": {
+      "en": "Mymi",
+      "ar": "مايمي"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/food-4-2/mymi/",
+    "categoryIds": [],
+    "description": {
+      "en": "Mymi appears in the company’s published portfolio and source archive.",
+      "ar": "مايمي من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "beverly-hills",
+    "name": {
+      "en": "Beverly Hills Formula",
+      "ar": "بيفرلي هيلز فورميولا"
+    },
+    "division": "personal-care",
+    "image": "/assets/company/ae138bc-beverills-hill-box.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/beverly-hills-polo-club-fzco/",
+    "categoryIds": [],
+    "description": {
+      "en": "Beverly Hills Formula appears in the company’s published portfolio and source archive.",
+      "ar": "بيفرلي هيلز فورميولا من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "axis",
+    "name": {
+      "en": "Axis Group",
+      "ar": "أكسيس جروب"
+    },
+    "division": "personal-care",
+    "image": "",
+    "source": "https://www.mbtksa.com/mbt-pharma/axis-group/",
+    "categoryIds": [],
+    "description": {
+      "en": "Axis Group appears in the company’s published portfolio and source archive.",
+      "ar": "أكسيس جروب من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "evan-mayer",
+    "name": {
+      "en": "Evan & Mayer",
+      "ar": "إيفان وماير"
+    },
+    "division": "personal-care",
+    "image": "",
+    "source": "https://www.mbtksa.com/mbt-pharma/evan-and-mayor/",
+    "categoryIds": [],
+    "description": {
+      "en": "Evan & Mayer appears in the company’s published portfolio and source archive.",
+      "ar": "إيفان وماير من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "ala-chemical",
+    "name": {
+      "en": "Ala Chemical",
+      "ar": "ألا كيميكال"
+    },
+    "division": "personal-care",
+    "image": "/assets/company/2c2538b-alachemical-box.png",
+    "source": "https://www.mbtksa.com/mbt-pharma/ala-chemical/",
+    "categoryIds": [],
+    "description": {
+      "en": "Ala Chemical appears in the company’s published portfolio and source archive.",
+      "ar": "ألا كيميكال من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "bright",
+    "name": {
+      "en": "Bright",
+      "ar": "برايت"
+    },
+    "division": "household",
+    "image": "",
+    "source": "https://www.mbtksa.com/household/bright/",
+    "categoryIds": [],
+    "description": {
+      "en": "Bright appears in the company’s published portfolio and source archive.",
+      "ar": "برايت من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "elfy",
+    "name": {
+      "en": "Elfy",
+      "ar": "إلفي"
+    },
+    "division": "household",
+    "image": "",
+    "source": "https://www.mbtksa.com/household/elfy/",
+    "categoryIds": [],
+    "description": {
+      "en": "Elfy appears in the company’s published portfolio and source archive.",
+      "ar": "إلفي من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "captain-majid",
+    "name": {
+      "en": "Captain Majid",
+      "ar": "كابتن ماجد"
+    },
+    "division": "beverages",
+    "image": "/assets/company/974749a-captain-majid-box.png",
+    "source": "https://www.mbtksa.com/beverage-4/captain-majid/",
+    "categoryIds": [],
+    "description": {
+      "en": "Captain Majid appears in the company’s published portfolio and source archive.",
+      "ar": "كابتن ماجد من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "golden-coal",
+    "name": {
+      "en": "Golden Coal",
+      "ar": "جولدن كول"
+    },
+    "division": "household",
+    "image": "",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
+    "categoryIds": [
+      327,
+      412
+    ],
+    "description": {
+      "en": "Golden Coal appears in the company’s published portfolio and source archive.",
+      "ar": "جولدن كول من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "tropicana-coal",
+    "name": {
+      "en": "Tropicana",
+      "ar": "تروبيكانا"
+    },
+    "division": "household",
+    "image": "",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
+    "categoryIds": [
+      326,
+      411
+    ],
+    "description": {
+      "en": "Tropicana appears in the company’s published portfolio and source archive.",
+      "ar": "تروبيكانا من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "nakhla",
+    "name": {
+      "en": "Nakhla",
+      "ar": "نخلة"
+    },
+    "division": "tobacco",
+    "image": "",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
+    "categoryIds": [
+      90,
+      143
+    ],
+    "description": {
+      "en": "Nakhla appears in the company’s published portfolio and source archive.",
+      "ar": "نخلة من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  },
+  {
+    "slug": "nabati",
+    "name": {
+      "en": "Nabati",
+      "ar": "ناباتي"
+    },
+    "division": "food",
+    "image": "",
+    "source": "https://www.mbtksa.com/about-us-2/our-company/our-business-partners/",
+    "categoryIds": [
+      432,
+      433
+    ],
+    "description": {
+      "en": "Nabati appears in the company’s published portfolio and source archive.",
+      "ar": "ناباتي من الأسماء الواردة في محفظة الشركة وأرشيفها المنشور."
+    }
+  }
+]

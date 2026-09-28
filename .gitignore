@@ -13,3 +13,14 @@ audit/inspect-*
 audit/quick-*
 audit/sheet-*
 audit/raw/world.geojson
+
+# Intermediate audit renders; final review captures live in audit/screenshots.
+audit/pdf-*.jpg
+audit/*-source.jpg
+audit/home-desktop.png
+audit/home-full.png
+audit/business-desktop.png
+audit/network-desktop.png
+audit/production-home.png
+audit/*-profile*.txt
+audit/company-profile-2017.txt
