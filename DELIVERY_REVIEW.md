@@ -67,6 +67,8 @@ Reference: https://developer.mozilla.org/en-US/docs/Web/API/PerformanceNavigatio
 
 Quantity/unit pairs remain together across line breaks through the shared `BidiText` renderer. Rapid filter/location selections update immediately while History API writes are coalesced at 300ms to stay within Safari’s rate limit; a locale switch reads the pending selection as well as committed URL state.
 
+Live verification also exposed a slow-network navigation race: a queued History API write could supersede a link transition before its response arrived. Pending writes are now cancelled after an internal link handler consumes the current query. Regression coverage delays both locale and product-route responses to verify that navigation completes with the selected city preserved where applicable.
+
 ## Verification evidence
 
 Reproducible checks: `tests/delivery.spec.ts`, the existing Playwright suite, `scripts/typography-qa.mjs`, `scripts/mobile-visual-qa.mjs`, `scripts/desktop-preservation-qa.mjs`, and `scripts/live-experience-qa.mjs`.

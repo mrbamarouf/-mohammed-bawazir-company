@@ -26,9 +26,21 @@ const commit = () => {
 };
 const subscribe = (callback: () => void) => {
   const onHistory = () => { cancelPending(); callback(); };
+  const onNavigate = (event: MouseEvent) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>("a[href]") : null;
+    if (!link || link.hasAttribute("download") || (link.target && link.target !== "_self")) return;
+    const destination = new URL(link.href);
+    if (destination.origin === window.location.origin &&
+      (destination.pathname !== window.location.pathname || destination.search !== window.location.search)) cancelPending();
+  };
+  // Run after React's link handler has consumed the pending query. A delayed
+  // replaceState must not cancel an in-flight route change on a slow network.
+  window.addEventListener("click", onNavigate);
   window.addEventListener("popstate", onHistory);
   window.addEventListener("mbt-filters", callback);
   return () => {
+    window.removeEventListener("click", onNavigate);
     window.removeEventListener("popstate", onHistory);
     window.removeEventListener("mbt-filters", callback);
   };

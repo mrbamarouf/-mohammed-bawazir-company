@@ -85,3 +85,20 @@ test('rapid location changes preserve the latest selection and locale context wi
  await page.evaluate(async()=>{const buttons=[...document.querySelectorAll<HTMLButtonElement>('.portrait-city')];for(let i=0;i<120;i++){buttons[i%buttons.length].click();await new Promise(r=>setTimeout(r,35));}buttons[1].click();(document.querySelector('header .language') as HTMLAnchorElement).click();});
  await expect(page).toHaveURL(/\/en\/distribution\?city=riyadh$/);await expect(page.locator('.mobile-city-detail h3')).toHaveText('Riyadh');await expect(page.locator('.corporate-intro')).not.toBeVisible();expect(errors).toEqual([]);
 });
+
+for(const destination of ['language','products']) test(`pending map URL cannot cancel slow ${destination} navigation`,async({page})=>{
+ await page.setViewportSize({width:390,height:844});await page.goto('/ar/distribution');
+ await page.locator('.city-tabuk').click();await expect(page).toHaveURL(/city=tabuk$/);
+ const target=destination==='language'?'/en/distribution':'/ar/products';
+ await page.route(`**${target}*`,async route=>{await new Promise(resolve=>setTimeout(resolve,800));await route.continue();});
+ await page.evaluate(kind=>{
+  (document.querySelector('.city-dammam') as HTMLButtonElement).click();
+  (document.querySelector('.city-riyadh') as HTMLButtonElement).click();
+  const selector=kind==='language'?'header .language':'.bottom-navigation a[href="/ar/products"]';
+  (document.querySelector(selector) as HTMLAnchorElement).click();
+ },destination);
+ await expect(page).toHaveURL(new RegExp(target+(destination==='language'?'\\?city=riyadh':'')+'$'));
+ if(destination==='language')await expect(page.locator('.mobile-city-detail h3')).toHaveText('Riyadh');
+ else await expect(page.locator('.catalogue')).toBeVisible();
+ await expect(page.locator('.corporate-intro')).not.toBeVisible();
+});

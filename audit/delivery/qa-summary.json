@@ -157,5 +157,31 @@
     "backForwardReplays": false,
     "reducedMotionVerified": true
   },
-  "liveVerification": "Performed after this commit; receipt remains in the ignored audit/mobile/deployed-delivery directory."
+  "liveVerification": "Performed after this commit; receipt remains in the ignored audit/mobile/deployed-delivery directory.",
+  "navigationFollowup": {
+    "reason": "Live network latency exposed queued History API writes cancelling route transitions.",
+    "regressionDemonstratedAgainst": "16d52aeb89fb5aa1d843311cc72fcde5238606fc",
+    "slowNetworkTestsFailedBefore": 2,
+    "build": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": {
+      "chromium": {
+        "startTime": "2026-09-29T00:20:56.687Z",
+        "duration": 14386.927,
+        "expected": 6,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "webkit": {
+        "startTime": "2026-09-29T00:20:56.687Z",
+        "duration": 9308.952,
+        "expected": 5,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
+  }
 }
