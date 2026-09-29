@@ -1,6 +1,7 @@
 "use client";
 import { BidiText } from "./bidi-text";
 import { useState, useRef, useEffect } from "react";
+import { useQueryFilters } from "./use-query-filters";
 import { projectSaudi as project, saudiPaths as paths, saudiViewBox } from "@/lib/saudi-map";
 import { branches, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
@@ -12,11 +13,13 @@ export function Network({
   locale: Locale;
   standalone?: boolean;
 }) {
-  const [selected, setSelected] = useState("jeddah");
+  const filters = useQueryFilters({ city: branches[0].id });
+  const branch = branches.find((b) => b.id === filters.get("city")) || branches[0];
+  const selected = branch.id;
+  const setSelected = (city: string) => filters.update({ city });
   const [seen, setSeen] = useState(false);
   const ref = useRef<HTMLElement>(null);
   const ar = locale === "ar";
-  const branch = branches.find((b) => b.id === selected)!;
   useEffect(() => {
     const ob = new IntersectionObserver(
       ([e]) => {

@@ -183,5 +183,31 @@
         "flaky": 0
       }
     }
+  },
+  "mapStateFollowup": {
+    "reason": "Unify desktop and mobile city state for direct links, locale changes and viewport transitions.",
+    "regressionDemonstratedAgainst": "29afd0e349f9cc5413e5fb53a4e43a452a8c9d7a",
+    "testsFailedBefore": 2,
+    "build": "PASS",
+    "typecheck": "PASS",
+    "lint": "PASS",
+    "tests": {
+      "chromium": {
+        "startTime": "2026-09-29T00:27:39.406Z",
+        "duration": 23947.446999999996,
+        "expected": 8,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      },
+      "webkit": {
+        "startTime": "2026-09-29T00:27:39.405Z",
+        "duration": 24729.942000000003,
+        "expected": 7,
+        "skipped": 0,
+        "unexpected": 0,
+        "flaky": 0
+      }
+    }
   }
 }

@@ -102,3 +102,22 @@ for(const destination of ['language','products']) test(`pending map URL cannot c
  else await expect(page.locator('.catalogue')).toBeVisible();
  await expect(page.locator('.corporate-intro')).not.toBeVisible();
 });
+
+for(const locale of ['ar','en'] as const) test(`${locale}: desktop city selection survives locale and viewport changes`,async({page})=>{
+ await page.goto(`/${locale}/distribution?city=riyadh`);
+ await expect(page.locator('.network-location h3')).toHaveText(branches[1].name[locale]);
+ await page.locator('.branch-index button').nth(2).click();
+ await expect(page.locator('.network-location h3')).toHaveText(branches[2].name[locale]);
+ await expect(page).toHaveURL(/city=dammam$/);
+ await page.locator('header .language').click();
+ const other=locale==='ar'?'en':'ar';
+ await expect(page).toHaveURL(new RegExp(`/${other}/distribution\\?city=dammam$`));
+ await expect(page.locator('.network-location h3')).toHaveText(branches[2].name[other]);
+ await page.setViewportSize({width:390,height:844});
+ await expect(page.locator('.mobile-city-detail h3')).toHaveText(branches[2].name[other]);
+ await page.locator('.city-madinah').click();
+ await expect(page.locator('.mobile-city-detail h3')).toHaveText(branches[5].name[other]);
+ await page.setViewportSize({width:1440,height:1000});
+ await expect(page.locator('.network-location h3')).toHaveText(branches[5].name[other]);
+ await expect(page.locator('.corporate-intro')).not.toBeVisible();
+});

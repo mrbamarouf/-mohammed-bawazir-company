@@ -69,6 +69,8 @@ Quantity/unit pairs remain together across line breaks through the shared `BidiT
 
 Live verification also exposed a slow-network navigation race: a queued History API write could supersede a link transition before its response arrived. Pending writes are now cancelled after an internal link handler consumes the current query. Regression coverage delays both locale and product-route responses to verify that navigation completes with the selected city preserved where applicable.
 
+Desktop and mobile also share URL-backed city selection. A direct city link, locale change or viewport transition retains the same location panel instead of resetting the desktop map to Jeddah. Both language directions are covered by the delivery tests.
+
 ## Verification evidence
 
 Reproducible checks: `tests/delivery.spec.ts`, the existing Playwright suite, `scripts/typography-qa.mjs`, `scripts/mobile-visual-qa.mjs`, `scripts/desktop-preservation-qa.mjs`, and `scripts/live-experience-qa.mjs`.
