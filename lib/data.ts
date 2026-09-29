@@ -1,3 +1,4 @@
+import { productPresentation } from "./product-copy";
 import productsJson from "@/content/products.json";
 import brandsJson from "@/content/brands.json";
 import articlesJson from "@/content/articles.json";
@@ -6,7 +7,7 @@ import assetsJson from "@/content/assets.json";
 import type { Product, Brand, Article } from "./types";
 export const products = productsJson.map(({ source, ...product }) => {
   void source;
-  return product;
+  return { ...product, ...productPresentation(product as Product), ...(product.id === 5173 ? {brand:"bull-dose",division:"beverages"} : {}) };
 }) as Product[];
 export const brands = brandsJson.map(({ source, ...brand }) => {
   void source;

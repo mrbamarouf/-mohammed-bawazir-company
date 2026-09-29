@@ -1,0 +1,161 @@
+{
+  "date": "2026-09-29",
+  "checkpoint": "a48d5e02d396c14102607a8ec191b53fed5d93b9",
+  "scope": "Final client-delivery pass; existing main branch and Vercel project",
+  "build": "PASS",
+  "typecheck": "PASS",
+  "lint": "PASS",
+  "functional": {
+    "chromium": {
+      "startTime": "2026-09-29T00:05:14.257Z",
+      "duration": 213158.563,
+      "expected": 71,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    },
+    "webkit": {
+      "startTime": "2026-09-29T00:05:14.263Z",
+      "duration": 176737.574,
+      "expected": 37,
+      "skipped": 0,
+      "unexpected": 0,
+      "flaky": 0
+    }
+  },
+  "typography": {
+    "chromium": {
+      "routes": 1018,
+      "widths": [
+        320,
+        360,
+        375,
+        390,
+        393,
+        414,
+        430,
+        1366,
+        1440,
+        1728,
+        1920
+      ],
+      "states": 11198,
+      "failures": 0,
+      "loadTimeoutsRetried": 1
+    },
+    "webkit": {
+      "routes": 1018,
+      "widths": [
+        320,
+        360,
+        375,
+        390,
+        393,
+        414,
+        430,
+        1366,
+        1440,
+        1728,
+        1920
+      ],
+      "states": 11198,
+      "failures": 0,
+      "loadTimeoutsRetried": 0
+    }
+  },
+  "realNetwork": {
+    "engine": "chromium",
+    "states": 110,
+    "errors": 0,
+    "failedRequests": 0,
+    "overflow": 0,
+    "brokenImages": 0,
+    "fontErrors": 0,
+    "loadTimeoutsRetried": 1
+  },
+  "visualEvidence": {
+    "mobileMatrix": {
+      "chromium": 308,
+      "webkit": 308
+    },
+    "desktopMatrix": {
+      "chromium": 96,
+      "webkit": 96
+    },
+    "allRouteTextCapture": {
+      "routes": 1018,
+      "crops": 4064,
+      "uniqueTextBlocksReviewed": 1030,
+      "contactSheetsReviewed": 23
+    },
+    "introAndMap": {
+      "engines": [
+        "chromium",
+        "webkit"
+      ],
+      "locales": [
+        "ar",
+        "en"
+      ],
+      "widths": [
+        320,
+        360,
+        375,
+        390,
+        393,
+        414,
+        430,
+        1366,
+        1440,
+        1728,
+        1920
+      ],
+      "allEightSelectedCityStates": true
+    },
+    "finalQuantityAndEditedProductTitleCrops": 56
+  },
+  "copyReview": {
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "productRecords": 394,
+    "brandRecords": 50,
+    "categories": 83,
+    "newsRecords": 33,
+    "sectors": 6,
+    "provenance": "DELIVERY_REVIEW.md",
+    "rawProductRecordsUnchanged": true,
+    "unsupportedPackSpecificationsWithheld": true
+  },
+  "map": {
+    "sharedDesktopMobileGeometry": true,
+    "polygons": 4,
+    "locations": [
+      "Jeddah",
+      "Riyadh",
+      "Dammam",
+      "Tabuk",
+      "Qassim/Buraydah",
+      "Madinah",
+      "Khamis Mushait",
+      "Jizan"
+    ],
+    "minimumMobileTargetPx": 44
+  },
+  "intro": {
+    "originalLogo": "78224d6-mbt-png-logo.png",
+    "naturalSize": [
+      550,
+      202
+    ],
+    "reloadReplays": true,
+    "skipThenReloadReplays": true,
+    "innerRouteReloadReplays": true,
+    "internalNavigationReplays": false,
+    "languageSwitchReplays": false,
+    "backForwardReplays": false,
+    "reducedMotionVerified": true
+  },
+  "liveVerification": "Performed after this commit; receipt remains in the ignored audit/mobile/deployed-delivery directory."
+}

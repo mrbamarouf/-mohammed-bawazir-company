@@ -36,8 +36,8 @@ export function Home({ locale }: { locale: Locale }) {
                 <BidiText
                   text={
                     ar
-                      ? "عوالم متعددة.\nخبرة تجمعها."
-                      : "Different worlds.\nOne depth of experience."
+                      ? "قطاعات متعددة.\nوخبرة بالسوق."
+                      : "Six sectors.\nOne trading heritage."
                   }
                 />
               </h2>
@@ -64,8 +64,8 @@ export function Home({ locale }: { locale: Locale }) {
       </section>
       <BrandMarquee locale={locale} brands={brands}>
         <MobileBrandFeature locale={locale} items={[
-          {slug:"nutrisari",name:"NutriSari",image:products.find(p=>p.id===36496)!.image,caption:{ar:"نكهات للحياة اليومية.",en:"Flavour for the everyday."}},
-          {slug:"reem",name:"Reem",image:products.find(p=>p.id===36209)!.image,caption:{ar:"مكونات تجمعنا.",en:"Ingredients that bring us together."}},
+          {slug:"nutrisari",name:"NutriSari",image:products.find(p=>p.id===36496)!.image,caption:{ar:"مشروبات بنكهة الفاكهة.",en:"Fruit-flavoured drinks."}},
+          {slug:"reem",name:"Reem",image:products.find(p=>p.id===36209)!.image,caption:{ar:"مكونات للمائدة اليومية.",en:"Ingredients for everyday meals."}},
           {slug:"tropicana-slim",name:"Tropicana Slim",image:products.find(p=>p.id===36281)!.image,caption:{ar:"خيارات لكل يوم.",en:"Everyday choices."}},
         ]} />
       </BrandMarquee>
@@ -83,12 +83,12 @@ export function Home({ locale }: { locale: Locale }) {
             <div>
               <span className="eyebrow">
                 <BidiText
-                  text={ar ? "الأخبار والأنشطة" : "NEWS & ACTIVITIES"}
+                  text={ar ? "الأخبار والفعاليات" : "NEWS & EVENTS"}
                 />
               </span>
               <h2>
                 <BidiText
-                  text={ar ? "في قلب الحركة." : "A business in motion."}
+                  text={ar ? "أخبار الشركة وفعالياتها." : "News from MBT."}
                 />
               </h2>
             </div>

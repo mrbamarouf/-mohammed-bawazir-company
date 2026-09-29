@@ -65,11 +65,15 @@ export async function generateMetadata({
       ? "شركة محمد باوزير للتجارة"
       : "Mohammed Bawazir Trading Company");
   if (section === "products" && detail)
-    title = products.find((p) => p.slug === detail)?.name || title;
+    title = products.find((p) => p.slug === detail)?.displayName || title;
   if (section === "brands" && detail)
     title = brands.find((b) => b.slug === detail)?.name[locale] || title;
   if (section === "news" && detail)
     title = articles.find((a) => a.slug === detail)?.title[locale] || title;
+  if (section === "business" && detail)
+    title = divisions.find((d) => d.slug === detail)?.name[locale] || title;
+  if (section === "privacy")
+    title = locale === "ar" ? "سياسة الخصوصية" : "Privacy policy";
   const path = slug.length ? "/" + slug.join("/") : "";
   return {
     title,

@@ -23,7 +23,7 @@ export function Enquiry({ locale }: { locale: Locale }) {
       }}
     >
       <h2>
-        <BidiText text={ar ? "لنبدأ الحوار." : "Start a conversation."} />
+        <BidiText text={ar ? "أرسل استفسارك." : "Your enquiry."} />
       </h2>
       <div className="form-grid">
         <label>
@@ -103,7 +103,7 @@ export function Enquiry({ locale }: { locale: Locale }) {
               text={
                 ar
                   ? "رسالتك جاهزة. أكمل إرسالها من تطبيق البريد الإلكتروني."
-                  : "Your enquiry is ready. Complete sending it in your email application."
+                  : "Your email draft is ready. Review and send it in your email application."
               }
             />
           </p>

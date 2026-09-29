@@ -7,9 +7,9 @@ export default function NotFound() {
         <bdi lang="en" dir="ltr">404</bdi>
       </p>
       <h1>
-        <bdi lang="en" dir="ltr">Let’s find your way.</bdi>
+        <bdi lang="en" dir="ltr">Page not found.</bdi>
         <br />
-        <bdi lang="ar" dir="rtl">لنجد وجهتك.</bdi>
+        <bdi lang="ar" dir="rtl">الصفحة غير موجودة.</bdi>
       </h1>
       <p>
         <bdi lang="en" dir="ltr">The page could not be found.</bdi>{" "}

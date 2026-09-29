@@ -3,15 +3,18 @@ import { useId } from "react";
 import { useQueryFilters } from "./use-query-filters";
 import { branches, company } from "@/lib/company";
 import { operatingFacts } from "@/lib/company-facts";
-import geometry from "@/content/saudi-geometry.json";
+import { projectSaudi as project, saudiPaths as outlines, saudiViewBox } from "@/lib/saudi-map";
 import type { Locale } from "@/lib/types";
 import { BrandLogo } from "./brand-logo";
 import { TextLink, Arrow } from "./ui";
 import { MobileIcon } from "./mobile-icons";
-// A local equirectangular projection, with longitude corrected at Saudi Arabia's
-// central latitude. The verified boundary is never stretched to fill a portrait.
-const project = (lon:number, lat:number) => [(lon - 33.8) * 16.2, (33.1-lat) * 17.88 + 12];
-const outlines = geometry.coordinates.map(polygon => polygon.map(ring => ring.map(([lon,lat],i) => `${i ? "L" : "M"}${project(lon,lat).map(v=>v.toFixed(2)).join(",")}`).join(" ")+"Z").join(" "));
+// Label positions are UI callouts; geographic dots always use the shared city coordinates.
+const callouts: Record<string, [number, number]> = {
+  tabuk: [20, 145], madinah: [80, 280], jeddah: [65, 400],
+  qassim: [330, 115], riyadh: [475, 335], dammam: [655, 210],
+  khamis: [350, 530], jizan: [180, 660],
+};
+const mapHeight = 710; // Extra space for southern labels, never crop the boundary.
 export function MobileNetwork({ locale }: { locale: Locale }) {
   const ar = locale === "ar";
   const id = useId().replaceAll(":", "");
@@ -23,16 +26,17 @@ export function MobileNetwork({ locale }: { locale: Locale }) {
     <div className="wrap">
       <p className="mobile-network-label">{ar ? "شبكة التوزيع" : "Our distribution network"}</p>
       <h2>{ar ? "حضور يمتد عبر المملكة." : "A presence across Saudi Arabia."}</h2>
-      <p className="mobile-network-intro">{ar ? "من مقرنا في جدة، نصل العلامات التجارية بأسواقها المحلية." : "From our home in Jeddah, we connect brands with their local markets."}</p>
+      <p className="mobile-network-intro">{ar ? "من مقرنا في جدة، نربط العلامات التجارية بالأسواق المحلية." : "From our headquarters in Jeddah, we connect brands with local markets."}</p>
     </div>
     <div className="portrait-map" dir="ltr">
-      <svg viewBox="0 0 390 355" role="img" aria-label={ar ? "خريطة المملكة العربية السعودية ومدن الفروع" : "Saudi Arabia and our branch cities"}>
+      <svg viewBox={`${saudiViewBox.x} 0 ${saudiViewBox.width} ${mapHeight}`} role="img" aria-label={ar ? "خريطة المملكة العربية السعودية ومدن الفروع" : "Saudi Arabia and our branch cities"}>
         <defs><linearGradient id={`land-${id}`} x1="0" y1="0" x2="1" y2="1"><stop stopColor="var(--mbt-green)" /><stop offset="1" stopColor="var(--mbt-green-deep)" /></linearGradient></defs>
         {outlines.map((d,i)=><path className="portrait-land" key={i} d={d} fill={`url(#land-${id})`} />)}
         {branches.slice(1).map(b => {const point=project(b.lon,b.lat);return <path key={b.id} className={`portrait-route ${branch.id===b.id ? "active" : ""}`} d={`M${origin.join(",")}L${point.join(",")}`} />;})}
+        {branches.map(b=>{const point=project(b.lon,b.lat);return <path key={`label-${b.id}`} className="portrait-label-line" d={`M${point.join(",")}L${callouts[b.id].join(",")}`} />;})}
         {branches.map(b=>{const [x,y]=project(b.lon,b.lat);return <g key={b.id} className={b.id===branch.id ? "portrait-dot active" : "portrait-dot"}><circle cx={x} cy={y} r="7" /><circle cx={x} cy={y} r="2.5" /></g>;})}
       </svg>
-      {branches.slice(0,3).map(b=>{const [x,y]=project(b.lon,b.lat);return <button key={b.id} className={`portrait-city city-${b.id}`} style={{left:`${x/390*100}%`,top:`${y/355*100}%`}} onClick={()=>setSelected(b.id)} aria-pressed={branch.id===b.id} aria-label={b.name[locale]}><span lang={locale} dir={ar?"rtl":"ltr"}>{b.name[locale]}</span></button>;})}
+      {branches.map(b=>{const [x,y]=callouts[b.id];return <button key={b.id} className={`portrait-city city-${b.id}`} style={{left:`${(x-saudiViewBox.x)/saudiViewBox.width*100}%`,top:`${y/mapHeight*100}%`}} onClick={()=>setSelected(b.id)} aria-pressed={branch.id===b.id} aria-label={b.name[locale]}><span lang={locale} dir={ar?"rtl":"ltr"}>{b.name[locale]}</span></button>;})}
       <div className="portrait-map-signature"><BrandLogo markOnly /><span>{ar ? "المملكة العربية السعودية" : "Saudi Arabia"}</span></div>
     </div>
     <div className="wrap">

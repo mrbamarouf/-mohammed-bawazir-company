@@ -42,7 +42,7 @@ export function ValueChain({ locale }: { locale: Locale }) {
     {
       title: ar ? "التجزئة" : "Retail",
       value: "7,286",
-      unit: ar ? "منفذ مباشر تقريبًا" : "direct outlets, approximately",
+      unit: ar ? "منفذ بيع مباشر تقريبًا" : "direct outlets, approximately",
       note: ar
         ? "المتاجر، والجملة، والصيدليات، وقنوات أخرى"
         : "Stores, wholesale, pharmacies and other channels",
@@ -65,7 +65,7 @@ export function ValueChain({ locale }: { locale: Locale }) {
       <div className="chain-heading">
         <h2 id="chain-heading">
           {ar
-            ? "من العلامة، إلى الحياة اليومية."
+            ? "من العلامة إلى الحياة اليومية."
             : "From brand to everyday life."}
         </h2>
         <p>

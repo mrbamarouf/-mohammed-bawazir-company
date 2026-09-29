@@ -11,7 +11,7 @@ export function catalogueResult(products: Product[], filters: CatalogueFilters) 
     seen.add(key); return true;
   });
   const available = products.filter(p => (!filters.division || p.division === filters.division) && (!filters.brand || p.brand === filters.brand));
-  const filtered = unique.filter(p => (!filters.division || p.division === filters.division) && (!filters.brand || p.brand === filters.brand) && (!filters.category || p.categoryIds.includes(Number(filters.category))) && normalize(`${p.name} ${p.categories.join(" ")} ${p.brand} ${p.description}`).includes(normalize(filters.q)));
+  const filtered = unique.filter(p => (!filters.division || p.division === filters.division) && (!filters.brand || p.brand === filters.brand) && (!filters.category || p.categoryIds.includes(Number(filters.category))) && normalize(`${p.name} ${p.displayName || ""} ${p.categories.join(" ")} ${p.brand} ${p.description}`).includes(normalize(filters.q)));
   return { items: filtered.slice(0, filters.limit), total: filtered.length, categoryIds: categories.filter(c => available.some(p => p.categoryIds.includes(c.id))).map(c => c.id) };
 }
 export type CatalogueResult = ReturnType<typeof catalogueResult>;

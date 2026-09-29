@@ -85,3 +85,20 @@ audit/typography/app-release/
 audit/mobile/app-tests-*.json
 audit/mobile/app-desktop-tests.json
 audit/mobile/app-review-crops/
+
+# Final-delivery raw browser evidence and generated reports remain local.
+audit/delivery/screenshots/
+audit/delivery/*-artifacts/
+audit/delivery/*.log
+audit/delivery/*-tests.json
+audit/delivery/logo*.png
+audit/delivery/copy-before.json
+audit/delivery/product-copy-review.json
+audit/typography/delivery/
+audit/mobile/deployed-delivery/
+
+audit/typography/delivery-visual-copy/
+
+audit/typography/delivery-final/
+audit/typography/delivery-release/
+audit/mobile/delivery-release-view/

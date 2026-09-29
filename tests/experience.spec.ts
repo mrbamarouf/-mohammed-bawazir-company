@@ -20,7 +20,8 @@ for(const locale of ['ar','en']) for(const width of [390,1440]) {
     await page.locator('header .language').click();
     await expect(page.locator('html')).toHaveAttribute('lang',other);
     await expect(intro).not.toBeVisible();
-    await page.reload(); await expect(intro).not.toBeVisible();
+    await page.reload(); await expect(intro).toBeVisible();
+    await page.locator(".intro-skip").click(); await expect(intro).not.toBeVisible();
     await page.goto(`/${other}/products`); await expect(intro).not.toBeVisible();
     await page.goBack(); await expect(intro).not.toBeVisible();
     await page.goForward(); await expect(intro).not.toBeVisible();
@@ -64,7 +65,7 @@ for(const locale of ['ar','en']) test(`${locale} navigation, map, filters, touch
 for(const locale of ['ar','en']) test(`${locale} full corresponding-route language matrix`,async({page})=>{
   test.setTimeout(120000);await page.setViewportSize({width:393,height:852});await page.addInitScript(()=>sessionStorage.setItem('mbt-intro-v2','seen'));
   const other=locale==='ar'?'en':'ar';const product=products.find(p=>p.language==='ar'&&p.image)!;
-  for(const route of ['','about','business','brands?q=Reem','products?q=Croissant',`products/${product.slug}`,'distribution?city=riyadh','news?year=2025','contact','profile?page=16']){
+  for(const route of ['','about','business','brands?q=Reem','products?q=Croissant',`products/${product.slug}`,'distribution?city=riyadh','news?year=2025','careers','contact','profile?page=16']){
     await page.goto(`/${locale}/${route}`);await page.locator('header .language').click();await expect(page.locator('html')).toHaveAttribute('lang',other);expect(new URL(page.url()).pathname+new URL(page.url()).search).toBe(`/${other}/${route}`.replace(/\/$/,''));await expect(page.locator('.corporate-intro')).not.toBeVisible();await expect(page.locator('html')).toHaveAttribute('dir',other==='ar'?'rtl':'ltr');
     await page.locator('header .language').click();await expect(page.locator('html')).toHaveAttribute('lang',locale);await expect(page.locator('.corporate-intro')).not.toBeVisible();
   }

@@ -16,8 +16,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "تاريخ من العمل.\nوعلاقات تستمر."
-                  : "Built over decades.\nMade for what’s next."
+                  ? "مسيرة في التجارة.\nوعلاقات راسخة."
+                  : "Decades of trade.\nLasting partnerships."
               }
             />
           </h2>
@@ -37,7 +37,7 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "الأشخاص الذين صنعوا حكايتنا"
+                    ? "الأشخاص الذين صنعوا مسيرتنا"
                     : "The people behind our business"
                 }
               />
@@ -48,8 +48,8 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "بدأت حكاية شركة محمد باوزير للتجارة في عام 1987. وعلى امتداد السنوات، اتسعت أعمالها من التجارة والتوزيع إلى بناء العلامات والخدمات التسويقية وقطاعات متخصصة."
-                    : "Mohammed Bawazir Trading began in 1987. Over the years, its story expanded through trading, distribution, brand building, marketing services and specialist business sectors."
+                    ? "تأسست شركة محمد باوزير للتجارة عام 1987. وعلى امتداد السنوات، توسعت أعمالها من التجارة والتوزيع إلى بناء العلامات والخدمات التسويقية وقطاعات متخصصة."
+                    : "Mohammed Bawazir Trading began in 1987. Over the years, it expanded into trading, distribution, brand building, marketing services and specialist business sectors."
                 }
               />
             </p>
@@ -88,7 +88,7 @@ export function HistoryBlock({ locale }: { locale: Locale }) {
             </div>
             <TextLink href={`/${locale}/about`}>
               <BidiText
-                text={ar ? "تعرّف على حكايتنا" : "Explore our history"}
+                text={ar ? "تعرّف على مسيرتنا" : "Explore our history"}
               />
             </TextLink>
           </div>

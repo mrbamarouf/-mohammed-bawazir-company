@@ -4,9 +4,9 @@ import fs from 'node:fs/promises';
 import products from '../content/products.json' with {type:'json'};
 const base=process.env.TEST_BASE_URL || 'https://mohammed-bawazir-company.vercel.app';
 const engine=process.env.QA_ENGINE || 'chromium';
-const out=`audit/mobile/deployed-app/${engine}`;await fs.mkdir(`${out}/screenshots`,{recursive:true});
+const out=`audit/mobile/${process.env.QA_RUN||'deployed-app'}/${engine}`;await fs.mkdir(`${out}/screenshots`,{recursive:true});
 const browser=await (engine==='webkit'?webkit:chromium).launch();
-const routes=['','about','business',...['food','beverages','household','personal-care','pharma','tobacco'].map(s=>'business/'+s),'brands','brands/reem','products','products/'+products.find(p=>p.language==='ar'&&p.image).slug,'products/'+products[0].slug,'distribution','news','news/36463-mbt-in-a-week-without-sugar','marketing','careers','contact','profile','companies'];
+const routes=['','about','business',...['food','beverages','household','personal-care','pharma','tobacco'].map(s=>'business/'+s),'brands','brands/reem','products','products/'+products.find(p=>p.language==='ar'&&p.image).slug,'products/'+products[0].slug,'distribution','news','news/36463-mbt-in-a-week-without-sugar','marketing','careers','contact','profile','companies','privacy'];
 const errors=[],requests=[],report=[];
 for(const locale of ['ar','en'])for(const width of [390,320,430,1440,1920]) {
  const p=await browser.newPage({viewport:{width,height:width===320?568:width<768?844:1000},isMobile:width<768,hasTouch:width<768});

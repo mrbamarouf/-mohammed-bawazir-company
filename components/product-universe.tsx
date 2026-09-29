@@ -71,8 +71,8 @@ export function ProductUniverse({
               <BidiText
                 text={
                   ar
-                    ? "تنوع يملأ الحياة اليومية."
-                    : "Everyday needs. Extraordinary variety."
+                    ? "منتجات للحياة اليومية."
+                    : "Products for everyday needs."
                 }
               />
             </h2>
@@ -105,7 +105,7 @@ export function ProductUniverse({
               <div className="shelf-object">
                 <Image
                   src={p.image}
-                  alt={p.name}
+                  alt={p.displayName || p.name}
                   width={220}
                   height={240}
                   style={{
@@ -115,7 +115,7 @@ export function ProductUniverse({
                 />
               </div>
               <span dir={ar ? "rtl" : "ltr"}>
-                {ar ? labels[p.id] || p.name : english[p.id] || p.name}
+                {ar ? labels[p.id] || p.displayName || p.name : english[p.id] || p.displayName || p.name}
               </span>
             </Link>
           ))}
@@ -124,8 +124,8 @@ export function ProductUniverse({
           <BidiText
             text={
               ar
-                ? "محفظة تجارية للعلامات والفئات والمنتجات. للاستفسارات التجارية، تواصل مع فريقنا."
-                : "A commercial portfolio of brands, categories and products. Talk to our team about business enquiries."
+                ? "للاستفسار عن المنتجات والتوزيع، تواصل مع فريقنا."
+                : "Contact our team for product and distribution enquiries."
             }
           />
         </p>

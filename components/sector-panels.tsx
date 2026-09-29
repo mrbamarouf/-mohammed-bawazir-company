@@ -111,7 +111,7 @@ export function SectorPanels({
                         src={p.image}
                         width={190}
                         height={230}
-                        alt={p.name}
+                        alt={p.displayName || p.name}
                         sizes="180px"
                       />
                     ))}

@@ -3,6 +3,9 @@ const arabicScript = /\p{Script=Arabic}/u;
 
 /** Isolate Latin names, years, quantities and units inside Arabic prose. */
 export function BidiText({ text }: { text: string }) {
+  // Keep a quantity with its unit in every text context, including mixed-script
+  // product names. This changes wrapping only, never Arabic letter spacing.
+  text = text.replace(/(\d[\d.,]*)\s+(kg|mg|g|ml|L|m[²³]|كجم|جم|مل|لتر)(?=$|[\s).،;؛:!?—–-])/gu, "$1\u00a0$2");
   if (!arabicScript.test(text)) return <bdi dir="auto" lang={/[A-Za-z]/.test(text) ? "en" : undefined}>{text}</bdi>;
   const pattern =
     /م[²³]|\([A-Za-z0-9][A-Za-z0-9\s.,:/+%×&'’_–—-]*\)|\+?[A-Za-z0-9]+(?:[ .,/:%×+&’'_–—-]+[A-Za-z0-9]+)*%?/g;

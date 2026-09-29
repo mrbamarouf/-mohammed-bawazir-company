@@ -1,29 +1,10 @@
 "use client";
 import { BidiText } from "./bidi-text";
 import { useState, useRef, useEffect } from "react";
-import geometry from "@/content/saudi-geometry.json";
+import { projectSaudi as project, saudiPaths as paths, saudiViewBox } from "@/lib/saudi-map";
 import { branches, company } from "@/lib/company";
 import { pick, type Locale } from "@/lib/types";
 import { TextLink, Arrow } from "./ui";
-const project = (lon: number, lat: number) => [
-  (lon - 34) * 32,
-  (33 - lat) * 34,
-];
-const paths = geometry.coordinates.map((polygon) =>
-  polygon
-    .map(
-      (ring) =>
-        ring
-          .map(
-            ([lon, lat], i) =>
-              `${i ? "L" : "M"}${project(lon, lat)
-                .map((v) => v.toFixed(1))
-                .join(",")}`,
-          )
-          .join(" ") + "Z",
-    )
-    .join(" "),
-);
 export function Network({
   locale,
   standalone = false,
@@ -79,7 +60,7 @@ export function Network({
               text={
                 ar
                   ? "من مقرنا في جدة، تربط شبكة فروعنا العلامات التجارية بالأسواق المحلية. اختر مدينة لاستكشاف حضورنا."
-                  : "From our home in Jeddah, our branch network brings brands closer to local markets. Select a city to explore our presence."
+                  : "Our branch network connects brands with markets across Saudi Arabia. Select a city to view location details."
               }
             />
           </p>
@@ -106,7 +87,7 @@ export function Network({
           </span>
           <svg
             className="network-map"
-            viewBox="-45 0 790 650"
+            viewBox={`${saudiViewBox.x} ${saudiViewBox.y} ${saudiViewBox.width} ${saudiViewBox.height}`}
             aria-label={ar ? "خريطة مدن فروع MBT" : "Map of MBT branch cities"}
             role="group"
           >

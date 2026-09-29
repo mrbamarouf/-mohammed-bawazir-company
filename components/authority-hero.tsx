@@ -36,10 +36,10 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
             </span>
             <bdi dir="ltr">1987</bdi>
           </p>
-          <h1 id="hero-heading"><span className="mobile-hero-heading">{ar ? <>من التوريد<br />إلى <em>الرف.</em></> : <>From the world.<br /><em>To your everyday.</em></>}</span><span className="desktop-hero-heading">
+          <h1 id="hero-heading"><span className="mobile-hero-heading">{ar ? <>من التوريد<br />إلى <em>الرف.</em></> : <>From supply<br /><em>to shelf.</em></>}</span><span className="desktop-hero-heading">
             {ar ? (
               <>
-                نصل العلامات العالمية{" "}
+                نربط العلامات العالمية{" "}
                 <br />
                 <span>بأسواق المملكة.</span>
               </>
@@ -54,12 +54,12 @@ export function AuthorityHero({ locale }: { locale: Locale }) {
           <p className="mobile-hero-description">{ar ? "شريك العلامات العالمية في التجارة والتوزيع بالمملكة العربية السعودية، منذ 1987." : "Connecting global brands with Saudi markets through trade and distribution, since 1987."}</p>
           <p className="authority-description">
             {ar
-              ? "شركة محمد باوزير للتجارة. خبرة متراكمة في بناء العلامات والتجارة والتوزيع، عبر ستة مجالات أعمال وشبكة تمتد من جدة إلى أسواق المملكة."
-              : "Mohammed Bawazir Trading Company. Decades of brand building, trade and distribution across six business areas, connecting our home in Jeddah to markets across the Kingdom."}
+              ? "شركة محمد باوزير للتجارة. خبرة متراكمة في بناء العلامات والتجارة والتوزيع، عبر ستة قطاعات أعمال وشبكة تمتد من جدة إلى أسواق المملكة."
+              : "Mohammed Bawazir Trading Company. Decades of brand building, trade and distribution across six business sectors, connecting our home in Jeddah to markets across the Kingdom."}
           </p>
           <div className="authority-actions">
             <TextLink href={`/${locale}/business`} light>
-              {ar ? "اكتشف أعمال الشركة" : "Explore our business"}
+              {ar ? "اكتشف قطاعاتنا" : "Explore our business"}
             </TextLink>
             <TextLink href={`/${locale}/distribution`} light>
               {ar ? "شبكة التوزيع" : "Our distribution network"}

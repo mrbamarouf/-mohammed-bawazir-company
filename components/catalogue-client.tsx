@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Brand, Locale } from "@/lib/types";
 import { pick } from "@/lib/types";
+import categoryLabels from "@/content/category-labels.json";
 import categories from "@/content/categories.json";
 import { MobileIcon } from "./mobile-icons";
 import { divisions } from "@/lib/company";
@@ -66,13 +67,7 @@ export function CatalogueClient({
     let current = categories.find((c) => c.id === id);
     while (current && !seen.has(current.id)) {
       seen.add(current.id);
-      chain.unshift(
-        current.name === "Uncategorized"
-          ? ar
-            ? "منتجات أخرى"
-            : "Other products"
-          : current.name.replace(/\s*-\s*ar$/i, ""),
-      );
+      chain.unshift(categoryLabels[String(current.id) as keyof typeof categoryLabels][locale]);
       current = categories.find((c) => c.id === current?.parent);
     }
     return chain.join(" / ");
@@ -137,7 +132,7 @@ export function CatalogueClient({
             placeholder={
               ar
                 ? "ابحث باسم المنتج أو العلامة…"
-                : "Search products, brands, ingredients…"
+                : "Search by product or brand…"
             }
             value={query}
             onChange={(e) => {
@@ -154,15 +149,15 @@ export function CatalogueClient({
         <dialog ref={sheet} id={controlsId} className="filter-sheet" aria-label={ar ? "تصفية المنتجات" : "Filter products"} onClose={() => { setFiltersOpen(false); filterTrigger.current?.focus({preventScroll:true}); }} onClick={event => { if(event.target === sheet.current) sheet.current?.close(); }}>
           <header><h2>{ar ? "تصفية المنتجات" : "Filter products"}</h2><button onClick={() => sheet.current?.close()} aria-label={ar ? "إغلاق الفلاتر" : "Close filters"}>×</button></header>
           {filterControls}
-          <div className="filter-sheet-actions"><button className="button" onClick={() => sheet.current?.close()}>{ar ? "عرض النتائج" : "Show results"} <bdi dir="ltr">({displayed.total})</bdi></button><button onClick={reset}>{ar ? "إعادة ضبط الفلاتر" : "Reset filters"}</button></div>
+          <div className="filter-sheet-actions"><button className="button" onClick={() => sheet.current?.close()}>{ar ? "عرض النتائج" : "Show results"} <bdi dir="ltr">({displayed.total})</bdi></button><button onClick={reset}>{ar ? "مسح الفلاتر" : "Reset filters"}</button></div>
         </dialog>
       </div>
       <div
         className="category-tabs"
-        aria-label={ar ? "تصفية حسب القطاع" : "Filter by division"}
+        aria-label={ar ? "تصفية حسب القطاع" : "Filter by sector"}
       >
         {[
-          { slug: "", name: { en: "All divisions", ar: "كل القطاعات" } },
+          { slug: "", name: { en: "All sectors", ar: "جميع القطاعات" } },
           ...divisions,
         ].map((d) => (
           <button
@@ -184,7 +179,7 @@ export function CatalogueClient({
           <bdi dir="ltr">{displayed.total}</bdi> {ar ? "منتج" : "products"}
         </span>
         <button onClick={reset}>
-          {ar ? "إعادة ضبط الفلاتر" : "Reset filters"} ↺
+          {ar ? "مسح الفلاتر" : "Reset filters"} ↺
         </button>
       </div>
       {error && <div className="catalogue-error" role="alert"><p>{ar ? "تعذّر تحميل المنتجات. تحقق من اتصالك وحاول مجددًا." : "Products could not be loaded. Check your connection and try again."}</p><button className="text-link" onClick={() => setRetry(n => n + 1)}>{ar ? "حاول مجددًا" : "Try again"}</button></div>}
@@ -202,7 +197,7 @@ export function CatalogueClient({
                 {p.image ? (
                   <Image
                     src={p.image}
-                    alt={p.name}
+                    alt={p.displayName || p.name}
                     width={240}
                     height={220}
                     style={{
@@ -236,7 +231,7 @@ export function CatalogueClient({
                     (ar ? "محفظة الشركة" : "Company portfolio")}
                 </span>
                 <h3 lang={p.language} dir={p.language === "ar" ? "rtl" : "ltr"}>
-                  <BidiText text={p.name} />
+                  <BidiText text={p.displayName || p.name} />
                 </h3>
               </div>
             </Link>

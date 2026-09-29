@@ -17,8 +17,8 @@ export function Footer({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "شريكك في السوق السعودي"
-                    : "YOUR PARTNER IN THE SAUDI MARKET"
+                    ? "للاستفسارات التجارية"
+                    : "BUSINESS ENQUIRIES"
                 }
               />
             </span>
@@ -26,8 +26,8 @@ export function Footer({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "لنفتح آفاقًا جديدة لأعمالك."
-                    : "Your next chapter in Saudi Arabia."
+                    ? "لنتحدث عن أعمالك."
+                    : "Let’s discuss your business."
                 }
               />
             </h2>
@@ -35,8 +35,8 @@ export function Footer({ locale }: { locale: Locale }) {
               <BidiText
                 text={
                   ar
-                    ? "علامتك التجارية. معرفتنا بالسوق. لنبنِ فرصًا جديدة معًا."
-                    : "Your brand. Our market knowledge. Let’s build new opportunities together."
+                    ? "تواصل مع فريقنا لبحث احتياجات علامتك وفرص التجارة والتوزيع في المملكة."
+                    : "Talk to our team about your brand and opportunities for trade and distribution in Saudi Arabia."
                 }
               />
             </p>
@@ -50,7 +50,7 @@ export function Footer({ locale }: { locale: Locale }) {
             </TextLink>
             <TextLink href={`/${locale}/profile`} light>
               <BidiText
-                text={ar ? "استعرض ملف الشركة" : "View company profile"}
+                text={ar ? "استعرض الملف التعريفي" : "View company profile"}
               />
             </TextLink>
           </div>

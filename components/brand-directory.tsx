@@ -48,7 +48,7 @@ export function BrandDirectory({
           value={division}
           onChange={(e) => setDivision(e.target.value)}
         >
-          <option value="">{ar ? "كل القطاعات" : "All divisions"}</option>
+          <option value="">{ar ? "جميع القطاعات" : "All sectors"}</option>
           {divisions.map((d) => (
             <option key={d.slug} value={d.slug}>
               {pick(d.name, locale)}
@@ -99,7 +99,7 @@ export function BrandDirectory({
             }}
             className="button dark"
           >
-            {ar ? "إعادة ضبط البحث" : "Reset search"}
+            {ar ? "مسح البحث" : "Reset search"}
           </button>
         </div>
       )}

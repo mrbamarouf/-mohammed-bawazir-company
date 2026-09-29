@@ -53,7 +53,7 @@ export function NewsDirectory({
         </label>
         <span role="status">
           <bdi dir="ltr">{found.length}</bdi>{" "}
-          {ar ? "خبر وفعالية" : "news & events"}
+          {ar ? "خبر وفعالية" : "articles"}
         </span>
       </div>
       <div className="news-grid" data-context="news">
@@ -87,7 +87,7 @@ export function NewsDirectory({
               setQuery("");
             }}
           >
-            {ar ? "إعادة ضبط البحث" : "Reset search"}
+            {ar ? "مسح البحث" : "Reset search"}
           </button>
         </div>
       )}

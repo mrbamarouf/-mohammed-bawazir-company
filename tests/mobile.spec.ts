@@ -61,7 +61,7 @@ test.use({ browserName: engine, isMobile: true, hasTouch: true, deviceScaleFacto
       await page.goto(`/${locale}/products`);
       await page.getByRole("searchbox").fill("Croissant");
       await expect(page.locator(".catalogue")).toHaveAttribute("aria-busy", "false");
-      await expect(page.locator(".product-item").first()).toContainText("Croissant");
+      await expect(page.locator(".product-item").first()).toContainText(/croissant/i);
       const names = await page.locator(".product-item h3").allTextContents();
       await switchLanguage(page);
       await expect(page.locator("html")).toHaveAttribute("lang", other);
@@ -69,6 +69,9 @@ test.use({ browserName: engine, isMobile: true, hasTouch: true, deviceScaleFacto
       await expect(page.locator(".catalogue")).toHaveAttribute("aria-busy", "false");
       expect(await page.locator(".product-item h3").allTextContents()).toEqual(names);
       await page.reload();
+      await expect(page.locator(".corporate-intro")).toBeVisible();
+      await page.locator(".intro-skip").tap();
+      await expect(page.locator(".corporate-intro")).not.toBeVisible();
       await expect(page.getByRole("searchbox")).toHaveValue("Croissant");
       await expect(page.locator(".catalogue")).toHaveAttribute("aria-busy", "false");
       await page.locator(".mobile-filter-toggle").tap();

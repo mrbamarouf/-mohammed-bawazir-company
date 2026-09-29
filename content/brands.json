@@ -13,8 +13,8 @@
       126
     ],
     "description": {
-      "en": "MBT’s Reem range brings together oils, canned food, vegetables, fruit, meat and seafood.",
-      "ar": "تجمع علامة ريم ضمن محفظة MBT الزيوت والمعلبات والخضروات والفواكه واللحوم والمأكولات البحرية."
+      "ar": "تشمل منتجات ريم الزيوت والمعلبات والخضروات والفواكه واللحوم والمأكولات البحرية.",
+      "en": "The Reem range includes oils, canned food, vegetables, fruit, meat and seafood."
     }
   },
   {
@@ -66,8 +66,8 @@
       423
     ],
     "description": {
-      "en": "Mie Sedaap instant noodles from Wings Group are featured in the MBT food portfolio.",
-      "ar": "ترد نودلز مي سيداب سريعة التحضير من مجموعة وينغز ضمن محفظة الأغذية لدى MBT."
+      "ar": "نودلز مي سيداب سريعة التحضير من مجموعة وينغز، بنكهات وأحجام تعبئة متنوعة.",
+      "en": "Mie Sedaap instant noodles from Wings Group, in a range of flavours and pack sizes."
     }
   },
   {
@@ -83,8 +83,8 @@
       457
     ],
     "description": {
-      "en": "The LOOL catalogue includes cakes, croissants, biscuits, cookies and wafers.",
-      "ar": "يشمل دليل لول الكيك والكرواسون والبسكويت والكوكيز والويفر."
+      "ar": "تضم منتجات لول الكيك والكرواسون والبسكويت والكوكيز والويفر.",
+      "en": "The LOOL range includes cakes, croissants, biscuits, cookies and wafers."
     }
   },
   {
@@ -100,8 +100,8 @@
       453
     ],
     "description": {
-      "en": "Explore Fantastic in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على فانتاستيك ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تشمل منتجات فانتاستيك وجبات كورني وتشيبسي الخفيفة بنكهات متعددة.",
+      "en": "Fantastic offers Corny and Chpsy snacks in a range of flavours."
     }
   },
   {
@@ -117,8 +117,8 @@
       455
     ],
     "description": {
-      "en": "NutriSari instant drink products feature in the company’s food and beverage portfolio.",
-      "ar": "ترد مشروبات نوتري ساري سريعة التحضير ضمن محفظة الأغذية والمشروبات لدى الشركة."
+      "ar": "مشروبات نوتري ساري سريعة التحضير بنكهات الليمون والشمام والمانجو والبرتقال.",
+      "en": "NutriSari instant drinks in lime, melon, mango and orange flavours."
     }
   },
   {
@@ -132,8 +132,8 @@
     "source": "https://www.mbtksa.com/food-4-2/bull-dose/",
     "categoryIds": [],
     "description": {
-      "en": "Bull Dose is listed among MBT’s beverage brands and in its company profile.",
-      "ar": "بول دوز من علامات المشروبات المدرجة في موقع MBT وملفها التعريفي."
+      "ar": "مشروبات بول دوز الغازية ضمن قطاع المشروبات.",
+      "en": "Bull Dose carbonated drinks in our beverage range."
     }
   },
   {
@@ -150,8 +150,8 @@
       125
     ],
     "description": {
-      "en": "Pons olive oils are featured in the company’s food portfolio and profile.",
-      "ar": "ترد زيوت زيتون بونس في محفظة الأغذية والملف التعريفي للشركة."
+      "ar": "تشمل منتجات بونس زيت الزيتون البكر الممتاز والزيوت المنكّهة.",
+      "en": "The Pons range includes extra virgin olive oil and flavoured oils."
     }
   },
   {
@@ -168,8 +168,8 @@
       119
     ],
     "description": {
-      "en": "Adonis spices and seasonings are included in the MBT food catalogue.",
-      "ar": "تضم محفظة الأغذية لدى MBT توابل وبهارات أدونيس."
+      "ar": "توابل وبهارات أدونيس للطهي، من الكمون والقرفة إلى خلطات البهارات.",
+      "en": "Adonis spices and seasonings, from cumin and cinnamon to cooking spice blends."
     }
   },
   {
@@ -186,8 +186,8 @@
       410
     ],
     "description": {
-      "en": "Mayora confectionery and food products appear in the MBT catalogue and company profile.",
-      "ar": "ترد منتجات مايورا الغذائية والحلويات في دليل MBT وملف الشركة."
+      "ar": "تشمل منتجات مايورا الغذائية البسكويت والحلويات والقهوة سريعة التحضير.",
+      "en": "The Mayora food range includes biscuits, confectionery and instant coffee."
     }
   },
   {
@@ -201,8 +201,8 @@
     "source": "https://www.mbtksa.com/food-4-2/anchor/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Anchor in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على أنكور ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "حليب أنكور المجفف ضمن منتجات الأغذية.",
+      "en": "Anchor milk powder in our food range."
     }
   },
   {
@@ -216,8 +216,8 @@
     "source": "https://www.mbtksa.com/food-4-2/ali-cafe/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Alicafé in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على علي كافيه ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن علي كافيه، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Alicafé."
     }
   },
   {
@@ -231,8 +231,8 @@
     "source": "https://www.mbtksa.com/food-4-2/delicio/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Delicio in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على ديليسيو ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "صلصات ديليسيو للمعكرونة ضمن منتجات الأغذية.",
+      "en": "Delicio pasta sauces in our food range."
     }
   },
   {
@@ -246,8 +246,8 @@
     "source": "https://www.mbtksa.com/food-4-2/al-ghurair/",
     "categoryIds": [],
     "description": {
-      "en": "Al Ghurair is listed on the company’s food brand pages.",
-      "ar": "الغرير من الأسماء المدرجة في صفحات العلامات الغذائية للشركة."
+      "ar": "للاستفسارات التجارية عن الغرير، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Al Ghurair."
     }
   },
   {
@@ -263,8 +263,8 @@
       426
     ],
     "description": {
-      "en": "MDSF products are listed in MBT’s food catalogue.",
-      "ar": "منتجات MDSF مدرجة في دليل الأغذية لدى MBT."
+      "ar": "تضم منتجات إم دي إس إف حلوى جيلي نيم ومارشميلو ميلينيم.",
+      "en": "The MDSF range includes Jelli Nim gummy sweets and Mellinim marshmallows."
     }
   },
   {
@@ -281,8 +281,8 @@
       430
     ],
     "description": {
-      "en": "The Reckitt portfolio page includes household care brands such as Dettol, Finish and Vanish.",
-      "ar": "تعرّف على ريكيت ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تشمل محفظة ريكيت للعناية بالمنزل علامات ديتول وإير ويك وفانيش.",
+      "en": "The Reckitt household care range includes Dettol, Air Wick and Vanish."
     }
   },
   {
@@ -296,8 +296,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/purity-laboratories/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Purity Laboratories in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على بيوريتي لابوراتوريز ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن بيوريتي لابوراتوريز، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Purity Laboratories."
     }
   },
   {
@@ -311,8 +311,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/foramed-fze/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Foramed in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على فوراميد ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن فوراميد، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Foramed."
     }
   },
   {
@@ -326,8 +326,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/medcity/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Medcity Pharmacy in our healthcare portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على صيدلية ميدسيتي ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن صيدلية ميدسيتي، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Medcity Pharmacy."
     }
   },
   {
@@ -341,8 +341,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/neopharma-llc-uae/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Neopharma in our healthcare portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على نيوفارما ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن نيوفارما، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Neopharma."
     }
   },
   {
@@ -358,8 +358,8 @@
       422
     ],
     "description": {
-      "en": "Indo Coal is listed as an MBT own-label brand in the consumables portfolio.",
-      "ar": "إندو كول مدرجة كعلامة خاصة لدى MBT ضمن محفظة المنتجات الاستهلاكية."
+      "ar": "إندو كول من علاماتنا الخاصة في الفحم المضغوط.",
+      "en": "Indo Coal is an MBT own-label charcoal briquette brand."
     }
   },
   {
@@ -376,8 +376,8 @@
       425
     ],
     "description": {
-      "en": "Falcon is listed as an MBT own-label brand in the consumables portfolio.",
-      "ar": "فالكون مدرجة كعلامة خاصة لدى MBT ضمن محفظة المنتجات الاستهلاكية."
+      "ar": "فالكون من علاماتنا الخاصة في منتجات الفحم.",
+      "en": "Falcon is an MBT own-label charcoal brand."
     }
   },
   {
@@ -393,8 +393,8 @@
       427
     ],
     "description": {
-      "en": "Explore Al Fakher in our tobacco portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على الفاخر ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن الفاخر، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Al Fakher."
     }
   },
   {
@@ -408,8 +408,8 @@
     "source": "https://www.mbtksa.com/tobacco-6/dinner-lady-2/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Dinner Lady in our tobacco portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على دينر ليدي ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن دينر ليدي، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Dinner Lady."
     }
   },
   {
@@ -426,8 +426,8 @@
       145
     ],
     "description": {
-      "en": "Explore TCISL in our tobacco portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على تي سي آي إس إل ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن تي سي آي إس إل، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about TCISL."
     }
   },
   {
@@ -441,8 +441,8 @@
     "source": "https://www.mbtksa.com/food-4-2/mymi/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Mymi in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على مايمي ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن مايمي، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Mymi."
     }
   },
   {
@@ -456,8 +456,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/beverly-hills-polo-club-fzco/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Beverly Hills Formula in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على بيفرلي هيلز فورميولا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن بيفرلي هيلز فورميولا، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Beverly Hills Formula."
     }
   },
   {
@@ -471,8 +471,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/axis-group/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Axis Group in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على أكسيس جروب ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن أكسيس جروب، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Axis Group."
     }
   },
   {
@@ -486,8 +486,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/evan-and-mayor/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Evan & Mayer in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على إيفان وماير ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن إيفان وماير، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Evan & Mayer."
     }
   },
   {
@@ -501,8 +501,8 @@
     "source": "https://www.mbtksa.com/mbt-pharma/ala-chemical/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Ala Chemical in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على ألا كيميكال ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تشمل منتجات ألا كيميكال مسحوق دينتونيك للعناية بالأسنان.",
+      "en": "The Ala Chemical range includes Dentonic tooth powder."
     }
   },
   {
@@ -516,8 +516,8 @@
     "source": "https://www.mbtksa.com/household/bright/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Bright in our household products portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على برايت ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تشمل منتجات برايت ملمّعات الأحذية بألوان متعددة.",
+      "en": "The Bright range includes shoe polish in several colours."
     }
   },
   {
@@ -531,8 +531,8 @@
     "source": "https://www.mbtksa.com/household/elfy/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Elfy in our household products portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على إلفي ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "منتجات إلفي للّصق ضمن المستلزمات المنزلية والاستهلاكية.",
+      "en": "Elfy adhesives in our household and consumables range."
     }
   },
   {
@@ -546,8 +546,8 @@
     "source": "https://www.mbtksa.com/beverage-4/captain-majid/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Captain Majid in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على كابتن ماجد ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن كابتن ماجد، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Captain Majid."
     }
   },
   {
@@ -564,8 +564,8 @@
       412
     ],
     "description": {
-      "en": "Explore Golden Coal in our household products portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على جولدن كول ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "الفحم الذهبي ضمن منتجات الفحم في محفظتنا.",
+      "en": "Golden Coal charcoal in our product range."
     }
   },
   {
@@ -582,8 +582,8 @@
       411
     ],
     "description": {
-      "en": "Explore Tropicana in our household products portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على تروبيكانا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "فحم تروبيكانا ضمن المستلزمات المنزلية والاستهلاكية.",
+      "en": "Tropicana charcoal in our household and consumables range."
     }
   },
   {
@@ -600,8 +600,8 @@
       143
     ],
     "description": {
-      "en": "Explore Nakhla in our tobacco portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على نخلة ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن نخلة، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Nakhla."
     }
   },
   {
@@ -618,8 +618,8 @@
       433
     ],
     "description": {
-      "en": "Explore Nabati in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على ناباتي ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن ناباتي، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Nabati."
     }
   },
   {
@@ -633,8 +633,8 @@
     "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Elmore in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على إلمور ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "كريمات إلمور المرطبة ضمن منتجات العناية الشخصية.",
+      "en": "Elmore moisturising creams in our personal care range."
     }
   },
   {
@@ -648,8 +648,8 @@
     "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Viva in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على فيفا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن فيفا، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Viva."
     }
   },
   {
@@ -663,8 +663,8 @@
     "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Exotica in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على إكزوتيكا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن إكزوتيكا، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Exotica."
     }
   },
   {
@@ -678,8 +678,8 @@
     "source": "https://www.mbtksa.com/about-us-2/our-company/iconic-brand-history/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Tiger Pro in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على تايجر برو ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن تايجر برو، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Tiger Pro."
     }
   },
   {
@@ -693,8 +693,8 @@
     "source": "https://www.mbtksa.com/food-4-2/al-ghurair/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Carina in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على كارينا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تضم منتجات كارينا المعكرونة والسباغيتي.",
+      "en": "The Carina range includes pasta and spaghetti."
     }
   },
   {
@@ -708,8 +708,8 @@
     "source": "https://www.mbtksa.com/product/watermelon-ice-fuyl/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Fuyl in our tobacco portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على فويل ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن فويل، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Fuyl."
     }
   },
   {
@@ -723,8 +723,8 @@
     "source": "https://www.mbtksa.com/product/%d8%a8%d8%a7%d8%b3%d8%aa%d8%a7%d8%af%d9%88%d8%b1%d9%88-%d9%85%d8%b9%d9%83%d8%b1%d9%88%d9%86%d8%a9/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Pastadoro in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على باستادورو ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تضم منتجات باستادورو المعكرونة بأشكال متعددة، بما فيها السباغيتي.",
+      "en": "The Pastadoro range includes several pasta shapes and spaghetti."
     }
   },
   {
@@ -738,8 +738,8 @@
     "source": "https://www.mbtksa.com/product/strawberry-jam-340-gram/",
     "categoryIds": [],
     "description": {
-      "en": "Explore El Rashidi El Mizan in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على الرشيدي الميزان ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تشمل منتجات الرشيدي الميزان المربّى والحلاوة الطحينية والعسل.",
+      "en": "The El Rashidi El Mizan range includes jam, halva, honey and molasses."
     }
   },
   {
@@ -753,8 +753,8 @@
     "source": "https://www.mbtksa.com/product/jadayel-hair-lengthen/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Jadayel in our personal care portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على جدايل ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "زيوت جدايل ضمن منتجات العناية بالشعر.",
+      "en": "Jadayel oils in our hair care range."
     }
   },
   {
@@ -768,8 +768,8 @@
     "source": "https://www.mbtksa.com/product/vitaene-healthy-drink-2/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Pokka in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على بوكا ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تضم منتجات بوكا مشروب فيتاين سي.",
+      "en": "The Pokka range includes Vitaene C drinks."
     }
   },
   {
@@ -783,8 +783,8 @@
     "source": "https://www.mbtksa.com/product/tran-quini/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Tranquini in our beverages portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على ترانكويني ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "للاستفسارات التجارية عن ترانكويني، تواصل مع فريق الشركة.",
+      "en": "Contact our team for commercial enquiries about Tranquini."
     }
   },
   {
@@ -798,8 +798,8 @@
     "source": "https://www.mbtksa.com/product/liptomil-plus-2-2/",
     "categoryIds": [],
     "description": {
-      "en": "Explore Liptomil in our food portfolio. Contact our team for product enquiries.",
-      "ar": "تعرّف على ليبتوميل ضمن محفظتنا. للاستفسار عن المنتجات، تواصل مع فريقنا."
+      "ar": "تواصل مع فريقنا للاستفسار عن منتج ليبتوميل بلس 2.",
+      "en": "Contact our team for product enquiries about Liptomil Plus 2."
     }
   }
 ]

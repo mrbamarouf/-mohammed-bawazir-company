@@ -6,10 +6,12 @@ export function BrandLogo({
   tone = "light",
   markOnly = false,
   className = "",
+  intro = false,
 }: {
   tone?: "light" | "dark";
   markOnly?: boolean;
   className?: string;
+  intro?: boolean;
 }) {
   if (markOnly)
     return (
@@ -19,7 +21,10 @@ export function BrandLogo({
         alt="MBT"
         width={550}
         height={202}
-        sizes="180px"
+        sizes={intro ? "(max-width: 767px) 260px, 360px" : "180px"}
+        unoptimized={intro}
+        loading={intro ? "eager" : "lazy"}
+        fetchPriority={intro ? "high" : "auto"}
       />
     );
   if (tone === "light")

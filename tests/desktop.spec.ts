@@ -49,10 +49,10 @@ test("Catalogue supports search, empty states, filtering and product detail", as
   await page.getByRole("searchbox").fill("Croissant");
   expect(await page.locator(".product-item").count()).toBeGreaterThan(0);
   await expect(page.locator(".product-item").first()).toContainText(
-    "Croissant",
+    /croissant/i,
   );
   await page.locator(".product-item").first().click();
-  await expect(page.locator(".product-detail h1")).toContainText("Croissant");
+  await expect(page.locator(".product-detail h1")).toContainText(/croissant/i);
   await page.goBack();
   await page.getByRole("searchbox").fill("NO_MATCH_XYZZY");
   await expect(
@@ -112,7 +112,7 @@ test("Enquiry validates input and prepares a real mailto handoff", async ({
     .getByLabel("How can we help?")
     .fill("Please review this enquiry composer.");
   await page.getByRole("button", { name: "Prepare email enquiry" }).click();
-  await expect(page.getByRole("status")).toContainText("Complete sending");
+  await expect(page.getByRole("status")).toContainText("Review and send it in your email application");
   await expect(
     page.getByRole("link", { name: "Open the email draft again" }),
   ).toHaveAttribute("href", /^mailto:info@mbtksa.com\?subject=/);
@@ -177,14 +177,19 @@ for (const locale of ["en", "ar"])
       ).toEqual([]);
     }
   });
-test("Product source records all preserved and detail routes reachable", async ({
+test("Product source records remain complete and detail routes show edited names", async ({
   request,
 }) => {
   expect(products).toHaveLength(394);
+  const expectedNames: Record<number, string> = {
+    36706: "Croissant with chocolate 5+2 × 385 g",
+    35710: "Marshmallow Mellinim — mini mix",
+    6474: "Reem light meat tuna chunks in sunflower oil 185 g",
+  };
   for (const p of [products[0], products[150], products[products.length - 1]]) {
     const res = await request.get(`/en/products/${p.slug}`);
     expect(res.status()).toBe(200);
-    expect(await res.text()).toContain(p.name.replaceAll("&", "&amp;"));
+    expect((await res.text()).replaceAll("\u00a0", " ")).toContain(expectedNames[p.id]);
   }
 });
 

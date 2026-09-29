@@ -72,7 +72,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
               text={
                 ar
                   ? "من جدة، نربط العلامات بالأسواق عبر التجارة والتوزيع وبناء العلاقات."
-                  : "From Jeddah, connecting brands with markets through trading, distribution and lasting commercial relationships."
+                  : "From our headquarters in Jeddah, we connect brands with markets through trade, distribution and long-term commercial relationships."
               }
             />
           </p>
@@ -85,7 +85,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <>
               جذور راسخة.
               <br />
-              <em>رؤية تتطلع للأمام.</em>
+              <em>رؤية للمستقبل.</em>
             </>
           ) : (
             <>
@@ -132,8 +132,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
           {
             name: ar ? "رسالتنا" : "Our mission",
             text: ar
-              ? "تقديم خدمات توزيع متميزة، مع دعم توافر المنتجات والتطوير المستمر للوعي بالعلامة التجارية وصورتها في دول الخليج."
-              : "To provide superior distribution and services, supporting product availability and the continued development of brand awareness across the GCC.",
+              ? "تقديم خدمات توزيع متميزة، ودعم توافر المنتجات، وتعزيز الوعي بالعلامات التجارية ومكانتها في دول الخليج."
+              : "To provide high-quality distribution services, maintain product availability and strengthen brand awareness and reputation across the GCC.",
           },
           {
             name: ar ? "قيمنا" : "Our values",
@@ -229,8 +229,8 @@ export function AboutPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "الناس الذين أسسوا الحكاية."
-                  : "The people who began the story."
+                  ? "نعتز بإرث المؤسسين."
+                  : "Honouring our founders."
               }
             />
           </h2>
@@ -266,7 +266,7 @@ export function AboutPage({ locale }: { locale: Locale }) {
         <div className="section-heading">
           <h2>
             <BidiText
-              text={ar ? "قيادة وعلاقات." : "Leadership & relationships."}
+              text={ar ? "فريق القيادة." : "Our leadership team."}
             />
           </h2>
           <p>
@@ -307,11 +307,6 @@ export function AboutPage({ locale }: { locale: Locale }) {
               en: "Hani Al Khayath",
               ar: "هاني الخياط",
               role: ar ? "المدير المالي" : "Finance Director",
-            },
-            {
-              en: "Mohammed Zolan",
-              ar: "محمد زولان",
-              role: ar ? "مدير الموارد البشرية" : "Human Resource Director",
             },
           ].map((p) => (
             <div key={p.en}>
@@ -412,13 +407,13 @@ export function BusinessPage({
         kicker={ar ? "أعمالنا" : "Our business"}
         title={
           ar
-            ? "معرفة بالسوق. عبر قطاعات متعددة."
-            : "Market understanding. Across categories."
+            ? "خبرة عبر قطاعات متعددة."
+            : "Expertise across business sectors."
         }
         description={
           ar
-            ? "تضم محفظتنا تنوعًا في قطاعات الأغذية والمشروبات والمنتجات المنزلية والعناية الشخصية والرعاية الصحية."
-            : "The MBT portfolio spans food, beverages, household products, personal care and healthcare, alongside its other business divisions."
+            ? "تجمع أعمالنا ستة قطاعات، لكل منها منتجاته وعلاقاته واحتياجاته في السوق السعودي."
+            : "Our six business sectors bring together distinct products, partnerships and market needs in Saudi Arabia."
         }
       />
       <section className="wrap business-directory">
@@ -565,7 +560,7 @@ export function ProductsPage({
             {product.image ? (
               <Image
                 src={product.image}
-                alt={product.name}
+                alt={product.displayName || product.name}
                 fill
                 sizes="(max-width: 767px) 100vw, 50vw"
                 preload
@@ -592,14 +587,14 @@ export function ProductsPage({
               />
             </p>
             <h1 lang={product.language} dir={product.language === "ar" ? "rtl" : "ltr"}>
-              <BidiText text={product.name} />
+              <BidiText text={product.displayName || product.name} />
             </h1>
-            {product.description && (
+            {product.displayDescription && (
               <p
                 className="lead"
                 dir={product.language === "ar" ? "rtl" : "ltr"}
               >
-                <BidiText text={product.description} />
+                <BidiText text={product.displayDescription || ""} />
               </p>
             )}
             <dl>
@@ -657,7 +652,7 @@ export function ProductsPage({
       <PageIntro
         locale={locale}
         kicker={ar ? "المنتجات" : "Product catalogue"}
-        title={ar ? "استكشف عالم المنتجات." : "A portfolio for everyday life."}
+        title={ar ? "استعرض منتجاتنا." : "Explore our product range."}
         description={
           ar
             ? "اكتشف منتجاتنا وابحث حسب الاسم أو العلامة أو فئة المنتج."
@@ -677,7 +672,7 @@ export function DistributionPage({ locale }: { locale: Locale }) {
       <PageIntro
         locale={locale}
         kicker={ar ? "شبكتنا" : "Our network"}
-        title={ar ? "معرفة محلية. روابط أبعد." : "Closer to our markets."}
+        title={ar ? "شبكة توزيع عبر المملكة." : "Distribution across Saudi Arabia."}
         description={
           ar
             ? "من جدة إلى مدن المملكة، تقرّب شبكتنا المنتجات والعلامات من أسواقها."
@@ -700,7 +695,7 @@ export function DistributionPage({ locale }: { locale: Locale }) {
             <BidiText
               text={
                 ar
-                  ? "التخزين، والتوزيع، وفرق المبيعات، والعرض في المتاجر أجزاء مترابطة في قصة الوصول إلى الأسواق."
+                  ? "تتكامل أعمال التخزين والتوزيع والمبيعات والعرض في المتاجر لإيصال المنتجات إلى الأسواق."
                   : "Warehousing, distribution, sales teams and in-store presence are connected parts of bringing products to market."
               }
             />
@@ -723,7 +718,7 @@ export function DistributionPage({ locale }: { locale: Locale }) {
       </section>
       <section className="branch-directory wrap">
         <h2>
-          <BidiText text={ar ? "دليل المدن" : "City directory"} />
+          <BidiText text={ar ? "مواقع الفروع" : "Branch locations"} />
         </h2>
         {branches.map((b) => (
           <div key={b.id}>
@@ -750,11 +745,11 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
       <PageIntro
         locale={locale}
         kicker={ar ? "شركاتنا" : "Our companies"}
-        title={ar ? "خبرات تكمّل بعضها." : "Connected expertise."}
+        title={ar ? "خبرات متكاملة." : "Expertise across our companies."}
         description={
           ar
-            ? "تتكامل خبرات مجموعتنا في التجارة والتوزيع والخدمات التسويقية والطبية والتقنية."
-            : "Our group brings together experience in trading, distribution, marketing, medical supply and technology."
+            ? "تمتد خبرات مجموعتنا عبر التجارة والتوزيع والخدمات التسويقية والطبية والتقنية."
+            : "Our group’s experience spans trade, distribution, marketing services, medical supply and technology."
         }
       />
       <section className="wrap company-features">
@@ -777,7 +772,7 @@ export function CompaniesPage({ locale }: { locale: Locale }) {
               />
             </p>
             <TextLink href={`/${locale}/profile`}>
-              <BidiText text={ar ? "ملف الشركة" : "Company profile"} />
+              <BidiText text={ar ? "الملف التعريفي للشركة" : "Company profile"} />
             </TextLink>
           </div>
         </article>
@@ -880,7 +875,7 @@ export function NewsPage({
         <section className="article-heading wrap">
           <div className="breadcrumb">
             <Link prefetch={false} href={`/${locale}/news`}>
-              <BidiText text={ar ? "الأخبار والفعاليات" : "News & insights"} />
+              <BidiText text={ar ? "الأخبار والفعاليات" : "News & events"} />
             </Link>
             <span>/</span>
             <time dateTime={article.date} dir={ar ? "rtl" : "ltr"}>
@@ -969,7 +964,7 @@ export function NewsPage({
             )}
             <TextLink href={`/${locale}/news`} direction="back">
               <BidiText
-                text={ar ? "العودة إلى الأخبار" : "Back to news & insights"}
+                text={ar ? "العودة إلى الأخبار" : "Back to news & events"}
               />
             </TextLink>
           </div>
@@ -980,8 +975,8 @@ export function NewsPage({
     <>
       <PageIntro
         locale={locale}
-        kicker={ar ? "الأخبار" : "News & insights"}
-        title={ar ? "أخبار العلاقات التي نبنيها." : "Stories of connection."}
+        kicker={ar ? "الأخبار" : "News & events"}
+        title={ar ? "أخبار الشركة وفعالياتها." : "Company news and events."}
         description={
           ar
             ? "آخر أخبارنا وشراكاتنا وفعالياتنا ومبادراتنا المجتمعية."
@@ -1197,7 +1192,7 @@ export function CareersPage({ locale }: { locale: Locale }) {
       <PageIntro
         locale={locale}
         kicker={ar ? "الوظائف" : "Careers"}
-        title={ar ? "كن جزءًا من الحكاية." : "People make the difference."}
+        title={ar ? "انضم إلى فريقنا." : "Build your career with MBT."}
         description={
           ar
             ? "تقوم العلاقات القوية على فرق عمل تؤمن بالاحترام والثقة والعمل الجماعي."
@@ -1250,7 +1245,7 @@ export function CareersPage({ locale }: { locale: Locale }) {
           <p className="small-note">
             <BidiText
               text={
-                ar ? "نتطلع لسماعك." : "We look forward to hearing from you."
+                ar ? "يسرّنا تواصلك." : "We look forward to hearing from you."
               }
             />
           </p>
@@ -1271,8 +1266,8 @@ export function ContactPage({ locale }: { locale: Locale }) {
         kicker={ar ? "تواصل معنا" : "Contact"}
         title={
           ar
-            ? "الخطوة القادمة تبدأ بحوار."
-            : "A conversation starts the next chapter."
+            ? "نرحّب بتواصلك."
+            : "Contact our team."
         }
       />
       <section className="contact-layout wrap">
@@ -1280,7 +1275,7 @@ export function ContactPage({ locale }: { locale: Locale }) {
           <span className="section-note">
             <BidiText
               text={
-                ar ? "نتطلع لسماعك" : "We look forward to hearing from you."
+                ar ? "يسرّنا تواصلك" : "We look forward to hearing from you."
               }
             />
           </span>
@@ -1369,7 +1364,7 @@ export function ProfilePage({ locale }: { locale: Locale }) {
       <PageIntro
         locale={locale}
         kicker={ar ? "عن الشركة" : "About MBT"}
-        title={ar ? "الملف التعريفي للشركة" : "Company Profile"}
+        title={ar ? "الملف التعريفي للشركة" : "Company profile"}
         description={
           ar
             ? "تعرّف على مسيرتنا وعلاماتنا وقطاعات أعمالنا، وعلى شبكة التوزيع التي تربطنا بأسواق المملكة."
@@ -1382,13 +1377,13 @@ export function ProfilePage({ locale }: { locale: Locale }) {
             <BrandLogo tone="dark" />
             <p className="document-year">
               <BidiText
-                text={ar ? "ملف الشركة · 2026" : "Company profile · 2026"}
+                text={ar ? "الملف التعريفي · 2026" : "Company profile · 2026"}
               />
             </p>
             <h2>
               {ar
                 ? "أعمالنا. علاقاتنا. حضورنا."
-                : "Our business. Our partnerships. Our reach."}
+                : "MBT at a glance."}
             </h2>
             <p>
               {ar
@@ -1439,7 +1434,7 @@ export function ProfilePage({ locale }: { locale: Locale }) {
         </div>
         <div id="profile-reader" className="document-reader">
           <div className="section-heading">
-            <h2>{ar ? "اكتشف الشركة في صفحات." : "Explore the company."}</h2>
+            <h2>{ar ? "تصفّح الملف التعريفي." : "Read our company profile."}</h2>
             <TextLink href={`/${locale}/contact`}>
               {ar ? "تواصل مع فريقنا" : "Speak to our team"}
             </TextLink>
@@ -1447,7 +1442,7 @@ export function ProfilePage({ locale }: { locale: Locale }) {
           <ProfileViewer
             images={profile2026.images}
             locale={locale}
-            label={ar ? "الملف التعريفي للشركة 2026" : "Company Profile 2026"}
+            label={ar ? "الملف التعريفي للشركة 2026" : "Company profile 2026"}
           />
         </div>
       </section>

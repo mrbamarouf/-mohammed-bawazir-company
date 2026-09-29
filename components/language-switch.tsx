@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
+import { querySearch } from "./use-query-filters";
 import type { Locale } from "@/lib/types";
 
 export const languageContextKey = "mbt-language-context";
@@ -28,6 +29,6 @@ export function LanguageSwitch({ locale, className, children, onSwitch, label }:
       try { sessionStorage.setItem(languageContextKey, JSON.stringify(context)); } catch { /* Storage may be disabled. Routing still works. */ }
       document.documentElement.dataset.languageSwitch = "true";
       onSwitch?.();
-      router.push(href + window.location.search + window.location.hash, { scroll: false });
+      router.push(href + querySearch() + window.location.hash, { scroll: false });
     }}>{children || (locale === "ar" ? "EN" : "AR")}</Link>;
 }

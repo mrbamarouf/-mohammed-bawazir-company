@@ -48,14 +48,14 @@ export function BrandMarquee({
             <BidiText text={ar ? "محفظة العلامات" : "THE BRAND PORTFOLIO"} />
           </span>
           <h2>
-            <BidiText text={ar ? "أسماء لها حضور." : "Names with presence."} />
+            <BidiText text={ar ? "علاماتنا التجارية." : "Our brand portfolio."} />
           </h2>
           <p>
             <BidiText
               text={
                 ar
-                  ? "علامات ومنتجات عبر قطاعاتنا، وعلاقات نمت عبر السنين."
-                  : "Across our business sectors. Through years of relationships."
+                  ? "علاقات مع العلامات التجارية نمت عبر سنوات من العمل في قطاعاتنا المتعددة."
+                  : "Brand relationships built over years of trade across our business sectors."
               }
             />
           </p>

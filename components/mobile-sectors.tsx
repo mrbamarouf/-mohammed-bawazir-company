@@ -17,7 +17,7 @@ const captions: Record<string, {ar:string;en:string}> = {
   food: {ar:"أغذية أساسية ومكونات طهي وحلويات.",en:"Everyday food, ingredients and confectionery."},
   beverages: {ar:"علامات مشروبات للحياة اليومية.",en:"Beverage brands for everyday life."},
   household: {ar:"منتجات العناية بالمنزل واحتياجاته.",en:"Household care and daily essentials."},
-  "personal-care": {ar:"عناية شخصية، كل يوم.",en:"Care for everyday wellbeing."},
+  "personal-care": {ar:"منتجات للعناية الشخصية.",en:"Everyday personal care products."},
   pharma: {ar:"شراكات في الرعاية والتوزيع الطبي.",en:"Healthcare and medical distribution."},
   tobacco: {ar:"شراكات تجارية وخبرة متخصصة.",en:"Specialist commercial relationships."},
 };
